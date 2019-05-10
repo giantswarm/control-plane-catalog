@@ -1,3 +1,10 @@
 apiVersion: v1
-entries: {}
-generated: 2019-01-31T13:45:06.839687Z
+entries:
+  azure-operator-chart:
+  - created: 2019-05-10T09:41:37.525465137Z
+    digest: 8c694ec0f4e1648e92221523a9a7f44d35f08f7873ab26ff7c73f3c4d7520528
+    name: azure-operator-chart
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/azure-operator-chart-0.0.1.tgz
+    version: 0.0.1
+generated: 2019-05-10T09:41:37.524712904Z

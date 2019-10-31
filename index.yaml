@@ -1,6 +1,12 @@
 apiVersion: v1
 entries:
   aws-operator:
+  - created: "2019-10-31T09:23:55.20855301Z"
+    digest: fda2a9e839d9eaea901643acef4a16dce852c592b73d7ff174f052360831bd15
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-7.0.0.tgz
+    version: 7.0.0
   - created: "2019-09-20T14:00:17.493300903Z"
     digest: 9dec9969163d9bad43d3f93e881b4b9f884fb0aed1b2db47c18300424187871b
     name: aws-operator
@@ -14,4 +20,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/azure-operator-chart-0.0.1.tgz
     version: 0.0.1
-generated: "2019-09-20T14:00:17.492849134Z"
+generated: "2019-10-31T09:23:55.208101313Z"

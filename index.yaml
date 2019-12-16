@@ -26,4 +26,12 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/azure-operator-chart-0.0.1.tgz
     version: 0.0.1
-generated: "2019-11-01T12:45:46.220353147Z"
+  ignition-operator:
+  - apiVersion: v1
+    created: "2019-12-16T14:25:47.851658179Z"
+    digest: b058670553e07fb56701899a0f45803522e461d4940147ddc030e7b0e3e00aab
+    name: ignition-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/ignition-operator-0.0.1.tgz
+    version: 0.0.1
+generated: "2019-12-16T14:25:47.851107691Z"

@@ -34,4 +34,12 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/ignition-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2019-12-16T14:25:47.851107691Z"
+  loadtest-operator:
+  - apiVersion: v1
+    created: "2019-12-17T08:48:25.570865301Z"
+    digest: 1f6463fe02c480c29f7067a3af0d05641f1f1378cb1b4ffa2c23057d581a8220
+    name: loadtest-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/loadtest-operator-0.0.0.tgz
+    version: 0.0.0
+generated: "2019-12-17T08:48:25.570322202Z"

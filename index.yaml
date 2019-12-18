@@ -1,6 +1,12 @@
 apiVersion: v1
 entries:
   aws-operator:
+  - created: "2019-12-18T09:58:37.87278031Z"
+    digest: 7dddd4696eb1938d29b07f0ea7e9dfd38be9eb0f023dc8522c19ee4dbd32891d
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.0.0-rc1.tgz
+    version: 8.0.0-rc1
   - created: "2019-10-31T09:23:55.20855301Z"
     digest: fda2a9e839d9eaea901643acef4a16dce852c592b73d7ff174f052360831bd15
     name: aws-operator
@@ -42,4 +48,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/loadtest-operator-0.0.0.tgz
     version: 0.0.0
-generated: "2019-12-17T08:48:25.570322202Z"
+generated: "2019-12-18T09:58:37.872347161Z"

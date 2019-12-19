@@ -55,8 +55,8 @@ entries:
     version: 2.0.0-rc1
   dns-network-policy-operator:
   - apiVersion: v1
-    created: "2019-12-19T12:02:09.43931188Z"
-    digest: bf5d26a3313e73a4ba9b0478da96f5b5aef772b61fc32f781dfb58a88ccfe733
+    created: "2019-12-19T13:02:21.774285915Z"
+    digest: 99d47c5d80aa8d2529b8e5ccd4865348b3b7382ea633a8848f5dbf2c6468eb5d
     name: dns-network-policy-operator
     urls:
     - https://giantswarm.github.com/control-plane-catalog/dns-network-policy-operator-0.1.0.tgz
@@ -77,4 +77,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/loadtest-operator-0.0.0.tgz
     version: 0.0.0
-generated: "2019-12-19T12:02:09.43870305Z"
+generated: "2019-12-19T13:02:21.773924839Z"

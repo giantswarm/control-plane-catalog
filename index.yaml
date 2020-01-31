@@ -141,6 +141,17 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/dns-network-policy-operator-0.1.0.tgz
     version: 0.1.0
+  gatekeeper-app:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-01-31T10:20:54.801053076Z"
+    description: A Helm chart for Kubernetes
+    digest: 63c8b357079fee970cf7f760c537c84809b374752c1c4fb6a458ba9e8c09737d
+    icon: https://avatars1.githubusercontent.com/u/16468693?s=400&v=4
+    name: gatekeeper-app
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/gatekeeper-app-0.1.0.tgz
+    version: 0.1.0
   ignition-operator:
   - apiVersion: v1
     created: "2019-12-16T14:25:47.851658179Z"
@@ -157,4 +168,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/loadtest-operator-0.0.0.tgz
     version: 0.0.0
-generated: "2020-01-29T15:21:50.517143775Z"
+generated: "2020-01-31T10:20:54.800513824Z"

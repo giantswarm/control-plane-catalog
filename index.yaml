@@ -120,6 +120,13 @@ entries:
     - https://giantswarm.github.com/control-plane-catalog/cluster-operator-2.0.0-77abb2427ec4ff12fada159fc893dc0fde5a30ee.tgz
     version: 2.0.0-77abb2427ec4ff12fada159fc893dc0fde5a30ee
   - apiVersion: v1
+    created: "2020-02-11T16:06:45.380703183Z"
+    digest: 5e0bc5fc0c6af535c36f3701782029455418ffdae7883cded6009c8a9f0c36c3
+    name: cluster-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/cluster-operator-0.23.0.tgz
+    version: 0.23.0
+  - apiVersion: v1
     created: "2020-02-04T08:16:36.602271174Z"
     digest: 9c99d0cfb747494152dc41c768aea08a015dca4ad986a62f18956bbe25522a91
     name: cluster-operator
@@ -236,4 +243,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/loadtest-operator-0.0.0.tgz
     version: 0.0.0
-generated: "2020-02-10T12:13:06.481242201Z"
+generated: "2020-02-11T16:06:45.380089881Z"

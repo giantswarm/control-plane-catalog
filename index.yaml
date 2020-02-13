@@ -237,6 +237,15 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/gatekeeper-app-0.1.0.tgz
     version: 0.1.0
+  gatekeeper-control-plane-rules:
+  - apiVersion: v1
+    created: "2020-02-13T13:10:21.563315168Z"
+    description: List of gatekeeper rules for control planes.
+    digest: 9234846390999d3f6b966e024f30e5af7406e6b050eca31e3d951effc63a11f7
+    name: gatekeeper-control-plane-rules
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/gatekeeper-control-plane-rules-0.1.0.tgz
+    version: 0.1.0
   ignition-operator:
   - apiVersion: v1
     created: "2019-12-16T14:25:47.851658179Z"
@@ -253,4 +262,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/loadtest-operator-0.0.0.tgz
     version: 0.0.0
-generated: "2020-02-12T15:50:34.098419929Z"
+generated: "2020-02-13T13:10:21.562890983Z"

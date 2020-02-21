@@ -181,6 +181,34 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/cluster-operator-0.21.1.tgz
     version: 0.21.1
+  dex-app:
+  - apiVersion: v1
+    appVersion: 2.21.0
+    created: "2020-02-21T15:31:32.902440475Z"
+    description: CoreOS Dex
+    digest: 17d7d76178e1e86b7dd62b38554e2210e5f28ab288b2d5209f1a6095710ab387
+    home: https://github.com/dexidp/dex/
+    icon: https://github.com/dexidp/dex/raw/master/Documentation/logos/dex-glyph-color.png
+    keywords:
+    - dex
+    - oidc
+    maintainers:
+    - email: Kevin.Fox@pnnl.gov
+      name: kfox1111
+    - email: shane.starcher@gmail.com
+      name: sstarcher
+    - email: pete.brown@powerhrg.com
+      name: rendhalver
+    - email: vi7alya@gmail.com
+      name: vi7
+    - email: aaron@roydhouse.com
+      name: Aaron Roydhouse
+    - email: nbadger@mintel.com
+      name: Nick Badger
+    name: dex-app
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/dex-app-0.1.0.tgz
+    version: 0.1.0
   dns-network-policy-operator:
   - apiVersion: v1
     created: "2019-12-20T08:28:06.570849159Z"
@@ -291,4 +319,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/loadtest-operator-0.0.0.tgz
     version: 0.0.0
-generated: "2020-02-20T10:47:28.240452091Z"
+generated: "2020-02-21T15:31:32.901704945Z"

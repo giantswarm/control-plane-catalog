@@ -220,9 +220,9 @@ entries:
   gatekeeper-app:
   - apiVersion: v1
     appVersion: v3.1.0-beta.5
-    created: "2020-02-13T13:24:48.753314088Z"
+    created: "2020-02-24T14:45:10.483683707Z"
     description: Chart deploying OPA Gatekeeper.
-    digest: d45e3399e6048f7dac5c0d8e00de8cb2dfb4b485d19662215013d6cadeebbe7f
+    digest: 49815930f2028b17e9ab7c936776651b0812a95f008e37f211957b463c5e85ba
     icon: https://avatars1.githubusercontent.com/u/16468693?s=400&v=4
     name: gatekeeper-app
     urls:
@@ -319,4 +319,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/loadtest-operator-0.0.0.tgz
     version: 0.0.0
-generated: "2020-02-21T16:47:43.832324724Z"
+generated: "2020-02-24T14:45:10.483001081Z"

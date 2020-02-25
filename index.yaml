@@ -61,8 +61,8 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.0.tgz
     version: 5.5.0
-  - created: "2020-02-25T12:31:33.85714247Z"
-    digest: 8c3f1951b7bc100051f07690860c1b87d531af9a75e9c663f739959feeb9f98f
+  - created: "2020-02-25T13:26:47.503704955Z"
+    digest: 91525a2223a38f896c81683c9cdb836a47c858ecdd497f8e1fafad9b9f46f6cf
     name: aws-operator
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.0-fix.tgz
@@ -360,4 +360,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/loadtest-operator-0.0.0.tgz
     version: 0.0.0
-generated: "2020-02-25T12:31:33.856480378Z"
+generated: "2020-02-25T13:26:47.503292675Z"

@@ -256,9 +256,9 @@ entries:
   dex-app:
   - apiVersion: v1
     appVersion: 2.21.0
-    created: "2020-02-21T16:47:43.832986727Z"
+    created: "2020-02-27T10:56:47.249592658Z"
     description: CoreOS Dex
-    digest: 2f2dc3790bd3ff084eb199bb11573b0dd24beb261707b8f199a1f9353ef43893
+    digest: 928e2a9efd108f9c7d49592d77670f17deec9437cad0c4818e2d9b173e701e4e
     home: https://github.com/dexidp/dex/
     icon: https://github.com/dexidp/dex/raw/master/Documentation/logos/dex-glyph-color.png
     keywords:
@@ -401,4 +401,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/loadtest-operator-0.0.0.tgz
     version: 0.0.0
-generated: "2020-02-26T16:32:28.843271545Z"
+generated: "2020-02-27T10:56:47.248942669Z"

@@ -104,8 +104,8 @@ entries:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.0-fix.tgz
     version: 5.5.0-fix
   azure-operator:
-  - created: "2020-03-05T09:55:40.514307841Z"
-    digest: 4bda742bf4f106115c88a4ddc59504d37936bd38d542659f9699890057b035cd
+  - created: "2020-03-06T10:39:29.400096689Z"
+    digest: 3785facf7aa250b5feeee06e06f25bd9f809c953fdc36149b9cbb58aee91f072
     name: azure-operator
     urls:
     - https://giantswarm.github.com/control-plane-catalog/azure-operator-3.0.0.tgz
@@ -463,4 +463,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/loadtest-operator-0.0.0.tgz
     version: 0.0.0
-generated: "2020-03-05T09:55:40.513667256Z"
+generated: "2020-03-06T10:39:29.399545577Z"

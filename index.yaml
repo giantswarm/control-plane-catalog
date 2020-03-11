@@ -470,4 +470,15 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/loadtest-operator-0.0.0.tgz
     version: 0.0.0
-generated: "2020-03-10T15:10:02.377995249Z"
+  releases-kvm:
+  - apiVersion: v1
+    appVersion: master
+    created: "2020-03-11T19:36:02.939734675Z"
+    description: Giant Swarm releases for kvm.
+    digest: 6549062ee1f973aea834677976a2cea57ee79d05953e9b3ebe1121d8562a649b
+    home: https://github.com/giantswarm/releases
+    name: releases-kvm
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/releases-kvm-0.0.0-4b5c7d53d5a64b1bd1dd54b652e0ea78afb5ef4e.tgz
+    version: 0.0.0-4b5c7d53d5a64b1bd1dd54b652e0ea78afb5ef4e
+generated: "2020-03-11T19:36:02.939390751Z"

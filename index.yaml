@@ -480,4 +480,16 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/loadtest-operator-0.0.0.tgz
     version: 0.0.0
-generated: "2020-03-12T15:15:15.588871723Z"
+  rbac-operator:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2020-03-13T11:23:05.367161258Z"
+    description: rbac-operator manages authorization for OIDC enabled control-plane
+      Kubernetes APIs
+    digest: c4691123b1c06f89f657700324cbbe92014a978416a27d6692c2117f15f72875
+    home: https://github.com/giantswarm/rbac-operator
+    name: rbac-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/rbac-operator-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-03-13T11:23:05.366492303Z"

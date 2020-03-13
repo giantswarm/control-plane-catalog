@@ -482,6 +482,17 @@ entries:
     version: 0.0.0
   rbac-operator:
   - apiVersion: v1
+    appVersion: 0.2.0
+    created: "2020-03-13T11:43:42.567707548Z"
+    description: rbac-operator manages authorization for OIDC enabled control-plane
+      Kubernetes APIs
+    digest: b1eea0b30872f7d60aa9381545e569076dbc939161fa5f82361a20caba82201f
+    home: https://github.com/giantswarm/rbac-operator
+    name: rbac-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/rbac-operator-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
     appVersion: 0.1.0
     created: "2020-03-13T11:23:05.367161258Z"
     description: rbac-operator manages authorization for OIDC enabled control-plane
@@ -492,4 +503,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/rbac-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-13T11:23:05.366492303Z"
+generated: "2020-03-13T11:43:42.567015688Z"

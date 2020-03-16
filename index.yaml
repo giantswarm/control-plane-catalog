@@ -119,6 +119,13 @@ entries:
     version: 0.0.1
   cluster-operator:
   - apiVersion: v1
+    created: "2020-03-16T14:46:39.926241124Z"
+    digest: dd4241f537b866a8884db9979134203806712016f54e65276ec0222f68226e9d
+    name: cluster-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/cluster-operator-2.1.5.tgz
+    version: 2.1.5
+  - apiVersion: v1
     created: "2020-03-04T14:05:40.188483103Z"
     digest: e3d83e6aa0f1e6c13dcb97d471fb9e223a2f6effaee0804d9c9a638d5390d5ac
     name: cluster-operator
@@ -511,4 +518,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/rbac-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-13T12:07:03.142524395Z"
+generated: "2020-03-16T14:46:39.925688576Z"

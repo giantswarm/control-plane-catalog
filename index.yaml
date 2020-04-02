@@ -575,6 +575,16 @@ entries:
     version: 0.1.0
   release-operator:
   - apiVersion: v1
+    appVersion: 0.2.2
+    created: "2020-04-02T17:18:26.933659934Z"
+    description: The release-operator manages chart configs for new releases.
+    digest: d54b13679c186b916a588eb3699dee2f5540b865e145a5296ddafd568407acd4
+    home: https://github.com/giantswarm/release-operator
+    name: release-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v1
     appVersion: 0.2.1
     created: "2020-04-02T16:55:47.828699688Z"
     description: The release-operator manages chart configs for new releases.
@@ -584,4 +594,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-02T16:55:47.828151427Z"
+generated: "2020-04-02T17:18:26.932995865Z"

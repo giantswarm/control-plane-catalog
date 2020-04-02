@@ -573,4 +573,15 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/rbac-operator-0.1.0.tgz
     version: 0.1.0
-generated: "2020-03-30T16:23:04.654623859Z"
+  release-operator:
+  - apiVersion: v1
+    appVersion: 0.2.1
+    created: "2020-04-02T16:55:47.828699688Z"
+    description: The release-operator manages chart configs for new releases.
+    digest: 8113db472ddeb15c46d9bcf8b578139fb8c234bdd1d636d4f7806ff7b0f11d37
+    home: https://github.com/giantswarm/release-operator
+    name: release-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
+    version: 0.2.1
+generated: "2020-04-02T16:55:47.828151427Z"

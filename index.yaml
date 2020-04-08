@@ -137,6 +137,16 @@ entries:
     version: 5.5.0-fix
   azure-operator:
   - apiVersion: v1
+    appVersion: 3.0.5
+    created: "2020-04-08T12:34:36.88616531Z"
+    description: Azure operator to create k8s clusters on Azure
+    digest: f1acfd4534b2d3d926cf9b9d3badc5fbf9d049b5794d67824b1a6124d757fddd
+    home: https://github.com/giantswarm/azure-operator
+    name: azure-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/azure-operator-3.0.5.tgz
+    version: 3.0.5
+  - apiVersion: v1
     appVersion: 3.0.4
     created: "2020-04-03T10:03:20.151870781Z"
     description: Azure operator to create k8s clusters on Azure
@@ -648,4 +658,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-08T11:51:03.81707785Z"
+generated: "2020-04-08T12:34:36.885481778Z"

@@ -442,6 +442,16 @@ entries:
     version: 0.1.0
   gatekeeper-app:
   - apiVersion: v1
+    appVersion: v3.1.0-beta.8
+    created: "2020-04-08T11:51:03.818310014Z"
+    description: Chart deploying OPA Gatekeeper.
+    digest: 69379c20ffac04df3bea93689d4eaa5c48ef9b0f8b2bf152126a0871e0b54b0a
+    icon: https://avatars1.githubusercontent.com/u/16468693?s=400&v=4
+    name: gatekeeper-app
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/gatekeeper-app-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v1
     appVersion: v3.1.0-beta.7
     created: "2020-04-06T12:33:40.716365987Z"
     description: Chart deploying OPA Gatekeeper.
@@ -638,4 +648,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-06T16:24:45.654592967Z"
+generated: "2020-04-08T11:51:03.81707785Z"

@@ -460,6 +460,20 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/dns-network-policy-operator-0.1.0.tgz
     version: 0.1.0
+  g8s-cert-manager:
+  - apiVersion: v1
+    appVersion: 0.14.1
+    created: "2020-04-15T08:50:13.305197067Z"
+    description: A Helm chart for cert-manager in control-plane
+    digest: 69f114395cac2991f6119ec8f30a69565ee461f8621464b61fefc3b0b55467cc
+    home: https://github.com/giantswarm/g8s-cert-manager
+    icon: https://raw.githubusercontent.com/jetstack/cert-manager/master/logo/logo.png
+    name: g8s-cert-manager
+    sources:
+    - https://github.com/jetctack/cert-manager
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/g8s-cert-manager-1.1.0.tgz
+    version: 1.1.0
   gatekeeper-app:
   - apiVersion: v1
     appVersion: v3.1.0-beta.8
@@ -688,4 +702,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-09T08:45:12.909589998Z"
+generated: "2020-04-15T08:50:13.302960732Z"

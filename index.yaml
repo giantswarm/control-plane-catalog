@@ -180,9 +180,9 @@ entries:
   azure-collector:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2020-04-17T12:27:04.702040186Z"
+    created: "2020-04-17T12:47:40.95386022Z"
     description: Collector that exposes metrics about Azure
-    digest: 28e25b17cce701aa6eaebe8217f0e3bcb1680133e6eab66d89e0de589d5cd443
+    digest: 93c24ad89aebfac12c740214cb2fe1529f1f2ff28995f644436af085ecaf0954
     home: https://github.com/giantswarm/azure-collector
     name: azure-collector
     urls:
@@ -796,4 +796,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-17T12:44:20.75370913Z"
+generated: "2020-04-17T12:47:40.953022435Z"

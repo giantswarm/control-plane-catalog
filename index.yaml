@@ -262,6 +262,17 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/azure-operator-chart-0.0.1.tgz
     version: 0.0.1
+  chart-operator:
+  - apiVersion: v1
+    appVersion: 0.13.0
+    created: "2020-04-21T08:15:13.970637227Z"
+    description: A Helm chart for the chart-operator
+    digest: 6293d0432efc3b28a2ab12d5d8c6e7c4f9dedd802892a4f2ff259abf3979fd06
+    home: https://github.com/giantswarm/chart-operator
+    name: chart-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/chart-operator-0.13.0.tgz
+    version: 0.13.0
   cluster-operator:
   - apiVersion: v1
     appVersion: 2.1.8
@@ -836,4 +847,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-21T07:55:26.081561487Z"
+generated: "2020-04-21T08:15:13.970186814Z"

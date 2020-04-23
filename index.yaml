@@ -609,6 +609,16 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/g8s-cert-manager-1.1.0.tgz
     version: 1.1.0
+  g8s-efk:
+  - apiVersion: v1
+    created: "2020-04-23T14:47:29.069206963Z"
+    description: Helm chart for g8s-efk.
+    digest: 8341a0268becbdf442472c42790af62ced719edd3d2e4111195896b6674b4aea
+    home: https://github.com/giantswarm/g8s-efk
+    name: g8s-efk
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/g8s-efk-1.0.0.tgz
+    version: 1.0.0
   g8s-prometheus:
   - apiVersion: v1
     created: "2020-04-22T11:36:52.255074489Z"
@@ -907,4 +917,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-23T14:41:31.98338067Z"
+generated: "2020-04-23T14:47:29.068244599Z"

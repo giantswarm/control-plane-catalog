@@ -13,6 +13,16 @@ entries:
     version: 1.0.1
   aws-operator:
   - apiVersion: v1
+    appVersion: 8.4.0
+    created: "2020-04-23T14:41:31.984040039Z"
+    description: The aws-operator manages Kubernetes clusters running on AWS.
+    digest: da31c1b09fd339f644b9e83d8e478eeb6a0548f0f8840257f29d0e54e7166fa0
+    home: https://github.com/giantswarm/aws-operator
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.4.0.tgz
+    version: 8.4.0
+  - apiVersion: v1
     appVersion: 8.3.0
     created: "2020-04-17T12:44:20.754817018Z"
     description: The aws-operator manages Kubernetes clusters running on AWS.
@@ -897,4 +907,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-23T14:25:30.118629357Z"
+generated: "2020-04-23T14:41:31.98338067Z"

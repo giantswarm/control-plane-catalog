@@ -828,6 +828,16 @@ entries:
     version: 0.1.0
   ignition-operator:
   - apiVersion: v1
+    appVersion: 0.0.2
+    created: "2020-04-24T09:44:16.055140021Z"
+    description: Templates ignition which is used for giantswarm clusters.
+    digest: 4f16ed83cd5863592f423630a8ac3018db8c82a3526a7b7cd00d309db21badd0
+    home: https://github.com/giantswarm/ignition-operator
+    name: ignition-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/ignition-operator-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v1
     created: "2019-12-16T14:25:47.851658179Z"
     digest: b058670553e07fb56701899a0f45803522e461d4940147ddc030e7b0e3e00aab
     name: ignition-operator
@@ -939,4 +949,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-24T08:10:52.266661903Z"
+generated: "2020-04-24T09:44:16.054044864Z"

@@ -638,6 +638,16 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/g8s-efk-1.0.0.tgz
     version: 1.0.0
+  g8s-grafana:
+  - apiVersion: v1
+    created: "2020-04-24T11:17:00.390355238Z"
+    description: Helm chart for g8s-grafana.
+    digest: 6da14d302958a83fe23403529da0c8571156f1866f68af048accc1d4a839050c
+    home: https://github.com/giantswarm/g8s-grafana
+    name: g8s-grafana
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/g8s-grafana-1.0.0.tgz
+    version: 1.0.0
   g8s-prometheus:
   - apiVersion: v1
     created: "2020-04-22T11:36:52.255074489Z"
@@ -968,4 +978,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-24T11:12:40.088773034Z"
+generated: "2020-04-24T11:17:00.38491809Z"

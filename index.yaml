@@ -834,6 +834,18 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/ignition-operator-0.0.1.tgz
     version: 0.0.1
+  kvm-operator:
+  - apiVersion: v1
+    appVersion: 3.9.1
+    created: "2020-04-24T08:10:52.267105616Z"
+    description: Handles Kubernetes clusters running on a Kubernetes cluster with
+      workers and masters in KVMs on bare metal
+    digest: 7d754236e28378a03790b6a8562c0d4977f9568996d08434a463f4919a432972
+    home: https://github.com/giantswarm/kvm-operator
+    name: kvm-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/kvm-operator-3.9.1.tgz
+    version: 3.9.1
   loadtest-operator:
   - apiVersion: v1
     created: "2019-12-17T08:48:25.570865301Z"
@@ -927,4 +939,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-23T15:55:44.360229217Z"
+generated: "2020-04-24T08:10:52.266661903Z"

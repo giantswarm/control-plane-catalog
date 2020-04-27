@@ -648,6 +648,16 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/g8s-grafana-1.0.0.tgz
     version: 1.0.0
+  g8s-oauth2-proxy:
+  - apiVersion: v1
+    created: "2020-04-27T14:35:33.264191586Z"
+    description: Helm chart for g8s-oauth2-proxy.
+    digest: 9f5da96651e944635b06bb8c58ea602c1a3a8e033fbab5c864a6a8470e7735e5
+    home: https://github.com/giantswarm/g8s-oauth2-proxy
+    name: g8s-oauth2-proxy
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/g8s-oauth2-proxy-1.0.0.tgz
+    version: 1.0.0
   g8s-prometheus:
   - apiVersion: v1
     created: "2020-04-24T18:47:52.117850916Z"
@@ -987,4 +997,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-24T18:47:52.114835596Z"
+generated: "2020-04-27T14:35:33.262818461Z"

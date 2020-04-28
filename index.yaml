@@ -296,9 +296,9 @@ entries:
   bridge-operator:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2020-04-28T11:46:14.29477979Z"
+    created: "2020-04-28T11:52:04.383553368Z"
     description: Helm chart for bridge-operator.
-    digest: 41cf56b2d273fede0b017011cc7f54f6be697e89ede4f50819debb1cb3d97371
+    digest: 8e4f0380abe22be5275efc92c1b6dbb3cba435d22200f61b3678eb3b58e9c092
     home: https://github.com/giantswarm/bridge-operator
     name: bridge-operator
     urls:
@@ -1037,4 +1037,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-28T11:46:14.29411724Z"
+generated: "2020-04-28T11:52:04.383130597Z"

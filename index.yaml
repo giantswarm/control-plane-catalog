@@ -317,6 +317,16 @@ entries:
     version: 0.13.0
   cluster-operator:
   - apiVersion: v1
+    appVersion: 2.1.10
+    created: "2020-04-28T14:12:21.788417988Z"
+    description: The cluster-operator manages Kubernetes tenant cluster resources.
+    digest: 6eaddb40a576a050c317f439fe0f839a77eaaa6fe2f3764c3ac94f0be9528a73
+    home: https://github.com/giantswarm/cluster-operator
+    name: cluster-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/cluster-operator-2.1.10.tgz
+    version: 2.1.10
+  - apiVersion: v1
     appVersion: 2.1.9
     created: "2020-04-23T14:25:30.119313156Z"
     description: The cluster-operator manages Kubernetes tenant cluster resources.
@@ -1037,4 +1047,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-28T12:25:40.820345282Z"
+generated: "2020-04-28T14:12:21.787853062Z"

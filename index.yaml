@@ -293,6 +293,17 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/azure-operator-chart-0.0.1.tgz
     version: 0.0.1
+  bridge-operator:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2020-04-28T10:48:35.500939314Z"
+    description: Helm chart for bridge-operator.
+    digest: eb7656980879c070a909aa2c801ff7eb06fbed40e77a1c54be1e64d12aa168e1
+    home: https://github.com/giantswarm/bridge-operator
+    name: bridge-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/bridge-operator-1.0.0.tgz
+    version: 1.0.0
   chart-operator:
   - apiVersion: v1
     appVersion: 0.13.0
@@ -1026,4 +1037,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-27T18:39:27.741178854Z"
+generated: "2020-04-28T10:48:35.499687405Z"

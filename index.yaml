@@ -314,6 +314,18 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/bridge-operator-1.0.0.tgz
     version: 1.0.0
+  cert-operator:
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2020-04-28T17:12:04.057764128Z"
+    description: cert-operator creates/manages certificates for Kubernetes clusters
+      running on Giantnetes
+    digest: 49449b740f9e678903a33b7b13c3c6ebf32441aeb603bc5f338092b7288cde3d
+    home: https://github.com/giantswarm/cert-operator
+    name: cert-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/cert-operator-0.1.0.tgz
+    version: 0.1.0
   chart-operator:
   - apiVersion: v1
     appVersion: 0.13.0
@@ -1057,4 +1069,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-28T14:33:40.970974335Z"
+generated: "2020-04-28T17:12:04.057261913Z"

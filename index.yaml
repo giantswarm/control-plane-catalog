@@ -648,6 +648,17 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/dns-network-policy-operator-0.1.0.tgz
     version: 0.1.0
+  flannel-operator:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2020-04-29T05:45:04.288002108Z"
+    description: Helm chart for flannel-operator.
+    digest: 81866fc71731bdd94e55a52bf70c2aa7ee083d336f226dbb5beda8880f90005d
+    home: https://github.com/giantswarm/flannel-operator
+    name: flannel-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/flannel-operator-1.0.0.tgz
+    version: 1.0.0
   g8s-cert-manager:
   - apiVersion: v1
     appVersion: 0.14.1
@@ -1069,4 +1080,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-28T17:12:04.057261913Z"
+generated: "2020-04-29T05:45:04.28731607Z"

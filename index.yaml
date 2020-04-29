@@ -650,6 +650,16 @@ entries:
     version: 0.1.0
   flannel-operator:
   - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2020-04-29T07:57:47.32597782Z"
+    description: Helm chart for flannel-operator.
+    digest: 54a012f50377ca0677e7e12e585a84406eb1ed9cea4b9063530ccc47802b1503
+    home: https://github.com/giantswarm/flannel-operator
+    name: flannel-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/flannel-operator-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v1
     appVersion: 1.0.0
     created: "2020-04-29T05:45:04.288002108Z"
     description: Helm chart for flannel-operator.
@@ -1080,4 +1090,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-29T05:45:04.28731607Z"
+generated: "2020-04-29T07:57:47.325285401Z"

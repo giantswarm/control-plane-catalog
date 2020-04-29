@@ -752,6 +752,15 @@ entries:
     version: 1.0.0
   g8s-prometheus:
   - apiVersion: v1
+    created: "2020-04-29T12:31:08.937671584Z"
+    description: Helm chart for g8s-prometheus.
+    digest: 12546506000e5ab009b79df99bdf1c829f3f66f2675a62bf70fcc5cb6d896fe1
+    home: https://github.com/giantswarm/g8s-prometheus
+    name: g8s-prometheus
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/g8s-prometheus-1.1.1.tgz
+    version: 1.1.1
+  - apiVersion: v1
     created: "2020-04-24T18:47:52.117850916Z"
     description: Helm chart for g8s-prometheus.
     digest: bd2713b030c49785f5e7008114171ab48b0881820aff47800bc1db652e4eca48
@@ -1111,4 +1120,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-29T11:52:47.167473034Z"
+generated: "2020-04-29T12:31:08.935122193Z"

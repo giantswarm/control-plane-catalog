@@ -699,6 +699,17 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/cluster-operator-0.21.1.tgz
     version: 0.21.1
+  cluster-service:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2020-04-30T12:58:11.061011131Z"
+    description: Helm chart for cluster-service.
+    digest: 0ff5a7515a7d046e0e1a91f6c89c5a83365f4db35f416f0d8f17b8a9e07de32f
+    home: https://github.com/giantswarm/cluster-service
+    name: cluster-service
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/cluster-service-1.0.0.tgz
+    version: 1.0.0
   dex-app:
   - apiVersion: v1
     appVersion: 2.21.0
@@ -1228,4 +1239,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-30T11:41:33.179259719Z"
+generated: "2020-04-30T12:58:11.060544631Z"

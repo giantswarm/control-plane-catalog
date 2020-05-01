@@ -1300,4 +1300,15 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-05-01T14:49:02.964916074Z"
+  userd:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2020-05-01T15:52:28.980469948Z"
+    description: Helm chart for userd.
+    digest: af2e8c33d1be00f861f598da5b753af8db3d20a11befed53efac9c180686be98
+    home: https://github.com/giantswarm/userd
+    name: userd
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/userd-1.0.0.tgz
+    version: 1.0.0
+generated: "2020-05-01T15:52:28.979752894Z"

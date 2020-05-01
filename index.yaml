@@ -1091,6 +1091,17 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/ignition-operator-0.0.1.tgz
     version: 0.0.1
+  kubernetesd:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2020-05-01T11:59:08.427343379Z"
+    description: Helm chart for kubernetesd.
+    digest: 5b3c86cb7f7720b6419a3280cb0a0a6870f07db2d895f9ebd3b4bac5fa6f17f6
+    home: https://github.com/giantswarm/kubernetesd
+    name: kubernetesd
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/kubernetesd-1.0.0.tgz
+    version: 1.0.0
   kvm-operator:
   - apiVersion: v1
     appVersion: 3.11.1
@@ -1272,4 +1283,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-30T15:57:32.026317638Z"
+generated: "2020-05-01T11:59:08.426869839Z"

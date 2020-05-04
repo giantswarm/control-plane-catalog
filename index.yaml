@@ -1300,6 +1300,17 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
+  tokend:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2020-05-04T07:57:08.622234495Z"
+    description: Helm chart for tokend.
+    digest: a44d8b718c31307d44d998bd05a1700f2e9c0be436538de11f37778dd285802a
+    home: https://github.com/giantswarm/tokend
+    name: tokend
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/tokend-1.0.0.tgz
+    version: 1.0.0
   userd:
   - apiVersion: v1
     appVersion: 1.0.0
@@ -1311,4 +1322,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/userd-1.0.0.tgz
     version: 1.0.0
-generated: "2020-05-01T15:52:28.979752894Z"
+generated: "2020-05-04T07:57:08.621625002Z"

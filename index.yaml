@@ -743,16 +743,6 @@ entries:
     - https://giantswarm.github.com/control-plane-catalog/chart-operator-1.0.0.tgz
     version: 1.0.0
   - apiVersion: v1
-    appVersion: 0.13.2
-    created: "2020-06-11T13:52:54.960508228Z"
-    description: A Helm chart for the chart-operator
-    digest: 7ec1f8a38961f33f881a7f18db5f56df561d0ada3bfe0c29eaaa703da15ed250
-    home: https://github.com/giantswarm/chart-operator
-    name: chart-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/chart-operator-0.13.2.tgz
-    version: 0.13.2
-  - apiVersion: v1
     appVersion: 0.13.1
     created: "2020-06-04T08:30:19.150966372Z"
     description: A Helm chart for the chart-operator

@@ -1053,18 +1053,6 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/cert-exporter-1.2.3.tgz
     version: 1.2.3
-  cert-operator:
-  - apiVersion: v1
-    appVersion: 0.1.0
-    created: "2020-05-18T09:26:17.771325291Z"
-    description: cert-operator creates/manages certificates for Kubernetes clusters
-      running on Giantnetes
-    digest: 47548f6ae5bf220af472ffe99c02ba9c2332aca2011822d7fb3a1711ac147be6
-    home: https://github.com/giantswarm/cert-operator
-    name: cert-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/cert-operator-0.1.0.tgz
-    version: 0.1.0
   chart-operator:
   - apiVersion: v1
     appVersion: 1.0.7

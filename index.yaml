@@ -865,19 +865,6 @@ entries:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.1.1.tgz
     version: 5.5.1.1
   - appVersion: 8.2.3
-    created: "2020-05-04T09:25:45.001293029Z"
-    digest: c9b1998086b7fdf13cacce14d37729324fbd7771ad57e0d25f6cd766db0321bb
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.2.tgz
-    version: 8.2.3.2
-  - created: "2020-05-04T12:08:52.662467686Z"
-    digest: 76413d12b2a21bd64e1f2e513150566aedf4cbda2070d4ed9f6897de19745f44
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.0.1.tgz
-    version: 5.5.0.1
-  - appVersion: 8.2.3
     created: "2020-04-16T15:24:24.100685507Z"
     digest: 4c8c1b5b919a68876fb38217e94dec7b38fb05606697cc2c8d7fda59e122b987
     name: aws-operator
@@ -915,6 +902,19 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.2.tgz
     version: 8.1.1.2
+  - appVersion: 8.2.3
+    created: "2020-05-04T09:25:45.001293029Z"
+    digest: c9b1998086b7fdf13cacce14d37729324fbd7771ad57e0d25f6cd766db0321bb
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.2.tgz
+    version: 8.2.3.2
+  - created: "2020-05-04T12:08:52.662467686Z"
+    digest: 76413d12b2a21bd64e1f2e513150566aedf4cbda2070d4ed9f6897de19745f44
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.0.1.tgz
+    version: 5.5.0.1
   azure-admission-controller:
   - apiVersion: v1
     appVersion: 1.5.0
@@ -2182,6 +2182,16 @@ entries:
     - https://giantswarm.github.com/control-plane-catalog/dns-network-policy-operator-0.1.0.tgz
     version: 0.1.0
   etcd-backup-operator:
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2020-08-21T16:10:30.944427856Z"
+    description: Helm chart for etcd-backup-operator.
+    digest: baa850e614bc9f8c5750a3f3e24aac68d408f832139cd881a2d9871878ec3d4b
+    home: https://github.com/giantswarm/etcd-backup-operator
+    name: etcd-backup-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/etcd-backup-operator-1.1.0.tgz
+    version: 1.1.0
   - apiVersion: v1
     appVersion: 1.0.5
     created: "2020-06-01T11:21:30.060612325Z"
@@ -4357,4 +4367,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/vault-exporter-2.0.0.tgz
     version: 2.0.0
-generated: "2020-08-21T16:08:17.424773566Z"
+generated: "2020-08-21T16:10:30.943798511Z"

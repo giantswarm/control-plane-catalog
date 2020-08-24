@@ -864,20 +864,6 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.1.1.tgz
     version: 5.5.1.1
-  - appVersion: 8.2.3
-    created: "2020-04-16T15:24:24.100685507Z"
-    digest: 4c8c1b5b919a68876fb38217e94dec7b38fb05606697cc2c8d7fda59e122b987
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.1.tgz
-    version: 8.2.3.1
-  - appVersion: 8.2.2
-    created: "2020-05-04T09:48:10.435350156Z"
-    digest: 68bc55efcb544a4430c6b1e3da273e44d5542da410c0b2f6cfed3622c6961738
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.2.2.tgz
-    version: 8.2.2.2
   - created: "2020-04-16T17:06:18.281383409Z"
     digest: 48e5f36ffc17fffbeeab8a9cfa176fc388f45ea74f16de9161a19c715bd861f9
     name: aws-operator
@@ -915,6 +901,20 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.0.1.tgz
     version: 5.5.0.1
+  - appVersion: 8.2.3
+    created: "2020-04-16T15:24:24.100685507Z"
+    digest: 4c8c1b5b919a68876fb38217e94dec7b38fb05606697cc2c8d7fda59e122b987
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.1.tgz
+    version: 8.2.3.1
+  - appVersion: 8.2.2
+    created: "2020-05-04T09:48:10.435350156Z"
+    digest: 68bc55efcb544a4430c6b1e3da273e44d5542da410c0b2f6cfed3622c6961738
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.2.2.tgz
+    version: 8.2.2.2
   azure-admission-controller:
   - apiVersion: v1
     appVersion: 1.5.0
@@ -3642,6 +3642,16 @@ entries:
     version: 0.0.0
   net-exporter:
   - apiVersion: v1
+    appVersion: 1.9.2
+    created: "2020-08-24T07:00:48.652678792Z"
+    description: Helm chart for net-exporter.
+    digest: db77fe628380b5e00a27b7b4493c6cb947ab6d1a29a591303ac3b9cbeb04c865
+    home: https://github.com/giantswarm/net-exporter
+    name: net-exporter
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/net-exporter-1.9.2.tgz
+    version: 1.9.2
+  - apiVersion: v1
     appVersion: 1.9.1
     created: "2020-08-19T13:09:40.937723782Z"
     description: Helm chart for net-exporter.
@@ -4367,4 +4377,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/vault-exporter-2.0.0.tgz
     version: 2.0.0
-generated: "2020-08-21T16:10:30.943798511Z"
+generated: "2020-08-24T07:00:48.651734794Z"

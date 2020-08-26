@@ -875,18 +875,6 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.1.1.tgz
     version: 5.5.1.1
-  - created: "2020-04-16T16:54:27.227050163Z"
-    digest: 5af1f86cb57512c268b117a8b8945a8e470037b0a685a05a7868039d5a7cecc7
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.0.2.1.tgz
-    version: 8.0.2.1
-  - created: "2020-05-04T10:12:39.562857832Z"
-    digest: 8c1bd92afd12456659c8440af58871e0888317094fbe0cc4778f838cbca457e4
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.2.tgz
-    version: 8.1.1.2
   - appVersion: 8.2.3
     created: "2020-05-04T09:25:45.001293029Z"
     digest: c9b1998086b7fdf13cacce14d37729324fbd7771ad57e0d25f6cd766db0321bb
@@ -926,6 +914,18 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.6.0.1.tgz
     version: 5.6.0.1
+  - created: "2020-04-16T16:54:27.227050163Z"
+    digest: 5af1f86cb57512c268b117a8b8945a8e470037b0a685a05a7868039d5a7cecc7
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.0.2.1.tgz
+    version: 8.0.2.1
+  - created: "2020-05-04T10:12:39.562857832Z"
+    digest: 8c1bd92afd12456659c8440af58871e0888317094fbe0cc4778f838cbca457e4
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.2.tgz
+    version: 8.1.1.2
   azure-admission-controller:
   - apiVersion: v1
     appVersion: 1.5.0
@@ -4435,6 +4435,16 @@ entries:
   test-infra:
   - apiVersion: v1
     appVersion: master
+    created: "2020-08-26T13:21:34.273520629Z"
+    description: Giant Swarm conformance testing stack.
+    digest: 141a450f25ad78292c941fd65a89077b44277f8414a657748f3b14b1525f8314
+    home: https://github.com/giantswarm/test-infra
+    name: test-infra
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/test-infra-0.0.0-e617a6f1b0663291dc6312bd9500f1c371c0bef8.tgz
+    version: 0.0.0-e617a6f1b0663291dc6312bd9500f1c371c0bef8
+  - apiVersion: v1
+    appVersion: master
     created: "2020-08-26T08:35:39.470121676Z"
     description: Giant Swarm conformance testing stack.
     digest: 31036622915939ccba0ec909a96611cc3ac1757850b3752a8c9e6e948ffc99ea
@@ -4526,4 +4536,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/vault-exporter-2.0.0.tgz
     version: 2.0.0
-generated: "2020-08-26T12:59:16.949083859Z"
+generated: "2020-08-26T13:21:34.272037196Z"

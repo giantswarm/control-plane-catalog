@@ -947,19 +947,6 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.1.tgz
     version: 8.1.1.1
-  - appVersion: 8.2.3
-    created: "2020-04-16T15:24:24.100685507Z"
-    digest: 4c8c1b5b919a68876fb38217e94dec7b38fb05606697cc2c8d7fda59e122b987
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.1.tgz
-    version: 8.2.3.1
-  - created: "2020-05-04T12:08:52.662467686Z"
-    digest: 76413d12b2a21bd64e1f2e513150566aedf4cbda2070d4ed9f6897de19745f44
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.0.1.tgz
-    version: 5.5.0.1
   - created: "2020-05-04T11:17:25.274619968Z"
     digest: 8d516bb8fb59775d133be569aaa4d537888e225c5bbb33ce6efdbd447de334cd
     name: aws-operator
@@ -998,6 +985,19 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.2.1.tgz
     version: 8.2.2.1
+  - appVersion: 8.2.3
+    created: "2020-04-16T15:24:24.100685507Z"
+    digest: 4c8c1b5b919a68876fb38217e94dec7b38fb05606697cc2c8d7fda59e122b987
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.1.tgz
+    version: 8.2.3.1
+  - created: "2020-05-04T12:08:52.662467686Z"
+    digest: 76413d12b2a21bd64e1f2e513150566aedf4cbda2070d4ed9f6897de19745f44
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.0.1.tgz
+    version: 5.5.0.1
   azure-admission-controller:
   - apiVersion: v1
     appVersion: 1.5.0
@@ -3356,6 +3356,17 @@ entries:
   gatekeeper-app:
   - apiVersion: v1
     appVersion: v3.1.0-beta.8
+    created: "2020-09-04T17:41:56.880397273Z"
+    description: Chart deploying OPA Gatekeeper.
+    digest: cbd9b9b5562703ebf95638538ad63cafec324fd38bec9493a782c1256c4fa682
+    home: https://github.com/giantswarm/gatekeeper-app
+    icon: https://avatars1.githubusercontent.com/u/16468693?s=400&v=4
+    name: gatekeeper-app
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/gatekeeper-app-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v1
+    appVersion: v3.1.0-beta.8
     created: "2020-08-12T15:45:11.035195297Z"
     description: Chart deploying OPA Gatekeeper.
     digest: 13c56b878f6a9ab8632ac2bfbc4d3f40500b31473e9f2a70c184d966eb8b3002
@@ -4785,4 +4796,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/vault-exporter-2.0.0.tgz
     version: 2.0.0
-generated: "2020-09-04T16:42:52.180580188Z"
+generated: "2020-09-04T17:41:56.879837865Z"

@@ -967,19 +967,6 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.1.tgz
     version: 8.1.1.1
-  - appVersion: 8.2.3
-    created: "2020-04-16T15:24:24.100685507Z"
-    digest: 4c8c1b5b919a68876fb38217e94dec7b38fb05606697cc2c8d7fda59e122b987
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.1.tgz
-    version: 8.2.3.1
-  - created: "2020-05-04T12:08:52.662467686Z"
-    digest: 76413d12b2a21bd64e1f2e513150566aedf4cbda2070d4ed9f6897de19745f44
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.0.1.tgz
-    version: 5.5.0.1
   - created: "2020-05-04T11:17:25.274619968Z"
     digest: 8d516bb8fb59775d133be569aaa4d537888e225c5bbb33ce6efdbd447de334cd
     name: aws-operator
@@ -1018,6 +1005,19 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.2.1.tgz
     version: 8.2.2.1
+  - appVersion: 8.2.3
+    created: "2020-04-16T15:24:24.100685507Z"
+    digest: 4c8c1b5b919a68876fb38217e94dec7b38fb05606697cc2c8d7fda59e122b987
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.1.tgz
+    version: 8.2.3.1
+  - created: "2020-05-04T12:08:52.662467686Z"
+    digest: 76413d12b2a21bd64e1f2e513150566aedf4cbda2070d4ed9f6897de19745f44
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.0.1.tgz
+    version: 5.5.0.1
   azure-admission-controller:
   - apiVersion: v1
     appVersion: 1.5.0
@@ -1310,9 +1310,9 @@ entries:
   cert-manager-app:
   - apiVersion: v1
     appVersion: 0.16.1
-    created: "2020-09-07T11:30:50.803435081Z"
+    created: "2020-09-07T15:05:53.974881784Z"
     description: A Helm chart for cert-manager
-    digest: 467547ad4fe7060570b4b6bb9da44eb6e43611f70217172ba0b0cf3dca562b8f
+    digest: 7e29d9bc29cb3b404f08fc24ae1f7f0cf5b3aa4bd53434dd09bc5470580283b8
     home: https://github.com/giantswarm/cert-manager-app
     icon: https://raw.githubusercontent.com/jetstack/cert-manager/master/logo/logo.png
     name: cert-manager-app
@@ -4829,4 +4829,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/vault-exporter-2.0.0.tgz
     version: 2.0.0
-generated: "2020-09-07T11:30:50.800322938Z"
+generated: "2020-09-07T15:05:53.969698846Z"

@@ -1106,13 +1106,12 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.0-fix.tgz
     version: 5.5.0-fix
-  - appVersion: 8.2.2
-    created: "2020-04-16T16:28:22.401413985Z"
-    digest: 68618f318932030e267732e0a6d054de902a51fd7e50f0ec5ec57d073317486f
+  - created: "2020-05-04T11:43:32.564779155Z"
+    digest: 6d69db2508a657dfb346b34aa8b3f3b3a01f89038f77de7ce659d8cdb6e759c5
     name: aws-operator
     urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.2.1.tgz
-    version: 8.2.2.1
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.1.1.tgz
+    version: 5.5.1.1
   - appVersion: 8.2.2
     created: "2020-05-04T09:48:10.435350156Z"
     digest: 68bc55efcb544a4430c6b1e3da273e44d5542da410c0b2f6cfed3622c6961738
@@ -1132,12 +1131,6 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.0.2.2.tgz
     version: 8.0.2.2
-  - created: "2020-05-04T10:12:39.562857832Z"
-    digest: 8c1bd92afd12456659c8440af58871e0888317094fbe0cc4778f838cbca457e4
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.2.tgz
-    version: 8.1.1.2
   - appVersion: 8.2.3
     created: "2020-04-16T15:24:24.100685507Z"
     digest: 4c8c1b5b919a68876fb38217e94dec7b38fb05606697cc2c8d7fda59e122b987
@@ -1145,12 +1138,6 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.1.tgz
     version: 8.2.3.1
-  - created: "2020-05-04T11:43:32.564779155Z"
-    digest: 6d69db2508a657dfb346b34aa8b3f3b3a01f89038f77de7ce659d8cdb6e759c5
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.1.1.tgz
-    version: 5.5.1.1
   - created: "2020-04-16T16:50:48.155408544Z"
     digest: ef9e1e1024853d0e30009549af6ad8aa8f59e4e3fc301cf47bbcb25582e6aada
     name: aws-operator
@@ -1188,6 +1175,19 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.0.2.1.tgz
     version: 8.0.2.1
+  - created: "2020-05-04T10:12:39.562857832Z"
+    digest: 8c1bd92afd12456659c8440af58871e0888317094fbe0cc4778f838cbca457e4
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.2.tgz
+    version: 8.1.1.2
+  - appVersion: 8.2.2
+    created: "2020-04-16T16:28:22.401413985Z"
+    digest: 68618f318932030e267732e0a6d054de902a51fd7e50f0ec5ec57d073317486f
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.2.1.tgz
+    version: 8.2.2.1
   azure-admission-controller:
   - apiVersion: v1
     appVersion: 1.5.0
@@ -1489,6 +1489,19 @@ entries:
     - https://giantswarm.github.com/control-plane-catalog/cert-exporter-1.2.3.tgz
     version: 1.2.3
   cert-manager-app:
+  - apiVersion: v1
+    appVersion: 1.0.2
+    created: "2020-10-05T08:10:19.091450248Z"
+    description: A Helm chart for cert-manager
+    digest: 90a63c3c034c04467eb2d4320b5a3b2b29bf2164c721943230ade564376c946b
+    home: https://github.com/giantswarm/cert-manager-app
+    icon: https://raw.githubusercontent.com/jetstack/cert-manager/master/logo/logo.png
+    name: cert-manager-app
+    sources:
+    - https://github.com/jetstack/cert-manager
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/cert-manager-app-2.3.0.tgz
+    version: 2.3.0
   - apiVersion: v1
     appVersion: 0.16.1
     created: "2020-09-29T13:03:02.827365705Z"
@@ -5444,4 +5457,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/vault-exporter-2.0.0.tgz
     version: 2.0.0
-generated: "2020-10-02T15:49:01.927351799Z"
+generated: "2020-10-05T08:10:19.083984191Z"

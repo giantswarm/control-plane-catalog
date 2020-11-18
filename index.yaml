@@ -1466,18 +1466,6 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.1.tgz
     version: 8.2.3.1
-  - created: "2020-05-04T12:08:52.662467686Z"
-    digest: 76413d12b2a21bd64e1f2e513150566aedf4cbda2070d4ed9f6897de19745f44
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.0.1.tgz
-    version: 5.5.0.1
-  - created: "2020-05-04T10:56:03.758234926Z"
-    digest: 706000fc195c9bb5d7e8dff1e95b3c2bbb02de9d996180710e7a817614d87bb1
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.0.2.2.tgz
-    version: 8.0.2.2
   - created: "2020-04-16T16:54:27.227050163Z"
     digest: 5af1f86cb57512c268b117a8b8945a8e470037b0a685a05a7868039d5a7cecc7
     name: aws-operator
@@ -1529,6 +1517,18 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.2.1.tgz
     version: 8.2.2.1
+  - created: "2020-05-04T12:08:52.662467686Z"
+    digest: 76413d12b2a21bd64e1f2e513150566aedf4cbda2070d4ed9f6897de19745f44
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.0.1.tgz
+    version: 5.5.0.1
+  - created: "2020-05-04T10:56:03.758234926Z"
+    digest: 706000fc195c9bb5d7e8dff1e95b3c2bbb02de9d996180710e7a817614d87bb1
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.0.2.2.tgz
+    version: 8.0.2.2
   azure-admission-controller:
   - apiVersion: v1
     appVersion: 1.13.3
@@ -1802,6 +1802,16 @@ entries:
     - https://giantswarm.github.com/control-plane-catalog/azure-collector-1.0.0.tgz
     version: 1.0.0
   azure-operator:
+  - apiVersion: v1
+    appVersion: 5.0.0-beta5
+    created: "2020-11-18T08:32:02.556486894Z"
+    description: Azure operator to create k8s clusters on Azure
+    digest: 50f295e52ea8040befabf379b8a366123ddaedc321c93e895d6ae589ef0907cd
+    home: https://github.com/giantswarm/azure-operator
+    name: azure-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/azure-operator-5.0.0-beta5.tgz
+    version: 5.0.0-beta5
   - apiVersion: v1
     appVersion: 5.0.0-beta4
     created: "2020-11-17T11:45:29.749093804Z"
@@ -6910,4 +6920,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/vault-exporter-2.0.0.tgz
     version: 2.0.0
-generated: "2020-11-18T00:08:10.453522357Z"
+generated: "2020-11-18T08:32:02.555832364Z"

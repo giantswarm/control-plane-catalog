@@ -103,6 +103,16 @@ entries:
     version: 1.0.0
   api:
   - apiVersion: v1
+    appVersion: 1.12.5
+    created: "2020-11-18T09:38:41.209303119Z"
+    description: Gateway to several Giant Swarm services.
+    digest: d37756d2f4e66dddf725c9d6931dea6b93dabb7759eb0994aff352767ee21b26
+    home: https://github.com/giantswarm/api
+    name: api
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/api-1.12.5.tgz
+    version: 1.12.5
+  - apiVersion: v1
     appVersion: 1.12.4
     created: "2020-11-17T12:08:39.680037307Z"
     description: Gateway to several Giant Swarm services.
@@ -1466,18 +1476,6 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.1.tgz
     version: 8.2.3.1
-  - created: "2020-04-16T16:54:27.227050163Z"
-    digest: 5af1f86cb57512c268b117a8b8945a8e470037b0a685a05a7868039d5a7cecc7
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.0.2.1.tgz
-    version: 8.0.2.1
-  - created: "2020-05-04T11:43:32.564779155Z"
-    digest: 6d69db2508a657dfb346b34aa8b3f3b3a01f89038f77de7ce659d8cdb6e759c5
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.1.1.tgz
-    version: 5.5.1.1
   - created: "2020-04-16T16:50:48.155408544Z"
     digest: ef9e1e1024853d0e30009549af6ad8aa8f59e4e3fc301cf47bbcb25582e6aada
     name: aws-operator
@@ -1529,6 +1527,18 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.0.2.2.tgz
     version: 8.0.2.2
+  - created: "2020-04-16T16:54:27.227050163Z"
+    digest: 5af1f86cb57512c268b117a8b8945a8e470037b0a685a05a7868039d5a7cecc7
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.0.2.1.tgz
+    version: 8.0.2.1
+  - created: "2020-05-04T11:43:32.564779155Z"
+    digest: 6d69db2508a657dfb346b34aa8b3f3b3a01f89038f77de7ce659d8cdb6e759c5
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.1.1.tgz
+    version: 5.5.1.1
   azure-admission-controller:
   - apiVersion: v1
     appVersion: 1.13.3
@@ -6920,4 +6930,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/vault-exporter-2.0.0.tgz
     version: 2.0.0
-generated: "2020-11-18T08:32:02.555832364Z"
+generated: "2020-11-18T09:38:41.208189215Z"

@@ -1496,20 +1496,6 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.1.tgz
     version: 8.2.3.1
-  - appVersion: 8.2.2
-    created: "2020-05-04T09:48:10.435350156Z"
-    digest: 68bc55efcb544a4430c6b1e3da273e44d5542da410c0b2f6cfed3622c6961738
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.2.2.tgz
-    version: 8.2.2.2
-  - appVersion: 8.2.2
-    created: "2020-04-16T16:28:22.401413985Z"
-    digest: 68618f318932030e267732e0a6d054de902a51fd7e50f0ec5ec57d073317486f
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.2.1.tgz
-    version: 8.2.2.1
   - created: "2020-05-04T12:08:52.662467686Z"
     digest: 76413d12b2a21bd64e1f2e513150566aedf4cbda2070d4ed9f6897de19745f44
     name: aws-operator
@@ -1559,6 +1545,20 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.2.tgz
     version: 8.2.3.2
+  - appVersion: 8.2.2
+    created: "2020-05-04T09:48:10.435350156Z"
+    digest: 68bc55efcb544a4430c6b1e3da273e44d5542da410c0b2f6cfed3622c6961738
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.2.2.tgz
+    version: 8.2.2.2
+  - appVersion: 8.2.2
+    created: "2020-04-16T16:28:22.401413985Z"
+    digest: 68618f318932030e267732e0a6d054de902a51fd7e50f0ec5ec57d073317486f
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.2.1.tgz
+    version: 8.2.2.1
   azure-admission-controller:
   - apiVersion: v1
     appVersion: 1.13.3
@@ -6528,6 +6528,17 @@ entries:
     version: 0.0.1
   rbac-operator:
   - apiVersion: v1
+    appVersion: 0.8.0
+    created: "2020-11-19T23:38:44.538027313Z"
+    description: rbac-operator manages authorization for OIDC enabled control-plane
+      Kubernetes APIs.
+    digest: 0b0ec125807196a18b5205d2f69d1d3b4e6e20ef726f13806dc2bd1100a67497
+    home: https://github.com/giantswarm/rbac-operator
+    name: rbac-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/rbac-operator-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v1
     appVersion: 0.7.0
     created: "2020-10-21T14:06:33.142411288Z"
     description: rbac-operator manages authorization for OIDC enabled control-plane
@@ -7011,4 +7022,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/vault-exporter-2.0.0.tgz
     version: 2.0.0
-generated: "2020-11-19T14:10:58.444257845Z"
+generated: "2020-11-19T23:38:44.537456353Z"

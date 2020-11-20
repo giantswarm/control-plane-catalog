@@ -1496,18 +1496,6 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.1.tgz
     version: 8.2.3.1
-  - created: "2020-04-16T16:50:48.155408544Z"
-    digest: ef9e1e1024853d0e30009549af6ad8aa8f59e4e3fc301cf47bbcb25582e6aada
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.1.tgz
-    version: 8.1.1.1
-  - created: "2020-05-04T10:12:39.562857832Z"
-    digest: 8c1bd92afd12456659c8440af58871e0888317094fbe0cc4778f838cbca457e4
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.2.tgz
-    version: 8.1.1.2
   - created: "2020-05-04T11:17:25.274619968Z"
     digest: 8d516bb8fb59775d133be569aaa4d537888e225c5bbb33ce6efdbd447de334cd
     name: aws-operator
@@ -1559,6 +1547,18 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.1.1.tgz
     version: 5.5.1.1
+  - created: "2020-04-16T16:50:48.155408544Z"
+    digest: ef9e1e1024853d0e30009549af6ad8aa8f59e4e3fc301cf47bbcb25582e6aada
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.1.tgz
+    version: 8.1.1.1
+  - created: "2020-05-04T10:12:39.562857832Z"
+    digest: 8c1bd92afd12456659c8440af58871e0888317094fbe0cc4778f838cbca457e4
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.2.tgz
+    version: 8.1.1.2
   azure-admission-controller:
   - apiVersion: v1
     appVersion: 1.13.3
@@ -5227,6 +5227,16 @@ entries:
     version: 0.1.0
   happa:
   - apiVersion: v1
+    appVersion: 1.0.5
+    created: "2020-11-20T12:42:09.246964806Z"
+    description: Web user interface for Giant Swarm Kubernetes as a Service.
+    digest: 0dfb9c2286db6de9ce66c87afac80042746a885880898f4089ae2ca5cce0a352
+    home: https://github.com/giantswarm/happa
+    name: happa
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/happa-1.0.5.tgz
+    version: 1.0.5
+  - apiVersion: v1
     appVersion: 1.0.4
     created: "2020-11-18T09:44:16.438675539Z"
     description: Web user interface for Giant Swarm Kubernetes as a Service.
@@ -7076,4 +7086,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/vault-exporter-2.0.0.tgz
     version: 2.0.0
-generated: "2020-11-20T01:17:21.669972827Z"
+generated: "2020-11-20T12:42:09.245997996Z"

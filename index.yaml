@@ -1496,18 +1496,6 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.1.tgz
     version: 8.2.3.1
-  - created: "2020-04-16T16:50:48.155408544Z"
-    digest: ef9e1e1024853d0e30009549af6ad8aa8f59e4e3fc301cf47bbcb25582e6aada
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.1.tgz
-    version: 8.1.1.1
-  - created: "2020-05-04T10:12:39.562857832Z"
-    digest: 8c1bd92afd12456659c8440af58871e0888317094fbe0cc4778f838cbca457e4
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.2.tgz
-    version: 8.1.1.2
   - created: "2020-05-04T11:17:25.274619968Z"
     digest: 8d516bb8fb59775d133be569aaa4d537888e225c5bbb33ce6efdbd447de334cd
     name: aws-operator
@@ -1559,6 +1547,18 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.1.1.tgz
     version: 5.5.1.1
+  - created: "2020-04-16T16:50:48.155408544Z"
+    digest: ef9e1e1024853d0e30009549af6ad8aa8f59e4e3fc301cf47bbcb25582e6aada
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.1.tgz
+    version: 8.1.1.1
+  - created: "2020-05-04T10:12:39.562857832Z"
+    digest: 8c1bd92afd12456659c8440af58871e0888317094fbe0cc4778f838cbca457e4
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.2.tgz
+    version: 8.1.1.2
   azure-admission-controller:
   - apiVersion: v1
     appVersion: 1.13.3
@@ -4039,6 +4039,16 @@ entries:
     - https://giantswarm.github.com/control-plane-catalog/g8s-oauth2-proxy-1.0.0.tgz
     version: 1.0.0
   g8s-prometheus:
+  - apiVersion: v2
+    appVersion: 4.1.0
+    created: "2020-11-23T09:57:05.375788999Z"
+    description: Helm chart for g8s-prometheus.
+    digest: 36f2f5c5824c9c1ea5b8440f859ccee9422f6f0af199e9998206efdcaafcfc6f
+    home: https://github.com/giantswarm/g8s-prometheus
+    name: g8s-prometheus
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/g8s-prometheus-4.1.0.tgz
+    version: 4.1.0
   - apiVersion: v2
     appVersion: 4.0.0
     created: "2020-11-19T14:10:58.447434042Z"
@@ -7148,4 +7158,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/vault-exporter-2.0.0.tgz
     version: 2.0.0
-generated: "2020-11-23T09:28:10.110587601Z"
+generated: "2020-11-23T09:57:05.372098412Z"

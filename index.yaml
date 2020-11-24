@@ -1527,18 +1527,6 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.1.tgz
     version: 8.2.3.1
-  - created: "2020-04-16T16:50:48.155408544Z"
-    digest: ef9e1e1024853d0e30009549af6ad8aa8f59e4e3fc301cf47bbcb25582e6aada
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.1.tgz
-    version: 8.1.1.1
-  - created: "2020-05-04T10:12:39.562857832Z"
-    digest: 8c1bd92afd12456659c8440af58871e0888317094fbe0cc4778f838cbca457e4
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.2.tgz
-    version: 8.1.1.2
   - created: "2020-05-04T11:17:25.274619968Z"
     digest: 8d516bb8fb59775d133be569aaa4d537888e225c5bbb33ce6efdbd447de334cd
     name: aws-operator
@@ -1590,6 +1578,18 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.1.1.tgz
     version: 5.5.1.1
+  - created: "2020-04-16T16:50:48.155408544Z"
+    digest: ef9e1e1024853d0e30009549af6ad8aa8f59e4e3fc301cf47bbcb25582e6aada
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.1.tgz
+    version: 8.1.1.1
+  - created: "2020-05-04T10:12:39.562857832Z"
+    digest: 8c1bd92afd12456659c8440af58871e0888317094fbe0cc4778f838cbca457e4
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.2.tgz
+    version: 8.1.1.2
   azure-admission-controller:
   - apiVersion: v1
     appVersion: 1.13.3
@@ -6300,6 +6300,16 @@ entries:
     version: 0.2.2
   prometheus-meta-operator:
   - apiVersion: v1
+    appVersion: 1.10.1
+    created: "2020-11-24T16:26:33.26386159Z"
+    description: The prometheus-meta-operator manages Kubernetes clusters monitoring.
+    digest: 4c2b33f8652d8249168838f029478ce6ffda0dca7fe3d6a787355d9db9b1e2ee
+    home: https://github.com/giantswarm/prometheus-meta-operator
+    name: prometheus-meta-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/prometheus-meta-operator-1.10.1.tgz
+    version: 1.10.1
+  - apiVersion: v1
     appVersion: 1.10.0
     created: "2020-11-20T15:26:59.933417598Z"
     description: The prometheus-meta-operator manages Kubernetes clusters monitoring.
@@ -7199,4 +7209,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/vault-exporter-2.0.0.tgz
     version: 2.0.0
-generated: "2020-11-24T13:39:08.610598205Z"
+generated: "2020-11-24T16:26:33.263225107Z"

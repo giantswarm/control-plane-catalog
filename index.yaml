@@ -1558,18 +1558,6 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.1.tgz
     version: 8.2.3.1
-  - created: "2020-05-04T12:08:52.662467686Z"
-    digest: 76413d12b2a21bd64e1f2e513150566aedf4cbda2070d4ed9f6897de19745f44
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.0.1.tgz
-    version: 5.5.0.1
-  - created: "2020-05-04T10:56:03.758234926Z"
-    digest: 706000fc195c9bb5d7e8dff1e95b3c2bbb02de9d996180710e7a817614d87bb1
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.0.2.2.tgz
-    version: 8.0.2.2
   - created: "2020-04-16T16:54:27.227050163Z"
     digest: 5af1f86cb57512c268b117a8b8945a8e470037b0a685a05a7868039d5a7cecc7
     name: aws-operator
@@ -1621,6 +1609,18 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.2.1.tgz
     version: 8.2.2.1
+  - created: "2020-05-04T12:08:52.662467686Z"
+    digest: 76413d12b2a21bd64e1f2e513150566aedf4cbda2070d4ed9f6897de19745f44
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.5.0.1.tgz
+    version: 5.5.0.1
+  - created: "2020-05-04T10:56:03.758234926Z"
+    digest: 706000fc195c9bb5d7e8dff1e95b3c2bbb02de9d996180710e7a817614d87bb1
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.0.2.2.tgz
+    version: 8.0.2.2
   azure-admission-controller:
   - apiVersion: v1
     appVersion: 1.13.3
@@ -5295,6 +5295,16 @@ entries:
     version: 0.1.0
   gatekeeper-control-plane-rules:
   - apiVersion: v1
+    appVersion: 0.1.11
+    created: "2020-11-26T14:09:27.795302779Z"
+    description: List of gatekeeper rules for control planes.
+    digest: 4ddef31324abaa411b09394b85a8db62725617036226fc519a1db514e0ee23e8
+    home: https://github.com/giantswarm/gatekeeper-control-plane-rules
+    name: gatekeeper-control-plane-rules
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/gatekeeper-control-plane-rules-0.1.11.tgz
+    version: 0.1.11
+  - apiVersion: v1
     appVersion: 0.1.10
     created: "2020-10-29T13:31:33.42757473Z"
     description: List of gatekeeper rules for control planes.
@@ -7332,4 +7342,4 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/vault-exporter-2.0.0.tgz
     version: 2.0.0
-generated: "2020-11-26T11:08:55.332028138Z"
+generated: "2020-11-26T14:09:27.794257703Z"

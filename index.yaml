@@ -1558,19 +1558,6 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.1.tgz
     version: 8.2.3.1
-  - created: "2020-05-04T11:17:25.274619968Z"
-    digest: 8d516bb8fb59775d133be569aaa4d537888e225c5bbb33ce6efdbd447de334cd
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.6.0.1.tgz
-    version: 5.6.0.1
-  - appVersion: 8.2.3
-    created: "2020-05-04T09:25:45.001293029Z"
-    digest: c9b1998086b7fdf13cacce14d37729324fbd7771ad57e0d25f6cd766db0321bb
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.2.tgz
-    version: 8.2.3.2
   - appVersion: 8.2.2
     created: "2020-05-04T09:48:10.435350156Z"
     digest: 68bc55efcb544a4430c6b1e3da273e44d5542da410c0b2f6cfed3622c6961738
@@ -1621,6 +1608,19 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.1.1.2.tgz
     version: 8.1.1.2
+  - created: "2020-05-04T11:17:25.274619968Z"
+    digest: 8d516bb8fb59775d133be569aaa4d537888e225c5bbb33ce6efdbd447de334cd
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-5.6.0.1.tgz
+    version: 5.6.0.1
+  - appVersion: 8.2.3
+    created: "2020-05-04T09:25:45.001293029Z"
+    digest: c9b1998086b7fdf13cacce14d37729324fbd7771ad57e0d25f6cd766db0321bb
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/aws-operator-8.2.3.2.tgz
+    version: 8.2.3.2
   azure-admission-controller:
   - apiVersion: v1
     appVersion: 1.13.3
@@ -7352,4 +7352,17 @@ entries:
     urls:
     - https://giantswarm.github.com/control-plane-catalog/vault-exporter-2.0.0.tgz
     version: 2.0.0
-generated: "2020-11-26T14:57:49.080080341Z"
+  vertical-pod-autoscaler-app:
+  - apiVersion: v1
+    appVersion: 0.8.0
+    created: "2020-11-27T15:41:01.404297655Z"
+    description: A Helm chart for vertical-pod-autoscaler
+    digest: b9a4dcdb6f198e3ca0421760045671caf5b386996b26bf374e989651a8eb234d
+    home: https://github.com/giantswarm/vertical-pod-autoscaler-app
+    name: vertical-pod-autoscaler-app
+    sources:
+    - https://github.com/kubernetes/autoscaler
+    urls:
+    - https://giantswarm.github.com/control-plane-catalog/vertical-pod-autoscaler-app-1.0.0.tgz
+    version: 1.0.0
+generated: "2020-11-27T15:41:01.403205462Z"

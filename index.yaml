@@ -2335,19 +2335,21 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.2.2.2.tgz
     version: 8.2.2.2
   - apiVersion: v1
-    created: "2020-05-04T10:31:17.574895785Z"
-    digest: e39e26f22273a48706628d6210dafb461952ae0d28de085684f16683cb7f966a
+    appVersion: 8.2.3
+    created: "2020-05-04T09:25:45.001293029Z"
+    digest: c9b1998086b7fdf13cacce14d37729324fbd7771ad57e0d25f6cd766db0321bb
     name: aws-operator
     urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.0.2.tgz
-    version: 8.1.0.2
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.2.3.2.tgz
+    version: 8.2.3.2
   - apiVersion: v1
-    created: "2020-04-16T17:06:18.281383409Z"
-    digest: 48e5f36ffc17fffbeeab8a9cfa176fc388f45ea74f16de9161a19c715bd861f9
+    appVersion: 8.2.2
+    created: "2020-04-16T16:28:22.401413985Z"
+    digest: 68618f318932030e267732e0a6d054de902a51fd7e50f0ec5ec57d073317486f
     name: aws-operator
     urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.0.1.tgz
-    version: 8.1.0.1
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.2.2.1.tgz
+    version: 8.2.2.1
   - apiVersion: v1
     created: "2020-05-04T10:12:39.562857832Z"
     digest: 8c1bd92afd12456659c8440af58871e0888317094fbe0cc4778f838cbca457e4
@@ -2356,19 +2358,19 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.1.2.tgz
     version: 8.1.1.2
   - apiVersion: v1
-    created: "2020-05-04T11:17:25.274619968Z"
-    digest: 8d516bb8fb59775d133be569aaa4d537888e225c5bbb33ce6efdbd447de334cd
+    created: "2020-05-04T10:56:03.758234926Z"
+    digest: 706000fc195c9bb5d7e8dff1e95b3c2bbb02de9d996180710e7a817614d87bb1
     name: aws-operator
     urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.6.0.1.tgz
-    version: 5.6.0.1
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.0.2.2.tgz
+    version: 8.0.2.2
   - apiVersion: v1
-    created: "2020-04-16T16:50:48.155408544Z"
-    digest: ef9e1e1024853d0e30009549af6ad8aa8f59e4e3fc301cf47bbcb25582e6aada
+    created: "2020-05-04T10:31:17.574895785Z"
+    digest: e39e26f22273a48706628d6210dafb461952ae0d28de085684f16683cb7f966a
     name: aws-operator
     urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.1.1.tgz
-    version: 8.1.1.1
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.0.2.tgz
+    version: 8.1.0.2
   - apiVersion: v1
     appVersion: 8.2.3
     created: "2020-04-16T15:24:24.100685507Z"
@@ -2378,12 +2380,12 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.2.3.1.tgz
     version: 8.2.3.1
   - apiVersion: v1
-    created: "2020-05-04T10:56:03.758234926Z"
-    digest: 706000fc195c9bb5d7e8dff1e95b3c2bbb02de9d996180710e7a817614d87bb1
+    created: "2020-04-16T16:54:27.227050163Z"
+    digest: 5af1f86cb57512c268b117a8b8945a8e470037b0a685a05a7868039d5a7cecc7
     name: aws-operator
     urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.0.2.2.tgz
-    version: 8.0.2.2
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.0.2.1.tgz
+    version: 8.0.2.1
   - apiVersion: v1
     created: "2020-05-04T12:08:52.662467686Z"
     digest: 76413d12b2a21bd64e1f2e513150566aedf4cbda2070d4ed9f6897de19745f44
@@ -2392,35 +2394,33 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.0.1.tgz
     version: 5.5.0.1
   - apiVersion: v1
+    created: "2020-04-16T17:06:18.281383409Z"
+    digest: 48e5f36ffc17fffbeeab8a9cfa176fc388f45ea74f16de9161a19c715bd861f9
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.0.1.tgz
+    version: 8.1.0.1
+  - apiVersion: v1
+    created: "2020-04-16T16:50:48.155408544Z"
+    digest: ef9e1e1024853d0e30009549af6ad8aa8f59e4e3fc301cf47bbcb25582e6aada
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.1.1.tgz
+    version: 8.1.1.1
+  - apiVersion: v1
+    created: "2020-05-04T11:17:25.274619968Z"
+    digest: 8d516bb8fb59775d133be569aaa4d537888e225c5bbb33ce6efdbd447de334cd
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.6.0.1.tgz
+    version: 5.6.0.1
+  - apiVersion: v1
     created: "2020-05-04T11:43:32.564779155Z"
     digest: 6d69db2508a657dfb346b34aa8b3f3b3a01f89038f77de7ce659d8cdb6e759c5
     name: aws-operator
     urls:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.1.1.tgz
     version: 5.5.1.1
-  - apiVersion: v1
-    appVersion: 8.2.3
-    created: "2020-05-04T09:25:45.001293029Z"
-    digest: c9b1998086b7fdf13cacce14d37729324fbd7771ad57e0d25f6cd766db0321bb
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.2.3.2.tgz
-    version: 8.2.3.2
-  - apiVersion: v1
-    created: "2020-04-16T16:54:27.227050163Z"
-    digest: 5af1f86cb57512c268b117a8b8945a8e470037b0a685a05a7868039d5a7cecc7
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.0.2.1.tgz
-    version: 8.0.2.1
-  - apiVersion: v1
-    appVersion: 8.2.2
-    created: "2020-04-16T16:28:22.401413985Z"
-    digest: 68618f318932030e267732e0a6d054de902a51fd7e50f0ec5ec57d073317486f
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.2.2.1.tgz
-    version: 8.2.2.1
   azure-admission-controller:
   - apiVersion: v1
     appVersion: 2.3.2
@@ -10121,6 +10121,57 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/prometheus-operator-app-0.8.0-e57118151eed9af69b2d44d33ab601972197f079.tgz
     version: 0.8.0-e57118151eed9af69b2d44d33ab601972197f079
   - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: 0.45.0
+    created: "2021-04-27T10:29:45.036057934Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://kubernetes.github.io/kube-state-metrics
+      version: 2.12.*
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 1.14.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.4.*
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards, and Prometheus rules combined with documentation and scripts to provide easy to operate end-to-end Kubernetes cluster monitoring with Prometheus using the Prometheus Operator.
+    digest: 37da1e94855ec66162254eee3cae9fa32fec02d20c6f8ac131186da61282ec68
+    home: https://github.com/giantswarm/prometheus-operator-app
+    icon: https://s.giantswarm.io/app-icons/1/png/prometheus-operator-app-light.png
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: vsliouniaev
+    - name: bismarck
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+    - email: scott@r6by.com
+      name: scottrigby
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    name: prometheus-operator-app
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/prometheus-operator-app-0.7.2.tgz
+    version: 0.7.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/prometheus-operator-app-0.7.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/prometheus-operator-app-0.7.0.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/prometheus-operator-app-0.7.0.tgz-meta/values.schema.json
@@ -11309,4 +11360,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-app-1.0.0.tgz
     version: 1.0.0
-generated: "2021-04-27T10:01:24.058668695Z"
+generated: "2021-04-27T10:29:45.01619898Z"

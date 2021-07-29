@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/rook-operator-0.3.3.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/rook-operator-0.3.3.tgz-meta/README.md
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/rook-operator-0.3.3.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: rook-operator-0.3.3.tgz
+dateCreated: '2021-07-29T11:05:42.828578'
+digest: 2ed875a9aa0f21f3a9936c1dead8243d63bdfc44569e7beb0d2a8645ba1a8465
+icon: https://s.giantswarm.io/app-icons/1/png/rook-operator-app-light.png

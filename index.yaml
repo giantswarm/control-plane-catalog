@@ -2961,27 +2961,12 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.0-fix.tgz
     version: 5.5.0-fix
   - apiVersion: v1
-    created: "2020-05-04T11:17:25.274619968Z"
-    digest: 8d516bb8fb59775d133be569aaa4d537888e225c5bbb33ce6efdbd447de334cd
+    created: "2020-04-16T16:54:27.227050163Z"
+    digest: 5af1f86cb57512c268b117a8b8945a8e470037b0a685a05a7868039d5a7cecc7
     name: aws-operator
     urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.6.0.1.tgz
-    version: 5.6.0.1
-  - apiVersion: v1
-    appVersion: 8.2.3
-    created: "2020-04-16T15:24:24.100685507Z"
-    digest: 4c8c1b5b919a68876fb38217e94dec7b38fb05606697cc2c8d7fda59e122b987
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.2.3.1.tgz
-    version: 8.2.3.1
-  - apiVersion: v1
-    created: "2020-05-04T10:56:03.758234926Z"
-    digest: 706000fc195c9bb5d7e8dff1e95b3c2bbb02de9d996180710e7a817614d87bb1
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.0.2.2.tgz
-    version: 8.0.2.2
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.0.2.1.tgz
+    version: 8.0.2.1
   - apiVersion: v1
     created: "2020-05-04T12:08:52.662467686Z"
     digest: 76413d12b2a21bd64e1f2e513150566aedf4cbda2070d4ed9f6897de19745f44
@@ -3005,19 +2990,20 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.1.2.tgz
     version: 8.1.1.2
   - apiVersion: v1
-    created: "2020-04-16T16:54:27.227050163Z"
-    digest: 5af1f86cb57512c268b117a8b8945a8e470037b0a685a05a7868039d5a7cecc7
+    created: "2020-05-04T11:17:25.274619968Z"
+    digest: 8d516bb8fb59775d133be569aaa4d537888e225c5bbb33ce6efdbd447de334cd
     name: aws-operator
     urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.0.2.1.tgz
-    version: 8.0.2.1
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.6.0.1.tgz
+    version: 5.6.0.1
   - apiVersion: v1
-    created: "2020-05-04T10:31:17.574895785Z"
-    digest: e39e26f22273a48706628d6210dafb461952ae0d28de085684f16683cb7f966a
+    appVersion: 8.2.2
+    created: "2020-04-16T16:28:22.401413985Z"
+    digest: 68618f318932030e267732e0a6d054de902a51fd7e50f0ec5ec57d073317486f
     name: aws-operator
     urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.0.2.tgz
-    version: 8.1.0.2
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.2.2.1.tgz
+    version: 8.2.2.1
   - apiVersion: v1
     created: "2020-04-16T17:06:18.281383409Z"
     digest: 48e5f36ffc17fffbeeab8a9cfa176fc388f45ea74f16de9161a19c715bd861f9
@@ -3034,14 +3020,6 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.2.2.2.tgz
     version: 8.2.2.2
   - apiVersion: v1
-    appVersion: 8.2.2
-    created: "2020-04-16T16:28:22.401413985Z"
-    digest: 68618f318932030e267732e0a6d054de902a51fd7e50f0ec5ec57d073317486f
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.2.2.1.tgz
-    version: 8.2.2.1
-  - apiVersion: v1
     created: "2020-05-04T11:43:32.564779155Z"
     digest: 6d69db2508a657dfb346b34aa8b3f3b3a01f89038f77de7ce659d8cdb6e759c5
     name: aws-operator
@@ -3055,6 +3033,28 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.1.1.tgz
     version: 8.1.1.1
+  - apiVersion: v1
+    created: "2020-05-04T10:31:17.574895785Z"
+    digest: e39e26f22273a48706628d6210dafb461952ae0d28de085684f16683cb7f966a
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.0.2.tgz
+    version: 8.1.0.2
+  - apiVersion: v1
+    appVersion: 8.2.3
+    created: "2020-04-16T15:24:24.100685507Z"
+    digest: 4c8c1b5b919a68876fb38217e94dec7b38fb05606697cc2c8d7fda59e122b987
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.2.3.1.tgz
+    version: 8.2.3.1
+  - apiVersion: v1
+    created: "2020-05-04T10:56:03.758234926Z"
+    digest: 706000fc195c9bb5d7e8dff1e95b3c2bbb02de9d996180710e7a817614d87bb1
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.0.2.2.tgz
+    version: 8.0.2.2
   azure-admission-controller:
   - annotations:
       application.giantswarm.io/team: celestial
@@ -12519,6 +12519,19 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: master
+    created: "2021-08-31T07:19:03.076744599Z"
+    description: Giant Swarm policies applied on all installations.
+    digest: 23dfcf7d229a6d7c3cb315559dc80580db096890b4886a73d974f09d0d743f2e
+    home: https://github.com/giantswarm/kyverno-policies
+    name: policies-shared
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/policies-shared-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      application.giantswarm.io/team: ludacris
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: master
     created: "2021-08-27T14:34:39.734921397Z"
     description: Giant Swarm policies applied on all installations.
     digest: fde11cc1f3ce205036e1c5b1aaada3989829660a46d04e5a10f6b780ccfaf48e
@@ -15874,4 +15887,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-app-1.0.0.tgz
     version: 1.0.0
-generated: "2021-08-30T14:51:18.145508224Z"
+generated: "2021-08-31T07:19:03.076202075Z"

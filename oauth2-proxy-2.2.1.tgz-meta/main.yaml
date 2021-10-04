@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/oauth2-proxy-2.2.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/oauth2-proxy-2.2.1.tgz-meta/README.md
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: oauth2-proxy-2.2.1.tgz
+dateCreated: '2021-10-04T08:52:50.983498'
+digest: d467507c481879bcbd12c0cfc68ac6bf6dbdae7beb40757956820bfb18e91497
+home: https://github.com/giantswarm/oauth2-proxy-app

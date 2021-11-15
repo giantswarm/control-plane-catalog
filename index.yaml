@@ -3115,13 +3115,12 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.0.1.tgz
     version: 8.1.0.1
   - apiVersion: v1
-    appVersion: 8.2.3
-    created: "2020-04-16T15:24:24.100685507Z"
-    digest: 4c8c1b5b919a68876fb38217e94dec7b38fb05606697cc2c8d7fda59e122b987
+    created: "2020-05-04T11:43:32.564779155Z"
+    digest: 6d69db2508a657dfb346b34aa8b3f3b3a01f89038f77de7ce659d8cdb6e759c5
     name: aws-operator
     urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.2.3.1.tgz
-    version: 8.2.3.1
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.1.1.tgz
+    version: 5.5.1.1
   - apiVersion: v1
     appVersion: 8.2.3
     created: "2020-05-04T09:25:45.001293029Z"
@@ -3138,12 +3137,13 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.0.2.tgz
     version: 8.1.0.2
   - apiVersion: v1
-    created: "2020-05-04T10:56:03.758234926Z"
-    digest: 706000fc195c9bb5d7e8dff1e95b3c2bbb02de9d996180710e7a817614d87bb1
+    appVersion: 8.2.3
+    created: "2020-04-16T15:24:24.100685507Z"
+    digest: 4c8c1b5b919a68876fb38217e94dec7b38fb05606697cc2c8d7fda59e122b987
     name: aws-operator
     urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.0.2.2.tgz
-    version: 8.0.2.2
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.2.3.1.tgz
+    version: 8.2.3.1
   - apiVersion: v1
     created: "2020-05-04T11:17:25.274619968Z"
     digest: 8d516bb8fb59775d133be569aaa4d537888e225c5bbb33ce6efdbd447de334cd
@@ -3152,12 +3152,12 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.6.0.1.tgz
     version: 5.6.0.1
   - apiVersion: v1
-    created: "2020-05-04T12:08:52.662467686Z"
-    digest: 76413d12b2a21bd64e1f2e513150566aedf4cbda2070d4ed9f6897de19745f44
+    created: "2020-05-04T10:56:03.758234926Z"
+    digest: 706000fc195c9bb5d7e8dff1e95b3c2bbb02de9d996180710e7a817614d87bb1
     name: aws-operator
     urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.0.1.tgz
-    version: 5.5.0.1
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.0.2.2.tgz
+    version: 8.0.2.2
   - apiVersion: v1
     created: "2020-05-04T10:12:39.562857832Z"
     digest: 8c1bd92afd12456659c8440af58871e0888317094fbe0cc4778f838cbca457e4
@@ -3166,6 +3166,13 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.1.2.tgz
     version: 8.1.1.2
   - apiVersion: v1
+    created: "2020-05-04T12:08:52.662467686Z"
+    digest: 76413d12b2a21bd64e1f2e513150566aedf4cbda2070d4ed9f6897de19745f44
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.0.1.tgz
+    version: 5.5.0.1
+  - apiVersion: v1
     appVersion: 8.2.2
     created: "2020-04-16T16:28:22.401413985Z"
     digest: 68618f318932030e267732e0a6d054de902a51fd7e50f0ec5ec57d073317486f
@@ -3173,13 +3180,6 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.2.2.1.tgz
     version: 8.2.2.1
-  - apiVersion: v1
-    created: "2020-05-04T11:43:32.564779155Z"
-    digest: 6d69db2508a657dfb346b34aa8b3f3b3a01f89038f77de7ce659d8cdb6e759c5
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.1.1.tgz
-    version: 5.5.1.1
   azure-ad-pod-identity-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/azure-ad-pod-identity-app-0.7.0.tgz-meta/main.yaml
@@ -11135,6 +11135,18 @@ entries:
   - annotations:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.31.1
+    created: "2021-11-15T11:25:26.273412779Z"
+    description: Web user interface for Giant Swarm Kubernetes as a Service.
+    digest: 68a9756316eba2e3f5cc960a3e18e141804f68d0eada82d5c1fd5461413109c1
+    home: https://github.com/giantswarm/happa
+    name: happa
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/happa-1.31.1.tgz
+    version: 1.31.1
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.31.0
     created: "2021-11-12T10:41:24.786512319Z"
     description: Web user interface for Giant Swarm Kubernetes as a Service.
@@ -17514,6 +17526,41 @@ entries:
     version: 0.2.1
   rook-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/rook-operator-2.3.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/rook-operator-2.3.0.tgz-meta/README.md
+      application.giantswarm.io/team: team-rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/rook-operator-2.3.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 1.7.0
+    created: "2021-11-15T11:37:26.079146582Z"
+    dependencies:
+    - name: monitoring
+      repository: ""
+      version: 0.2.0
+    - name: rook-ceph-cluster
+      repository: ""
+      version: 0.0.1
+    description: File, Block, and Object Storage Services for your Cloud-Native Environment
+    digest: bb156592e0a03b0e64ff408ad91728a79cc7c42f27c13547cfafc0e38865e341
+    home: https://github.com/giantswarm/rook-operator-app
+    icon: https://s.giantswarm.io/app-icons/2/svg/rook-dark.svg
+    keywords:
+    - operator
+    - rook
+    - ceph
+    kubeVersion: '>=1.16.0'
+    maintainers:
+    - name: travisn
+    - name: galexrt
+    - name: jbw976
+    name: rook-operator
+    sources:
+    - https://github.com/rook/rook
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/rook-operator-2.3.0.tgz
+    version: 2.3.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/rook-operator-2.2.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/rook-operator-2.2.0.tgz-meta/README.md
       application.giantswarm.io/team: team-rocket
@@ -18607,4 +18654,8 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-app-1.0.0.tgz
     version: 1.0.0
+<<<<<<< HEAD
 generated: "2021-11-15T11:44:45.370152091Z"
+=======
+generated: "2021-11-15T11:37:26.069932011Z"
+>>>>>>> master

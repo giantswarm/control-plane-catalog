@@ -18654,8 +18654,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-app-1.0.0.tgz
     version: 1.0.0
-<<<<<<< HEAD
 generated: "2021-11-15T11:44:45.370152091Z"
-=======
-generated: "2021-11-15T11:37:26.069932011Z"
->>>>>>> master

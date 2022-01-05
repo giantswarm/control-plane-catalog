@@ -1,0 +1,7 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-openstack-0.1.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-openstack-0.1.0.tgz-meta/README.md
+chartApiVersion: v2
+chartFile: cluster-openstack-0.1.0.tgz
+dateCreated: '2022-01-05T16:23:58.500937'
+digest: 078c9b9b500a8628bc19ef665ea4d450867fa2e937d296909fcf20804d0bfe67

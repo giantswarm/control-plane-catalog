@@ -3310,12 +3310,12 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.0-fix.tgz
     version: 5.5.0-fix
   - apiVersion: v1
-    created: "2020-05-04T10:56:03.758234926Z"
-    digest: 706000fc195c9bb5d7e8dff1e95b3c2bbb02de9d996180710e7a817614d87bb1
+    created: "2020-05-04T12:08:52.662467686Z"
+    digest: 76413d12b2a21bd64e1f2e513150566aedf4cbda2070d4ed9f6897de19745f44
     name: aws-operator
     urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.0.2.2.tgz
-    version: 8.0.2.2
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.0.1.tgz
+    version: 5.5.0.1
   - apiVersion: v1
     appVersion: 8.2.2
     created: "2020-05-04T09:48:10.435350156Z"
@@ -3354,20 +3354,6 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.0.2.tgz
     version: 8.1.0.2
   - apiVersion: v1
-    created: "2020-05-04T12:08:52.662467686Z"
-    digest: 76413d12b2a21bd64e1f2e513150566aedf4cbda2070d4ed9f6897de19745f44
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.0.1.tgz
-    version: 5.5.0.1
-  - apiVersion: v1
-    created: "2020-04-16T16:50:48.155408544Z"
-    digest: ef9e1e1024853d0e30009549af6ad8aa8f59e4e3fc301cf47bbcb25582e6aada
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.1.1.tgz
-    version: 8.1.1.1
-  - apiVersion: v1
     appVersion: 8.2.2
     created: "2020-04-16T16:28:22.401413985Z"
     digest: 68618f318932030e267732e0a6d054de902a51fd7e50f0ec5ec57d073317486f
@@ -3398,12 +3384,26 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.0.2.1.tgz
     version: 8.0.2.1
   - apiVersion: v1
+    created: "2020-05-04T10:56:03.758234926Z"
+    digest: 706000fc195c9bb5d7e8dff1e95b3c2bbb02de9d996180710e7a817614d87bb1
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.0.2.2.tgz
+    version: 8.0.2.2
+  - apiVersion: v1
     created: "2020-04-16T17:06:18.281383409Z"
     digest: 48e5f36ffc17fffbeeab8a9cfa176fc388f45ea74f16de9161a19c715bd861f9
     name: aws-operator
     urls:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.0.1.tgz
     version: 8.1.0.1
+  - apiVersion: v1
+    created: "2020-04-16T16:50:48.155408544Z"
+    digest: ef9e1e1024853d0e30009549af6ad8aa8f59e4e3fc301cf47bbcb25582e6aada
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.1.1.tgz
+    version: 8.1.1.1
   azure-ad-pod-identity-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/azure-ad-pod-identity-app-0.7.0.tgz-meta/main.yaml
@@ -7302,6 +7302,19 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.19.0.tgz
     version: 1.19.0
   cluster-cleaner:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-01-19T10:34:04.68802845Z"
+    description: Operator for deleting test clusters
+    digest: dc50e24dac6d44043e94211c4f8f9f7106dd363c35abf7a5b55e038ea93d0b74
+    home: https://github.com/giantswarm/cluster-cleaner
+    name: cluster-cleaner
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-cleaner-0.3.0.tgz
+    version: 0.3.0
   - annotations:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
@@ -21326,4 +21339,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-app-1.0.0.tgz
     version: 1.0.0
-generated: "2022-01-19T08:14:04.83683994Z"
+generated: "2022-01-19T10:34:04.687443479Z"

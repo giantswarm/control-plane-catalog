@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/prometheus-operator-app-1.0.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/prometheus-operator-app-1.0.2.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  artifacthub.io/links: "- name: Chart Source\n  url: https://github.com/prometheus-community/helm-charts\n\
+    - name: Upstream Project\n  url: https://github.com/prometheus-operator/kube-prometheus\n"
+  artifacthub.io/operator: 'true'
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: prometheus-operator-app-1.0.2.tgz
+dateCreated: '2022-01-24T16:22:04.984956'
+digest: 79965496d9699bd58ee0e54076088d90778834512dcb4abf1fa2506ecce7e3c4
+home: https://github.com/giantswarm/prometheus-operator-app
+icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/light.svg

@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/oauth2-proxy-2.5.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/oauth2-proxy-2.5.0.tgz-meta/README.md
+  application.giantswarm.io/team: team-rainbow
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: oauth2-proxy-2.5.0.tgz
+dateCreated: '2022-02-25T10:30:39.110303'
+digest: d0d9f000076fe2cb48104521e9e8b407f3d205b3a575937b1cdc6648f71687d9
+home: https://github.com/giantswarm/oauth2-proxy-app
+icon: https://s.giantswarm.io/app-icons/oauth2-proxy/1/light.svg

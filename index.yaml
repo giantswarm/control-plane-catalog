@@ -3689,12 +3689,13 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.0-fix.tgz
     version: 5.5.0-fix
   - apiVersion: v1
-    created: "2020-05-04T11:43:32.564779155Z"
-    digest: 6d69db2508a657dfb346b34aa8b3f3b3a01f89038f77de7ce659d8cdb6e759c5
+    appVersion: 8.2.2
+    created: "2020-04-16T16:28:22.401413985Z"
+    digest: 68618f318932030e267732e0a6d054de902a51fd7e50f0ec5ec57d073317486f
     name: aws-operator
     urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.1.1.tgz
-    version: 5.5.1.1
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.2.2.1.tgz
+    version: 8.2.2.1
   - apiVersion: v1
     appVersion: 8.2.2
     created: "2020-05-04T09:48:10.435350156Z"
@@ -3733,21 +3734,6 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.0.2.tgz
     version: 8.1.0.2
   - apiVersion: v1
-    created: "2020-04-16T16:50:48.155408544Z"
-    digest: ef9e1e1024853d0e30009549af6ad8aa8f59e4e3fc301cf47bbcb25582e6aada
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.1.1.tgz
-    version: 8.1.1.1
-  - apiVersion: v1
-    appVersion: 8.2.2
-    created: "2020-04-16T16:28:22.401413985Z"
-    digest: 68618f318932030e267732e0a6d054de902a51fd7e50f0ec5ec57d073317486f
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.2.2.1.tgz
-    version: 8.2.2.1
-  - apiVersion: v1
     appVersion: 8.2.3
     created: "2020-05-04T09:25:45.001293029Z"
     digest: c9b1998086b7fdf13cacce14d37729324fbd7771ad57e0d25f6cd766db0321bb
@@ -3776,6 +3762,20 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.0.1.tgz
     version: 5.5.0.1
+  - apiVersion: v1
+    created: "2020-05-04T11:43:32.564779155Z"
+    digest: 6d69db2508a657dfb346b34aa8b3f3b3a01f89038f77de7ce659d8cdb6e759c5
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.1.1.tgz
+    version: 5.5.1.1
+  - apiVersion: v1
+    created: "2020-04-16T16:50:48.155408544Z"
+    digest: ef9e1e1024853d0e30009549af6ad8aa8f59e4e3fc301cf47bbcb25582e6aada
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.1.1.tgz
+    version: 8.1.1.1
   - apiVersion: v1
     created: "2020-04-16T16:54:27.227050163Z"
     digest: 5af1f86cb57512c268b117a8b8945a8e470037b0a685a05a7868039d5a7cecc7
@@ -20352,6 +20352,20 @@ entries:
       application.giantswarm.io/team: atlas
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.6.0
+    created: "2022-03-07T09:31:42.084650597Z"
+    description: A Helm chart for Giant Swarm prometheus alerting and recording rules
+    digest: ea91ea0415e2cedbb95fc97fde03d7154108385519eaf5bbfa79fe193213b1d0
+    home: https://github.com/giantswarm/prometheus-rules
+    icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
+    name: prometheus-rules
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/prometheus-rules-1.6.0.tgz
+    version: 1.6.0
+  - annotations:
+      application.giantswarm.io/team: atlas
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.5.4
     created: "2022-03-04T15:12:12.440158178Z"
     description: A Helm chart for Giant Swarm prometheus alerting and recording rules
@@ -23907,4 +23921,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-03-04T15:15:52.743037214Z"
+generated: "2022-03-07T09:31:42.082485052Z"

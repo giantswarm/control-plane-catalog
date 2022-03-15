@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.1.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  config.giantswarm.io/version: 1.x.x
+  repository: https://github.com/FairwindsOps/charts/tree/master/stable/vpa
+  version: fb2ccec4228c26e366bd1ac96aade056f3db0151
+chartApiVersion: v2
+chartFile: vertical-pod-autoscaler-crd-1.0.1.tgz
+dateCreated: '2022-03-15T15:50:46.233631'
+digest: fdd083030a8ef6dc37e3acce314690f09e3a4d532211b048075eb7b1a6b497c9
+home: https://github.com/giantswarm/vertical-pod-autoscaler-crd
+restrictions:
+  clusterSingleton: true

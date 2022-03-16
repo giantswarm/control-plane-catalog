@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cert-exporter-2.1.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cert-exporter-2.1.1.tgz-meta/README.md
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: cert-exporter-2.1.1.tgz
+dateCreated: '2022-03-16T12:53:48.027965'
+digest: edca600f2d4cc1790913cfd425db1ab1ecef88bb37549b791168fdb3e38c65d7
+home: https://github.com/giantswarm/cert-exporter

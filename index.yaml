@@ -3743,12 +3743,13 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.0-fix.tgz
     version: 5.5.0-fix
   - apiVersion: v1
-    created: "2020-05-04T11:43:32.564779155Z"
-    digest: 6d69db2508a657dfb346b34aa8b3f3b3a01f89038f77de7ce659d8cdb6e759c5
+    appVersion: 8.2.2
+    created: "2020-04-16T16:28:22.401413985Z"
+    digest: 68618f318932030e267732e0a6d054de902a51fd7e50f0ec5ec57d073317486f
     name: aws-operator
     urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.1.1.tgz
-    version: 5.5.1.1
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.2.2.1.tgz
+    version: 8.2.2.1
   - apiVersion: v1
     appVersion: 8.2.2
     created: "2020-05-04T09:48:10.435350156Z"
@@ -3787,21 +3788,6 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.0.2.tgz
     version: 8.1.0.2
   - apiVersion: v1
-    created: "2020-04-16T16:50:48.155408544Z"
-    digest: ef9e1e1024853d0e30009549af6ad8aa8f59e4e3fc301cf47bbcb25582e6aada
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.1.1.tgz
-    version: 8.1.1.1
-  - apiVersion: v1
-    appVersion: 8.2.2
-    created: "2020-04-16T16:28:22.401413985Z"
-    digest: 68618f318932030e267732e0a6d054de902a51fd7e50f0ec5ec57d073317486f
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.2.2.1.tgz
-    version: 8.2.2.1
-  - apiVersion: v1
     appVersion: 8.2.3
     created: "2020-05-04T09:25:45.001293029Z"
     digest: c9b1998086b7fdf13cacce14d37729324fbd7771ad57e0d25f6cd766db0321bb
@@ -3830,6 +3816,20 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.0.1.tgz
     version: 5.5.0.1
+  - apiVersion: v1
+    created: "2020-05-04T11:43:32.564779155Z"
+    digest: 6d69db2508a657dfb346b34aa8b3f3b3a01f89038f77de7ce659d8cdb6e759c5
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.1.1.tgz
+    version: 5.5.1.1
+  - apiVersion: v1
+    created: "2020-04-16T16:50:48.155408544Z"
+    digest: ef9e1e1024853d0e30009549af6ad8aa8f59e4e3fc301cf47bbcb25582e6aada
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.1.1.1.tgz
+    version: 8.1.1.1
   - apiVersion: v1
     created: "2020-04-16T16:54:27.227050163Z"
     digest: 5af1f86cb57512c268b117a8b8945a8e470037b0a685a05a7868039d5a7cecc7
@@ -12085,6 +12085,19 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/etcd-backup-operator-1.0.1.tgz
     version: 1.0.1
   event-exporter-app:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: v0.10
+    created: "2022-03-21T13:04:39.617668375Z"
+    description: The event-exporter-app runs on Control Planes to watch and act upon Kubernetes events.
+    digest: 402c789950cb7bba1750fdadf4dfb2e1703123c1a4056b5d3a510c35b781e9a9
+    home: https://github.com/opsgenie/kubernetes-event-exporter
+    name: event-exporter-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/event-exporter-app-0.9.0.tgz
+    version: 0.9.0
   - annotations:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
@@ -24926,4 +24939,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-03-21T12:34:26.452273216Z"
+generated: "2022-03-21T13:04:39.617003875Z"

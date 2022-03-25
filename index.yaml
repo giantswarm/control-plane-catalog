@@ -18168,6 +18168,19 @@ entries:
       application.giantswarm.io/team: rainbow
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.0.0
+    created: "2022-03-25T15:35:26.398066522Z"
+    description: Chart holding organization-operator.
+    digest: 55d08407f86333c50763ae4e7f016fb8f6370f9b4afafb660598648cf01e5878
+    home: https://github.com/giantswarm/organization-operator
+    name: organization-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/organization-operator-1.0.0.tgz
+    version: 1.0.0
+  - annotations:
+      application.giantswarm.io/team: rainbow
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.10.3
     created: "2022-01-12T09:01:28.759680498Z"
     description: Chart holding organization-operator.
@@ -25197,4 +25210,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-03-25T09:22:33.45631723Z"
+generated: "2022-03-25T15:35:26.397449853Z"

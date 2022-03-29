@@ -21525,6 +21525,20 @@ entries:
       application.giantswarm.io/team: atlas
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 2.9.0
+    created: "2022-03-29T14:28:38.360427701Z"
+    description: A Helm chart for Giant Swarm prometheus alerting and recording rules
+    digest: 13e71087bc4d037c5274d7fc179bb87af40a360c4cda6e59be36fd2cafc0d627
+    home: https://github.com/giantswarm/prometheus-rules
+    icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
+    name: prometheus-rules
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/prometheus-rules-2.9.0.tgz
+    version: 2.9.0
+  - annotations:
+      application.giantswarm.io/team: atlas
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 2.8.0
     created: "2022-03-24T14:23:31.735089852Z"
     description: A Helm chart for Giant Swarm prometheus alerting and recording rules
@@ -25313,4 +25327,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-03-29T12:25:35.429566812Z"
+generated: "2022-03-29T14:28:38.357946672Z"

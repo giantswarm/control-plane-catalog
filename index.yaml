@@ -24922,6 +24922,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.5.0
+    created: "2022-03-30T07:59:08.315612875Z"
+    description: Operator for managing scheduled updates for a cluster
+    digest: 1879c5c70c40c6a8816bfedc40da3c0b125b2a0b30877fcc545a924cee2b4ade
+    home: https://github.com/giantswarm/upgrade-schedule-operator
+    name: upgrade-schedule-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/upgrade-schedule-operator-0.5.0.tgz
+    version: 0.5.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.4.0
     created: "2022-03-21T14:52:22.314258062Z"
     description: Operator for managing scheduled updates for a cluster
@@ -25341,4 +25354,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-03-29T18:27:42.515348964Z"
+generated: "2022-03-30T07:59:08.31505782Z"

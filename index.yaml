@@ -2298,6 +2298,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 4.0.0
+    created: "2022-03-30T11:02:32.636008985Z"
+    description: A Helm chart for Kubernetes
+    digest: 26fee4f0b9015fb7310ae7eb4ff9a6407f92669154c673d677b760c87d43092e
+    home: https://github.com/giantswarm/aws-admission-controller
+    name: aws-admission-controller
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-admission-controller-4.0.0.tgz
+    version: 4.0.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 3.7.0
     created: "2022-03-21T08:50:08.605825063Z"
     description: A Helm chart for Kubernetes
@@ -25381,4 +25394,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-03-30T10:26:39.640688749Z"
+generated: "2022-03-30T11:02:32.634517084Z"

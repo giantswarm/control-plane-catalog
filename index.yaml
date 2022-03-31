@@ -2182,6 +2182,18 @@ entries:
   - annotations:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.5.4
+    created: "2022-03-31T12:53:23.238980793Z"
+    description: A service that knows everything about your installation
+    digest: 1a87e4042cd62326b025d5fc24095f6bd5070340684334dea6d25d46c4785dce
+    home: https://github.com/giantswarm/athena
+    name: athena
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/athena-1.5.4.tgz
+    version: 1.5.4
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.5.3
     created: "2022-03-03T08:49:25.873954656Z"
     description: A service that knows everything about your installation
@@ -25548,4 +25560,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-03-31T12:33:20.2875797Z"
+generated: "2022-03-31T12:53:23.237722145Z"

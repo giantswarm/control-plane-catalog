@@ -23439,6 +23439,19 @@ entries:
       application.giantswarm.io/team: rainbow
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.26.0
+    created: "2022-04-01T06:24:42.421347167Z"
+    description: rbac-operator manages authorization for OIDC enabled control-plane Kubernetes APIs.
+    digest: 2680bca20491aaa183824a8cf29461a477cda83fd5a3735466a16571a749ec85
+    home: https://github.com/giantswarm/rbac-operator
+    name: rbac-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/rbac-operator-0.26.0.tgz
+    version: 0.26.0
+  - annotations:
+      application.giantswarm.io/team: rainbow
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.25.0
     created: "2022-03-31T07:38:29.663249393Z"
     description: rbac-operator manages authorization for OIDC enabled control-plane Kubernetes APIs.
@@ -25740,4 +25753,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-03-31T15:27:10.506442566Z"
+generated: "2022-04-01T06:24:42.420789113Z"

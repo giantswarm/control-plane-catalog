@@ -17678,6 +17678,20 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/kyverno-0.3.0.tgz
     version: 0.3.0
+  kyverno-policies-connectivity:
+  - annotations:
+      application.giantswarm.io/team: cabbage
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: master
+    created: "2022-04-01T13:52:35.124319956Z"
+    description: Giant Swarm policies for connectivity management.
+    digest: 56d2b87de0328eb79c949e86de1586f283eff9cb288d326d58b446abb2d5a554
+    home: https://github.com/giantswarm/kyverno-policies-connectivity
+    name: kyverno-policies-connectivity
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kyverno-policies-connectivity-0.0.1.tgz
+    version: 0.0.1
   kyverno-policies-dx:
   - annotations:
       application.giantswarm.io/team: honeybadger
@@ -25831,4 +25845,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-01T13:13:54.953532124Z"
+generated: "2022-04-01T13:52:35.123728878Z"

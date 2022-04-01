@@ -17678,6 +17678,20 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/kyverno-0.3.0.tgz
     version: 0.3.0
+  kyverno-policies-dx:
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: master
+    created: "2022-04-01T13:13:54.954543704Z"
+    description: Giant Swarm policies for DX management.
+    digest: 752393388a08993822987f60ae6ecb34046fc8bdf45a2221063ecb3fb9750cec
+    home: https://github.com/giantswarm/kyverno-policies-dx
+    name: kyverno-policies-dx
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kyverno-policies-dx-0.0.1.tgz
+    version: 0.0.1
   kyverno-policies-observability:
   - annotations:
       application.giantswarm.io/team: atlas
@@ -25817,4 +25831,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-01T13:08:07.460638634Z"
+generated: "2022-04-01T13:13:54.953532124Z"

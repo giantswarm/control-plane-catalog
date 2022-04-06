@@ -16981,6 +16981,18 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: v2.3.0
+    created: "2022-04-06T15:31:44.815895813Z"
+    description: A Helm chart for the Kubernetes kube-state-metrics service
+    digest: 94b22adb9f83ff5d20ca1757791881e22205d4d42dfe68bf1a350907c235bf29
+    home: https://github.com/giantswarm/kube-state-metrics-app
+    name: kube-state-metrics-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kube-state-metrics-app-1.9.0.tgz
+    version: 1.9.0
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: v2.3.0
     created: "2022-04-06T14:15:53.372159223Z"
     description: A Helm chart for the Kubernetes kube-state-metrics service
     digest: 4c5c0f56459aea6be4447c9a099c3fba2017fa078690d59df309b9150f089669
@@ -26125,4 +26137,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-06T14:15:53.371554475Z"
+generated: "2022-04-06T15:31:44.81502162Z"

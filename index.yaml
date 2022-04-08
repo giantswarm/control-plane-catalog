@@ -2796,6 +2796,22 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/aws-collector-1.0.0.tgz
     version: 1.0.0
+  aws-ebs-csi-driver-app:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: 1.5.0
+    created: "2022-04-08T08:17:12.192756912Z"
+    description: A Helm chart for AWS EBS CSI Driver
+    digest: 0fe1dfcac058c697f003ae13a8f215d792954f2daf3ef5eaecb4511ba6aff50b
+    home: https://github.com/giantswarm/aws-ebs-csi-driver-app
+    kubeVersion: '>=1.17.0-0'
+    name: aws-ebs-csi-driver-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v2.10.0/README.md
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-ebs-csi-driver-app-2.10.0.tgz
+    version: 2.10.0
   aws-node-termination-handler-app:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -26175,4 +26191,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-07T10:39:29.26750661Z"
+generated: "2022-04-08T08:17:12.191315603Z"

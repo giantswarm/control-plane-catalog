@@ -2681,6 +2681,17 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/aws-admission-controller-2.0.1.tgz
     version: 2.0.1
+  aws-cloud-controller-manager-app:
+  - apiVersion: v1
+    appVersion: 1.21.0-alpha.0
+    created: "2022-04-11T08:58:54.357150004Z"
+    description: A Helm chart to run AWS Cloud Controller Manager
+    digest: 9b5c447336ea8e3654ad241aabbf064bc27132498550d31a7519a259494a7286
+    home: https://github.com/giantswarm/aws-cloud-controller-manager-app
+    name: aws-cloud-controller-manager-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-cloud-controller-manager-app-1.21.0-gs0.tgz
+    version: 1.21.0-gs0
   aws-collector:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -26269,4 +26280,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-11T08:34:17.400991319Z"
+generated: "2022-04-11T08:58:54.35664469Z"

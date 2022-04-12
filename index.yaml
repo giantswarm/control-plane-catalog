@@ -25202,6 +25202,18 @@ entries:
   - annotations:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.6.1
+    created: "2022-04-12T13:46:30.545322359Z"
+    description: Chart holding silence-operator.
+    digest: 81f67a6f9306ed0937e1fdccb3c65dd451c5118e4755db6d9ab15c197d800dcf
+    home: https://github.com/giantswarm/silence-operator
+    name: silence-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/silence-operator-0.6.1.tgz
+    version: 0.6.1
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.6.0
     created: "2022-04-12T08:59:23.238434641Z"
     description: Chart holding silence-operator.
@@ -26484,4 +26496,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-12T13:42:00.401830778Z"
+generated: "2022-04-12T13:46:30.544506782Z"

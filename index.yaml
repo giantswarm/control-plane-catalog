@@ -4003,6 +4003,20 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.0-fix.tgz
     version: 5.5.0-fix
+  aws-tccpf-watchdog:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-04-13T11:35:51.422089764Z"
+    description: Operator to ensure the `tccpf` CF stack is correct for legacy AWS clusters.
+    digest: e5a36bfe29cfa1ff7dbcd626b69358c6430c7e58e4c71a4f89c004bda4dd3432
+    home: https://github.com/giantswarm/aws-tccpf-watchdog
+    name: aws-tccpf-watchdog
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-tccpf-watchdog-0.1.0.tgz
+    version: 0.1.0
   azure-ad-pod-identity-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/azure-ad-pod-identity-app-0.10.0.tgz-meta/main.yaml
@@ -26511,4 +26525,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-13T10:10:33.446878313Z"
+generated: "2022-04-13T11:35:51.42143904Z"

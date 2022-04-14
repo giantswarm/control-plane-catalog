@@ -9112,6 +9112,18 @@ entries:
   - annotations:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 4.0.2
+    created: "2022-04-14T06:40:19.508883572Z"
+    description: The cluster-operator manages Kubernetes tenant cluster resources.
+    digest: 225ad27f3e1538949304865507f4961899d0686302891b820a6d2533ad99ffe4
+    home: https://github.com/giantswarm/cluster-operator
+    name: cluster-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-operator-4.0.2.tgz
+    version: 4.0.2
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 4.0.1
     created: "2022-03-29T12:25:35.430214804Z"
     description: The cluster-operator manages Kubernetes tenant cluster resources.
@@ -26601,4 +26613,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-13T15:29:38.983906552Z"
+generated: "2022-04-14T06:40:19.507656404Z"

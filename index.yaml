@@ -13256,6 +13256,23 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/flannel-operator-1.0.0.tgz
     version: 1.0.0
+  fluent-logshipping-app:
+  - annotations:
+      application.giantswarm.io/team: team-atlas
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.9.1
+    created: "2022-04-19T13:59:58.44701497Z"
+    description: The Log Shipping App forwards cluster logs to storage backends
+    digest: 340ff3e1bc178465e0c852c7cfaa9d591f6ff2037063af159832524096a0751c
+    home: https://github.com/giantswarm/fluent-logshipping-app
+    icon: https://s.giantswarm.io/app-icons/1/png/fluent-logshipping-app-light.png
+    name: fluent-logshipping-app
+    sources:
+    - https://github.com/giantswarm/fluent-logshipping-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/fluent-logshipping-app-0.7.0.tgz
+    version: 0.7.0
   g8s-efk:
   - annotations:
       config.giantswarm.io/version: 1.x.x
@@ -26738,4 +26755,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-19T12:52:43.289311961Z"
+generated: "2022-04-19T13:59:58.445895484Z"

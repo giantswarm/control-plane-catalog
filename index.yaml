@@ -2882,6 +2882,21 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: 1.15.0
+    created: "2022-04-20T12:49:06.64579769Z"
+    description: Deploy components for the aws-node-termination-handler app
+    digest: fe447009e9780667fddbb15683266d156e610b619481d7cbc487ea8afa5898d6
+    home: https://github.com/giantswarm/aws-node-termination-handler-app
+    name: aws-node-termination-handler-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/aws-node-termination-handler-app/v0.3.0/README.md
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-node-termination-handler-app-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.15.0
     created: "2022-03-21T08:08:42.460871101Z"
     description: Deploy components for the aws-node-termination-handler app
     digest: d7f926b9300544ba04bf194e61f0e814c020cc5b11b851d4add9e13b4dab69a3
@@ -26846,4 +26861,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-20T12:35:26.487122149Z"
+generated: "2022-04-20T12:49:06.644101524Z"

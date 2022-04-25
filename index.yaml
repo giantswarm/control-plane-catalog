@@ -2834,6 +2834,21 @@ entries:
   - annotations:
       application.giantswarm.io/team: phoenix
     apiVersion: v1
+    appVersion: 1.6.0
+    created: "2022-04-25T11:08:59.486491153Z"
+    description: A Helm chart for AWS EBS CSI Driver
+    digest: 9a802a6b1c470aa1b2bdeb3623ae142ba9444dc75c240d79ee0e0c781da20128
+    home: https://github.com/giantswarm/aws-ebs-csi-driver-app
+    kubeVersion: '>=1.17.0-0'
+    name: aws-ebs-csi-driver-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v2.13.0/README.md
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-ebs-csi-driver-app-2.13.0.tgz
+    version: 2.13.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
     appVersion: 1.5.1
     created: "2022-04-13T10:10:33.448520071Z"
     description: A Helm chart for AWS EBS CSI Driver
@@ -27017,4 +27032,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-25T09:10:17.593717326Z"
+generated: "2022-04-25T11:08:59.484338051Z"

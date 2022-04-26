@@ -7867,6 +7867,19 @@ entries:
       application.giantswarm.io/team: rocket
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-04-26T08:22:28.812762023Z"
+    description: Operator for cleaning leftover OpenStack resources of workload clusters
+    digest: c0bb857067e2e6597bb84370e583e2e2f5a34390d0bd77612d8c649ed73b3266
+    home: https://github.com/giantswarm/cluster-api-cleaner-openstack
+    name: cluster-api-cleaner-openstack
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-cleaner-openstack-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
+      application.giantswarm.io/team: rocket
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.2.0
     created: "2022-03-22T16:51:10.672022229Z"
     description: Operator for cleaning leftover OpenStack resources of workload clusters
@@ -27032,4 +27045,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-25T11:08:59.484338051Z"
+generated: "2022-04-26T08:22:28.812224291Z"

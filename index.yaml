@@ -26185,6 +26185,19 @@ entries:
       application.giantswarm.io/team: security
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.4.1
+    created: "2022-04-26T16:00:11.545195356Z"
+    description: A Helm chart for starboard-exporter
+    digest: 98408ce2b6f68bb633ef78f284c1209adad353e9c77b86d99118fe8b9bcdcab9
+    home: https://github.com/giantswarm/starboard-exporter
+    name: starboard-exporter
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/starboard-exporter-0.4.1.tgz
+    version: 0.4.1
+  - annotations:
+      application.giantswarm.io/team: security
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.4.0
     created: "2022-04-22T13:35:58.098197219Z"
     description: A Helm chart for starboard-exporter
@@ -27045,4 +27058,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-26T08:22:28.812224291Z"
+generated: "2022-04-26T16:00:11.544336578Z"

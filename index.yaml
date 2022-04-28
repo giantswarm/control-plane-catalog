@@ -13433,6 +13433,22 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: 1.9.1
+    created: "2022-04-28T20:02:25.663098707Z"
+    description: The Log Shipping App forwards cluster logs to storage backends
+    digest: 7fa1352322423a35ac5adc7a1c4bcde3790c6efa3a1861d3958b4bf4b8b5b4b2
+    home: https://github.com/giantswarm/fluent-logshipping-app
+    icon: https://s.giantswarm.io/app-icons/1/png/fluent-logshipping-app-light.png
+    name: fluent-logshipping-app
+    sources:
+    - https://github.com/giantswarm/fluent-logshipping-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/fluent-logshipping-app-0.7.3.tgz
+    version: 0.7.3
+  - annotations:
+      application.giantswarm.io/team: team-atlas
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.9.1
     created: "2022-04-28T19:41:18.636826803Z"
     description: The Log Shipping App forwards cluster logs to storage backends
     digest: 6ba253c0581a1f3c19f3f317344a692c87930dfd9da6536cb69202c57a70d35c
@@ -27161,4 +27177,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-04-28T19:41:18.635024221Z"
+generated: "2022-04-28T20:02:25.661931721Z"

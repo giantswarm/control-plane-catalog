@@ -15921,6 +15921,18 @@ entries:
   - annotations:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.41.3
+    created: "2022-05-02T15:06:10.500398266Z"
+    description: Web user interface for Giant Swarm Kubernetes as a Service.
+    digest: e40d74e79ebdce3728c5e8fada23dc9d1fcf0f81ad8d7d4809d21c5dd8b1a043
+    home: https://github.com/giantswarm/happa
+    name: happa
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/happa-1.41.3.tgz
+    version: 1.41.3
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.41.2
     created: "2022-04-29T15:41:18.726047129Z"
     description: Web user interface for Giant Swarm Kubernetes as a Service.
@@ -27250,4 +27262,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-05-02T10:36:46.697329583Z"
+generated: "2022-05-02T15:06:10.499227886Z"

@@ -10839,6 +10839,20 @@ entries:
       application.giantswarm.io/team: atlas
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
+    appVersion: 2.4.1
+    created: "2022-05-05T08:27:58.390328492Z"
+    description: Grafana dashboards accessible by Giant Swarm customers
+    digest: 1c92bc1eaadf6253cad1a6875d6786a2008616fd9020aa312d1eb96eb3e2a432
+    home: https://github.com/giantswarm/dashboards
+    icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg
+    name: dashboards
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/dashboards-2.4.1.tgz
+    version: 2.4.1
+  - annotations:
+      application.giantswarm.io/team: atlas
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
     appVersion: 2.4.0
     created: "2022-05-04T14:51:30.597414207Z"
     description: Grafana dashboards accessible by Giant Swarm customers
@@ -27364,4 +27378,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-05-04T14:51:30.559944328Z"
+generated: "2022-05-05T08:27:58.381213583Z"

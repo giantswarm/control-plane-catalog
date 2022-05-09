@@ -17640,6 +17640,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.4.2
+    created: "2022-05-09T16:31:01.499254374Z"
+    description: Operator for managing IAM roles for service accounts
+    digest: 9e3dd1e291c2ca969209fc5e137f914ffdbf0c9e4e36e9fbdd23096dee531bcc
+    home: https://github.com/giantswarm/irsa-operator
+    name: irsa-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/irsa-operator-0.4.2.tgz
+    version: 0.4.2
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.4.1
     created: "2022-05-09T14:30:49.158242349Z"
     description: Operator for managing IAM roles for service accounts
@@ -27485,4 +27498,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-05-09T14:30:49.157599281Z"
+generated: "2022-05-09T16:31:01.498612893Z"

@@ -8659,6 +8659,20 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-gcp-0.1.1.tgz
     version: 0.1.1
+  cluster-api-provider-openstack:
+  - annotations:
+      application.giantswarm.io/team: rocket
+      config.giantswarm.io/version: 0.1.0
+    apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-05-12T17:56:37.018447817Z"
+    description: Helm chart for cluster-api-provider-openstack.
+    digest: 449f094410b10552150885243e7eff6000b1595b5179c567503d74417a42c06b
+    home: https://github.com/giantswarm/cluster-api-provider-openstack-app
+    name: cluster-api-provider-openstack
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-openstack-0.1.0.tgz
+    version: 0.1.0
   cluster-apps-operator:
   - annotations:
       application.giantswarm.io/team: honeybadger
@@ -27793,4 +27807,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-05-12T14:56:50.728538316Z"
+generated: "2022-05-12T17:56:37.016067941Z"

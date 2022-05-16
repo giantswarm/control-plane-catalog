@@ -1010,6 +1010,19 @@ entries:
       application.giantswarm.io/team: honeybadger
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.14.0
+    created: "2022-05-16T11:36:19.519354326Z"
+    description: Chart holding app-exporter.
+    digest: 8228aa4581eafe4f121e2344e7b4cc31ba845f4a80851e4c9f1001d0598d4d39
+    home: https://github.com/giantswarm/app-exporter
+    name: app-exporter
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/app-exporter-0.14.0.tgz
+    version: 0.14.0
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.13.0
     created: "2022-01-28T15:03:26.668787171Z"
     description: Chart holding app-exporter.
@@ -27867,4 +27880,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-05-13T20:26:35.310296946Z"
+generated: "2022-05-16T11:36:19.518499605Z"

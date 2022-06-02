@@ -13090,6 +13090,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-06-02T10:55:41.839002437Z"
+    description: Operator for managing DNS zones and records for CAPG clusters
+    digest: 91faff062a573ae58b5491dcd45b55cdc4b599974ee2570baebdd75148895a24
+    home: https://github.com/giantswarm/dns-operator-gcp
+    name: dns-operator-gcp
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/dns-operator-gcp-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.2.0
     created: "2022-05-05T12:39:41.979151536Z"
     description: Operator for managing DNS zones and records for CAPG clusters
@@ -28468,4 +28481,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-06-02T08:45:45.563795107Z"
+generated: "2022-06-02T10:55:41.838189963Z"

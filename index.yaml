@@ -8964,6 +8964,19 @@ entries:
       application.giantswarm.io/team: honeybadger
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
+    appVersion: 1.7.3
+    created: "2022-06-03T16:03:58.640636739Z"
+    description: Chart holding cluster-apps-operator.
+    digest: e4eee443852edd3bcef328e0381a84c6edefb76c5973a22664a02959039f10a0
+    home: https://github.com/giantswarm/cluster-apps-operator
+    name: cluster-apps-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-apps-operator-1.7.3.tgz
+    version: 1.7.3
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
     appVersion: 1.7.1
     created: "2022-05-18T12:31:12.515464814Z"
     description: Chart holding cluster-apps-operator.
@@ -28894,4 +28907,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-06-03T10:14:07.685888407Z"
+generated: "2022-06-03T16:03:58.639999735Z"

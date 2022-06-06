@@ -6912,6 +6912,19 @@ entries:
       application.giantswarm.io/team: honeybadger
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 2.23.0
+    created: "2022-06-06T09:42:06.352582388Z"
+    description: A Helm chart for the chart-operator
+    digest: 7c3cff07bd8a6abca14df31e128d230fa31adc2cf23f6799a5569ea10e05ce5e
+    home: https://github.com/giantswarm/chart-operator
+    name: chart-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/chart-operator-2.23.0.tgz
+    version: 2.23.0
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 2.22.0
     created: "2022-05-30T11:01:58.752197574Z"
     description: A Helm chart for the chart-operator
@@ -28920,4 +28933,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-06-06T07:33:49.602580316Z"
+generated: "2022-06-06T09:42:06.351850964Z"

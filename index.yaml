@@ -8884,6 +8884,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.5.0
+    created: "2022-06-06T15:47:04.392170425Z"
+    description: Helm chart for cluster-api-provider-gcp.
+    digest: 354103987c09ab0cb1e2147c4a1f9acaa6460a587c45cc3311e8ac7a5653a1e4
+    home: https://github.com/giantswarm/cluster-api-provider-gcp-app
+    name: cluster-api-provider-gcp
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-gcp-0.5.0.tgz
+    version: 0.5.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.4.2
     created: "2022-06-01T12:22:39.421864137Z"
     description: Helm chart for cluster-api-provider-gcp.
@@ -28933,4 +28946,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-06-06T09:42:06.351850964Z"
+generated: "2022-06-06T15:47:04.390934637Z"

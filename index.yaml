@@ -5230,6 +5230,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 5.20.0
+    created: "2022-06-07T14:22:12.518227519Z"
+    description: Azure operator to create k8s clusters on Azure
+    digest: 2d2f58fe8ed6dfe7f7d3c034378082902ab9d7c2897d8abf4baa4b37f24eb4f8
+    home: https://github.com/giantswarm/azure-operator
+    name: azure-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/azure-operator-5.20.0.tgz
+    version: 5.20.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 5.19.0
     created: "2022-06-07T08:45:18.331260867Z"
     description: Azure operator to create k8s clusters on Azure
@@ -28959,4 +28972,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-06-07T08:45:18.330536226Z"
+generated: "2022-06-07T14:22:12.517478781Z"

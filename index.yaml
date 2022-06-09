@@ -2318,6 +2318,23 @@ entries:
     version: 0.2.6
   athena:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/athena-1.6.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/athena-1.6.1.tgz-meta/README.md
+      application.giantswarm.io/team: team-rainbow
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/athena-1.6.1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.6.1
+    created: "2022-06-09T12:38:44.559094772Z"
+    description: A service that knows everything about your installation
+    digest: a5f86d6030150fa3bafd5c190c13607b78d3eb658a2dd4ad2aa8a3ad46baee0c
+    home: https://github.com/giantswarm/athena
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: athena
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/athena-1.6.1.tgz
+    version: 1.6.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/athena-1.6.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/athena-1.6.0.tgz-meta/README.md
       application.giantswarm.io/team: team-rainbow
@@ -29102,4 +29119,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-06-09T12:11:46.117284499Z"
+generated: "2022-06-09T12:38:44.557838382Z"

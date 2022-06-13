@@ -2209,6 +2209,17 @@ entries:
     version: 1.0.1
   appcatalog:
   - apiVersion: v1
+    appVersion: 0.8.0
+    created: "2022-06-13T13:37:57.762997757Z"
+    description: A Helm chart for appcatalog CRs and related configmaps and secrets.
+      Used by opsctl ensure appcatalogs.
+    digest: 38bc5287d98ad8e833be87a340a2798bdbb8d863ada9aaab67fd3d242af8ff19
+    home: https://github.com/giantswarm/appcatalog
+    name: appcatalog
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/appcatalog-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v1
     appVersion: 0.7.0
     created: "2022-04-11T10:46:27.613003853Z"
     description: A Helm chart for appcatalog CRs and related configmaps and secrets.
@@ -29302,4 +29313,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-06-13T10:23:55.842640298Z"
+generated: "2022-06-13T13:37:57.762547755Z"

@@ -5105,6 +5105,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 2.11.0
+    created: "2022-06-14T12:41:24.663482194Z"
+    description: Collector that exposes metrics about Azure
+    digest: 81456d869bad9fa8f354fdcd80824bc6d22f0db4c91bef2d3498f2e6901bb8c9
+    home: https://github.com/giantswarm/azure-collector
+    name: azure-collector
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/azure-collector-2.11.0.tgz
+    version: 2.11.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 2.10.0
     created: "2022-03-21T11:00:45.954493082Z"
     description: Collector that exposes metrics about Azure
@@ -29326,4 +29339,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-1.0.0.tgz
     version: 1.0.0
-generated: "2022-06-14T12:05:44.246146795Z"
+generated: "2022-06-14T12:41:24.662501536Z"

@@ -4547,6 +4547,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 4.2.0
+    created: "2022-06-16T14:57:28.991831682Z"
+    description: A Helm chart for Kubernetes
+    digest: fd4eab8b0ac1fd2eb8725c26cbbf84e14413481a6c3e5f6c739eefd3bdfc4124
+    home: https://github.com/giantswarm/azure-admission-controller
+    name: azure-admission-controller
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/azure-admission-controller-4.2.0.tgz
+    version: 4.2.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 4.1.0
     created: "2022-06-10T13:26:22.344641492Z"
     description: A Helm chart for Kubernetes
@@ -29577,4 +29590,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-16T12:27:12.412837866Z"
+generated: "2022-06-16T14:57:28.991269183Z"

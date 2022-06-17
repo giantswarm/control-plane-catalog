@@ -1036,6 +1036,19 @@ entries:
       application.giantswarm.io/team: honeybadger
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.15.0
+    created: "2022-06-17T10:08:16.650600151Z"
+    description: Chart holding app-exporter.
+    digest: eb434fa7de0aeca6f7f79b2c9627d1f1336fcc4daecb6996376bee18a3facb05
+    home: https://github.com/giantswarm/app-exporter
+    name: app-exporter
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/app-exporter-0.15.0.tgz
+    version: 0.15.0
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.14.0
     created: "2022-05-16T11:36:19.519354326Z"
     description: Chart holding app-exporter.
@@ -29602,4 +29615,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-17T07:32:15.376351575Z"
+generated: "2022-06-17T10:08:16.650062555Z"

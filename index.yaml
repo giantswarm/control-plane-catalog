@@ -19528,6 +19528,18 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: v2.3.0
+    created: "2022-06-28T08:28:09.509088533Z"
+    description: A Helm chart for the Kubernetes kube-state-metrics service
+    digest: 104eb15ec3e51b9879c9a08854acbedc1380e33f095e43e7dbb2f457a3925fa6
+    home: https://github.com/giantswarm/kube-state-metrics-app
+    name: kube-state-metrics-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kube-state-metrics-app-1.11.0.tgz
+    version: 1.11.0
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: v2.3.0
     created: "2022-04-19T08:19:07.533823455Z"
     description: A Helm chart for the Kubernetes kube-state-metrics service
     digest: 952b4a926e12521b366eb25b071c3d67fd8b4432ee5fb0aa4b697a5df6dcfeb4
@@ -30083,4 +30095,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-27T11:24:43.664340403Z"
+generated: "2022-06-28T08:28:09.508502227Z"

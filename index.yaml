@@ -6468,6 +6468,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.3.1
+    created: "2022-06-30T08:30:37.445921516Z"
+    description: Operator for managing extra firewall rules for CAPG clusters
+    digest: 340460190c484915389072180279ca5a177f754eb495be24964e15f9e57d9388
+    home: https://github.com/giantswarm/capg-firewall-rule-operator
+    name: capg-firewall-rule-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/capg-firewall-rule-operator-0.3.1.tgz
+    version: 0.3.1
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.3.0
     created: "2022-06-22T16:05:49.812378184Z"
     description: Operator for managing extra firewall rules for CAPG clusters
@@ -29875,4 +29888,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-29T13:06:12.9454254Z"
+generated: "2022-06-30T08:30:37.445391926Z"

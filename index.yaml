@@ -2248,6 +2248,17 @@ entries:
     version: 1.0.1
   appcatalog:
   - apiVersion: v1
+    appVersion: 0.9.0
+    created: "2022-07-01T12:31:02.87872879Z"
+    description: A Helm chart for appcatalog CRs and related configmaps and secrets.
+      Used by opsctl ensure appcatalogs.
+    digest: 286739fcf25d73945f560549bfd28ebecec87d50841a52a6fdc4ee3b3e5af372
+    home: https://github.com/giantswarm/appcatalog
+    name: appcatalog
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/appcatalog-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v1
     appVersion: 0.8.0
     created: "2022-06-13T13:37:57.762997757Z"
     description: A Helm chart for appcatalog CRs and related configmaps and secrets.
@@ -30410,4 +30421,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-01T12:28:04.413336903Z"
+generated: "2022-07-01T12:31:02.87826386Z"

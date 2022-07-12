@@ -10414,6 +10414,19 @@ entries:
     version: 0.1.0
   cluster-autoscaler-app:
   - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: v1.23.1
+    created: "2022-07-12T12:40:00.453843935Z"
+    description: A Helm chart for the cluster autoscaler.
+    digest: a04641ba4bcb8c726a061e142f195a5ddea7118781006b92cdab309c93ef3ff1
+    home: https://github.com/giantswarm/cluster-autoscaler-app
+    name: cluster-autoscaler-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.23.1.tgz
+    version: 1.23.1
+  - annotations:
       application.giantswarm.io/owners: |
         - catalog: control-plane-catalog
           team: biscuit
@@ -30947,4 +30960,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-12T12:30:47.32341722Z"
+generated: "2022-07-12T12:40:00.452920429Z"

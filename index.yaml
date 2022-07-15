@@ -30408,6 +30408,32 @@ entries:
     version: 1.0.0
   trivy-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/trivy-app-0.4.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/trivy-app-0.4.0.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/trivy-app-0.4.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.28.1
+    created: "2022-07-15T13:24:21.501011888Z"
+    dependencies:
+    - name: trivy
+      repository: ""
+      version: 0.4.13
+    description: A Helm chart for trivy
+    digest: da2062c3d31917413f55b4607413f966070ee67e77510942a9b852c46df741b2
+    home: https://github.com/giantswarm/trivy-app
+    icon: https://s.giantswarm.io/app-icons/trivy/1/light.svg
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/trivy-app
+    name: trivy-app
+    sources:
+    - https://github.com/giantswarm/trivy-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/trivy-app-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/trivy-app-0.3.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/trivy-app-0.3.0.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -31093,4 +31119,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-15T10:47:53.596504357Z"
+generated: "2022-07-15T13:24:21.499781605Z"

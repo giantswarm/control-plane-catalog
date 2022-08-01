@@ -30252,6 +30252,33 @@ entries:
     version: 0.1.0
   starboard-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/starboard-app-0.8.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/starboard-app-0.8.0.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/starboard-app-0.8.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.15.3
+    created: "2022-08-01T19:37:22.21088777Z"
+    dependencies:
+    - alias: starboard-app
+      name: starboard-operator
+      repository: ""
+      version: 0.10.3
+    description: A Helm chart for aqua starboard
+    digest: aa4c61a3ad5705a22600a478d48c6fa1c133c5f8fc8ba3f4bfa95202ccc6a541
+    home: https://github.com/giantswarm/starboard-app
+    icon: https://s.giantswarm.io/app-icons/starboard/1/dark.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/starboard-app
+    name: starboard-app
+    sources:
+    - https://github.com/giantswarm/starboard-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/starboard-app-0.8.0.tgz
+    version: 0.8.0
+  - annotations:
       application.giantswarm.io/team: honeybadger
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
@@ -31691,4 +31718,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-01T14:46:08.42602098Z"
+generated: "2022-08-01T19:37:22.207680742Z"

@@ -22042,6 +22042,19 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: master
+    created: "2022-08-09T11:22:34.8029669Z"
+    description: Giant Swarm policies for observability management.
+    digest: 790ade05130e611ce0f97f1f8c776f61285100271cfafd44dae289c6725df7ac
+    home: https://github.com/giantswarm/kyverno-policies-observability
+    name: kyverno-policies-observability
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kyverno-policies-observability-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      application.giantswarm.io/team: atlas
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: master
     created: "2022-08-05T14:47:00.411633597Z"
     description: Giant Swarm policies for observability management.
     digest: 204501785619c1f214587a152e15594dfccba4c17d7f7c1f92b67728cfd14746
@@ -32287,4 +32300,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-09T11:17:56.629352727Z"
+generated: "2022-08-09T11:22:34.802061282Z"

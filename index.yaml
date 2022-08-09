@@ -18503,6 +18503,38 @@ entries:
     version: 1.0.0
   grafana:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/grafana-1.0.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/grafana-1.0.3.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/grafana-1.0.3.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 9.0.1
+    created: "2022-08-09T15:19:38.495073667Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: aeadaf3d41c4636aec3486ac1c5b79c1cc0c5e137238e9f4d028337205d9ff6e
+    home: https://github.com/giantswarm/grafana-app
+    icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/giantswarm/grafana-app
+    - https://github.com/grafana/grafana
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/grafana-1.0.3.tgz
+    version: 1.0.3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/grafana-1.0.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/grafana-1.0.2.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -32325,4 +32357,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-09T11:34:56.461336101Z"
+generated: "2022-08-09T15:19:38.492334034Z"

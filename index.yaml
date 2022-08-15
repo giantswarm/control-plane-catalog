@@ -9481,6 +9481,20 @@ entries:
       application.giantswarm.io/team: rocket
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.6.0
+    created: "2022-08-15T07:31:36.725564268Z"
+    description: Operator for cleaning leftover OpenStack resources of workload clusters
+    digest: 465e98d257441714c7bb8e4e3706927785a26846530643608acf583c1f53dd80
+    home: https://github.com/giantswarm/cluster-api-cleaner-openstack
+    icon: https://s.giantswarm.io/app-icons/openstack/1/light.svg
+    name: cluster-api-cleaner-openstack
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-cleaner-openstack-0.6.0.tgz
+    version: 0.6.0
+  - annotations:
+      application.giantswarm.io/team: rocket
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.5.0
     created: "2022-06-27T10:56:27.917823316Z"
     description: Operator for cleaning leftover OpenStack resources of workload clusters
@@ -32591,4 +32605,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-12T14:33:36.830892006Z"
+generated: "2022-08-15T07:31:36.72508075Z"

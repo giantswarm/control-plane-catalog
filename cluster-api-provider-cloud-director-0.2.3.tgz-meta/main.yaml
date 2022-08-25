@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-cloud-director-0.2.3.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-cloud-director-0.2.3.tgz-meta/README.md
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-cloud-director-0.2.3.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: cluster-api-provider-cloud-director-0.2.3.tgz
+dateCreated: '2022-08-25T08:22:32.581398'
+digest: 4db432704ce63247986dc66b8446be68aa7a0d3d30aeda4dec2882ba11b7e37b
+home: https://github.com/giantswarm/cluster-api-provider-cloud-director-app

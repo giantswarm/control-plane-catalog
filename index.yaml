@@ -738,6 +738,19 @@ entries:
       application.giantswarm.io/team: honeybadger
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.18.0
+    created: "2022-08-25T15:52:49.971820417Z"
+    description: app-admission-controller validates and defaults app CRs
+    digest: fd040b790e6d3745b96f472bbe4ce8f39d96001f6877ab79386c4e20b26cb825
+    home: https://github.com/giantswarm/app-admission-controller
+    name: app-admission-controller
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/app-admission-controller-0.18.0.tgz
+    version: 0.18.0
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.17.2
     created: "2022-07-12T11:41:43.550676743Z"
     description: app-admission-controller validates and defaults app CRs
@@ -33085,4 +33098,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-25T08:22:36.510122856Z"
+generated: "2022-08-25T15:52:49.971177177Z"

@@ -5605,6 +5605,16 @@ entries:
   azure-cloud-controller-manager-app:
   - apiVersion: v1
     appVersion: 1.1.17
+    created: "2022-08-31T09:55:32.552989378Z"
+    description: A Helm chart to run Azure Cloud Controller Manager
+    digest: 5f9f31d51ac1779f9ded4f10c07c93cfdeac2f2aad042e4522776f90831e2a91
+    home: https://github.com/giantswarm/azure-cloud-controller-manager-app
+    name: azure-cloud-controller-manager-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/azure-cloud-controller-manager-app-1.23.17-gs4.tgz
+    version: 1.23.17-gs4
+  - apiVersion: v1
+    appVersion: 1.1.17
     created: "2022-08-23T08:57:25.468198544Z"
     description: A Helm chart to run Azure Cloud Controller Manager
     digest: 18f23e854bcec6b290c275352b3d720cb5dbfaa74053253c13b85db5e2187170
@@ -33266,4 +33276,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-31T08:42:32.625884426Z"
+generated: "2022-08-31T09:55:32.552098151Z"

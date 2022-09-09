@@ -21614,6 +21614,33 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
     appVersion: 2.5.0
+    created: "2022-09-09T06:55:54.909288276Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: cb78bc9b3243c611aa0587004f766ce80512aa8eeca2ea5c0d9762dc11f3fa58
+    home: https://github.com/giantswarm/kube-state-metrics-app
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: davidcalvertfr@gmail.com
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kube-state-metrics-1.13.0.tgz
+    version: 1.13.0
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 2.5.0
     created: "2022-08-29T14:58:37.374948133Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: ef6a43286e374221f008607cac2da8460a31e1ebc4ebf8ed39bdfc640c483ad7
@@ -33501,4 +33528,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-08T16:58:57.38524988Z"
+generated: "2022-09-09T06:55:54.907399057Z"

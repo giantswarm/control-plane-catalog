@@ -19610,6 +19610,38 @@ entries:
     version: 6.2.0
   grafana:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/grafana-1.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/grafana-1.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/grafana-1.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 9.1.1
+    created: "2022-09-22T06:51:06.983152411Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: a28461f972cf49f2a04e3fe3675cabefa206a6301aca3929ee7087b7b902e3d1
+    home: https://github.com/giantswarm/grafana-app
+    icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/giantswarm/grafana-app
+    - https://github.com/grafana/grafana
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/grafana-1.1.0.tgz
+    version: 1.1.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/grafana-1.0.3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/grafana-1.0.3.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -34335,4 +34367,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-21T16:14:11.220554348Z"
+generated: "2022-09-22T06:51:06.979914505Z"

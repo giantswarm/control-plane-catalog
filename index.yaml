@@ -3509,6 +3509,19 @@ entries:
   - annotations:
       application.giantswarm.io/team: hydra
     apiVersion: v2
+    appVersion: 0.2.2
+    created: "2022-09-22T15:01:40.569139232Z"
+    description: Handles the setup / configuration of high-level AWS networking to
+      allow cross-VPC communication between clusters
+    digest: d89c11bca48fc70d6705345baca6655bb5655de545757db601790b6b5ab9a94d
+    home: https://github.com/giantswarm/aws-network-topology-operator
+    name: aws-network-topology-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-network-topology-operator-0.2.2.tgz
+    version: 0.2.2
+  - annotations:
+      application.giantswarm.io/team: hydra
+    apiVersion: v2
     appVersion: 0.2.1
     created: "2022-09-22T13:59:22.521682807Z"
     description: Handles the setup / configuration of high-level AWS networking to
@@ -34453,4 +34466,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-22T13:59:22.521186241Z"
+generated: "2022-09-22T15:01:40.568587467Z"

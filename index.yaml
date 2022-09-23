@@ -32761,6 +32761,23 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/route53-manager-1.0.0.tgz
     version: 1.0.0
+  security-pack-helper:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/security-pack-helper-0.0.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/security-pack-helper-0.0.2.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/security-pack-helper-0.0.2.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.0.2
+    created: "2022-09-23T18:06:32.492846351Z"
+    description: Supports Giant Swarm security platform tooling.
+    digest: 628ba7414d6c7ef2f3d95a1a4b6329e6cbf395ea5a3767d50d8587ed9b8434d9
+    home: https://github.com/giantswarm/security-pack-helper
+    name: security-pack-helper
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/security-pack-helper-0.0.2.tgz
+    version: 0.0.2
   silence-operator:
   - annotations:
       config.giantswarm.io/version: 1.x.x
@@ -34635,4 +34652,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-23T16:06:44.882960524Z"
+generated: "2022-09-23T18:06:32.492089141Z"

@@ -17529,6 +17529,22 @@ entries:
       application.giantswarm.io/team: atlas
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.9.8
+    created: "2022-09-28T09:20:15.193027873Z"
+    description: The Log Shipping App forwards cluster logs to storage backends
+    digest: 9ae0028c6fd120e825b87e827152a047031f88eac5aca25452b7e855e67c1558
+    home: https://github.com/giantswarm/fluent-logshipping-app
+    icon: https://s.giantswarm.io/app-icons/1/png/fluent-logshipping-app-light.png
+    name: fluent-logshipping-app
+    sources:
+    - https://github.com/giantswarm/fluent-logshipping-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/fluent-logshipping-app-2.0.0.tgz
+    version: 2.0.0
+  - annotations:
+      application.giantswarm.io/team: atlas
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.7.9
     created: "2022-08-04T10:38:56.804106187Z"
     description: The Log Shipping App forwards cluster logs to storage backends
@@ -34832,4 +34848,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-27T15:58:35.022876396Z"
+generated: "2022-09-28T09:20:15.191799218Z"

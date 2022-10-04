@@ -16446,6 +16446,20 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.6.0
+    created: "2022-10-04T12:51:41.894151659Z"
+    description: Operator for managing DNS zones and records for CAPG clusters
+    digest: 0f7ee979fe022d8736013799ea0988a872d737a5747f1cac8bdea59c92034e96
+    home: https://github.com/giantswarm/dns-operator-gcp
+    icon: https://s.giantswarm.io/app-icons/gcp/1/light.svg
+    name: dns-operator-gcp
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/dns-operator-gcp-0.6.0.tgz
+    version: 0.6.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.5.2
     created: "2022-07-01T09:40:05.614723525Z"
     description: Operator for managing DNS zones and records for CAPG clusters
@@ -34992,4 +35006,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-04T11:00:30.184394785Z"
+generated: "2022-10-04T12:51:41.893629301Z"

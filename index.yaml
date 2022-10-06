@@ -1076,9 +1076,9 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: 0.17.1
-    created: "2022-10-06T21:56:26.150350671Z"
+    created: "2022-10-06T22:02:04.617138554Z"
     description: Chart holding app-exporter.
-    digest: 060b0febcb5fd0c1d390278d402108f98b3dc23b571a7e8ff3754a35886d670c
+    digest: 2e50490e8f4081643f849c0678cd5e88d1ef6abbda2a3747e63828e913cc7ca5
     home: https://github.com/giantswarm/app-exporter
     name: app-exporter
     urls:
@@ -35130,4 +35130,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-06T21:56:26.149753582Z"
+generated: "2022-10-06T22:02:04.61656071Z"

@@ -17860,6 +17860,21 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/flannel-operator-1.0.0.tgz
     version: 1.0.0
+  fleet-membership-operator-gcp:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-10-11T13:08:48.46117684Z"
+    description: Operator for managing workload identity on GCP clusters
+    digest: 9bfcd3a593fcc16c1792803534d6ef15f11b8b099fd23ee3664c22836fd85500
+    home: https://github.com/giantswarm/fleet-membership-operator-gcp
+    icon: https://s.giantswarm.io/app-icons/gcp/1/light.svg
+    name: fleet-membership-operator-gcp
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/fleet-membership-operator-gcp-0.1.0.tgz
+    version: 0.1.0
   fluent-logshipping-app:
   - annotations:
       application.giantswarm.io/team: atlas
@@ -35444,4 +35459,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-11T12:38:08.490201717Z"
+generated: "2022-10-11T13:08:48.460654269Z"

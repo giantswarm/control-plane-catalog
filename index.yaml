@@ -16578,6 +16578,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.4.1
+    created: "2022-10-13T11:04:06.501572635Z"
+    description: Operator for managing DNS zones and records for CAPA clusters
+    digest: 9ca37733a1a2a50a9cfc084f77845e30afaabe10ceff8462c89e05b6c809ab7f
+    home: https://github.com/giantswarm/dns-operator-aws
+    name: dns-operator-aws
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/dns-operator-aws-0.4.1.tgz
+    version: 0.4.1
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.4.0
     created: "2022-10-06T06:59:01.709521752Z"
     description: Operator for managing DNS zones and records for CAPA clusters
@@ -35578,4 +35591,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-12T15:15:41.641361102Z"
+generated: "2022-10-13T11:04:06.500696273Z"

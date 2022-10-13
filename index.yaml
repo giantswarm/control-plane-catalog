@@ -17957,6 +17957,20 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.2.0
+    created: "2022-10-13T15:43:24.932348466Z"
+    description: Operator for managing workload identity on GCP clusters
+    digest: 1d9c59dc0b89bbaded90ee669b238feef766333e298d28f1c696c9a300dc4b0a
+    home: https://github.com/giantswarm/fleet-membership-operator-gcp
+    icon: https://s.giantswarm.io/app-icons/gcp/1/light.svg
+    name: fleet-membership-operator-gcp
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/fleet-membership-operator-gcp-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.1.0
     created: "2022-10-11T13:08:48.46117684Z"
     description: Operator for managing workload identity on GCP clusters
@@ -35640,4 +35654,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-13T15:27:55.396676902Z"
+generated: "2022-10-13T15:43:24.931834024Z"

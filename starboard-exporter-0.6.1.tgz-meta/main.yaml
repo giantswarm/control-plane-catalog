@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/starboard-exporter-0.6.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/starboard-exporter-0.6.1.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/starboard-exporter-0.6.1.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: starboard-exporter-0.6.1.tgz
+dateCreated: '2022-10-21T13:37:22.999690'
+digest: 97a90e8b3e19b87cca2821806fd9451a44944c45b35cc46ccf4345bc6039bb74
+home: https://github.com/giantswarm/starboard-exporter

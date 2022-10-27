@@ -5464,6 +5464,20 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/aws-tccpf-watchdog-0.1.0.tgz
     version: 0.1.0
+  aws-vpc-operator:
+  - annotations:
+      application.giantswarm.io/team: hydra
+    apiVersion: v2
+    appVersion: 0.1.0-alpha.0
+    created: "2022-10-27T08:32:36.550190926Z"
+    description: Operator for managing private AWS VPCs for Cluster API AWS workload
+      clusters
+    digest: 0f896f85c117afa8b268fe51cdb7d48f28d80a8cd63b38349af8d478ff2b7a2b
+    home: https://github.com/giantswarm/aws-vpc-operator
+    name: aws-vpc-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-vpc-operator-0.1.0-alpha.0.tgz
+    version: 0.1.0-alpha.0
   azure-ad-pod-identity-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/azure-ad-pod-identity-app-0.13.0.tgz-meta/main.yaml
@@ -36210,4 +36224,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-26T14:45:52.651883633Z"
+generated: "2022-10-27T08:32:36.549641405Z"

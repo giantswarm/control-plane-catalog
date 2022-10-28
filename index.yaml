@@ -11421,6 +11421,26 @@ entries:
     version: 0.4.12-gsalpha3
   cluster-api-provider-cloud-director:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-cloud-director-0.2.4.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-cloud-director-0.2.4.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-cloud-director-0.2.4.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-10-28T11:46:07.459662823Z"
+    description: A Helm chart for Cluster API provider VMware Cloud Director (VCD)
+    digest: 2476f59bae76fe785550461af9fe983ab36205bf1c5c96778870bc7b050f34b2
+    home: https://github.com/giantswarm/cluster-api-provider-cloud-director-app
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cluster-api-provider-cloud-director
+    sources:
+    - https://github.com/giantswarm/cluster-api-provider-cloud-director-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-cloud-director-0.2.4.tgz
+    version: 0.2.4
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-cloud-director-0.2.3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-cloud-director-0.2.3.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -36292,4 +36312,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-28T10:12:26.953205208Z"
+generated: "2022-10-28T11:46:07.45868215Z"

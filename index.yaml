@@ -28806,6 +28806,28 @@ entries:
       application.giantswarm.io/team: atlas
     apiVersion: v2
     appVersion: v0.54.0
+    created: "2022-10-31T11:19:54.546383917Z"
+    dependencies:
+    - alias: prometheus-operator-app
+      name: kube-prometheus-stack
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 32.4.0
+    description: Giant Swarm's Prometheus Operator Deployment
+    digest: fad04f92d933dd49c7e5995d348881d2415580303c02e4eb0b06182f1edd7efa
+    home: https://github.com/giantswarm/prometheus-operator-app
+    maintainers:
+    - email: mohamed@giantswarm.io
+      name: Mohamed Chiheb Ben Jemaa
+    name: prometheus-operator-app
+    sources:
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/prometheus-operator-app-2.0.2.tgz
+    version: 2.0.2
+  - annotations:
+      application.giantswarm.io/team: atlas
+    apiVersion: v2
+    appVersion: v0.54.0
     created: "2022-10-24T10:04:58.926261813Z"
     dependencies:
     - alias: prometheus-operator-app
@@ -36345,4 +36367,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-31T11:12:57.838824685Z"
+generated: "2022-10-31T11:19:54.518353656Z"

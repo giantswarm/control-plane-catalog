@@ -25348,6 +25348,22 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
     appVersion: 0.0.1
+    created: "2022-11-08T15:12:10.965653968Z"
+    description: A Helm chart for macropower-analytics-panel-server
+    digest: 37fdaa4df8f8287c6f607acbec5b7036d2ea281c8740f07b7f7aadf142c394e1
+    home: https://github.com/giantswarm/macropower-analytics-panel-server-app
+    icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
+    name: macropower-analytics-panel-server
+    sources:
+    - https://github.com/MacroPower/macropower-analytics-panel/tree/master/server
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/macropower-analytics-panel-server-0.4.3.tgz
+    version: 0.4.3
+  - annotations:
+      application.giantswarm.io/team: atlas
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.0.1
     created: "2022-06-13T10:18:11.69635763Z"
     description: A Helm chart for macropower-analytics-panel-server
     digest: dea2ed5c6bff9d48a22254a7f7981c5ea6269a0c1470622ce9b8ea0e2988451d
@@ -36771,4 +36787,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-08T15:11:04.086041707Z"
+generated: "2022-11-08T15:12:10.965046335Z"

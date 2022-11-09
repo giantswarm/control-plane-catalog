@@ -21132,6 +21132,18 @@ entries:
   - annotations:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.52.8
+    created: "2022-11-09T09:39:06.746782093Z"
+    description: Web user interface for Giant Swarm Kubernetes as a Service.
+    digest: ed2df4efc2a9ad9226d0ea00ad9c022b1ade5057dea7066a78fef2d00431d0ef
+    home: https://github.com/giantswarm/happa
+    name: happa
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/happa-1.52.8.tgz
+    version: 1.52.8
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.52.7
     created: "2022-11-04T09:10:13.841224642Z"
     description: Web user interface for Giant Swarm Kubernetes as a Service.
@@ -36855,4 +36867,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-08T16:50:30.191836811Z"
+generated: "2022-11-09T09:39:06.74580782Z"

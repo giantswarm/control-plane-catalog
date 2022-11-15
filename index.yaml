@@ -14802,6 +14802,22 @@ entries:
     version: 0.3.0
   crossplane:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/crossplane-0.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/crossplane-0.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/crossplane-0.2.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 1.9.1
+    created: "2022-11-15T12:49:01.750922958Z"
+    description: Tool to install crossplane in clusters.
+    digest: 9999f84ed5324d755a3fd48879090c6d40175d62bea72a1cffc255755fda985d
+    home: https://github.com/giantswarm/crossplane
+    name: crossplane
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/crossplane-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/crossplane-0.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/crossplane-0.1.0.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -37380,4 +37396,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-15T11:31:53.456440646Z"
+generated: "2022-11-15T12:49:01.747722078Z"

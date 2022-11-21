@@ -11053,6 +11053,20 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/cluster-api-bootstrap-provider-kubeadm-0.0.1.tgz
     version: 0.0.1
+  cluster-api-cleaner-cloud-director:
+  - annotations:
+      application.giantswarm.io/team: rocket
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-11-21T09:06:27.781637248Z"
+    description: Operator for cleaning leftover VCD resources of workload clusters
+    digest: c101b9bdc98b9b608cc5c836bf63608818d1b8455e1975f798ddb45ce5e026e5
+    home: https://github.com/giantswarm/cluster-api-cleaner-cloud-director
+    name: cluster-api-cleaner-cloud-director
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-cleaner-cloud-director-0.1.0.tgz
+    version: 0.1.0
   cluster-api-cleaner-openstack:
   - annotations:
       application.giantswarm.io/team: rocket
@@ -37732,4 +37746,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-21T08:57:30.132414913Z"
+generated: "2022-11-21T09:06:27.78085314Z"

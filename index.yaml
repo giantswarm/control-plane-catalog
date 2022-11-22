@@ -21467,6 +21467,33 @@ entries:
     version: 6.2.0
   grafana:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/grafana-2.0.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/grafana-2.0.2.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/grafana-2.0.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 9.1.1
+    created: "2022-11-22T08:38:55.49061526Z"
+    dependencies:
+    - name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.37.0
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 2b37dcea5ab9e62932b588e0d5dbbd64088f13c3752f2785039ab28f0fbf665c
+    home: https://github.com/giantswarm/grafana-app
+    icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: grafana
+    sources:
+    - https://github.com/grafana/helm-charts/tree/main/charts/grafana
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/grafana-2.0.2.tgz
+    version: 2.0.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/grafana-2.0.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/grafana-2.0.1.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -37916,4 +37943,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-21T18:07:07.644471603Z"
+generated: "2022-11-22T08:38:55.482683967Z"

@@ -11232,6 +11232,19 @@ entries:
       application.giantswarm.io/team: rocket
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.2.0
+    created: "2022-11-24T09:53:06.886720568Z"
+    description: Operator for cleaning leftover VCD resources of workload clusters
+    digest: 2723a69d230157fb1646cc6ce28baa1fc5cd4059f1cc4aec28b8ecd4ac9d7f48
+    home: https://github.com/giantswarm/cluster-api-cleaner-cloud-director
+    name: cluster-api-cleaner-cloud-director
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-cleaner-cloud-director-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      application.giantswarm.io/team: rocket
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.1.0
     created: "2022-11-21T09:06:27.781637248Z"
     description: Operator for cleaning leftover VCD resources of workload clusters
@@ -38319,4 +38332,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-24T09:45:31.909892389Z"
+generated: "2022-11-24T09:53:06.886076127Z"

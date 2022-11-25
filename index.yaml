@@ -34803,6 +34803,20 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: v0.0.75
+    created: "2022-11-25T09:16:56.451305816Z"
+    description: Promxy is a prometheus proxy that makes many shards of prometheus
+      appear as a single API endpoint to the user.
+    digest: 142d9e9e44706909f0d7e958bdfcff61442caee529f24cb8898964f594345af8
+    home: https://github.com/giantswarm/promxy
+    name: promxy-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/promxy-app-1.17.0.tgz
+    version: 1.17.0
+  - annotations:
+      application.giantswarm.io/team: atlas
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: v0.0.75
     created: "2022-11-08T15:18:15.957509764Z"
     description: Promxy is a prometheus proxy that makes many shards of prometheus
       appear as a single API endpoint to the user.
@@ -38429,4 +38443,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-24T16:26:31.711774525Z"
+generated: "2022-11-25T09:16:56.45058511Z"

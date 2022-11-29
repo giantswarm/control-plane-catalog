@@ -9509,6 +9509,26 @@ entries:
           team: rocket
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 3.0.1
+    created: "2022-11-29T13:01:51.354564882Z"
+    description: cert-operator creates/manages certificates for Kubernetes clusters
+      running on Giantnetes
+    digest: 6672f842743afd2bb763e19e6b464cde4aa47a972faea385c5a67446c8f0cf85
+    home: https://github.com/giantswarm/cert-operator
+    name: cert-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cert-operator-3.0.1.tgz
+    version: 3.0.1
+  - annotations:
+      application.giantswarm.io/owners: |
+        - provider: aws
+          team: phoenix
+        - provider: azure
+          team: phoenix
+        - provider: kvm
+          team: rocket
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 3.0.0
     created: "2022-11-23T15:46:42.853501126Z"
     description: cert-operator creates/manages certificates for Kubernetes clusters
@@ -38681,4 +38701,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-29T12:43:18.494174529Z"
+generated: "2022-11-29T13:01:51.353935154Z"

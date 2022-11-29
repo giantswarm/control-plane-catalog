@@ -26792,6 +26792,19 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: master
+    created: "2022-11-29T18:55:20.882321086Z"
+    description: Giant Swarm policies for DX management.
+    digest: bd07dcfdc6d242b90c6329d7a981a4c074fb87c46c44e959344c7360b00da063
+    home: https://github.com/giantswarm/kyverno-policies-dx
+    name: kyverno-policies-dx
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kyverno-policies-dx-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: master
     created: "2022-11-17T13:54:15.489003879Z"
     description: Giant Swarm policies for DX management.
     digest: 474a86cfcedf8e498c8ccb2b5fba66b09f94528846de7a507d0b572c0d37f53a
@@ -38807,4 +38820,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-29T16:59:38.644512431Z"
+generated: "2022-11-29T18:55:20.881693369Z"

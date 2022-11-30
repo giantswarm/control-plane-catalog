@@ -11837,6 +11837,19 @@ entries:
       application.giantswarm.io/team: firecracker
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.9.0
+    created: "2022-11-30T10:49:44.929807762Z"
+    description: Helm chart for cluster-api-provider-aws.
+    digest: 2bc22b64e9a470fb2c359c770966eb5eac903aac156bdb1bd768a823f1dffdfc
+    home: https://github.com/giantswarm/cluster-api-provider-aws-app
+    name: cluster-api-provider-aws
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-1.9.0.tgz
+    version: 1.9.0
+  - annotations:
+      application.giantswarm.io/team: firecracker
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.8.3
     created: "2022-11-22T16:47:23.246957079Z"
     description: Helm chart for cluster-api-provider-aws.
@@ -38877,4 +38890,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-30T09:02:58.863103613Z"
+generated: "2022-11-30T10:49:44.923190848Z"

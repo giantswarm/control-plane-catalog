@@ -26741,6 +26741,19 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: master
+    created: "2022-11-30T12:55:15.078993609Z"
+    description: Giant Swarm policies for connectivity management.
+    digest: 9679f73ee3fc7eb258c33ca8a59cc99820490c5854927b84759282da4c3d6a61
+    home: https://github.com/giantswarm/kyverno-policies-connectivity
+    name: kyverno-policies-connectivity
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kyverno-policies-connectivity-0.2.3.tgz
+    version: 0.2.3
+  - annotations:
+      application.giantswarm.io/team: cabbage
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: master
     created: "2022-11-29T15:56:41.908310718Z"
     description: Giant Swarm policies for connectivity management.
     digest: 35dd738a31e9cd6b359a218875ca351633e3dbf4c7d05395a9d006eae08d5846
@@ -38939,4 +38952,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-30T11:50:53.60587718Z"
+generated: "2022-11-30T12:55:15.078141665Z"

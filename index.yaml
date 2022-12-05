@@ -18146,6 +18146,20 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/dex-app-0.1.0.tgz
     version: 0.1.0
+  dex-operator:
+  - annotations:
+      application.giantswarm.io/team: rainbow
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 0.1.0
+    created: "2022-12-05T08:55:55.467549357Z"
+    description: An operator that automates the management of dex connector configurations
+    digest: 660fead08994f413f698a4d38fdc905858b9af612f39374bd40676abd30036ea
+    home: https://github.com/giantswarm/dex-operator
+    name: dex-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/dex-operator-0.1.0.tgz
+    version: 0.1.0
   dns-network-policy-operator:
   - apiVersion: v1
     created: "2019-12-20T08:28:06.570849159Z"
@@ -39251,4 +39265,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-02T18:13:00.673012635Z"
+generated: "2022-12-05T08:55:55.467019983Z"

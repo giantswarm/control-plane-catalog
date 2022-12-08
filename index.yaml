@@ -5827,6 +5827,20 @@ entries:
       application.giantswarm.io/team: hydra
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
+    appVersion: 0.1.2
+    created: "2022-12-08T12:45:16.462854345Z"
+    description: Operator for managing private AWS VPCs for Cluster API AWS workload
+      clusters
+    digest: 724ebfa17433bf05bd1457f81ff0b0234e7d6fc356b219319065cbf99f5fc47b
+    home: https://github.com/giantswarm/aws-vpc-operator
+    name: aws-vpc-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-vpc-operator-0.1.2.tgz
+    version: 0.1.2
+  - annotations:
+      application.giantswarm.io/team: hydra
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
     appVersion: 0.1.1
     created: "2022-12-07T17:21:44.512308169Z"
     description: Operator for managing private AWS VPCs for Cluster API AWS workload
@@ -39455,4 +39469,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-08T11:44:58.940580759Z"
+generated: "2022-12-08T12:45:16.46237353Z"

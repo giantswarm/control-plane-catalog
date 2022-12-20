@@ -5662,6 +5662,19 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-5.5.0-fix.tgz
     version: 5.5.0-fix
+  aws-resolver-rules-operator:
+  - annotations:
+      application.giantswarm.io/team: hydra
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-12-20T09:07:09.748845915Z"
+    description: Please add description
+    digest: 3ffbe8d87e4afb573c8655f2a1574c1fa866c7edf1bebcd001a8b67245005953
+    home: https://github.com/giantswarm/aws-resolver-rules-operator
+    name: aws-resolver-rules-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.0.1.tgz
+    version: 0.0.1
   aws-rolling-node-operator:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -39877,4 +39890,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-19T18:22:55.683076151Z"
+generated: "2022-12-20T09:07:09.748168473Z"

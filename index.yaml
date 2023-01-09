@@ -12093,9 +12093,9 @@ entries:
       config.giantswarm.io/version: 0.1.0
     apiVersion: v1
     appVersion: 1.1.0
-    created: "2023-01-09T11:31:31.992812679Z"
+    created: "2023-01-09T11:35:26.331304105Z"
     description: A modified kube-state-metrics which only monitor CAPI related CRs
-    digest: 0c86e4687354653b739a657e953e279846010b2f49be452d7709e1b10a45039a
+    digest: d7653d291dbfaa7c0097ae3c9c913fc3c9bffd428cf8dfdf684c24b00399862a
     home: https://github.com/giantswarm/cluster-api-monitoring
     name: cluster-api-monitoring
     urls:
@@ -40506,4 +40506,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-09T11:31:31.992090285Z"
+generated: "2023-01-09T11:35:26.330607733Z"

@@ -37318,6 +37318,23 @@ entries:
     version: 0.0.1
   rbac-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/rbac-operator-0.31.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/rbac-operator-0.31.2.tgz-meta/README.md
+      application.giantswarm.io/team: rainbow
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/rbac-operator-0.31.2.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 0.31.2
+    created: "2023-01-16T07:50:57.976924477Z"
+    description: rbac-operator manages authorization for OIDC enabled control-plane
+      Kubernetes APIs.
+    digest: 099785c9ac2cded358b5947e85ae8931692f44b73d655b0ce38f89336dec97ea
+    home: https://github.com/giantswarm/rbac-operator
+    name: rbac-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/rbac-operator-0.31.2.tgz
+    version: 0.31.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/rbac-operator-0.31.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/rbac-operator-0.31.1.tgz-meta/README.md
       application.giantswarm.io/team: rainbow
@@ -40999,4 +41016,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-13T15:16:36.814323835Z"
+generated: "2023-01-16T07:50:57.975782858Z"

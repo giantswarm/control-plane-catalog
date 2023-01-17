@@ -3683,6 +3683,22 @@ entries:
       application.giantswarm.io/team: phoenix
     apiVersion: v1
     appVersion: 1.13.0
+    created: "2023-01-17T08:05:22.009743501Z"
+    description: A Helm chart for AWS EBS CSI Driver
+    digest: d0bb3016d953fa7211cc50f98499430ae10443eaf9e1fa88a80eacde6d7eb315
+    home: https://github.com/giantswarm/aws-ebs-csi-driver-app
+    icon: https://s.giantswarm.io/app-icons/aws/1/dark.svg
+    kubeVersion: '>=1.17.0-0'
+    name: aws-ebs-csi-driver-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v2.19.1/README.md
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-ebs-csi-driver-app-2.19.1.tgz
+    version: 2.19.1
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: 1.13.0
     created: "2022-11-29T12:43:18.495647482Z"
     description: A Helm chart for AWS EBS CSI Driver
     digest: 5201628e3737d406354c6ad4e7b86adb901d5ed70d8f6ddaf7708a15dad893d5
@@ -41088,4 +41104,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-17T05:52:28.683934022Z"
+generated: "2023-01-17T08:05:22.008406684Z"

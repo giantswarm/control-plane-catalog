@@ -39810,6 +39810,23 @@ entries:
     version: 0.1.1
   starboard-exporter:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/starboard-exporter-0.7.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/starboard-exporter-0.7.1.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/starboard-exporter-0.7.1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 0.7.1
+    created: "2023-01-25T20:49:07.602030951Z"
+    description: A Helm chart for starboard-exporter, which exposes Prometheus metrics
+      from Aqua VulnerabilityReport and other custom resources.
+    digest: dbfb59401f95d9cb3406b83d3a5defaabfe7227534757d6629d23149f9c088f9
+    home: https://github.com/giantswarm/starboard-exporter
+    name: starboard-exporter
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/starboard-exporter-0.7.1.tgz
+    version: 0.7.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/starboard-exporter-0.7.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/starboard-exporter-0.7.0.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -41663,4 +41680,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-25T11:56:43.180100505Z"
+generated: "2023-01-25T20:49:07.601167475Z"

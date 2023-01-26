@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/crossplane-0.4.3.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/crossplane-0.4.3.tgz-meta/README.md
+  application.giantswarm.io/team: honeybadger
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/crossplane-0.4.3.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: crossplane-0.4.3.tgz
+dateCreated: '2023-01-26T14:28:07.277702'
+digest: e1c5870cefd9c9a95d2966e95e4cb90576f13772dc3665a2fd40de6c70476b8a
+home: https://crossplane.io
+icon: https://crossplane.io/images/favicon_192x192.png
+upstreamChartVersion: 1.10.1

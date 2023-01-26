@@ -16228,6 +16228,58 @@ entries:
     version: 0.3.0
   crossplane:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/crossplane-0.4.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/crossplane-0.4.3.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/crossplane-0.4.3.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.10.1
+    created: "2023-01-26T14:28:12.531177097Z"
+    description: Crossplane is an open source Kubernetes add-on that enables platform
+      teams to assemble infrastructure from multiple vendors, and expose higher level
+      self-service APIs for application teams to consume.
+    digest: e1c5870cefd9c9a95d2966e95e4cb90576f13772dc3665a2fd40de6c70476b8a
+    home: https://crossplane.io
+    icon: https://crossplane.io/images/favicon_192x192.png
+    keywords:
+    - cloud
+    - infrastructure
+    - services
+    - application
+    - database
+    - cache
+    - bucket
+    - infra
+    - app
+    - ops
+    - gcp
+    - azure
+    - aws
+    - alibaba
+    - cloudsql
+    - rds
+    - s3
+    - azuredatabase
+    - asparadb
+    - gke
+    - aks
+    - eks
+    maintainers:
+    - email: info@crossplane.io
+      name: Crossplane Maintainers
+    name: crossplane
+    sources:
+    - https://github.com/crossplane/crossplane
+    - https://github.com/crossplane/crossplane-runtime
+    - https://github.com/crossplane/provider-aws
+    - https://github.com/crossplane/provider-azure
+    - https://github.com/crossplane/provider-gcp
+    - https://github.com/crossplane/provider-rook
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/crossplane-0.4.3.tgz
+    version: 0.4.3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/crossplane-0.4.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/crossplane-0.4.2.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -41709,4 +41761,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-26T10:38:01.936439819Z"
+generated: "2023-01-26T14:28:12.52764211Z"

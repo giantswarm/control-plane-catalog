@@ -8812,6 +8812,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.5.1
+    created: "2023-01-30T10:09:56.844557569Z"
+    description: Operator for managing IAM roles for CAPA clusters
+    digest: 9efd73f02bd1bae1539840eeb82b876ee239d54490d0f1ffbd5752e7ffd3647f
+    home: https://github.com/giantswarm/capa-iam-operator
+    name: capa-iam-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/capa-iam-operator-0.5.1.tgz
+    version: 0.5.1
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.5.0
     created: "2023-01-13T10:58:03.467767816Z"
     description: Operator for managing IAM roles for CAPA clusters
@@ -41844,4 +41857,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-30T09:50:50.424971945Z"
+generated: "2023-01-30T10:09:56.843920925Z"

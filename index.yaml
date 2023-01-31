@@ -19921,6 +19921,20 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.3.0
+    created: "2023-01-31T11:21:34.700265284Z"
+    description: Operator for managing encryption config for encryptiong k8s secret
+      in etcd
+    digest: 83736b2e0556d333e8e85b97b0777f0bfe56ebf12caffbd70b36d3482910e520
+    home: https://github.com/giantswarm/encryption-provider-operator
+    name: encryption-provider-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/encryption-provider-operator-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.2.3
     created: "2022-08-05T13:55:36.285767594Z"
     description: Operator for managing encryption config for encryptiong k8s secret
@@ -41923,4 +41937,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-30T16:05:39.453140109Z"
+generated: "2023-01-31T11:21:34.699782338Z"

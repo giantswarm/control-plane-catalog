@@ -9087,6 +9087,18 @@ entries:
   - annotations:
       application.giantswarm.io/team: hydra
     apiVersion: v2
+    appVersion: 0.1.5
+    created: "2023-02-01T08:42:59.728065558Z"
+    description: Cleanups CAPI stuck resources
+    digest: 32027373a95f2adee33db6db65efcb5c3ef2467609b7676f769b7bc4a0e446ff
+    home: https://github.com/giantswarm/capi-garbage-collector
+    name: capi-garbage-collector
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/capi-garbage-collector-0.1.5.tgz
+    version: 0.1.5
+  - annotations:
+      application.giantswarm.io/team: hydra
+    apiVersion: v2
     appVersion: 0.1.4
     created: "2022-11-24T13:58:21.83484794Z"
     description: Cleanups CAPI stuck resources
@@ -41937,4 +41949,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-31T11:21:34.699782338Z"
+generated: "2023-02-01T08:42:59.727572377Z"

@@ -14604,6 +14604,18 @@ entries:
   - annotations:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 5.5.0
+    created: "2023-02-02T13:57:14.901705694Z"
+    description: The cluster-operator manages Kubernetes tenant cluster resources.
+    digest: fcf2bc5b0e45562d256b14909364ee8699974d64d4f7c4acb8d5af71eb5bb65b
+    home: https://github.com/giantswarm/cluster-operator
+    name: cluster-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-operator-5.5.0.tgz
+    version: 5.5.0
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 5.4.0
     created: "2023-01-30T15:49:50.452545318Z"
     description: The cluster-operator manages Kubernetes tenant cluster resources.
@@ -42132,4 +42144,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-02T12:01:36.101528925Z"
+generated: "2023-02-02T13:57:14.900765454Z"

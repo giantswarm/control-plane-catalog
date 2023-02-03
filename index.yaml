@@ -29293,6 +29293,19 @@ entries:
       application.giantswarm.io/team: honeybadger
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.8.1
+    created: "2023-02-03T09:24:25.512284901Z"
+    description: capi-migration chart.
+    digest: c58688ed98c59de8f98240ce552f6ef66f8abb7d4fbe6bde9f6d4e1b9f9800e1
+    home: https://github.com/giantswarm/management-cluster-admission
+    name: management-cluster-admission
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/management-cluster-admission-0.8.1.tgz
+    version: 0.8.1
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.7.0
     created: "2022-03-31T11:16:39.527467963Z"
     description: capi-migration chart.
@@ -42209,4 +42222,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-02T15:02:10.203960407Z"
+generated: "2023-02-03T09:24:25.511787653Z"

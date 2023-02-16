@@ -19977,6 +19977,20 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/dns-operator-aws-0.1.1.tgz
     version: 0.1.1
+  dns-operator-azure:
+  - annotations:
+      application.giantswarm.io/team: glippy
+      config.giantswarm.io/version: 2.0.0
+    apiVersion: v1
+    appVersion: 1.0.1
+    created: "2023-02-16T13:44:50.783297833Z"
+    description: Operator for managing DNS zones and records for CAPZ clusters
+    digest: cbe4f5da7fee117e76f1c2695314b00b606d14694bab1060be4df5c016878409
+    home: https://github.com/giantswarm/dns-operator-azure
+    name: dns-operator-azure
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/dns-operator-azure-1.0.1.tgz
+    version: 1.0.1
   dns-operator-gcp:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -42651,4 +42665,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-15T11:32:41.767586127Z"
+generated: "2023-02-16T13:44:50.782712209Z"

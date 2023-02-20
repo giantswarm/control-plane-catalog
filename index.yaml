@@ -40567,6 +40567,20 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/silence-operator-0.1.0.tgz
     version: 0.1.0
+  slos-poc:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    created: "2023-02-20T15:42:30.426147395Z"
+    description: SLO definition and implementation for Giant Swarm infrastructure
+    digest: 6c4b4014968f62bd947776c04fdec98d2a529008af87c33c0be836cae574ec90
+    home: https://github.com/giantswarm/slos-poc
+    kubeVersion: '>= 1.19.0-0'
+    name: slos-poc
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/slos-poc-0.1.0.tgz
+    version: 0.1.0
   sloth:
   - apiVersion: v2
     created: "2023-02-20T14:52:16.728235331Z"
@@ -42840,4 +42854,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-20T14:52:16.727248745Z"
+generated: "2023-02-20T15:42:30.425417852Z"

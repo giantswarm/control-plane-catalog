@@ -31314,6 +31314,25 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/observability-bundle-0.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/observability-bundle-0.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/observability-bundle-0.2.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2023-02-21T11:19:05.628512253Z"
+    description: A Helm chart for Giant Swarm's collection of observability tools.
+    digest: 6e6de59515d7d24a6003536d463b812836743c0224098ca92e37125fd9fbf5ee
+    home: https://github.com/giantswarm/observability-bundle
+    name: observability-bundle
+    sources:
+    - https://github.com/giantswarm/observability-bundle
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/observability-bundle-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/observability-bundle-0.1.9.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/observability-bundle-0.1.9.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -42854,4 +42873,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-20T15:42:30.425417852Z"
+generated: "2023-02-21T11:19:05.627811005Z"

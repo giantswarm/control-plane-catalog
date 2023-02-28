@@ -40871,6 +40871,19 @@ entries:
   - annotations:
       application.giantswarm.io/team: phoenix
     apiVersion: v2
+    created: "2023-02-28T09:40:27.87258688Z"
+    description: SLO definition and implementation for Giant Swarm infrastructure
+    digest: fef145a23e5ef78f22babf32dec1a8389a66954610243a06668fa32d531100d1
+    home: https://github.com/giantswarm/slos-poc
+    kubeVersion: '>= 1.19.0-0'
+    name: slos-poc
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/slos-poc-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
     created: "2023-02-21T14:45:42.765815131Z"
     description: SLO definition and implementation for Giant Swarm infrastructure
     digest: 69e7f19331943682f4b5718480593ac7dcd0fb8c96e2b67850cdf5fe6b6efc57
@@ -43184,4 +43197,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-27T16:25:37.172611018Z"
+generated: "2023-02-28T09:40:27.872024917Z"

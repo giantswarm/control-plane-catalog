@@ -31263,6 +31263,25 @@ entries:
           team: rocket
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 2.0.1
+    created: "2023-03-02T11:17:55.888408496Z"
+    description: Helm chart for node-operator.
+    digest: d9f58457fd25ef25a3b4291f6aee993d19e967a1f10b4999035eb0e6fd507f66
+    home: https://github.com/giantswarm/node-operator
+    name: node-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/node-operator-2.0.1.tgz
+    version: 2.0.1
+  - annotations:
+      application.giantswarm.io/owners: |
+        - provider: aws
+          team: phoenix
+        - provider: azure
+          team: phoenix
+        - provider: kvm
+          team: rocket
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 2.0.0
     created: "2023-02-02T14:01:42.923329901Z"
     description: Helm chart for node-operator.
@@ -43368,4 +43387,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-02T10:33:23.84932252Z"
+generated: "2023-03-02T11:17:55.887780497Z"

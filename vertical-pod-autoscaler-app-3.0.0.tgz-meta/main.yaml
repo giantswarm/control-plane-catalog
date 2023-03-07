@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-app-3.0.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-app-3.0.0.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-app-3.0.0.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+  repository: https://github.com/giantswarm/vertical-pod-autoscaler-app
+  version: fb2ccec4228c26e366bd1ac96aade056f3db0151
+chartApiVersion: v2
+chartFile: vertical-pod-autoscaler-app-3.0.0.tgz
+dateCreated: '2023-03-07T15:34:57.602304'
+digest: 21e0105b1a1c8b7a29afba789f6719dca3282e124b7d39204d1cea36f48a3672
+home: https://github.com/giantswarm/vertical-pod-autoscaler-app
+icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg

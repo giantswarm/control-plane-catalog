@@ -30274,6 +30274,19 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
     appVersion: master
+    created: "2023-03-14T16:05:03.987220022Z"
+    description: Giant Swarm policies supporting user experience.
+    digest: 2bbbf53bd3ac30e409cc2d0a3064a24389b1e477fb9e9c66aea11753128eab96
+    home: https://github.com/giantswarm/kyverno-policies-ux
+    name: kyverno-policies-ux
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kyverno-policies-ux-0.2.2.tgz
+    version: 0.2.2
+  - annotations:
+      application.giantswarm.io/team: rainbow
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: master
     created: "2023-03-09T15:25:36.159899271Z"
     description: Giant Swarm policies supporting user experience.
     digest: 5a21270b492672ff8f3906106cb4620ed3b9cafaef378856fbbcda95115e5b71
@@ -44177,4 +44190,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-14T15:52:06.408233026Z"
+generated: "2023-03-14T16:05:03.986538311Z"

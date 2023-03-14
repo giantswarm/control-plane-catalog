@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/trivy-operator-0.3.5.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/trivy-operator-0.3.5.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/trivy-operator-0.3.5.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: trivy-operator-0.3.5.tgz
+dateCreated: '2023-03-14T09:41:33.792633'
+digest: 79d834b552ef33eadb73b3f2952f2927aeae5e0790b81747f0d7af17f12b6e81
+home: https://github.com/giantswarm/trivy-operator-app
+icon: https://s.giantswarm.io/app-icons/trivy/1/light.svg

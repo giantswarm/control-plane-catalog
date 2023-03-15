@@ -6046,6 +6046,18 @@ entries:
   - annotations:
       application.giantswarm.io/team: hydra
     apiVersion: v2
+    appVersion: 0.4.0
+    created: "2023-03-15T09:58:02.784290956Z"
+    description: Please add description
+    digest: 53fd9bb53e8b162a465e76fac3928c38e0a9f618ea80eb0385d76afd72b8a030
+    home: https://github.com/giantswarm/aws-resolver-rules-operator
+    name: aws-resolver-rules-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
+      application.giantswarm.io/team: hydra
+    apiVersion: v2
     appVersion: 0.3.0
     created: "2023-02-22T09:21:19.363454094Z"
     description: Please add description
@@ -44216,4 +44228,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-15T09:14:37.677927861Z"
+generated: "2023-03-15T09:58:02.783482829Z"

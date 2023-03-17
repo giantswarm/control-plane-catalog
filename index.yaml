@@ -13073,6 +13073,19 @@ entries:
       application.giantswarm.io/team: hydra
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 2.0.1
+    created: "2023-03-17T14:05:57.564835296Z"
+    description: Helm chart for cluster-api-provider-aws.
+    digest: bc5de76913338270fcba70ab4ba0a20680b31dc90f0dee7aed109f857406f094
+    home: https://github.com/giantswarm/cluster-api-provider-aws-app
+    name: cluster-api-provider-aws
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.0.1.tgz
+    version: 2.0.1
+  - annotations:
+      application.giantswarm.io/team: hydra
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 2.0.0
     created: "2023-03-02T12:19:44.533158916Z"
     description: Helm chart for cluster-api-provider-aws.
@@ -44467,4 +44480,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-17T10:43:43.345992745Z"
+generated: "2023-03-17T14:05:57.558805822Z"

@@ -32768,6 +32768,19 @@ entries:
       application.giantswarm.io/team: rainbow
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.0.6
+    created: "2023-03-22T14:25:04.505964285Z"
+    description: Chart holding organization-operator.
+    digest: 3c8ff6aad6be8de5c9b0a634f7c512360d46779e1f3cf886814affcb901208d4
+    home: https://github.com/giantswarm/organization-operator
+    name: organization-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/organization-operator-1.0.6.tgz
+    version: 1.0.6
+  - annotations:
+      application.giantswarm.io/team: rainbow
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.0.5
     created: "2023-01-16T07:51:13.625460528Z"
     description: Chart holding organization-operator.
@@ -44775,4 +44788,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-22T13:54:34.460424393Z"
+generated: "2023-03-22T14:25:04.505276971Z"

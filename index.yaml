@@ -11617,6 +11617,37 @@ entries:
           team: rocket
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.9.1
+    created: "2023-03-22T15:15:29.031602986Z"
+    description: Helm chart for cluster api.
+    digest: ea0b4d9c1cd6525e7d039936d81667f14d3372b11be6415f010edf76f601311b
+    home: https://github.com/giantswarm/cluster-api-app
+    name: cluster-api
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-1.9.1.tgz
+    version: 1.9.1
+  - annotations:
+      application.giantswarm.io/owners: |
+        - catalog: default
+          provider: capa
+          team: hydra
+        - catalog: default
+          provider: gcp
+          team: hydra
+        - catalog: default
+          provider: azure
+          team: clippy
+        - catalog: default
+          provider: openstack
+          team: rocket
+        - catalog: default
+          provider: cloud-director
+          team: rocket
+        - catalog: default
+          provider: vsphere
+          team: rocket
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.9.0
     created: "2023-01-25T11:56:43.193914985Z"
     description: Helm chart for cluster api.
@@ -44807,4 +44838,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-22T14:30:13.51058984Z"
+generated: "2023-03-22T15:15:29.024980349Z"

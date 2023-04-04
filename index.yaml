@@ -2798,6 +2798,24 @@ entries:
     version: 0.2.6
   athena:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/athena-1.9.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/athena-1.9.3.tgz-meta/README.md
+      application.giantswarm.io/team: team-rainbow
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/athena-1.9.3.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.9.3
+    created: "2023-04-04T08:14:06.505247001Z"
+    description: A service providing non-sensitive information about your cluster
+      to clients
+    digest: 8f209bc09846c5cef090c242befb0dfce4fa7a49cb03d30bf8a80b6849ac7b21
+    home: https://github.com/giantswarm/athena
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: athena
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/athena-1.9.3.tgz
+    version: 1.9.3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/athena-1.9.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/athena-1.9.2.tgz-meta/README.md
       application.giantswarm.io/team: team-rainbow
@@ -45651,4 +45669,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-04T08:03:59.386370738Z"
+generated: "2023-04-04T08:14:06.504165738Z"

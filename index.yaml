@@ -31720,6 +31720,19 @@ entries:
   - annotations:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.14.0
+    created: "2023-04-04T13:25:34.030119905Z"
+    description: Helm chart for net-exporter.
+    digest: d304c9d4cd0454fa948633aa5d582309e2a9ace20f1c9ccf3f7dbef82e97af31
+    home: https://github.com/giantswarm/net-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus-operator/2/dark.svg
+    name: net-exporter
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/net-exporter-1.14.0.tgz
+    version: 1.14.0
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.13.0
     created: "2022-12-19T18:22:55.6837776Z"
     description: Helm chart for net-exporter.
@@ -45721,4 +45734,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-04T13:23:03.460187314Z"
+generated: "2023-04-04T13:25:34.029428012Z"

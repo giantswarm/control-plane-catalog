@@ -7999,6 +7999,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 3.1.0
+    created: "2023-04-19T07:23:58.816850332Z"
+    description: Collector that exposes metrics about Azure
+    digest: 380afa28caa9eec22a73fa225620f996b18bdad401934a360ae771cf7294c774
+    home: https://github.com/giantswarm/azure-collector
+    name: azure-collector
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/azure-collector-3.1.0.tgz
+    version: 3.1.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 3.0.0
     created: "2023-04-18T14:16:46.349839536Z"
     description: Collector that exposes metrics about Azure
@@ -46505,4 +46518,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-18T14:16:46.349181428Z"
+generated: "2023-04-19T07:23:58.816214666Z"

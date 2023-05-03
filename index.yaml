@@ -8031,6 +8031,17 @@ entries:
     version: 1.1.8-gs1
   azure-cloud-node-manager-app:
   - apiVersion: v1
+    appVersion: 1.24.18
+    created: "2023-05-03T14:21:22.77256783Z"
+    description: A Helm chart to run Azure Cloud Node Manager
+    digest: 3d1afb49c787da707973e2d99cd41c9a6a97cbbf566dc62b7f6a0230afbe1732
+    home: https://github.com/giantswarm/azure-cloud-node-manager-app
+    icon: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+    name: azure-cloud-node-manager-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/azure-cloud-node-manager-app-1.24.18-gs1.tgz
+    version: 1.24.18-gs1
+  - apiVersion: v1
     appVersion: 1.24.5
     created: "2022-12-21T15:01:32.59888191Z"
     description: A Helm chart to run Azure Cloud Node Manager
@@ -47647,4 +47658,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-03T14:04:04.498598846Z"
+generated: "2023-05-03T14:21:22.772095868Z"

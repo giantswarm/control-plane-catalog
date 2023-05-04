@@ -23287,6 +23287,36 @@ entries:
       config.giantswarm.io/version: 1.x.x
       ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/falco/2/logo_dark.svg
     apiVersion: v2
+    appVersion: 0.5.2
+    created: "2023-05-04T15:14:02.02182319Z"
+    dependencies:
+    - name: falco
+      repository: ""
+      version: 2.2.0
+    - name: falco-exporter
+      repository: ""
+      version: 0.9.1
+    - name: falcosidekick
+      repository: ""
+      version: 0.5.9
+    description: A Helm chart for falco
+    digest: dbc2fe0ba6729774dd7b87fd88fdf4fa720d1aaea469bf9df9a8c2c59b00a6f6
+    home: https://github.com/giantswarm/falco-app
+    icon: https://s.giantswarm.io/app-icons/falco/2/icon_dark.svg
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/falco-app
+    name: falco
+    sources:
+    - https://github.com/giantswarm/falco-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/falco-0.5.2.tgz
+    version: 0.5.2
+  - annotations:
+      application.giantswarm.io/team: shield
+      config.giantswarm.io/version: 1.x.x
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/falco/2/logo_dark.svg
+    apiVersion: v2
     appVersion: 0.5.1
     created: "2023-03-28T13:43:03.828580174Z"
     dependencies:
@@ -47942,4 +47972,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-04T15:08:13.233002256Z"
+generated: "2023-05-04T15:14:02.010198839Z"

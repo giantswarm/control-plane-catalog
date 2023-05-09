@@ -29680,6 +29680,30 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/ingress-exporter-0.1.0.tgz
     version: 0.1.0
+  ingress-nginx:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/ingress-nginx-3.0.0-alpha1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/ingress-nginx-3.0.0-alpha1.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/ingress-nginx-3.0.0-alpha1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.7.1
+    created: "2023-05-09T10:37:55.133504506Z"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy
+      and load balancer
+    digest: d0a4712055e834760521a412e9cdecc9f896e239891dc023f1d382ef7d9762f5
+    home: https://github.com/giantswarm/ingress-nginx-app
+    icon: https://s.giantswarm.io/app-icons/ingress-nginx/2/icon_dark.svg
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.20.0-0'
+    name: ingress-nginx
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/ingress-nginx-3.0.0-alpha1.tgz
+    version: 3.0.0-alpha1
   irsa-operator:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -48251,4 +48275,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-09T10:08:10.778472635Z"
+generated: "2023-05-09T10:37:55.129451964Z"

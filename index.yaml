@@ -13474,6 +13474,22 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/cluster-api-cleaner-openstack-0.1.0.tgz
     version: 0.1.0
+  cluster-api-cleaner-vsphere:
+  - annotations:
+      application.giantswarm.io/team: rocket
+      config.giantswarm.io/version: 1.x.x
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/vmware-vsphere/1/logo_light.png
+    apiVersion: v1
+    appVersion: 0.1.0
+    created: "2023-05-09T10:08:10.779029661Z"
+    description: Operator for cleaning leftover Vsphere resources of workload clusters
+    digest: 086fb3cbf6315b1a4043de0818b12181e19ba5db0d5475cce365742d0729903f
+    home: https://github.com/giantswarm/cluster-api-cleaner-vsphere
+    icon: https://s.giantswarm.io/app-icons/vmware-vsphere/1/logo_light.png
+    name: cluster-api-cleaner-vsphere
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-cleaner-vsphere-0.1.0.tgz
+    version: 0.1.0
   cluster-api-control-plane:
   - annotations:
       application.giantswarm.io/owners: |
@@ -48235,4 +48251,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-09T08:01:37.208689763Z"
+generated: "2023-05-09T10:08:10.778472635Z"

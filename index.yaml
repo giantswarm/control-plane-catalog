@@ -6554,6 +6554,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.4.0
+    created: "2023-05-10T12:38:47.118454487Z"
+    description: Operator for managing IAM roles for service accounts
+    digest: 3c6bdca2068b20d712f06a327515fdbbdbff7d2db49c9fe89644e9115ce6caf2
+    home: https://github.com/giantswarm/aws-rolling-node-operator
+    name: aws-rolling-node-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-rolling-node-operator-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.3.2
     created: "2022-12-02T11:39:14.763399545Z"
     description: Operator for managing IAM roles for service accounts
@@ -48392,4 +48405,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-10T11:44:51.639436088Z"
+generated: "2023-05-10T12:38:47.117817283Z"

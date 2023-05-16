@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/caicloud-event-exporter-app-0.1.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/caicloud-event-exporter-app-0.1.2.tgz-meta/README.md
+  application.giantswarm.io/team: team-honeybadger
+  application.giantswarm.io/two-step-install: 'false'
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/caicloud-event-exporter-app-0.1.2.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: caicloud-event-exporter-app-0.1.2.tgz
+dateCreated: '2023-05-16T08:11:22.794880'
+digest: 3d5e7671e7efd6bac91926b62dc549bad8cbd503c74821109aa0da6377daae4f
+home: https://github.com/giantswarm/caicloud-event-exporter-app
+icon: https://s.giantswarm.io/app-icons/flux/1/dark.svg
+restrictions:
+  clusterSingleton: true

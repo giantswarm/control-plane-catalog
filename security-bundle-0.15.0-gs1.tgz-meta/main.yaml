@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/app-type: bundle
+  application.giantswarm.io/in-cluster-app: 'true'
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/security-bundle-0.15.0-gs1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/security-bundle-0.15.0-gs1.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/security-bundle-0.15.0-gs1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: security-bundle-0.15.0-gs1.tgz
+dateCreated: '2023-05-31T13:31:25.041373'
+digest: a2d05f1c0e2c069f77ba146d5c078867f11a37f940fcfcb9461673ee0c2921af
+home: https://github.com/giantswarm/security-bundle
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

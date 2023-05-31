@@ -46200,6 +46200,27 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/route53-manager-1.0.0.tgz
     version: 1.0.0
+  security-bundle:
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/security-bundle-0.15.0-gs1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/security-bundle-0.15.0-gs1.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/security-bundle-0.15.0-gs1.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2023-05-31T13:31:29.87568554Z"
+    description: A Helm chart for Giant Swarm's collection of open-source security
+      tools.
+    digest: a2d05f1c0e2c069f77ba146d5c078867f11a37f940fcfcb9461673ee0c2921af
+    home: https://github.com/giantswarm/security-bundle
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: security-bundle
+    sources:
+    - https://github.com/giantswarm/security-bundle
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/security-bundle-0.15.0-gs1.tgz
+    version: 0.15.0-gs1
   security-pack-helper:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/security-pack-helper-0.0.2.tgz-meta/main.yaml
@@ -49417,4 +49438,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-31T13:31:18.561742568Z"
+generated: "2023-05-31T13:31:29.874878682Z"

@@ -34070,6 +34070,33 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/metrics-server-app-1.2.1.tgz
     version: 1.2.1
+  mimir:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/mimir-0.1.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/mimir-0.1.1.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/mimir-0.1.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 2.8.0
+    created: "2023-06-01T14:59:15.002977703Z"
+    dependencies:
+    - alias: mimir
+      name: mimir-distributed
+      repository: https://grafana.github.io/helm-charts
+      version: 4.4.1
+    description: A Helm chart for grafana's Mimir
+    digest: 59c5d207e4cb914d254e84e304e55fc093f1df8be9e3613bdf6619dfcdf62a46
+    home: https://github.com/giantswarm/mimir-app
+    icon: https://s.giantswarm.io/app-icons/grafana-mimir/1/light-icon.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: mimir
+    sources:
+    - https://github.com/grafana/mimir/tree/main/operations/helm/charts/mimir-distributed
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/mimir-0.1.1.tgz
+    version: 0.1.1
   net-exporter:
   - annotations:
       config.giantswarm.io/version: 1.x.x
@@ -49483,4 +49510,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-01T08:40:02.936320938Z"
+generated: "2023-06-01T14:59:14.974112053Z"

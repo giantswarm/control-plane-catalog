@@ -23750,6 +23750,20 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.2.1
+    created: "2023-06-08T14:01:03.376012576Z"
+    description: Collector that exposes metrics about k8s resources stored in etcd
+    digest: 63ff3388ef73d04a80ff8f397e73a59d9576f898d27bf2bfb9755bf2045e8c99
+    home: https://github.com/giantswarm/etcd-kubernetes-resources-count-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: etcd-kubernetes-resources-count-exporter
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/etcd-kubernetes-resources-count-exporter-1.2.1.tgz
+    version: 1.2.1
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.2.0
     created: "2023-05-04T08:04:39.887813751Z"
     description: Collector that exposes metrics about k8s resources stored in etcd
@@ -49853,4 +49867,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-08T12:51:57.669488969Z"
+generated: "2023-06-08T14:01:03.375304454Z"

@@ -9572,6 +9572,20 @@ entries:
       application.giantswarm.io/team: clippy
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
+    appVersion: 0.1.0-alpha.11
+    created: "2023-06-13T11:07:13.812200345Z"
+    description: Operator for reconciling Azure Private Links in CAPZ workload clusters
+      to Azure Private Endpoints in CAPZ management clusters
+    digest: 3fe621a1886d5f851ff6dca135b6fcaf83806269d2e9975bdf8e343cb18368c5
+    home: https://github.com/giantswarm/azure-private-endpoint-operator
+    name: azure-private-endpoint-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/azure-private-endpoint-operator-0.1.0-alpha.11.tgz
+    version: 0.1.0-alpha.11
+  - annotations:
+      application.giantswarm.io/team: clippy
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
     appVersion: 0.1.0-alpha.10
     created: "2023-05-19T00:49:05.405703928Z"
     description: Operator for reconciling Azure Private Links in CAPZ workload clusters
@@ -50055,4 +50069,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-13T10:59:03.565586466Z"
+generated: "2023-06-13T11:07:13.811686815Z"

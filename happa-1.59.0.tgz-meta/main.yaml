@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/happa-1.59.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/happa-1.59.0.tgz-meta/README.md
+  application.giantswarm.io/team: team-honeybadger
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/happa-1.59.0.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: happa-1.59.0.tgz
+dateCreated: '2023-06-15T17:31:16.419440'
+digest: 2d8cb523c55c6a8497891c2bdec43a43959475dfe126bcff8f72cf1c4ff272de
+home: https://github.com/giantswarm/happa

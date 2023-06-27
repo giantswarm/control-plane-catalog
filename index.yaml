@@ -48787,6 +48787,17 @@ entries:
   - annotations:
       application.giantswarm.io/team: honeybadger
     apiVersion: v1
+    created: "2023-06-27T07:46:45.105968262Z"
+    description: Giant Swarm conformance testing stack.
+    digest: c14f9e618114d44ef08e41c153d60ed53c2e87da38a552bcb31c518401c12896
+    home: https://github.com/giantswarm/test-infra
+    name: test-infra
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/test-infra-1.20.0.tgz
+    version: 1.20.0
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+    apiVersion: v1
     created: "2023-05-24T06:25:18.802884561Z"
     description: Giant Swarm conformance testing stack.
     digest: 15f83de338eb445f0df291ffa1b369a7ef00426d2a3a9a1e869f2bb76892782e
@@ -51028,4 +51039,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-27T07:44:36.953200768Z"
+generated: "2023-06-27T07:46:45.104910233Z"

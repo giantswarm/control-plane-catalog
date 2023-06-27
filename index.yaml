@@ -47911,6 +47911,19 @@ entries:
   - annotations:
       application.giantswarm.io/team: atlas
     apiVersion: v2
+    created: "2023-06-27T13:12:33.91247679Z"
+    description: Base chart for Sloth.
+    digest: 9c86784fdf7dbe207196582bcca99cd2c6644b4b4a821aa15eecb0c497d559e7
+    home: https://github.com/slok/sloth
+    kubeVersion: '>= 1.19.0-0'
+    name: sloth
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/sloth-1.2.0.tgz
+    version: 1.2.0
+  - annotations:
+      application.giantswarm.io/team: atlas
+    apiVersion: v2
     created: "2023-06-02T18:16:32.446979623Z"
     description: Base chart for Sloth.
     digest: 2a89c4ebd3d3544ec85e7f8c1dde59ad994edb819f82939fc99d0f83bcf5f04e
@@ -51132,4 +51145,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-27T12:42:58.352118577Z"
+generated: "2023-06-27T13:12:33.910846494Z"

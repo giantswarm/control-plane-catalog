@@ -42991,6 +42991,20 @@ entries:
       application.giantswarm.io/team: atlas
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 2.110.0
+    created: "2023-07-10T08:51:38.608066676Z"
+    description: A Helm chart for Giant Swarm prometheus alerting and recording rules
+    digest: 2ad3e5bba86ef0c0c8d1fb88f67268bfb3eebb40b96a0eca5ee30bc496d64d51
+    home: https://github.com/giantswarm/prometheus-rules
+    icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
+    name: prometheus-rules
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/prometheus-rules-2.110.0.tgz
+    version: 2.110.0
+  - annotations:
+      application.giantswarm.io/team: atlas
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 2.109.0
     created: "2023-06-30T13:31:21.783499117Z"
     description: A Helm chart for Giant Swarm prometheus alerting and recording rules
@@ -51969,4 +51983,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-10T08:24:03.007479134Z"
+generated: "2023-07-10T08:51:38.6045799Z"

@@ -14666,6 +14666,23 @@ entries:
       application.giantswarm.io/team: rocket
     apiVersion: v2
     appVersion: v0.0.1
+    created: "2023-07-13T09:05:11.172954988Z"
+    description: A Helm chart for cluster-api-ipam-provider-in-cluster
+    digest: 0f16cb1a08caf2a6f41e47f096ca4a92786f394d04123e7c84d035f5dedf0008
+    home: https://github.com/giantswarm/cluster-api-ipam-provider-in-cluster-app
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cluster-api-ipam-provider-in-cluster
+    sources:
+    - https://github.com/giantswarm/cluster-api-ipam-provider-in-cluster-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-ipam-provider-in-cluster-0.0.7.tgz
+    version: 0.0.7
+  - annotations:
+      application.giantswarm.io/team: rocket
+    apiVersion: v2
+    appVersion: v0.0.1
     created: "2023-07-12T11:58:57.972570712Z"
     description: A Helm chart for cluster-api-ipam-provider-in-cluster
     digest: 1b83a33ab0e3d6f9e9e51167a333aba4418bfa9bd4621913affd63273e2c0583
@@ -52317,4 +52334,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-13T07:45:10.953337062Z"
+generated: "2023-07-13T09:05:11.172005661Z"

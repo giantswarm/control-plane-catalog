@@ -7108,6 +7108,20 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.2.0
+    created: "2023-07-13T12:32:46.848478731Z"
+    description: Operator to ensure the `tccpf` CF stack is correct for legacy AWS
+      clusters.
+    digest: 49dcc2cba0a875923d789cca46c701743e3e3041006ef8a557d22bd5d24e1387
+    home: https://github.com/giantswarm/aws-tccpf-watchdog
+    name: aws-tccpf-watchdog
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-tccpf-watchdog-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.1.0
     created: "2022-04-13T11:35:51.422089764Z"
     description: Operator to ensure the `tccpf` CF stack is correct for legacy AWS
@@ -52494,4 +52508,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-13T12:32:24.825527107Z"
+generated: "2023-07-13T12:32:46.847759608Z"

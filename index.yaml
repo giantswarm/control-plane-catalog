@@ -35109,6 +35109,23 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/kyverno-policies-ux-0.0.1.tgz
     version: 0.0.1
+  logging-operator:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/logging-operator-0.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/logging-operator-0.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/logging-operator-0.0.1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-07-13T07:45:10.953989532Z"
+    description: The logging-operator manages loki and promtail related config.
+    digest: b8b8d5224f2c6984a0dcc70dde77f81da7230a791df93d11e6463cd3cb772f61
+    home: https://github.com/giantswarm/logging-operator
+    name: logging-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/logging-operator-0.0.1.tgz
+    version: 0.0.1
   loki:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/loki-0.9.4.tgz-meta/main.yaml
@@ -52300,4 +52317,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-12T14:17:08.990277537Z"
+generated: "2023-07-13T07:45:10.953337062Z"

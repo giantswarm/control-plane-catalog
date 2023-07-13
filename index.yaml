@@ -32359,6 +32359,16 @@ entries:
     version: 0.1.0
   k8s-audit-metrics:
   - apiVersion: v1
+    appVersion: 0.6.0
+    created: "2023-07-13T14:10:45.39786574Z"
+    description: Collector that exposes metrics from k8s apiserver audit log.
+    digest: 571b8c12ae4837b2c2f39b089b72e05a065b142ef6c9370cad146154dd5cbd6d
+    home: https://github.com/giantswarm/k8s-audit-metrics
+    name: k8s-audit-metrics
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/k8s-audit-metrics-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v1
     appVersion: 0.5.3
     created: "2023-03-22T10:24:00.388103325Z"
     description: Collector that exposes metrics from k8s apiserver audit log.
@@ -52614,4 +52624,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-13T13:37:34.876448161Z"
+generated: "2023-07-13T14:10:45.396994838Z"

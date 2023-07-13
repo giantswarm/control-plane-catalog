@@ -3982,6 +3982,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 2.3.0
+    created: "2023-07-13T11:29:08.35622198Z"
+    description: The aws-collector manages Kubernetes clusters running on AWS.
+    digest: 7fecd33a21a21d1216688c29aa1393dc1c22e71c94a9e05fe1c4f68d1e01d5aa
+    home: https://github.com/giantswarm/aws-collector
+    name: aws-collector
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-collector-2.3.0.tgz
+    version: 2.3.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 2.2.0
     created: "2023-04-05T14:00:26.947909211Z"
     description: The aws-collector manages Kubernetes clusters running on AWS.
@@ -52396,4 +52409,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-13T10:49:04.036961368Z"
+generated: "2023-07-13T11:29:08.355441778Z"

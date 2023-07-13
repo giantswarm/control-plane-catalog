@@ -3426,6 +3426,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 4.10.0
+    created: "2023-07-13T10:47:05.08190684Z"
+    description: A Helm chart for Kubernetes
+    digest: 99e1cb561ae53b7006d261beb8b61fc7f0422c6f1e286814f80ca62ca31dddad
+    home: https://github.com/giantswarm/aws-admission-controller
+    name: aws-admission-controller
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-admission-controller-4.10.0.tgz
+    version: 4.10.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 4.9.1
     created: "2023-06-28T14:54:00.606766507Z"
     description: A Helm chart for Kubernetes
@@ -52353,4 +52366,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-13T10:43:39.145985665Z"
+generated: "2023-07-13T10:47:05.080960634Z"

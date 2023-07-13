@@ -7055,6 +7055,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.5.0
+    created: "2023-07-13T12:32:59.082486273Z"
+    description: Operator for seeting VPC connection peering tags
+    digest: 4da4c356dfef2a37aa4c27c4b8a3d5e0d57fe45f12f47515768d5b9c29108dcc
+    home: https://github.com/giantswarm/aws-servicequotas-operator
+    name: aws-servicequotas-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-servicequotas-operator-0.5.0.tgz
+    version: 0.5.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.4.0
     created: "2022-07-19T14:11:07.962708723Z"
     description: Operator for seeting VPC connection peering tags
@@ -52508,4 +52521,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-13T12:32:46.847759608Z"
+generated: "2023-07-13T12:32:59.081451747Z"

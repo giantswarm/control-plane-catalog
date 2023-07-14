@@ -9081,6 +9081,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 8.2.0
+    created: "2023-07-14T15:01:53.04092801Z"
+    description: Azure operator to create k8s clusters on Azure
+    digest: 710881b21ff3460cca59d6f11455976ef71c650d84152f3dea8b6e6c171a7c81
+    home: https://github.com/giantswarm/azure-operator
+    name: azure-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/azure-operator-8.2.0.tgz
+    version: 8.2.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 8.1.0
     created: "2023-07-04T12:50:57.951948617Z"
     description: Azure operator to create k8s clusters on Azure
@@ -52811,4 +52824,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-14T14:58:56.999856259Z"
+generated: "2023-07-14T15:01:53.040015153Z"

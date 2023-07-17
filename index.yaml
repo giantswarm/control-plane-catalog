@@ -7604,6 +7604,25 @@ entries:
     version: 0.1.0-alpha.0
   azure-ad-pod-identity-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/azure-ad-pod-identity-app-0.15.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/azure-ad-pod-identity-app-0.15.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2023-07-17T11:42:03.047981971Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: 3e63d46314f88b872f330ef0d993e98b4eab8827d23e1b8251a5b835875b2686
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/azure-ad-pod-identity-app-0.15.0.tgz
+    version: 0.15.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/azure-ad-pod-identity-app-0.14.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/azure-ad-pod-identity-app-0.14.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -52896,4 +52915,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-17T08:34:10.815767459Z"
+generated: "2023-07-17T11:42:03.04578034Z"

@@ -29221,6 +29221,36 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/g8s-prometheus-1.0.0.tgz
     version: 1.0.0
+  goldilocks:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/goldilocks-6.3.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/goldilocks-6.3.0.tgz-meta/README.md
+      application.giantswarm.io/team: turtles
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/goldilocks-6.3.0.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://raw.githubusercontent.com/FairwindsOps/charts/master/stable/goldilocks/icon.png
+    apiVersion: v2
+    appVersion: v4.9.0
+    created: "2023-08-08T10:05:32.361178112Z"
+    dependencies:
+    - name: goldilocks
+      repository: https://charts.fairwinds.com/stable
+      version: 7.0.2
+    description: 'A Helm chart for running Fairwinds Goldilocks. See https://github.com/FairwindsOps/goldilocks '
+    digest: ba0d4c2ce90329316f7116d4f6ceeb4650a08f18cfc273ef06b2efceacf19660
+    icon: https://raw.githubusercontent.com/FairwindsOps/charts/master/stable/goldilocks/icon.png
+    keywords:
+    - goldilocks
+    - resources
+    - kubernetes
+    maintainers:
+    - email: team-turtles@giantswarm.io
+      name: giantswarm/team-turtles
+    name: goldilocks
+    sources:
+    - https://github.com/FairwindsOps/goldilocks
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/goldilocks-6.3.0.tgz
+    version: 6.3.0
   goldilocks-app:
   - apiVersion: v2
     appVersion: v4.4.0
@@ -53950,4 +53980,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-08T06:43:47.367893418Z"
+generated: "2023-08-08T10:05:32.354286433Z"

@@ -51322,6 +51322,20 @@ entries:
       application.giantswarm.io/team: atlas
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
+    created: "2023-08-25T10:43:19.416479201Z"
+    description: SLO definition and implementation for Giant Swarm infrastructure
+    digest: 4425c2faab8b9f89143c74533dc913ba951205194bea5869bffbeae6cc2aa879
+    home: https://github.com/giantswarm/sloth-rules
+    kubeVersion: '>= 1.19.0-0'
+    name: sloth-rules
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/sloth-rules-0.21.0.tgz
+    version: 0.21.0
+  - annotations:
+      application.giantswarm.io/team: atlas
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
     created: "2023-08-21T07:25:14.847197546Z"
     description: SLO definition and implementation for Giant Swarm infrastructure
     digest: 0c53000e9f3ee5965e55c5f80632af3c5e72e87c8cc02ba9c0355965e1e942ae
@@ -54842,4 +54856,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-24T14:59:05.389069454Z"
+generated: "2023-08-25T10:43:19.415746286Z"

@@ -21034,6 +21034,20 @@ entries:
       application.giantswarm.io/team: atlas
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
+    appVersion: 2.42.0
+    created: "2023-08-31T13:16:21.91886412Z"
+    description: Grafana dashboards accessible by Giant Swarm customers
+    digest: 08363556bc4909f16c5e4b37777008b087c6cb315caa589209110bad20833adf
+    home: https://github.com/giantswarm/dashboards
+    icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg
+    name: dashboards
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/dashboards-2.42.0.tgz
+    version: 2.42.0
+  - annotations:
+      application.giantswarm.io/team: atlas
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
     appVersion: 2.41.0
     created: "2023-08-30T09:06:28.2925721Z"
     description: Grafana dashboards accessible by Giant Swarm customers
@@ -55185,4 +55199,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-31T06:20:09.149310083Z"
+generated: "2023-08-31T13:16:21.892663745Z"

@@ -53410,6 +53410,32 @@ entries:
     version: 1.0.0
   trivy:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/trivy-0.8.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/trivy-0.8.3.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/trivy-0.8.3.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.37.2
+    created: "2023-09-11T09:05:22.428156771Z"
+    dependencies:
+    - name: trivy
+      repository: ""
+      version: 0.7.0
+    description: A Helm chart for trivy
+    digest: 5127a8fc54f1690eead4877d6cce4c2957ee110297d43f014e50d2a92758938e
+    home: https://github.com/giantswarm/trivy-app
+    icon: https://s.giantswarm.io/app-icons/trivy/1/light.svg
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/trivy-app
+    name: trivy
+    sources:
+    - https://github.com/giantswarm/trivy-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/trivy-0.8.3.tgz
+    version: 0.8.3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/trivy-0.8.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/trivy-0.8.2.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -55344,4 +55370,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-11T09:04:50.938797921Z"
+generated: "2023-09-11T09:05:22.425757592Z"

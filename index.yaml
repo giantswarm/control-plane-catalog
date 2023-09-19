@@ -15737,6 +15737,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 2.4.0
+    created: "2023-09-19T16:08:37.360945948Z"
+    description: Helm chart for cluster-api-provider-aws.
+    digest: 1085f338ea5dc491cefa031e62e71ea4f9c8fc4b9111935cc0b331413a781753
+    home: https://github.com/giantswarm/cluster-api-provider-aws-app
+    name: cluster-api-provider-aws
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.4.0.tgz
+    version: 2.4.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 2.3.0
     created: "2023-07-14T09:23:39.045516457Z"
     description: Helm chart for cluster-api-provider-aws.
@@ -55828,4 +55841,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-19T14:40:30.048251543Z"
+generated: "2023-09-19T16:08:37.356882553Z"

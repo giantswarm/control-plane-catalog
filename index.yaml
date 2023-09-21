@@ -53345,6 +53345,26 @@ entries:
     version: 0.0.1
   teleport-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.2.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.2.1.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.2.1.tgz-meta/values.schema.json
+    apiVersion: v1
+    created: "2023-09-21T14:10:08.007213202Z"
+    description: Teleport operator
+    digest: ba86a137ca4ee07a02860c6c9a6905b27652bf9d440f0058a384e585d2a8f909
+    home: https://github.com/giantswarm/teleport-operator
+    icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
+    keywords:
+    - Teleport
+    maintainers:
+    - email: team-bigmac@giantswarm.io
+      name: giantswarm/team-bigmac
+    name: teleport-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.2.1.tgz
+    version: 0.2.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.2.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.2.0.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -55993,4 +56013,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-21T13:54:37.625148982Z"
+generated: "2023-09-21T14:10:08.006513102Z"

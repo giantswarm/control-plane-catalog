@@ -10643,6 +10643,24 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/azurefile-csi-driver-app-1.20.0-gs1.tgz
     version: 1.20.0-gs1
+  backstage:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/backstage-0.8.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/backstage-0.8.1.tgz-meta/README.md
+      application.giantswarm.io/team: team-honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/backstage-0.8.1.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/backstage/1/logo.svg
+    apiVersion: v1
+    appVersion: 0.8.1
+    created: "2023-09-22T14:23:11.562493676Z"
+    description: The Giant Swarm developer portal.
+    digest: dfa861b7a6d7886bce614c86babb0bc8354f00bedbe02b40f1bc7cb89eaf0c95
+    home: https://github.com/giantswarm/backstage
+    icon: https://s.giantswarm.io/app-icons/backstage/1/icon.svg
+    name: backstage
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/backstage-0.8.1.tgz
+    version: 0.8.1
   bridge-operator:
   - annotations:
       application.giantswarm.io/team: rocket
@@ -56095,4 +56113,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-22T14:02:33.898497501Z"
+generated: "2023-09-22T14:23:11.561818277Z"

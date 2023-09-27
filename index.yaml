@@ -10645,6 +10645,23 @@ entries:
     version: 1.20.0-gs1
   backstage:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/backstage-0.9.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/backstage-0.9.1.tgz-meta/README.md
+      application.giantswarm.io/team: team-honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/backstage-0.9.1.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/backstage/1/logo.svg
+    apiVersion: v1
+    appVersion: 0.9.1
+    created: "2023-09-27T13:07:01.568493576Z"
+    description: The Giant Swarm developer portal.
+    digest: ebcab2e1d7679e5318d1c11528b88ee07e583164b5ba3be026d228a7d2ccf1f8
+    home: https://github.com/giantswarm/backstage
+    icon: https://s.giantswarm.io/app-icons/backstage/1/icon.svg
+    name: backstage
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/backstage-0.9.1.tgz
+    version: 0.9.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/backstage-0.9.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/backstage-0.9.0.tgz-meta/README.md
       application.giantswarm.io/team: team-honeybadger
@@ -56359,4 +56376,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-27T10:37:53.454142533Z"
+generated: "2023-09-27T13:07:01.567459565Z"

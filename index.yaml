@@ -52380,6 +52380,19 @@ entries:
       application.giantswarm.io/team: atlas
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.11.0
+    created: "2023-10-02T12:53:12.148625591Z"
+    description: Chart holding silence-operator.
+    digest: d4aba65e94b6e322dcc56d25ca702e32e1b6f246ce9c77f6238e957e2aa2b1ce
+    home: https://github.com/giantswarm/silence-operator
+    name: silence-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/silence-operator-0.11.0.tgz
+    version: 0.11.0
+  - annotations:
+      application.giantswarm.io/team: atlas
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.10.3
     created: "2023-08-29T14:45:15.490931695Z"
     description: Chart holding silence-operator.
@@ -56581,4 +56594,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-02T11:48:45.21036961Z"
+generated: "2023-10-02T12:53:12.147901691Z"

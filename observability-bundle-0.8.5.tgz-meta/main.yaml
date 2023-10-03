@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/app-type: bundle
+  application.giantswarm.io/in-cluster-app: 'true'
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/observability-bundle-0.8.5.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/observability-bundle-0.8.5.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/observability-bundle-0.8.5.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: observability-bundle-0.8.5.tgz
+dateCreated: '2023-10-03T09:05:47.437436'
+digest: 6cc5eb9b667475a9c808396b8223d7faff8b16376769f4b3800d0f9d08a791d2
+home: https://github.com/giantswarm/observability-bundle

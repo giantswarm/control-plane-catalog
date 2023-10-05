@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/exception-recommender-0.0.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/exception-recommender-0.0.1.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/exception-recommender-0.0.1.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: exception-recommender-0.0.1.tgz
+dateCreated: '2023-10-05T17:16:19.347796'
+digest: e17044332dd31d0733f18091625e50b47eb6ecfc26aed7ffe276983a946384c2
+home: https://github.com/giantswarm/exception-recommender

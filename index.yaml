@@ -27098,6 +27098,23 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/event-exporter-app-0.1.0.tgz
     version: 0.1.0
+  exception-recommender:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/exception-recommender-0.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/exception-recommender-0.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/exception-recommender-0.0.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-10-05T17:16:24.802755316Z"
+    description: A Helm chart for exception-recommender, which creates PolicyExceptionDrafts
+      from Kyverno's PolicyReport results.
+    digest: e17044332dd31d0733f18091625e50b47eb6ecfc26aed7ffe276983a946384c2
+    home: https://github.com/giantswarm/exception-recommender
+    name: exception-recommender
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/exception-recommender-0.0.1.tgz
+    version: 0.0.1
   falco:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/falco-0.6.5.tgz-meta/main.yaml
@@ -57057,4 +57074,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-05T17:15:35.534349385Z"
+generated: "2023-10-05T17:16:24.801431256Z"

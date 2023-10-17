@@ -39007,6 +39007,31 @@ entries:
     version: 0.1.0
   memcached:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/memcached-0.1.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/memcached-0.1.2.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/memcached-0.1.2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.6.21
+    created: "2023-10-17T12:09:23.484645482Z"
+    dependencies:
+    - name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.6.2
+    description: Caching solution
+    digest: 422230088e6ca1185a97ee74de5c952bcb928659be36619f5daa1bec3c532b4e
+    home: https://github.com/giantswarm/memcached
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: memcached
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/memcached
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/memcached-0.1.2.tgz
+    version: 0.1.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/memcached-0.1.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/memcached-0.1.1.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -57681,4 +57706,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-17T11:30:46.384206353Z"
+generated: "2023-10-17T12:09:23.480137282Z"

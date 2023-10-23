@@ -11422,6 +11422,24 @@ entries:
     version: 1.0.0
   cert-exporter:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cert-exporter-2.8.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cert-exporter-2.8.2.tgz-meta/README.md
+      application.giantswarm.io/team: turtles
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cert-exporter-2.8.2.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 2.8.2
+    created: "2023-10-23T13:52:55.153386781Z"
+    description: The cert-exporter walks a directory path it has gotten as input and
+      emits all NotAfter timestamps as metrics.
+    digest: 34449b6ebbb7832fa51c2c205b24bef26aa0736a2f078a7228a7d070c83a5855
+    home: https://github.com/giantswarm/cert-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: cert-exporter
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cert-exporter-2.8.2.tgz
+    version: 2.8.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cert-exporter-2.8.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cert-exporter-2.8.1.tgz-meta/README.md
       application.giantswarm.io/team: turtles
@@ -58139,4 +58157,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-23T13:16:45.549417024Z"
+generated: "2023-10-23T13:52:55.152290337Z"

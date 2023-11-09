@@ -56531,6 +56531,35 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.1.0.tgz
     version: 0.1.0
+  tempo:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/tempo-0.1.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/tempo-0.1.1.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/tempo-0.1.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 2.2.3
+    created: "2023-11-09T13:12:43.367629909Z"
+    dependencies:
+    - alias: tempo
+      condition: tempo.enabled
+      name: tempo-distributed
+      repository: https://grafana.github.io/helm-charts
+      version: 1.7.0
+    description: Helm chart for Grafana Tempo in microservice mode
+    digest: 1c0bfed7d55521dd2302ee1b0184852e8e214be9a7e2d5eaecff9a637743175b
+    home: https://github.com/giantswarm/tempo-app
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: tempo
+    sources:
+    - https://github.com/giantswarm/tempo-app
+    - https://github.com/grafana/helm-charts/blob/main/charts/tempo-distributed
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/tempo-0.1.1.tgz
+    version: 0.1.1
   test-infra:
   - annotations:
       application.giantswarm.io/team: honeybadger
@@ -59373,4 +59402,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-09T12:54:25.339327037Z"
+generated: "2023-11-09T13:12:43.353948688Z"

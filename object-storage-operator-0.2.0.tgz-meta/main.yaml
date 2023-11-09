@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/object-storage-operator-0.2.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/object-storage-operator-0.2.0.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/object-storage-operator-0.2.0.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: object-storage-operator-0.2.0.tgz
+dateCreated: '2023-11-09T15:54:30.919941'
+digest: 0af548ac82de7e431ff9262ae627f49aca3229594560eec0379f93a7a2d68dd7
+home: https://github.com/giantswarm/object-storage-operator

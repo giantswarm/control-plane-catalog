@@ -53216,6 +53216,16 @@ entries:
     version: 0.0.2
   prow-log-aggregator:
   - apiVersion: v1
+    appVersion: 0.2.0
+    created: "2023-11-10T12:59:20.899899405Z"
+    description: Extract logs from Tekton pipelines into Prow dashboards.
+    digest: e88d7c6bfff205ba03f130b5e137e4d472d3b4296904905f02af39647aacc36c
+    home: https://github.com/giantswarm/prow-log-aggregator
+    name: prow-log-aggregator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/prow-log-aggregator-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
     appVersion: 0.1.0
     created: "2023-01-19T12:31:22.875975625Z"
     description: Extract logs from Tekton pipelines into Prow dashboards.
@@ -59531,4 +59541,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-10T12:12:12.989465071Z"
+generated: "2023-11-10T12:59:20.899418259Z"

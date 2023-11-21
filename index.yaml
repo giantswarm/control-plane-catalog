@@ -53913,6 +53913,17 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/prow-log-aggregator-0.0.1.tgz
     version: 0.0.1
+  pss-operator:
+  - apiVersion: v1
+    appVersion: 0.2.0
+    created: "2023-11-21T11:23:45.487575133Z"
+    description: Chart holding pss-operator. See https://github.com/giantswarm/giantswarm/issues/28242
+    digest: 357624229733b26f0ca9a4a267080b330aabbb33165189eb4c948b65e77538ce
+    home: https://github.com/giantswarm/pss-operator
+    name: pss-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/pss-operator-0.2.0.tgz
+    version: 0.2.0
   rbac-operator:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/rbac-operator-0.40.0.tgz-meta/main.yaml
@@ -60219,4 +60230,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-21T11:13:03.95742735Z"
+generated: "2023-11-21T11:23:45.486759896Z"

@@ -43284,6 +43284,23 @@ entries:
     version: 2.0.0
   object-storage-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/object-storage-operator-0.3.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/object-storage-operator-0.3.0.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/object-storage-operator-0.3.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.3.0
+    created: "2023-11-22T11:09:34.439583767Z"
+    description: The object-storage-operator manages object storage on CAPI management
+      clusters.
+    digest: 9f349b535dfdcc383ce14f16ec0bbf8c3a55571d34301c62ed04233d3f2b65bc
+    home: https://github.com/giantswarm/object-storage-operator
+    name: object-storage-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/object-storage-operator-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/object-storage-operator-0.2.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/object-storage-operator-0.2.1.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -60324,4 +60341,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-22T09:22:39.312528064Z"
+generated: "2023-11-22T11:09:34.438907152Z"

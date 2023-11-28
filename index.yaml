@@ -26495,6 +26495,20 @@ entries:
       application.giantswarm.io/team: bigmac
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.11.0
+    created: "2023-11-28T11:59:41.233468312Z"
+    description: An operator that automates the management of dex connector configurations
+    digest: 8b403bea1ca5b8c07d9a0f0fea57c09792e0dea679c8a2959ceada200602769e
+    home: https://github.com/giantswarm/dex-operator
+    icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
+    name: dex-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/dex-operator-0.11.0.tgz
+    version: 0.11.0
+  - annotations:
+      application.giantswarm.io/team: bigmac
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.10.1
     created: "2023-10-24T12:39:36.917125233Z"
     description: An operator that automates the management of dex connector configurations
@@ -60660,4 +60674,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-28T10:11:49.406406338Z"
+generated: "2023-11-28T11:59:41.232553972Z"

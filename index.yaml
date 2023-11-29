@@ -59519,6 +59519,19 @@ entries:
   - annotations:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 2.5.0
+    created: "2023-11-29T11:01:37.371730098Z"
+    description: Chart holding vault-exporter.
+    digest: c8e5950707f43f0bfc411380090e4142baff6525a31e6831cf1082711215ca34
+    home: https://github.com/giantswarm/vault-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: vault-exporter
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/vault-exporter-2.5.0.tgz
+    version: 2.5.0
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 2.4.0
     created: "2023-07-13T14:40:07.108830518Z"
     description: Chart holding vault-exporter.
@@ -60690,4 +60703,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-28T12:16:10.970553659Z"
+generated: "2023-11-29T11:01:37.371156194Z"

@@ -28629,6 +28629,22 @@ entries:
     version: 0.1.0
   exception-recommender:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/exception-recommender-0.0.5.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/exception-recommender-0.0.5.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/exception-recommender-0.0.5.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-11-30T12:27:50.07735837Z"
+    description: A Helm chart for exception-recommender, which creates PolicyExceptionDrafts
+      from Kyverno's PolicyReport results.
+    digest: 36144fd45bf26b815e6a64eebd929ab166dc6010f64d404c9c3ca055dd28a6cf
+    home: https://github.com/giantswarm/exception-recommender
+    name: exception-recommender
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/exception-recommender-0.0.5.tgz
+    version: 0.0.5
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/exception-recommender-0.0.4.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/exception-recommender-0.0.4.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -60789,4 +60805,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-30T08:02:24.542023036Z"
+generated: "2023-11-30T12:27:50.075990238Z"

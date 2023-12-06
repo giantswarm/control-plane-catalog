@@ -45574,6 +45574,19 @@ entries:
       application.giantswarm.io/team: atlas
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
+    appVersion: 4.63.0
+    created: "2023-12-06T13:46:46.818820351Z"
+    description: The prometheus-meta-operator manages Kubernetes clusters monitoring.
+    digest: 7777c15c69e70521316504abf7660427b96caaae73766e646c929cb0daf83a8b
+    home: https://github.com/giantswarm/prometheus-meta-operator
+    name: prometheus-meta-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/prometheus-meta-operator-4.63.0.tgz
+    version: 4.63.0
+  - annotations:
+      application.giantswarm.io/team: atlas
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
     appVersion: 4.62.0
     created: "2023-11-27T09:35:04.37891712Z"
     description: The prometheus-meta-operator manages Kubernetes clusters monitoring.
@@ -61199,4 +61212,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-06T12:49:36.773224695Z"
+generated: "2023-12-06T13:46:46.817767548Z"

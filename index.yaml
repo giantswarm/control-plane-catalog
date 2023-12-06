@@ -60149,6 +60149,18 @@ entries:
   - annotations:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.2.2
+    created: "2023-12-06T16:17:30.491452023Z"
+    description: Helm chart for userd.
+    digest: fa0ad589a4a46524722fd51a5fa9906d39c0f9a70c0fe4f7fb789b5098aa0048
+    home: https://github.com/giantswarm/userd
+    name: userd
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/userd-1.2.2.tgz
+    version: 1.2.2
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.2.1
     created: "2021-10-27T13:52:45.845431448Z"
     description: Helm chart for userd.
@@ -61388,4 +61400,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-06T15:59:12.902258304Z"
+generated: "2023-12-06T16:17:30.490998242Z"

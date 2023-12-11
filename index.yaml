@@ -21199,6 +21199,19 @@ entries:
       application.giantswarm.io/team: rocket
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 2.3.2
+    created: "2023-12-11T12:38:44.312044384Z"
+    description: Helm chart for cluster-service.
+    digest: a0bcaa7ed18ddd5195f8953af2ee1bfb5760f55bce31ec234c09602a60caddd2
+    home: https://github.com/giantswarm/cluster-service
+    name: cluster-service
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-service-2.3.2.tgz
+    version: 2.3.2
+  - annotations:
+      application.giantswarm.io/team: rocket
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 2.3.1
     created: "2023-11-22T15:02:42.263077518Z"
     description: Helm chart for cluster-service.
@@ -61485,4 +61498,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-07T16:48:44.529427042Z"
+generated: "2023-12-11T12:38:44.310458221Z"

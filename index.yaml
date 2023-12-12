@@ -55164,6 +55164,19 @@ entries:
       application.giantswarm.io/team: shield
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
+    appVersion: 0.3.1
+    created: "2023-12-12T11:54:16.294416859Z"
+    description: Chart holding pss-operator. See https://github.com/giantswarm/giantswarm/issues/28242
+    digest: f0d2e906cf47c923c5aec5551a47819c3c76677c59f727bb12dd608af7b931b1
+    home: https://github.com/giantswarm/pss-operator
+    name: pss-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/pss-operator-0.3.1.tgz
+    version: 0.3.1
+  - annotations:
+      application.giantswarm.io/team: shield
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
     appVersion: 0.3.0
     created: "2023-12-12T10:40:35.635820637Z"
     description: Chart holding pss-operator. See https://github.com/giantswarm/giantswarm/issues/28242
@@ -61644,4 +61657,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-12T10:40:35.635250778Z"
+generated: "2023-12-12T11:54:16.293726578Z"

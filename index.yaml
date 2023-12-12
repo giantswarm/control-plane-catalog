@@ -40488,6 +40488,22 @@ entries:
     version: 0.0.1
   kyverno-policy-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/kyverno-policy-operator-0.0.6.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/kyverno-policy-operator-0.0.6.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/kyverno-policy-operator-0.0.6.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-12-12T02:03:05.465483868Z"
+    description: A Helm chart for kyverno-policy-operator, which creates PolicyExceptions
+      based on PolicyExceptionsDraft resources.
+    digest: 0dd4d2e8b00a5014839bc4ba5c4f3c5d981c96a3df5d11459c817b84e6eb02f7
+    home: https://github.com/giantswarm/kyverno-policy-operator
+    name: kyverno-policy-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kyverno-policy-operator-0.0.6.tgz
+    version: 0.0.6
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/kyverno-policy-operator-0.0.5.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/kyverno-policy-operator-0.0.5.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -61569,4 +61585,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-11T16:33:06.643759742Z"
+generated: "2023-12-12T02:03:05.464516115Z"

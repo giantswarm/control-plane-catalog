@@ -35906,6 +35906,20 @@ entries:
   - annotations:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.2.1
+    created: "2023-12-13T11:27:02.127509974Z"
+    description: ingress-exporter exports Prometheus metrics for avaiability of ingress
+      for all tenant clusters.
+    digest: e91d598970885ff1b9598c5248bc483f82e396c6601b3cb0ea6719dcd33938ea
+    home: https://github.com/giantswarm/ingress-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: ingress-exporter
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/ingress-exporter-1.2.1.tgz
+    version: 1.2.1
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.2.0
     created: "2023-10-17T08:16:49.751283395Z"
     description: ingress-exporter exports Prometheus metrics for avaiability of ingress
@@ -61765,4 +61779,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-13T10:28:58.48906308Z"
+generated: "2023-12-13T11:27:02.127023784Z"

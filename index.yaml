@@ -59659,6 +59659,18 @@ entries:
   - annotations:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.2.3
+    created: "2023-12-15T12:04:48.940718726Z"
+    description: Helm chart for tokend.
+    digest: abd8352bebe1ce50b2229b5381100b6a833bdb462de44a0f620d9bb67b5cc74e
+    home: https://github.com/giantswarm/tokend
+    name: tokend
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/tokend-1.2.3.tgz
+    version: 1.2.3
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.2.2
     created: "2021-11-02T10:44:32.354483901Z"
     description: Helm chart for tokend.
@@ -61957,4 +61969,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-14T13:09:28.53763048Z"
+generated: "2023-12-15T12:04:48.940109825Z"

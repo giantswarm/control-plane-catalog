@@ -55458,9 +55458,9 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
     appVersion: 0.3.1
-    created: "2023-12-12T11:54:16.294416859Z"
+    created: "2023-12-18T14:28:59.29418249Z"
     description: Chart holding pss-operator. See https://github.com/giantswarm/giantswarm/issues/28242
-    digest: f0d2e906cf47c923c5aec5551a47819c3c76677c59f727bb12dd608af7b931b1
+    digest: 3679eec7186c62114560dbc5f2bf36badcaa34fdf1e6bcca388130f18d128df7
     home: https://github.com/giantswarm/pss-operator
     name: pss-operator
     urls:
@@ -62054,4 +62054,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-18T10:01:52.534830931Z"
+generated: "2023-12-18T14:28:59.293629074Z"

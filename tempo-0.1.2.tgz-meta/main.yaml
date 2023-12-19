@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/tempo-0.1.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/tempo-0.1.2.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/tempo-0.1.2.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: tempo-0.1.2.tgz
+dateCreated: '2023-12-19T13:14:35.519451'
+digest: 3c6a2a5444bebc960aed20555fa9bae527b2def5909e31d18dcdacf6a3727071
+home: https://github.com/giantswarm/tempo-app
+restrictions:
+  namespaceSingleton: true

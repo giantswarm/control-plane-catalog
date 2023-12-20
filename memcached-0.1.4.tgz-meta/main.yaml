@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/memcached-0.1.4.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/memcached-0.1.4.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/memcached-0.1.4.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: memcached-0.1.4.tgz
+dateCreated: '2023-12-20T16:05:57.010901'
+digest: 96e3605824780ce607f9e632fb70c7d25a11707cf8a02034b4ec2cc17e277e2b
+home: https://github.com/giantswarm/memcached

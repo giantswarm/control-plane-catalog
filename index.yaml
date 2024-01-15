@@ -21885,6 +21885,19 @@ entries:
       application.giantswarm.io/team: honeybadger
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.9.1
+    created: "2024-01-15T10:24:50.231411644Z"
+    description: Chart holding config-controller.
+    digest: 39f7c2c5e9c43b3591ab9cdd24dc525ed39c7bcde7fa5c00505bbe8fd2fcf68a
+    home: https://github.com/giantswarm/config-controller
+    name: config-controller
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/config-controller-0.9.1.tgz
+    version: 0.9.1
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.9.0
     created: "2023-11-10T12:12:12.990131214Z"
     description: Chart holding config-controller.
@@ -63101,4 +63114,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-15T09:31:39.14818625Z"
+generated: "2024-01-15T10:24:50.230679341Z"

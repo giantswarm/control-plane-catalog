@@ -5316,6 +5316,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 16.0.0
+    created: "2024-01-16T13:57:19.675917478Z"
+    description: The aws-operator manages Kubernetes clusters running on AWS.
+    digest: 2d015a9f831a0d9a673052f9dbaabd59525e47a0562cbddbb83f06eca998ffa6
+    home: https://github.com/giantswarm/aws-operator
+    name: aws-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-operator-16.0.0.tgz
+    version: 16.0.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 15.0.0
     created: "2023-12-13T15:38:27.69150919Z"
     description: The aws-operator manages Kubernetes clusters running on AWS.
@@ -63485,4 +63498,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-16T13:38:55.274494943Z"
+generated: "2024-01-16T13:57:19.674784308Z"

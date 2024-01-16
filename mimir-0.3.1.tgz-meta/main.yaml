@@ -5,7 +5,7 @@ annotations:
   application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/mimir-0.3.1.tgz-meta/values.schema.json
 chartApiVersion: v2
 chartFile: mimir-0.3.1.tgz
-dateCreated: '2024-01-16T10:14:38.958331'
-digest: 6de5e61027b56fb53d388a9c73dd68522970bc6e2a6a0f22303ce6608789b7a9
+dateCreated: '2024-01-16T10:22:48.239227'
+digest: 9697a8b2574c217187c608a84263f33b91bd52b4edb0e0638ee9f9b4dcd4759f
 home: https://github.com/giantswarm/mimir-app
 icon: https://s.giantswarm.io/app-icons/grafana-mimir/1/light-icon.svg

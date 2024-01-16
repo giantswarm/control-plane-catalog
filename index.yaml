@@ -43393,7 +43393,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/mimir-0.3.1.tgz-meta/values.schema.json
     apiVersion: v2
     appVersion: 2.11.0
-    created: "2024-01-16T10:14:46.025096448Z"
+    created: "2024-01-16T10:22:56.142230391Z"
     dependencies:
     - alias: mimir
       condition: mimir.enabled
@@ -43401,7 +43401,7 @@ entries:
       repository: https://grafana.github.io/helm-charts
       version: 5.2.0
     description: A Helm chart for grafana's Mimir
-    digest: 6de5e61027b56fb53d388a9c73dd68522970bc6e2a6a0f22303ce6608789b7a9
+    digest: 9697a8b2574c217187c608a84263f33b91bd52b4edb0e0638ee9f9b4dcd4759f
     home: https://github.com/giantswarm/mimir-app
     icon: https://s.giantswarm.io/app-icons/grafana-mimir/1/light-icon.svg
     maintainers:
@@ -63427,4 +63427,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-16T10:14:46.003560755Z"
+generated: "2024-01-16T10:22:56.119607469Z"

@@ -24737,6 +24737,20 @@ entries:
       application.giantswarm.io/team: rocket
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.2.0
+    created: "2024-01-17T14:23:11.483297692Z"
+    description: An helper operator to block deletion of k8s objects by managing finalizers
+      based on some defined rules
+    digest: e27941fd3d1229f29c6059a1aa440794d84cefee2984f8a4706c1cfb6367839b
+    home: https://github.com/giantswarm/deletion-blocker-operator
+    name: deletion-blocker-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/deletion-blocker-operator-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      application.giantswarm.io/team: rocket
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.1.4
     created: "2023-08-24T11:34:14.650826027Z"
     description: An helper operator to block deletion of k8s objects by managing finalizers
@@ -63625,4 +63639,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-17T14:15:03.353482248Z"
+generated: "2024-01-17T14:23:11.482705491Z"

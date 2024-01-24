@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/dipstick-0.0.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/dipstick-0.0.1.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/dipstick-0.0.1.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: dipstick-0.0.1.tgz
+dateCreated: '2024-01-24T17:10:32.702876'
+digest: 5699e55fcf778d0b1f4fe9939cbe45f1f4a393dd026a239a143eae45de6393d5
+home: https://github.com/giantswarm/dipstick
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg

@@ -7305,6 +7305,20 @@ entries:
     version: 5.5.0-fix
   aws-resolver-rules-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.14.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.14.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.14.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2024-01-25T14:14:49.093886463Z"
+    description: Please add description
+    digest: f4b542a72f3c3c07a4c5acab23fc505ad097ae6ac5b067c967e9c6267101f632
+    home: https://github.com/giantswarm/aws-resolver-rules-operator
+    name: aws-resolver-rules-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.14.0.tgz
+    version: 0.14.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.13.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.13.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -64591,4 +64605,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-25T13:25:37.273092288Z"
+generated: "2024-01-25T14:14:49.092937646Z"

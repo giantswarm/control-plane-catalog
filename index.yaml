@@ -19214,6 +19214,19 @@ entries:
       application.giantswarm.io/team: honeybadger
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
+    appVersion: 2.18.1
+    created: "2024-01-29T08:25:38.053660546Z"
+    description: Chart holding cluster-apps-operator.
+    digest: 5595d955a74f17296d6d28a0ac8a655678c1a76e345b05f627a145ba90700c7e
+    home: https://github.com/giantswarm/cluster-apps-operator
+    name: cluster-apps-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-apps-operator-2.18.1.tgz
+    version: 2.18.1
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
     appVersion: 2.18.0
     created: "2024-01-16T10:30:32.385010232Z"
     description: Chart holding cluster-apps-operator.
@@ -64945,4 +64958,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-29T07:56:14.264280264Z"
+generated: "2024-01-29T08:25:38.052869949Z"

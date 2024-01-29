@@ -57731,6 +57731,18 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/promxy-app-0.0.2.tgz
     version: 0.0.2
   prow-log-aggregator:
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+    apiVersion: v1
+    appVersion: 0.3.2
+    created: "2024-01-29T07:56:00.658342876Z"
+    description: Extract logs from Tekton pipelines into Prow dashboards.
+    digest: 41c2afc9881c8e90c8f3d35b57792f1b0202d5234f91b42090aaa32ce48d7e96
+    home: https://github.com/giantswarm/prow-log-aggregator
+    name: prow-log-aggregator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/prow-log-aggregator-0.3.2.tgz
+    version: 0.3.2
   - apiVersion: v1
     appVersion: 0.3.1
     created: "2023-12-05T14:23:09.804404476Z"
@@ -64920,4 +64932,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-01-29T07:55:44.667002908Z"
+generated: "2024-01-29T07:56:00.657858466Z"

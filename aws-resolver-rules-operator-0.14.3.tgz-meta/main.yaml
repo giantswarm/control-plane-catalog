@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.14.3.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.14.3.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.14.3.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: aws-resolver-rules-operator-0.14.3.tgz
+dateCreated: '2024-01-30T16:38:15.515391'
+digest: 5409ff1e45439e4d11b8ea4b46bf4c12548962362cb53a1815d3230bb9ad14a3
+home: https://github.com/giantswarm/aws-resolver-rules-operator
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg

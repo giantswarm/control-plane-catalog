@@ -20331,6 +20331,23 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.27.3-gs1.tgz
     version: 1.27.3-gs1
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.25.3-gs2-b6e30c56a410838a9fc6b6b0436e2e137dc5489e.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.25.3-gs2-b6e30c56a410838a9fc6b6b0436e2e137dc5489e.tgz-meta/README.md
+      application.giantswarm.io/team: turtles
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.25.3-gs2-b6e30c56a410838a9fc6b6b0436e2e137dc5489e.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    apiVersion: v2
+    appVersion: 1.24.3
+    created: "2024-02-12T11:53:10.529392629Z"
+    description: A Helm chart for the Cluster Autoscaler.
+    digest: 30bf775e2b987d2e6c1214bff103528f2a679c589027ca88c90401862b0df4ec
+    home: https://github.com/giantswarm/cluster-autoscaler-app
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    name: cluster-autoscaler-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.25.3-gs2-b6e30c56a410838a9fc6b6b0436e2e137dc5489e.tgz
+    version: 1.25.3-gs2-b6e30c56a410838a9fc6b6b0436e2e137dc5489e
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.25.3-gs1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.25.3-gs1.tgz-meta/README.md
       application.giantswarm.io/team: turtles
@@ -65852,4 +65869,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-12T09:50:41.358807437Z"
+generated: "2024-02-12T11:53:10.528443895Z"

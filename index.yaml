@@ -35568,6 +35568,23 @@ entries:
     version: 0.1.0
   happa:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/happa-1.64.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/happa-1.64.0.tgz-meta/README.md
+      application.giantswarm.io/team: team-honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/happa-1.64.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.64.0
+    created: "2024-02-13T06:49:49.27071567Z"
+    description: Web user interface for Giant Swarm Kubernetes as a Service.
+    digest: 8b9fed02dbf4f83d8434bdde2c0c2d9ac0bde5edcda3fd0e6ce67a45912dde7a
+    home: https://github.com/giantswarm/happa
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: happa
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/happa-1.64.0.tgz
+    version: 1.64.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/happa-1.63.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/happa-1.63.0.tgz-meta/README.md
       application.giantswarm.io/team: team-honeybadger
@@ -65950,4 +65967,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-12T14:51:23.365249512Z"
+generated: "2024-02-13T06:49:49.269685547Z"

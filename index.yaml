@@ -20912,6 +20912,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.9.0
+    created: "2024-02-15T11:53:21.830490878Z"
+    description: Operator for deleting test clusters
+    digest: 01b6274c062355212f77380e8038f2973458b0a1ce73ea1d7be6533f2ddaafe5
+    home: https://github.com/giantswarm/cluster-cleaner
+    name: cluster-cleaner
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-cleaner-0.9.0.tgz
+    version: 0.9.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.8.0
     created: "2023-07-17T15:45:43.230954103Z"
     description: Operator for deleting test clusters
@@ -66279,4 +66292,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-15T09:46:47.028003381Z"
+generated: "2024-02-15T11:53:21.829849011Z"

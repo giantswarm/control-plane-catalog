@@ -63251,6 +63251,27 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.1.0.tgz
     version: 0.1.0
+  teleport-tbot:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/teleport-tbot-0.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/teleport-tbot-0.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/teleport-tbot-0.0.1.tgz-meta/values.schema.json
+    apiVersion: v1
+    created: "2024-02-22T15:16:08.791194191Z"
+    description: Teleport TBOT
+    digest: 1981142a156f2266f2ea7f5f6b358ec24b4b5fa0e9916fc5ff819f97ef09c8dd
+    home: https://github.com/giantswarm/teleport-tbot
+    icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
+    keywords:
+    - Teleport
+    maintainers:
+    - email: team-bigmac@giantswarm.io
+      name: giantswarm/team-bigmac
+    name: teleport-tbot
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/teleport-tbot-0.0.1.tgz
+    version: 0.0.1
   tempo:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/tempo-0.1.2.tgz-meta/main.yaml
@@ -66651,4 +66672,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-22T14:09:02.513468983Z"
+generated: "2024-02-22T15:16:08.789468218Z"

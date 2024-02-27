@@ -49374,6 +49374,19 @@ entries:
       application.giantswarm.io/team: honeybadger
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.8.4
+    created: "2024-02-27T13:27:52.701844272Z"
+    description: Backend service to perform self-service user account creation.
+    digest: 8c8b9bc0ef47deb585874857ec9e81d707a344709cea11392cdffba41fb62649
+    home: https://github.com/giantswarm/passage
+    name: passage
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/passage-0.8.4.tgz
+    version: 0.8.4
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.8.3
     created: "2024-02-27T11:17:08.141779489Z"
     description: Backend service to perform self-service user account creation.
@@ -66882,4 +66895,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-27T13:17:13.388920101Z"
+generated: "2024-02-27T13:27:52.701113928Z"

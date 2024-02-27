@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/teleport-tbot-0.0.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/teleport-tbot-0.0.2.tgz-meta/README.md
+  application.giantswarm.io/team: bigmac
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/teleport-tbot-0.0.2.tgz-meta/values.schema.json
+chartApiVersion: v1
+chartFile: teleport-tbot-0.0.2.tgz
+dateCreated: '2024-02-27T13:17:06.792205'
+digest: 264d3d024b0597e7fdb143d8146b555b0c17db737e40b533c904bfe25c4d0a94
+home: https://github.com/giantswarm/teleport-tbot
+icon: https://s.giantswarm.io/app-icons/teleport/1/light.png

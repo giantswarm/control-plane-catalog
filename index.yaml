@@ -4,6 +4,18 @@ entries:
   - annotations:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.37.3
+    created: "2024-02-27T14:19:23.585893443Z"
+    description: Gateway to several Giant Swarm services.
+    digest: 93f18876a3aa802958662fad988380c15882d0d62609e8f918fea0fbe3f1ebf8
+    home: https://github.com/giantswarm/api
+    name: api
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/api-1.37.3.tgz
+    version: 1.37.3
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.37.2
     created: "2024-02-27T13:12:02.531702007Z"
     description: Gateway to several Giant Swarm services.
@@ -66923,4 +66935,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-27T13:33:18.271692244Z"
+generated: "2024-02-27T14:19:23.584536185Z"

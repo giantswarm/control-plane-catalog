@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/loki-0.18.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/loki-0.18.1.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/loki-0.18.1.tgz-meta/values.schema.json
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/grafana-loki/2/dark.svg
+chartApiVersion: v2
+chartFile: loki-0.18.1.tgz
+dateCreated: '2024-03-06T09:07:01.501399'
+digest: 1c23dab2bb1836b7ff67a987a020834fec5d943c7af248f6a34827857c7c1316
+home: https://github.com/giantswarm/loki-app
+icon: https://s.giantswarm.io/app-icons/loki-stack/1/dark.svg
+restrictions:
+  namespaceSingleton: true

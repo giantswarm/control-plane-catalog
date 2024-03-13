@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/backstage-0.16.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/backstage-0.16.2.tgz-meta/README.md
+  application.giantswarm.io/team: honeybadger
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/backstage-0.16.2.tgz-meta/values.schema.json
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/backstage/1/logo.svg
+chartApiVersion: v1
+chartFile: backstage-0.16.2.tgz
+dateCreated: '2024-03-13T11:50:04.426940'
+digest: 52c92d39558f5593aa2c922d7a3139eca9ff9ba85f403f4fef3136292e7caef2
+home: https://github.com/giantswarm/backstage
+icon: https://s.giantswarm.io/app-icons/backstage/1/icon.svg

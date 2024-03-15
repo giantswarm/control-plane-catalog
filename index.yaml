@@ -17956,6 +17956,19 @@ entries:
       application.giantswarm.io/team: rocket
       config.giantswarm.io/version: 0.1.0
     apiVersion: v1
+    appVersion: 1.10.0
+    created: "2024-03-15T13:03:08.698514806Z"
+    description: A modified kube-state-metrics which only monitor CAPI related CRs
+    digest: 168932d91555c1ffb1f5c19fd69f8050d04e388fb65dcebacb5b02524f298e50
+    home: https://github.com/giantswarm/cluster-api-monitoring
+    name: cluster-api-monitoring
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-monitoring-1.10.0.tgz
+    version: 1.10.0
+  - annotations:
+      application.giantswarm.io/team: rocket
+      config.giantswarm.io/version: 0.1.0
+    apiVersion: v1
     appVersion: 1.9.0
     created: "2024-01-25T12:41:14.40246106Z"
     description: A modified kube-state-metrics which only monitor CAPI related CRs
@@ -68138,4 +68151,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-14T13:53:17.87395825Z"
+generated: "2024-03-15T13:03:08.697101881Z"

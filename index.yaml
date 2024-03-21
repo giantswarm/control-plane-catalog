@@ -4533,6 +4533,22 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/aws-collector-1.0.0.tgz
     version: 1.0.0
+  aws-crossplane-cluster-config-operator:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/aws-crossplane-cluster-config-operator-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/aws-crossplane-cluster-config-operator-0.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/aws-crossplane-cluster-config-operator-0.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2024-03-21T12:36:30.035485307Z"
+    description: Please add description
+    digest: 00aa253cd0fece5952f3f9518aa886d0d6cbab7b5d0eb9fd3d3c57c68c66cc02
+    home: https://github.com/giantswarm/aws-crossplane-cluster-config-operator
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: aws-crossplane-cluster-config-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-crossplane-cluster-config-operator-0.1.0.tgz
+    version: 0.1.0
   aws-ebs-csi-driver-app:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -68499,4 +68515,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-03-21T10:57:18.198660754Z"
+generated: "2024-03-21T12:36:30.03483439Z"

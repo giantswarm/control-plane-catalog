@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.27.3-gs8-b6e30c56a410838a9fc6b6b0436e2e137dc5489e.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.27.3-gs8-b6e30c56a410838a9fc6b6b0436e2e137dc5489e.tgz-meta/README.md
+  application.giantswarm.io/team: turtles
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.27.3-gs8-b6e30c56a410838a9fc6b6b0436e2e137dc5489e.tgz-meta/values.schema.json
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+chartApiVersion: v2
+chartFile: cluster-autoscaler-app-1.27.3-gs8-b6e30c56a410838a9fc6b6b0436e2e137dc5489e.tgz
+dateCreated: '2024-03-26T14:26:17.073678'
+digest: 3cb259e9eb3c5152fc34811a55aac77c848c23fe66fb2422cdf48afaff5b1f61
+home: https://github.com/giantswarm/cluster-autoscaler-app
+icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg

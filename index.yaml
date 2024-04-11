@@ -69803,6 +69803,27 @@ entries:
     version: 1.0.0
   vertical-pod-autoscaler-crd:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: turtles
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.1.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+      repository: https://github.com/FairwindsOps/charts/tree/master/stable/vpa
+      version: fb2ccec4228c26e366bd1ac96aade056f3db0151
+    apiVersion: v2
+    appVersion: 1.1.0
+    created: "2024-04-11T06:48:13.535785229Z"
+    description: Vertical Pod Autoscaler CustomResourceDefinitions.
+    digest: 4fe6c29b4b69ad397b5db6ee7c16fc4fe66c9e088247b5da3c10869509a2ff2d
+    home: https://github.com/giantswarm/vertical-pod-autoscaler-crd
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    name: vertical-pod-autoscaler-crd
+    sources:
+    - https://github.com/kubernetes/autoscaler
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.1.0.tgz
+    version: 3.1.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz-meta/README.md
       application.giantswarm.io/team: turtles
@@ -69915,4 +69936,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-10T14:56:23.708416092Z"
+generated: "2024-04-11T06:48:13.535119697Z"

@@ -16470,6 +16470,30 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/chart-operator-0.13.0.tgz
     version: 0.13.0
+  cloudnative-pg:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cloudnative-pg-0.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cloudnative-pg-0.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cloudnative-pg-0.0.1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 1.22.2
+    created: "2024-04-17T22:17:07.157830544Z"
+    dependencies:
+    - name: cloudnative-pg
+      repository: ""
+      version: 0.20.2
+    description: A Giant Swarm app for deploying CloudNative PostgreSQL.
+    digest: 5301eadb1ae9e59fbe959d432151fe7dac94dedc5f9612e94a70ff54f7f1e6bb
+    home: https://github.com/giantswarm/cloudnative-pg-app
+    icon: https://s.giantswarm.io/app-icons/cloudnative-pg/icon-light.svg
+    name: cloudnative-pg
+    sources:
+    - https://github.com/cloudnative-pg/charts
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cloudnative-pg-0.0.1.tgz
+    version: 0.0.1
   cluster-api:
   - annotations:
       application.giantswarm.io/team: turtles
@@ -70441,4 +70465,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-17T15:32:05.71714556Z"
+generated: "2024-04-17T22:17:07.148687171Z"

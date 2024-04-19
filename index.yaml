@@ -31461,6 +31461,28 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/dns-operator-route53-0.5.0.tgz
     version: 0.5.0
+  edgedb:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/edgedb-0.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/edgedb-0.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/edgedb-0.0.1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: "4.5"
+    created: "2024-04-19T20:08:57.503799204Z"
+    description: A Helm chart for deploying the EdgeDB graph database.
+    digest: 166560111f0c637b02a86ebcc7902cbf6c90bfabf0ca36dbd551700ea5ddfa46
+    home: https://github.com/giantswarm/edgedb
+    icon: https://s.giantswarm.io/app-icons/edgedb/light.svg
+    name: edgedb
+    sources:
+    - https://github.com/edgedb/edgedb
+    - https://github.com/Japan7/nanak8s/tree/main/charts/edgedb
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/edgedb-0.0.1.tgz
+    version: 0.0.1
   encryption-provider-operator:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -70541,4 +70563,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-19T12:05:19.569086885Z"
+generated: "2024-04-19T20:08:57.502886952Z"

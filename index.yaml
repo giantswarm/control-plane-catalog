@@ -33377,6 +33377,39 @@ entries:
     version: 0.0.1
   falco:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/falco-0.8.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/falco-0.8.1.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/falco-0.8.1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/falco/2/logo_dark.svg
+    apiVersion: v2
+    appVersion: 0.35.1
+    created: "2024-04-30T16:39:42.540118608Z"
+    dependencies:
+    - name: falco
+      repository: ""
+      version: 3.8.1
+    - name: falco-exporter
+      repository: ""
+      version: 0.9.7
+    - name: falcosidekick
+      repository: ""
+      version: 0.7.5
+    description: A Helm chart for falco
+    digest: f4a392100e23fae6456be028736cc6e52e4262b4aecc722a5bba2c5b8e48a1ce
+    home: https://github.com/giantswarm/falco-app
+    icon: https://s.giantswarm.io/app-icons/falco/2/icon_dark.svg
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/falco-app
+    name: falco
+    sources:
+    - https://github.com/giantswarm/falco-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/falco-0.8.1.tgz
+    version: 0.8.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/falco-0.8.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/falco-0.8.0.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -71244,4 +71277,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-30T13:37:25.367199823Z"
+generated: "2024-04-30T16:39:42.531236178Z"

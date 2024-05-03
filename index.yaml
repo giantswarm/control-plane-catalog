@@ -67061,10 +67061,10 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: 0.7.9
-    created: "2024-05-03T11:58:06.62389201Z"
+    created: "2024-05-03T12:13:33.437881338Z"
     description: A Helm chart for starboard-exporter, which exposes Prometheus metrics
       from Aqua VulnerabilityReport and other custom resources.
-    digest: 93e8fd82c3ec79d65f6778d91f89301d0c8e99944b8da375aa8949570fe10acb
+    digest: d720ed42c1782b71b03306b0fcd65e75397b64414461ce67e1c457431aee9448
     home: https://github.com/giantswarm/starboard-exporter
     icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
     name: starboard-exporter
@@ -71450,4 +71450,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-03T11:58:06.622370972Z"
+generated: "2024-05-03T12:13:33.435301624Z"

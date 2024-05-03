@@ -6,7 +6,7 @@ annotations:
   config.giantswarm.io/version: 1.x.x
 chartApiVersion: v1
 chartFile: starboard-exporter-0.7.9.tgz
-dateCreated: '2024-05-03T11:58:00.592516'
-digest: 93e8fd82c3ec79d65f6778d91f89301d0c8e99944b8da375aa8949570fe10acb
+dateCreated: '2024-05-03T12:13:27.257896'
+digest: d720ed42c1782b71b03306b0fcd65e75397b64414461ce67e1c457431aee9448
 home: https://github.com/giantswarm/starboard-exporter
 icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg

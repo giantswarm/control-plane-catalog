@@ -1894,6 +1894,20 @@ entries:
       application.giantswarm.io/team: honeybadger
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 6.8.1-patch1
+    created: "2024-05-06T12:09:50.905197226Z"
+    description: A Helm chart for the app-operator
+    digest: f48a42d8b18177e867421d4ae78c0171f61a37a83d680013f3fa44ee988e6c93
+    home: https://github.com/giantswarm/app-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: app-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/app-operator-6.8.1-patch1.tgz
+    version: 6.8.1-patch1
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 6.8.0
     created: "2023-07-06T14:29:56.049005864Z"
     description: A Helm chart for the app-operator
@@ -71463,4 +71477,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-03T13:04:41.736845784Z"
+generated: "2024-05-06T12:09:50.903914762Z"

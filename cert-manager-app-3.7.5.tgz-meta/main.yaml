@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cert-manager-app-3.7.5.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cert-manager-app-3.7.5.tgz-meta/README.md
+  application.giantswarm.io/team: bigmac
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cert-manager-app-3.7.5.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: cert-manager-app-3.7.5.tgz
+dateCreated: '2024-05-16T14:52:50.000147'
+digest: ca8e07cd7253455798b86c01c9cccbe26f27b0ddae37e11ffc0869d03190a03f
+home: https://github.com/giantswarm/cert-manager-app
+icon: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg

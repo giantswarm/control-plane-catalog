@@ -65425,6 +65425,30 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/release-operator-0.2.1.tgz
     version: 0.2.1
+  reports-server:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/reports-server-0.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/reports-server-0.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/reports-server-0.0.1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-05-17T17:50:19.524508351Z"
+    dependencies:
+    - name: reports-server
+      repository: ""
+      version: 0.1.0-alpha.1
+    description: A Giant Swarm app for deploying the Kyverno Reports Server.
+    digest: b43c96bc1b283958564fdbb3720a3a559febc8e0ea673a453566b2da02d5237b
+    home: https://github.com/giantswarm/reports-server-app
+    icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+    name: reports-server
+    sources:
+    - https://github.com/kyverno/reports-server
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/reports-server-0.0.1.tgz
+    version: 0.0.1
   rook-operator:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/rook-operator-2.4.1.tgz-meta/main.yaml
@@ -71993,4 +72017,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-17T17:46:57.504577693Z"
+generated: "2024-05-17T17:50:19.514807944Z"

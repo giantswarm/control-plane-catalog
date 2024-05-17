@@ -16955,6 +16955,29 @@ entries:
     version: 0.13.0
   cloudnative-pg:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cloudnative-pg-0.0.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cloudnative-pg-0.0.3.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cloudnative-pg-0.0.3.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 1.23.1
+    created: "2024-05-17T17:44:08.906933184Z"
+    dependencies:
+    - name: cloudnative-pg
+      repository: ""
+      version: 0.21.2
+    description: A Giant Swarm app for deploying CloudNative PostgreSQL.
+    digest: f2651f451ff0d18f4610202fe1ab2c1f0e12bac9ed87517cf653a54b42122d5a
+    home: https://github.com/giantswarm/cloudnative-pg-app
+    icon: https://s.giantswarm.io/app-icons/cloudnative-pg/icon-light.svg
+    name: cloudnative-pg
+    sources:
+    - https://github.com/cloudnative-pg/charts
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cloudnative-pg-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cloudnative-pg-0.0.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cloudnative-pg-0.0.2.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -71949,4 +71972,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-17T14:10:44.477396647Z"
+generated: "2024-05-17T17:44:08.899591829Z"

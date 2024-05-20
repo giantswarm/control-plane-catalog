@@ -22057,6 +22057,23 @@ entries:
     version: 0.1.0
   cluster-autoscaler-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.27.3-gs9.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.27.3-gs9.tgz-meta/README.md
+      application.giantswarm.io/team: turtles
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.27.3-gs9.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    apiVersion: v2
+    appVersion: 1.27.3
+    created: "2024-05-20T16:09:04.797149817Z"
+    description: A Helm chart for the Cluster Autoscaler.
+    digest: 0d0d416dd4430ef34b681dc718248c2b914aad49a24f5658ac6927b695320f48
+    home: https://github.com/giantswarm/cluster-autoscaler-app
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    name: cluster-autoscaler-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.27.3-gs9.tgz
+    version: 1.27.3-gs9
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.27.3-gs8-b6e30c56a410838a9fc6b6b0436e2e137dc5489e.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.27.3-gs8-b6e30c56a410838a9fc6b6b0436e2e137dc5489e.tgz-meta/README.md
       application.giantswarm.io/team: turtles
@@ -72041,4 +72058,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-20T13:58:37.518688496Z"
+generated: "2024-05-20T16:09:04.796182493Z"

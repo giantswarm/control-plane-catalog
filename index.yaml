@@ -66763,6 +66763,24 @@ entries:
     version: 0.11.0-gs1
   sloth-rules:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/sloth-rules-0.30.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/sloth-rules-0.30.0.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/sloth-rules-0.30.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2024-05-27T10:44:45.728775723Z"
+    description: SLO definition and implementation for Giant Swarm infrastructure
+    digest: 04dcd9fc61e4e05d3edd3a6d9788d095d8ddd26a552fe0bab4f0d8d2f3220b41
+    home: https://github.com/giantswarm/sloth-rules
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    kubeVersion: '>= 1.19.0-0'
+    name: sloth-rules
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/sloth-rules-0.30.0.tgz
+    version: 0.30.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/sloth-rules-0.29.7.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/sloth-rules-0.29.7.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -72308,4 +72326,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-27T08:16:08.444529674Z"
+generated: "2024-05-27T10:44:45.727767854Z"

@@ -21181,6 +21181,23 @@ entries:
       application.giantswarm.io/team: rocket
     apiVersion: v2
     appVersion: v0.8.1
+    created: "2024-06-04T17:04:26.665085933Z"
+    description: A Helm chart for cluster api provider vsphere
+    digest: a932301eccf9890baed293b8fec89dc5fdcb584817c40f16e50ab6d74c5fca01
+    home: https://github.com/giantswarm/cluster-api-provider-vsphere-app
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cluster-api-provider-vsphere
+    sources:
+    - https://github.com/giantswarm/cluster-api-provider-vsphere-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-vsphere-0.12.0.tgz
+    version: 0.12.0
+  - annotations:
+      application.giantswarm.io/team: rocket
+    apiVersion: v2
+    appVersion: v0.8.1
     created: "2024-05-22T12:37:40.799862641Z"
     description: A Helm chart for cluster api provider vsphere
     digest: 1dbb4b28625062d12fe06ff4f9ffb402a45be79355beda1942be60d82aace55f
@@ -72516,4 +72533,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-04T15:35:37.20492066Z"
+generated: "2024-06-04T17:04:26.663015096Z"

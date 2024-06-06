@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cloudnative-pg-0.0.5.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cloudnative-pg-0.0.5.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cloudnative-pg-0.0.5.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: cloudnative-pg-0.0.5.tgz
+dateCreated: '2024-06-06T17:41:12.569845'
+digest: 032e8ecccba84bcadd54b3da6d875b9a6c634d9445a7362786c5c2b3630d9a7f
+home: https://github.com/giantswarm/cloudnative-pg-app
+icon: https://s.giantswarm.io/app-icons/cloudnative-pg/icon-light.svg

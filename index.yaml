@@ -38917,6 +38917,32 @@ entries:
     version: 0.3.1
   grafana-agent:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/grafana-agent-0.4.4.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/grafana-agent-0.4.4.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/grafana-agent-0.4.4.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v0.37.0
+    created: "2024-06-12T07:31:46.872297234Z"
+    dependencies:
+    - condition: grafana-agent.enabled
+      name: grafana-agent
+      repository: https://grafana.github.io/helm-charts
+      version: 0.27.0
+    description: Giant Swarm's Grafana Agent Deployment
+    digest: 369b0b9322041eac858a442d7c4e11c64937eb2ed38bf17fcbc04d295f81c31c
+    home: https://github.com/giantswarm/grafana-agent-app
+    icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: grafana-agent
+    sources:
+    - https://github.com/grafana/agent/tree/main/operations/helm/charts/grafana-agent
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/grafana-agent-0.4.4.tgz
+    version: 0.4.4
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/grafana-agent-0.4.3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/grafana-agent-0.4.3.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -72867,4 +72893,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-11T09:21:28.588079226Z"
+generated: "2024-06-12T07:31:46.870228535Z"

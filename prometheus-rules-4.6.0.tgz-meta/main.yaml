@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/prometheus-rules-4.6.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/prometheus-rules-4.6.0.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/prometheus-rules-4.6.0.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: prometheus-rules-4.6.0.tgz
+dateCreated: '2024-07-09T09:59:11.295204'
+digest: 03327be7c97a714b8b39efefa10a10e4b81f4a7ea719894e604d77a8741a2040
+home: https://github.com/giantswarm/prometheus-rules
+icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png

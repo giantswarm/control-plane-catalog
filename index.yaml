@@ -17490,6 +17490,19 @@ entries:
   - annotations:
       application.giantswarm.io/team: turtles
     apiVersion: v2
+    appVersion: 1.20.1
+    created: "2024-07-10T04:44:21.148111884Z"
+    description: Helm chart for cluster API.
+    digest: e93ae5a996c1585813f27f2c6bfdb772c721707573e0ca3d8230a924a169452a
+    home: https://github.com/giantswarm/cluster-api-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: cluster-api
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-1.20.1.tgz
+    version: 1.20.1
+  - annotations:
+      application.giantswarm.io/team: turtles
+    apiVersion: v2
     appVersion: 1.20.0
     created: "2024-06-11T09:21:28.59849834Z"
     description: Helm chart for cluster API.
@@ -74525,4 +74538,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-09T14:57:29.793553332Z"
+generated: "2024-07-10T04:44:21.139582769Z"

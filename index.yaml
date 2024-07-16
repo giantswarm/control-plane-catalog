@@ -54556,6 +54556,24 @@ entries:
     version: 0.1.6
   observability-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/observability-operator-0.3.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/observability-operator-0.3.0.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/observability-operator-0.3.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.3.0
+    created: "2024-07-16T11:11:14.897678134Z"
+    description: The observability-operator manages the Giant Swarm observability
+      platform.
+    digest: 4f3cc51c010902c8da9211b4f81c012c3a3d3cc8c56e6e18a33146104ef752c0
+    home: https://github.com/giantswarm/observability-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: observability-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/observability-operator-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/observability-operator-0.2.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/observability-operator-0.2.0.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -74818,4 +74836,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-16T08:12:29.323949094Z"
+generated: "2024-07-16T11:11:14.896929238Z"

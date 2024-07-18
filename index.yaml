@@ -47305,6 +47305,28 @@ entries:
     version: 0.3.0
   kyverno-crds:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/kyverno-crds-1.11.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/kyverno-crds-1.11.1.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/kyverno-crds-1.11.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.11.5
+    created: "2024-07-18T18:41:20.661990288Z"
+    dependencies:
+    - name: crds
+      repository: ""
+      version: 3.1.5
+    description: This app contains the Kyverno CRDs.
+    digest: 0a4f0e2c467d84e415899baafb190857754c6f0549f5990529909533325b5f1f
+    home: https://github.com/giantswarm/kyverno-crds
+    icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+    name: kyverno-crds
+    sources:
+    - https://github.com/kyverno/kyverno
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kyverno-crds-1.11.1.tgz
+    version: 1.11.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/kyverno-crds-1.11.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/kyverno-crds-1.11.0.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -75093,4 +75115,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-18T15:25:45.661582747Z"
+generated: "2024-07-18T18:41:20.628808422Z"

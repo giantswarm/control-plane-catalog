@@ -43291,6 +43291,22 @@ entries:
     version: 3.0.0-alpha1
   irsa-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/irsa-operator-0.29.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/irsa-operator-0.29.1.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/irsa-operator-0.29.1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    created: "2024-07-23T11:34:59.690479891Z"
+    description: Operator for managing IAM roles for service accounts
+    digest: 68b8642c011bf590121dd86b038445b12755776c97ef99f11271080244735e10
+    home: https://github.com/giantswarm/irsa-operator
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: irsa-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/irsa-operator-0.29.1.tgz
+    version: 0.29.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/irsa-operator-0.29.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/irsa-operator-0.29.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -75345,4 +75361,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-22T21:32:21.600262872Z"
+generated: "2024-07-23T11:34:59.689796938Z"

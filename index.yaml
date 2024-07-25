@@ -33550,6 +33550,20 @@ entries:
       application.giantswarm.io/team: rocket
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.9.0
+    created: "2024-07-25T14:31:56.550967065Z"
+    description: Operator for managing DNS zones and records for CAPO clusters
+    digest: eaf4c3e20011a72fc90932a34645a3fdaacafe7c3d86ff2d6ba53246647be2c7
+    home: https://github.com/giantswarm/dns-operator-route53
+    icon: https://s.giantswarm.io/app-icons/openstack/1/light.svg
+    name: dns-operator-route53
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/dns-operator-route53-0.9.0.tgz
+    version: 0.9.0
+  - annotations:
+      application.giantswarm.io/team: rocket
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.8.3
     created: "2024-04-01T13:36:41.457292193Z"
     description: Operator for managing DNS zones and records for CAPO clusters
@@ -75633,4 +75647,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-25T14:00:37.698041831Z"
+generated: "2024-07-25T14:31:56.550332693Z"

@@ -11887,6 +11887,19 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/azure-scheduled-events-0.0.1.tgz
     version: 0.0.1
   azuredisk-csi-driver-app:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: 1.30.2
+    created: "2024-07-30T16:34:22.993675209Z"
+    description: A Helm chart to run Azure CSI driver for Azure Disks.
+    digest: 0a4fc24a0c5a3250ae0d5d8e7299a53880b6e1f521c105b39604362073e7cc61
+    home: https://github.com/giantswarm/azuredisk-csi-driver-app
+    icon: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+    name: azuredisk-csi-driver-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/azuredisk-csi-driver-app-1.30.2-gs1.tgz
+    version: 1.30.2-gs1
   - apiVersion: v2
     appVersion: 1.26.2
     created: "2023-07-14T14:14:08.616692443Z"
@@ -75783,4 +75796,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-30T13:50:25.827296835Z"
+generated: "2024-07-30T16:34:22.991870754Z"

@@ -74227,6 +74227,19 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 0.10.1
+    created: "2024-08-01T14:36:39.370958322Z"
+    description: Operator for managing scheduled updates for a cluster
+    digest: b8b748309abcf34b2d1dba927c441e5fc482d32b9e79afef6b74944c1642ee5e
+    home: https://github.com/giantswarm/upgrade-schedule-operator
+    name: upgrade-schedule-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/upgrade-schedule-operator-0.10.1.tgz
+    version: 0.10.1
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 0.10.0
     created: "2024-08-01T13:02:18.750625703Z"
     description: Operator for managing scheduled updates for a cluster
@@ -75910,4 +75923,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-01T13:02:18.74985664Z"
+generated: "2024-08-01T14:36:39.37031501Z"

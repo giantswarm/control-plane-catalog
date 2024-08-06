@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/irsa-operator-0.29.3.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/irsa-operator-0.29.3.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/irsa-operator-0.29.3.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: irsa-operator-0.29.3.tgz
+dateCreated: '2024-08-06T13:10:17.669903'
+digest: 2d7c279a02d4fa17ac62c0df521cf83decbd4a7448bf1b353d48b05bc85f9169
+home: https://github.com/giantswarm/irsa-operator
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg

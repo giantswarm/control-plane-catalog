@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/organization-operator-2.0.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/organization-operator-2.0.1.tgz-meta/README.md
+  application.giantswarm.io/team: bigmac
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/organization-operator-2.0.1.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: organization-operator-2.0.1.tgz
+dateCreated: '2024-08-13T11:09:27.463799'
+digest: 56966472fb20a951e74ee6339f2fcef5a1ec00e22bf68e74017800f47de721d3
+home: https://github.com/giantswarm/organization-operator
+icon: https://s.giantswarm.io/app-icons/organization-operator/1/dark.svg

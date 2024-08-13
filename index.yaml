@@ -49149,6 +49149,22 @@ entries:
     version: 0.0.1
   logging-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/logging-operator-0.7.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/logging-operator-0.7.3.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/logging-operator-0.7.3.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.7.3
+    created: "2024-08-13T10:05:24.758315534Z"
+    description: The logging-operator manages loki and logging related config.
+    digest: a26a36348f1f40562f5f6fcc67ee477947c8916d415418e4df4115c16efb790d
+    home: https://github.com/giantswarm/logging-operator
+    name: logging-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/logging-operator-0.7.3.tgz
+    version: 0.7.3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/logging-operator-0.7.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/logging-operator-0.7.2.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -76239,4 +76255,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-13T09:37:49.73771786Z"
+generated: "2024-08-13T10:05:24.757570794Z"

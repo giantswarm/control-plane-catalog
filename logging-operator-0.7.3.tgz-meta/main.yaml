@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/logging-operator-0.7.3.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/logging-operator-0.7.3.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/logging-operator-0.7.3.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: logging-operator-0.7.3.tgz
+dateCreated: '2024-08-13T10:05:17.336512'
+digest: a26a36348f1f40562f5f6fcc67ee477947c8916d415418e4df4115c16efb790d
+home: https://github.com/giantswarm/logging-operator

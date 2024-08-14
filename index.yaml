@@ -8600,6 +8600,20 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
+    appVersion: 0.8.1
+    created: "2024-08-14T12:25:06.223277037Z"
+    description: Operator for managing private AWS VPCs for Cluster API AWS workload
+      clusters
+    digest: 2ec0adb203af8b7f991e06c6ce4e470cc7d1aacbd7fc6b767e2d2185ff5363b9
+    home: https://github.com/giantswarm/aws-vpc-operator
+    name: aws-vpc-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-vpc-operator-0.8.1.tgz
+    version: 0.8.1
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
     appVersion: 0.8.0
     created: "2024-07-24T09:39:55.774930772Z"
     description: Operator for managing private AWS VPCs for Cluster API AWS workload
@@ -76473,4 +76487,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-14T11:38:03.493988919Z"
+generated: "2024-08-14T12:25:06.222639745Z"

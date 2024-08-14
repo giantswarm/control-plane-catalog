@@ -35130,6 +35130,20 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: v0.10
+    created: "2024-08-14T13:22:37.657790823Z"
+    description: The event-exporter-app runs on Control Planes to watch and act upon
+      Kubernetes events.
+    digest: 4d247893019e5e1e3207b699ebd841a0209cafa8eb5550332f99ef82e552ad82
+    home: https://github.com/opsgenie/kubernetes-event-exporter
+    name: event-exporter-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/event-exporter-app-0.13.1.tgz
+    version: 0.13.1
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: v0.10
     created: "2024-08-14T10:18:02.184132504Z"
     description: The event-exporter-app runs on Control Planes to watch and act upon
       Kubernetes events.
@@ -76487,4 +76501,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-14T12:25:06.222639745Z"
+generated: "2024-08-14T13:22:37.657197234Z"

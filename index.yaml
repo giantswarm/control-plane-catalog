@@ -19864,6 +19864,19 @@ entries:
       application.giantswarm.io/team: turtles
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
+    appVersion: 0.2.0
+    created: "2024-08-16T15:07:14.555732683Z"
+    description: Operator for sending cluster events.
+    digest: 4b9db61f5ecd228416e99400c770f26eacbbca551eda859c03df66e96a8faf5c
+    home: https://github.com/giantswarm/cluster-api-events
+    name: cluster-api-events
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-events-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      application.giantswarm.io/team: turtles
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
     appVersion: 0.1.6
     created: "2024-08-14T18:07:36.389773204Z"
     description: Operator for sending cluster events.
@@ -76514,4 +76527,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-14T18:07:36.389128106Z"
+generated: "2024-08-16T15:07:14.555140141Z"

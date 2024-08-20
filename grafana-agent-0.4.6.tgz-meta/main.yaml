@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/grafana-agent-0.4.6.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/grafana-agent-0.4.6.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/grafana-agent-0.4.6.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: grafana-agent-0.4.6.tgz
+dateCreated: '2024-08-20T12:42:44.488711'
+digest: f16e0a561aac266e0a5f863fce02acdcab802f5530acc8634eebb90ea63da5a9
+home: https://github.com/giantswarm/grafana-agent-app
+icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg

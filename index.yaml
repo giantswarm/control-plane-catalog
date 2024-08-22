@@ -53857,6 +53857,38 @@ entries:
     version: 2.8.0
   node-exporter-app:
   - annotations:
+      application.giantswarm.io/team: turtles
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 1.8.2
+    created: "2024-08-22T18:21:10.311482412Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: 9bcf51de53f1f561bdcd010f8ae81bf400e6f4f1810c43a350b32362822c1e52
+    home: https://github.com/giantswarm/node-exporter-app
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: node-exporter-app
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/node-exporter-app-1.20.0.tgz
+    version: 1.20.0
+  - annotations:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
@@ -77038,4 +77070,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-22T16:26:34.494643047Z"
+generated: "2024-08-22T18:21:10.30877221Z"

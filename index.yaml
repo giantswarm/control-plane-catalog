@@ -41076,6 +41076,30 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/grafana-agent-0.1.0.tgz
     version: 0.1.0
+  grafana-multi-tenant-proxy:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/grafana-multi-tenant-proxy-0.6.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/grafana-multi-tenant-proxy-0.6.0.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/grafana-multi-tenant-proxy-0.6.0.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/grafana/1/dark.svg
+    apiVersion: v2
+    appVersion: 0.6.0
+    created: "2024-09-03T09:53:54.696151874Z"
+    description: Helm chart for Grafana Multi Tenant Proxy
+    digest: ed95634e184e67a6ffb09d633fdf41d2feaa0213a62a520a5c18e7565ef8e8eb
+    home: https://github.com/giantswarm/grafana-multi-tenant-proxy
+    icon: https://s.giantswarm.io/app-icons/grafana/1/dark.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: grafana-multi-tenant-proxy
+    sources:
+    - https://github.com/giantswarm/grafana-multi-tenant-proxy
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/grafana-multi-tenant-proxy-0.6.0.tgz
+    version: 0.6.0
   happa:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/happa-1.66.0.tgz-meta/main.yaml
@@ -77315,4 +77339,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-03T07:39:37.842321202Z"
+generated: "2024-09-03T09:53:54.6951445Z"

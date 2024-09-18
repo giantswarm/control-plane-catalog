@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/alloy-0.5.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/alloy-0.5.2.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/alloy-0.5.2.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: alloy-0.5.2.tgz
+dateCreated: '2024-09-18T06:34:00.070900'
+digest: fa53c1d7cbf99b02710e069b6d268d96068400d86d9364dd4ed2fd9fe55f1453
+home: https://github.com/giantswarm/alloy-app
+icon: https://s.giantswarm.io/app-icons/grafana-alloy/1/light.png

@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/kyverno-crds-1.12.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/kyverno-crds-1.12.0.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/kyverno-crds-1.12.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: kyverno-crds-1.12.0.tgz
+dateCreated: '2024-09-25T12:12:07.149177'
+digest: 6e71d9d39146506f3713b88355e235a9262e75c9aa593d7670384c68fcd059f6
+home: https://github.com/giantswarm/kyverno-crds
+icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg

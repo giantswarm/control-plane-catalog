@@ -7992,6 +7992,22 @@ entries:
     version: 5.5.0-fix
   aws-resolver-rules-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.17.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.17.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.17.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2024-09-30T13:28:10.098076385Z"
+    description: Operator for reconciling the Route53 hosted zone and basic records
+      for a cluster, and resolver rules for private clusters.
+    digest: f4de63c8416fb26989e0ced58913c9c5b923ccf3c7d9e0ca0f7f626c08d15a73
+    home: https://github.com/giantswarm/aws-resolver-rules-operator
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: aws-resolver-rules-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.17.0.tgz
+    version: 0.17.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.16.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.16.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -78392,4 +78408,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-26T14:54:34.971436763Z"
+generated: "2024-09-30T13:28:10.097355517Z"

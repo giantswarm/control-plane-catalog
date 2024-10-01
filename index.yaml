@@ -46993,6 +46993,41 @@ entries:
     version: 3.9.1-1
   kyverno:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/kyverno-0.18.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/kyverno-0.18.1.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/kyverno-0.18.1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: v1.12.5
+    created: "2024-10-01T12:02:12.85810154Z"
+    dependencies:
+    - name: policy-reporter
+      repository: ""
+      version: 2.24.1
+    - name: kyverno
+      repository: ""
+      version: 3.2.7
+    description: 'Kyverno is a policy engine designed for Kubernetes. It can validate,
+      mutate, and generate configurations using admission controls and background
+      scans. Kyverno policies are Kubernetes resources and do not require learning
+      a new language. '
+    digest: b6d1008aab1639368fb94e139391aa41d5115788dd28b2f3ec278d74783ba974
+    home: https://github.com/giantswarm/kyverno-app
+    icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+    keywords:
+    - kubernetes
+    - policy-agent
+    - validating-webhook
+    - admission-controller
+    name: kyverno
+    sources:
+    - https://github.com/kyverno/kyverno
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kyverno-0.18.1.tgz
+    version: 0.18.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/kyverno-0.18.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/kyverno-0.18.0.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -78478,4 +78513,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-01T08:47:42.567156223Z"
+generated: "2024-10-01T12:02:12.814723742Z"

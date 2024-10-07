@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/grafana-multi-tenant-proxy-0.8.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/grafana-multi-tenant-proxy-0.8.0.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/grafana-multi-tenant-proxy-0.8.0.tgz-meta/values.schema.json
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/grafana/1/dark.svg
+chartApiVersion: v2
+chartFile: grafana-multi-tenant-proxy-0.8.0.tgz
+dateCreated: '2024-10-07T07:58:21.767777'
+digest: 8fbc1749ace090d0873963eec1d060c83c5237db497cbb3e592c16e46f1be5c9
+home: https://github.com/giantswarm/grafana-multi-tenant-proxy
+icon: https://s.giantswarm.io/app-icons/grafana/1/dark.svg
+restrictions:
+  namespaceSingleton: true

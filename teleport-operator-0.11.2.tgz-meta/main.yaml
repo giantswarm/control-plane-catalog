@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.11.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.11.2.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.11.2.tgz-meta/values.schema.json
+chartApiVersion: v1
+chartFile: teleport-operator-0.11.2.tgz
+dateCreated: '2024-10-11T21:06:22.609093'
+digest: dd50ed78fa2274be4b9b1523e23c3d12fdc4f2a63e0942a2f1cbf8eb8c954525
+home: https://github.com/giantswarm/teleport-operator
+icon: https://s.giantswarm.io/app-icons/teleport/1/light.png

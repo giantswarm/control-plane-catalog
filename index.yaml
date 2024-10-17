@@ -58156,6 +58156,23 @@ entries:
     version: 0.0.1
   organization-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/organization-operator-2.0.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/organization-operator-2.0.2.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/organization-operator-2.0.2.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 2.0.2
+    created: "2024-10-17T12:53:39.456461058Z"
+    description: Chart holding organization-operator.
+    digest: 46ae65beba147d0195b5ba8f0a37a99478268125d0ad08cf6da8cdc346b37a4f
+    home: https://github.com/giantswarm/organization-operator
+    icon: https://s.giantswarm.io/app-icons/organization-operator/1/dark.svg
+    name: organization-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/organization-operator-2.0.2.tgz
+    version: 2.0.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/organization-operator-2.0.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/organization-operator-2.0.1.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -79255,4 +79272,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-17T11:35:58.839853872Z"
+generated: "2024-10-17T12:53:39.455610112Z"

@@ -6,7 +6,7 @@ annotations:
   config.giantswarm.io/version: 1.x.x
 chartApiVersion: v1
 chartFile: organization-operator-2.0.2.tgz
-dateCreated: '2024-10-17T12:53:31.306592Z'
-digest: 46ae65beba147d0195b5ba8f0a37a99478268125d0ad08cf6da8cdc346b37a4f
+dateCreated: '2024-10-17T15:08:07.603666Z'
+digest: 5594d8ddc97dbd4ef5228653ee3b3649adffcdcb3291859762c7e078b1c863b6
 home: https://github.com/giantswarm/organization-operator
 icon: https://s.giantswarm.io/app-icons/organization-operator/1/dark.svg

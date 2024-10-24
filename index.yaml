@@ -74965,6 +74965,26 @@ entries:
     version: 0.0.1
   teleport-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.12.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.12.2.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.12.2.tgz-meta/values.schema.json
+    apiVersion: v1
+    created: "2024-10-24T11:29:42.848387709Z"
+    description: Teleport operator
+    digest: 49f7b7a1c42969999272f141a12f3b990711cbcf1d6fe4cf1667bf88d9d631fe
+    home: https://github.com/giantswarm/teleport-operator
+    icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
+    keywords:
+    - teleport
+    maintainers:
+    - email: team-shield@giantswarm.io
+      name: giantswarm/team-shield
+    name: teleport-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.12.2.tgz
+    version: 0.12.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.12.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.12.1.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -79588,4 +79608,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-24T10:16:51.621647578Z"
+generated: "2024-10-24T11:29:42.84751866Z"

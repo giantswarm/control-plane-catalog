@@ -29,6 +29,24 @@ entries:
     version: 0.5.2
   alloy-gateway:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/alloy-gateway-0.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/alloy-gateway-0.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/alloy-gateway-0.2.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-11-18T11:33:54.658713853Z"
+    description: App used to deploy the Alloy in Gateway mode.
+    digest: 07bbb26ed2974b5bd6f9e3ddda5dcbfaf1221f5390443e00634536289a7582b6
+    home: https://github.com/giantswarm/alloy-gateway-app
+    icon: https://s.giantswarm.io/app-icons/grafana-alloy/1/light.png
+    name: alloy-gateway
+    sources:
+    - https://github.com/giantswarm/alloy-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/alloy-gateway-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/alloy-gateway-0.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/alloy-gateway-0.1.0.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -80339,4 +80357,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-18T08:42:46.873643746Z"
+generated: "2024-11-18T11:33:54.65804674Z"

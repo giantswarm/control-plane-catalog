@@ -17596,6 +17596,23 @@ entries:
     version: 0.1.0-1
   chart-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/chart-operator-4.0.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/chart-operator-4.0.0.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/chart-operator-4.0.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 4.0.0
+    created: "2024-11-19T11:30:07.927267143Z"
+    description: A Helm chart for the chart-operator
+    digest: ab3ec8e57fd55271e8cbf6ee7b149ee3a5bac92a7dbf39385f61272d6b9e353c
+    home: https://github.com/giantswarm/chart-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: chart-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/chart-operator-4.0.0.tgz
+    version: 4.0.0
+  - annotations:
       application.giantswarm.io/team: honeybadger
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
@@ -80466,4 +80483,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-19T11:14:25.795349734Z"
+generated: "2024-11-19T11:30:07.926403377Z"

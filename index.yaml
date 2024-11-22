@@ -36367,6 +36367,24 @@ entries:
     version: 1.0.0
   event-exporter-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/event-exporter-app-0.14.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/event-exporter-app-0.14.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/event-exporter-app-0.14.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: v0.10
+    created: "2024-11-22T18:27:30.02427611Z"
+    description: The event-exporter-app runs on Control Planes to watch and act upon
+      Kubernetes events.
+    digest: 038000a0444d63cb4492a78759aa8c3eb15e243c326abddc1ad794958f54e21c
+    home: https://github.com/opsgenie/kubernetes-event-exporter
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    name: event-exporter-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/event-exporter-app-0.14.0.tgz
+    version: 0.14.0
+  - annotations:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
@@ -80576,4 +80594,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-21T11:22:36.948965592Z"
+generated: "2024-11-22T18:27:30.023595758Z"

@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/event-exporter-app-1.0.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/event-exporter-app-1.0.0.tgz-meta/README.md
+  application.giantswarm.io/team: tenet
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/event-exporter-app-1.0.0.tgz-meta/values.schema.json
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+chartApiVersion: v2
+chartFile: event-exporter-app-1.0.0.tgz
+dateCreated: '2024-11-26T11:33:30.874449Z'
+digest: 800723fe8c15a0aa139797efd4df6cba70a4fb2f04910b52500dbf6851f5b47e
+home: https://github.com/giantswarm/event-exporter-app
+icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg

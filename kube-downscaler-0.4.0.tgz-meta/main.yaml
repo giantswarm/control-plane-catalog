@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.4.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.4.0.tgz-meta/README.md
+  application.giantswarm.io/team: horizon
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.4.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: kube-downscaler-0.4.0.tgz
+dateCreated: '2024-12-09T13:38:30.528900'
+digest: d620299b66eaaee28be2bc611e4920d3d960cb0ada0689891c3f34adc040a703
+home: https://github.com/giantswarm/kube-downscaler

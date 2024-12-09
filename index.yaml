@@ -47105,6 +47105,24 @@ entries:
     version: 0.0.5
   kube-downscaler:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.4.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.4.0.tgz-meta/README.md
+      application.giantswarm.io/team: horizon
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.4.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-12-09T13:38:39.230618012Z"
+    description: Downscaling tool to save on resources with dev clusters when they
+      are not used
+    digest: d620299b66eaaee28be2bc611e4920d3d960cb0ada0689891c3f34adc040a703
+    home: https://github.com/giantswarm/kube-downscaler
+    name: kube-downscaler
+    sources:
+    - https://codeberg.org/hjacobs/kube-downscaler
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.3.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.3.0.tgz-meta/README.md
       application.giantswarm.io/team: horizon
@@ -80840,4 +80858,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-09T13:27:19.709680728Z"
+generated: "2024-12-09T13:38:39.229878535Z"

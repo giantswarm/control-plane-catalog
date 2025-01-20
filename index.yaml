@@ -81606,6 +81606,23 @@ entries:
     version: 1.0.0
   vertical-pod-autoscaler-crd:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.1.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.1.2.tgz-meta/README.md
+      application.giantswarm.io/team: turtles
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.1.2.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    apiVersion: v2
+    appVersion: 1.2.2
+    created: "2025-01-20T16:26:40.209622556Z"
+    description: A Helm chart for the Vertical Pod Autoscaler CRDs.
+    digest: ba3ad1a30814851fbec54e3a5094bbc9019d5f0b797fe978cd13645c1a92da57
+    home: https://github.com/giantswarm/vertical-pod-autoscaler-crd
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    name: vertical-pod-autoscaler-crd
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.1.2.tgz
+    version: 3.1.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.1.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.1.1.tgz-meta/README.md
       application.giantswarm.io/team: turtles
@@ -81756,4 +81773,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-20T16:20:32.492491739Z"
+generated: "2025-01-20T16:26:40.208954094Z"

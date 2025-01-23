@@ -61198,6 +61198,23 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/policies-shared-0.0.9.tgz
     version: 0.0.9
+  policy-meta-operator:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/policy-meta-operator-0.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/policy-meta-operator-0.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/policy-meta-operator-0.0.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-01-23T17:31:32.151352691Z"
+    description: Policy Meta Operator Helm chart for Giant Swarm
+    digest: da48e801c11aee1be4bf95009c2aea959a14344363b8aef0dd2c208bab8fa770
+    home: https://github.com/giantswarm/policy-meta-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: policy-meta-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/policy-meta-operator-0.0.1.tgz
+    version: 0.0.1
   prometheus-meta-operator:
   - annotations:
       application.giantswarm.io/team: atlas
@@ -81960,4 +81977,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-23T17:24:01.738397434Z"
+generated: "2025-01-23T17:31:32.15014914Z"

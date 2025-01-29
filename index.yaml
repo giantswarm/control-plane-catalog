@@ -4973,6 +4973,21 @@ entries:
     version: 1.0.0
   aws-crossplane-cluster-config-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/aws-crossplane-cluster-config-operator-0.4.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/aws-crossplane-cluster-config-operator-0.4.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/aws-crossplane-cluster-config-operator-0.4.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-01-29T12:09:29.661080943Z"
+    description: Please add description
+    digest: 33e676628b36ce1d21debe30c2063d23eca55aa5696fd81460d1cd11d14d3a65
+    home: https://github.com/giantswarm/aws-crossplane-cluster-config-operator
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: aws-crossplane-cluster-config-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-crossplane-cluster-config-operator-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/aws-crossplane-cluster-config-operator-0.3.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/aws-crossplane-cluster-config-operator-0.3.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -82153,4 +82168,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-28T22:02:26.874456101Z"
+generated: "2025-01-29T12:09:29.660135112Z"

@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/app-operator-7.0.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/app-operator-7.0.1.tgz-meta/README.md
+  application.giantswarm.io/team: honeybadger
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/app-operator-7.0.1.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: app-operator-7.0.1.tgz
+dateCreated: '2025-01-30T13:14:35.802428Z'
+digest: f7e795c68701555306bdfbc7c8e09bddc014a66738b49f1aaa117bb7a6b6151c
+home: https://github.com/giantswarm/app-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

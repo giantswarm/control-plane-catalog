@@ -859,6 +859,23 @@ entries:
     version: 1.4.1
   app-admission-controller:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/app-admission-controller-1.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/app-admission-controller-1.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/app-admission-controller-1.0.1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.0.1
+    created: "2025-01-31T11:22:44.79059801Z"
+    description: app-admission-controller validates and defaults app CRs
+    digest: 7e978ad1857715042ac1690494f85f617821caa90b0915b4014b0ae8cab70d73
+    home: https://github.com/giantswarm/app-admission-controller
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: app-admission-controller
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/app-admission-controller-1.0.1.tgz
+    version: 1.0.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/app-admission-controller-1.0.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/app-admission-controller-1.0.0.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -82361,4 +82378,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-31T09:51:38.270502415Z"
+generated: "2025-01-31T11:22:44.789867409Z"

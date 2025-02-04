@@ -61614,6 +61614,22 @@ entries:
     version: 0.0.9
   policy-meta-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/policy-meta-operator-0.0.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/policy-meta-operator-0.0.3.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/policy-meta-operator-0.0.3.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-02-04T11:38:49.427811919Z"
+    description: Policy Meta Operator Helm chart for Giant Swarm
+    digest: f9862d2dd69244e58f75651071341e1913ff4f48ddeddf58d7561f731420f1b8
+    home: https://github.com/giantswarm/policy-meta-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: policy-meta-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/policy-meta-operator-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/policy-meta-operator-0.0.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/policy-meta-operator-0.0.2.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -82551,4 +82567,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-04T08:37:19.47332046Z"
+generated: "2025-02-04T11:38:49.426957869Z"

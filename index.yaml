@@ -66833,6 +66833,29 @@ entries:
     version: 1.0.0
   prometheus-remotewrite:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/prometheus-remotewrite-0.7.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/prometheus-remotewrite-0.7.0.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/prometheus-remotewrite-0.7.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-02-04T15:34:47.075351617Z"
+    dependencies:
+    - alias: kubePrometheusStack
+      condition: kubePrometheusStack.enabled
+      name: kube-prometheus-stack
+      repository: https://giantswarm.github.io/default-catalog/
+      version: 13.0.1
+    description: Hold remote write configuration for prometheus.
+    digest: 0f5c9047eacc1249d079423169ee4e6354c5b89a84478b2e1e7a5be18a328844
+    home: https://github.com/giantswarm/prometheus-remotewrite-app
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: prometheus-remotewrite
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/prometheus-remotewrite-0.7.0.tgz
+    version: 0.7.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/prometheus-remotewrite-0.6.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/prometheus-remotewrite-0.6.0.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -82584,4 +82607,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-04T12:04:18.083800596Z"
+generated: "2025-02-04T15:34:47.034879804Z"

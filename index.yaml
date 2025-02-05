@@ -1503,6 +1503,23 @@ entries:
     version: 0.1.0
   app-exporter:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/app-exporter-1.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/app-exporter-1.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/app-exporter-1.0.1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.0.1
+    created: "2025-02-05T14:55:43.448433615Z"
+    description: Chart holding app-exporter.
+    digest: 0598adbe4e101e6f1c9cde0c7f09a691de6709a2eceeb02b2265d0edcdb3cee9
+    home: https://github.com/giantswarm/app-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: app-exporter
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/app-exporter-1.0.1.tgz
+    version: 1.0.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/app-exporter-1.0.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/app-exporter-1.0.0.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -82633,4 +82650,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-05T13:15:20.689961325Z"
+generated: "2025-02-05T14:55:43.44778796Z"

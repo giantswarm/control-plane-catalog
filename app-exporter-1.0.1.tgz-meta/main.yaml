@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/app-exporter-1.0.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/app-exporter-1.0.1.tgz-meta/README.md
+  application.giantswarm.io/team: honeybadger
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/app-exporter-1.0.1.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: app-exporter-1.0.1.tgz
+dateCreated: '2025-02-05T14:55:33.576033Z'
+digest: 0598adbe4e101e6f1c9cde0c7f09a691de6709a2eceeb02b2265d0edcdb3cee9
+home: https://github.com/giantswarm/app-exporter
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg

@@ -19309,6 +19309,20 @@ entries:
     version: 0.0.1
   cluster-api:
   - annotations:
+      application.giantswarm.io/team: tenet
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-02-13T10:22:29.61999558Z"
+    description: A Helm chart for Cluster API components.
+    digest: 412b7bf54eeb4728d6c8d89e1317921e93cd030aef2a3cfa5508344db5205d49
+    home: https://github.com/giantswarm/cluster-api-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: cluster-api
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-2.0.0.tgz
+    version: 2.0.0
+  - annotations:
       application.giantswarm.io/team: turtles
     apiVersion: v2
     appVersion: 1.20.1
@@ -82956,4 +82970,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-12T15:49:55.095663293Z"
+generated: "2025-02-13T10:22:29.610569844Z"

@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/sloth-rules-0.44.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/sloth-rules-0.44.1.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/sloth-rules-0.44.1.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: sloth-rules-0.44.1.tgz
+dateCreated: '2025-02-24T11:47:40.960791Z'
+digest: d3b7c71dea2b4d4d565a61475c140fb7761e1c3d0678f88886140661ca1d1fb6
+home: https://github.com/giantswarm/sloth-rules
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

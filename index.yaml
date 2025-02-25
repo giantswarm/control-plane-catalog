@@ -51562,6 +51562,32 @@ entries:
     version: 1.11.0
   kyverno-policies:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/kyverno-policies-0.23.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/kyverno-policies-0.23.0.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/kyverno-policies-0.23.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-02-25T22:46:34.34657185Z"
+    dependencies:
+    - name: kyverno-policies
+      repository: ""
+      version: 3.3.4
+    description: 'Kubernetes Pod Security Standards implemented as Kyverno policies '
+    digest: f829e5152ee4704179ff9c62283a731bf050f4e746d0f6b8849780192d92ea6c
+    home: https://github.com/giantswarm/kyverno-policies
+    icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+    keywords:
+    - kubernetes
+    - policy-agent
+    - validating-webhook
+    - admission-controller
+    name: kyverno-policies
+    sources:
+    - https://github.com/giantswarm/kyverno-policies
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kyverno-policies-0.23.0.tgz
+    version: 0.23.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/kyverno-policies-0.22.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/kyverno-policies-0.22.0.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -83722,4 +83748,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-25T16:55:07.959831938Z"
+generated: "2025-02-25T22:46:34.344956699Z"

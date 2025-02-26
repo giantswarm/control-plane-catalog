@@ -76374,6 +76374,20 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 1.5.1
+    created: "2025-02-26T09:04:38.795610256Z"
+    description: route53-manager serves as a temporary route53 stand-in for China-based
+      installations.
+    digest: 204962e9394e72f0942bf189edd81142346be9bf3aa1f3553b9610ffb6550c11
+    home: https://github.com/giantswarm/route53-manager
+    name: route53-manager
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/route53-manager-1.5.1.tgz
+    version: 1.5.1
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 1.5.0
     created: "2024-06-20T11:32:34.541057265Z"
     description: route53-manager serves as a temporary route53 stand-in for China-based
@@ -83766,4 +83780,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-26T08:34:42.613338241Z"
+generated: "2025-02-26T09:04:38.795096854Z"

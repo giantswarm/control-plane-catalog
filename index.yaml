@@ -36709,6 +36709,18 @@ entries:
     version: 0.1.0
   etcd-backup-operator:
   - annotations:
+      application.giantswarm.io/team: tenet
+    apiVersion: v2
+    appVersion: 4.10.0
+    created: "2025-02-28T11:02:29.587283268Z"
+    description: A Helm chart for the etcd-backup-operator.
+    digest: 9235181fa6325c65f3c9e487779f0020830cc5e468e2d2ad7537415ddc16d1ed
+    home: https://github.com/giantswarm/etcd-backup-operator
+    name: etcd-backup-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/etcd-backup-operator-4.10.0.tgz
+    version: 4.10.0
+  - annotations:
       application.giantswarm.io/team: turtles
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
@@ -83930,4 +83942,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-27T14:11:44.871044831Z"
+generated: "2025-02-28T11:02:29.586008457Z"

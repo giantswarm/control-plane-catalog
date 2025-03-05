@@ -35136,6 +35136,23 @@ entries:
     version: 0.1.0
   dex-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/dex-operator-0.12.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/dex-operator-0.12.3.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/dex-operator-0.12.3.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 0.12.3
+    created: "2025-03-05T15:54:54.99729169Z"
+    description: An operator that automates the management of dex connector configurations
+    digest: 460c37c638a5005112cad23e77c606a16b31e553b5508057ef9656f13153e841
+    home: https://github.com/giantswarm/dex-operator
+    icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
+    name: dex-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/dex-operator-0.12.3.tgz
+    version: 0.12.3
+  - annotations:
       application.giantswarm.io/team: bigmac
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
@@ -84059,4 +84076,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-05T10:06:46.612154888Z"
+generated: "2025-03-05T15:54:54.99635478Z"

@@ -2007,6 +2007,23 @@ entries:
     version: 0.1.0
   app-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/app-operator-7.1.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/app-operator-7.1.1.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/app-operator-7.1.1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 7.1.1
+    created: "2025-03-11T09:02:24.373864148Z"
+    description: A Helm chart for the app-operator
+    digest: e087e94374e414fcc95925810b36ce588c6e9dda46943d7394f5c1dc1f33a107
+    home: https://github.com/giantswarm/app-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: app-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/app-operator-7.1.1.tgz
+    version: 7.1.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/app-operator-7.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/app-operator-7.1.0.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -84203,4 +84220,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-10T13:40:46.68823068Z"
+generated: "2025-03-11T09:02:24.372898658Z"

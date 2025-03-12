@@ -24274,6 +24274,23 @@ entries:
     version: 0.9.1
   cluster-apps-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-apps-operator-3.1.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-apps-operator-3.1.2.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cluster-apps-operator-3.1.2.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 3.1.2
+    created: "2025-03-12T10:38:20.72725204Z"
+    description: Chart holding cluster-apps-operator.
+    digest: 15c746fe744c0ca63c6c5f3642cfd53ac22298cac2fc7f0d12a33412d73d84c6
+    home: https://github.com/giantswarm/cluster-apps-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: cluster-apps-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-apps-operator-3.1.2.tgz
+    version: 3.1.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-apps-operator-3.1.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-apps-operator-3.1.1.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -84267,4 +84284,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-12T09:10:19.335621153Z"
+generated: "2025-03-12T10:38:20.725837539Z"

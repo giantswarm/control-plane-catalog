@@ -15549,10 +15549,10 @@ entries:
       ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
     apiVersion: v2
     appVersion: 2.9.5
-    created: "2025-03-17T18:00:14.83913407Z"
+    created: "2025-03-17T18:08:17.166880484Z"
     description: The cert-exporter walks a directory path it has gotten as input and
       emits all NotAfter timestamps as metrics.
-    digest: ecf3adde1c9ee34159bf9764f008d0971720a8d1818b72f8f64e7475031fc61a
+    digest: 28fb8e98a457dd92bf2456481d635155dd0dab13e5ae97678d4e7c8150d0041f
     home: https://github.com/giantswarm/cert-exporter
     icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
     name: cert-exporter
@@ -84667,4 +84667,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-17T18:03:21.149728295Z"
+generated: "2025-03-17T18:08:17.166021032Z"

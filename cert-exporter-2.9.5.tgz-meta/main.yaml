@@ -6,7 +6,7 @@ annotations:
   ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
 chartApiVersion: v2
 chartFile: cert-exporter-2.9.5.tgz
-dateCreated: '2025-03-17T18:00:06.716331Z'
-digest: ecf3adde1c9ee34159bf9764f008d0971720a8d1818b72f8f64e7475031fc61a
+dateCreated: '2025-03-17T18:08:09.180729Z'
+digest: 28fb8e98a457dd92bf2456481d635155dd0dab13e5ae97678d4e7c8150d0041f
 home: https://github.com/giantswarm/cert-exporter
 icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg

@@ -48562,6 +48562,30 @@ entries:
     version: 0.0.5
   kube-downscaler:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.6.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.6.1.tgz-meta/README.md
+      application.giantswarm.io/team: planeteers
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.6.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 25.3.0
+    created: "2025-03-17T14:01:34.211693321Z"
+    dependencies:
+    - alias: kube-downscaler
+      condition: enabled
+      name: py-kube-downscaler
+      repository: https://caas-team.github.io/helm-charts/
+      version: 0.2.12
+    description: Downscaling tool to save on resources with dev clusters when they
+      are not used
+    digest: db372f366720efe615e524b7ad521e9c28f262df8b83e6ba49493979cd74eaa7
+    home: https://github.com/giantswarm/kube-downscaler
+    name: kube-downscaler
+    sources:
+    - https://github.com/caas-team/py-kube-downscaler
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.6.1.tgz
+    version: 0.6.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.6.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.6.0.tgz-meta/README.md
       application.giantswarm.io/team: planeteers
@@ -84525,4 +84549,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-17T13:53:48.011957898Z"
+generated: "2025-03-17T14:01:34.20965461Z"

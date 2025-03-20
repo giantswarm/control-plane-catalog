@@ -18097,6 +18097,24 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/cert-manager-app-2.1.2.tgz
     version: 2.1.2
+  cert-manager-bundle:
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cert-manager-bundle-0.0.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cert-manager-bundle-0.0.1.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cert-manager-bundle-0.0.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-03-20T00:31:15.902322423Z"
+    description: cert-manager Bundle with crossplane resources
+    digest: acf1876827f8fb55d55bda009d48f5369874ae55ceb236a1fddb645a40b8b1d9
+    home: https://github.com/giantswarm/cert-manager-bundle
+    icon: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
+    name: cert-manager-bundle
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cert-manager-bundle-0.0.1.tgz
+    version: 0.0.1
   cert-operator:
   - annotations:
       application.giantswarm.io/owners: |
@@ -84818,4 +84836,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-19T10:15:41.323623753Z"
+generated: "2025-03-20T00:31:15.901889818Z"

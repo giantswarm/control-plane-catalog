@@ -46990,6 +46990,22 @@ entries:
     version: 0.10.30
   image-distribution-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/image-distribution-operator-0.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/image-distribution-operator-0.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/image-distribution-operator-0.2.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-03-31T11:04:57.50343343Z"
+    description: A Helm chart to distribute the project image-distribution-operator
+    digest: c4b383c6425ee48650546e3f3f3c9452276abc0026cddcce2c480bf199b9d498
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: image-distribution-operator
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/image-distribution-operator-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/image-distribution-operator-0.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/image-distribution-operator-0.1.0.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -85398,4 +85414,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-31T09:01:23.638864875Z"
+generated: "2025-03-31T11:04:57.501901938Z"

@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/sloth-1.7.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/sloth-1.7.0.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/sloth-1.7.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: sloth-1.7.0.tgz
+dateCreated: '2025-03-31T08:52:55.655724Z'
+digest: 18f0d592ac48f5b71372499e425e018b98b03d61f40d123a19e9957743d94927
+home: https://github.com/slok/sloth
+icon: https://s.giantswarm.io/app-icons/sloth/1/light-icon.svg

@@ -22050,6 +22050,19 @@ entries:
       application.giantswarm.io/team: tenet
       config.giantswarm.io/version: 0.1.0
     apiVersion: v1
+    appVersion: 1.17.0
+    created: "2025-04-04T13:05:07.200826053Z"
+    description: A modified kube-state-metrics which only monitor CAPI related CRs
+    digest: 92b37abcd5730ebbc845f7a434582c6e8a2f7055f951240e1a536373756b868e
+    home: https://github.com/giantswarm/cluster-api-monitoring
+    name: cluster-api-monitoring
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-monitoring-1.17.0.tgz
+    version: 1.17.0
+  - annotations:
+      application.giantswarm.io/team: tenet
+      config.giantswarm.io/version: 0.1.0
+    apiVersion: v1
     appVersion: 1.16.1
     created: "2025-01-07T13:10:50.601396819Z"
     description: A modified kube-state-metrics which only monitor CAPI related CRs
@@ -85552,4 +85565,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-03T08:34:15.148822258Z"
+generated: "2025-04-04T13:05:07.198381595Z"

@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/image-distribution-operator-0.3.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/image-distribution-operator-0.3.0.tgz-meta/README.md
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/image-distribution-operator-0.3.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: image-distribution-operator-0.3.0.tgz
+dateCreated: '2025-04-10T07:26:35.529672Z'
+digest: 2fb2e7d15c121622c7ec6db94cba7431eb805ecfeba4addbcb9fda713e169cc0
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

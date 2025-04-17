@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/prometheus-remotewrite-0.8.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/prometheus-remotewrite-0.8.1.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/prometheus-remotewrite-0.8.1.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: prometheus-remotewrite-0.8.1.tgz
+dateCreated: '2025-04-17T12:44:27.911984Z'
+digest: 3f1ab44b997b82a4fee050c74efde547436d6b0863c5f3452dab8d5f29976c9f
+home: https://github.com/giantswarm/prometheus-remotewrite
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg

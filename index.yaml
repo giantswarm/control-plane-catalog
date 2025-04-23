@@ -12478,6 +12478,25 @@ entries:
     version: 0.0.1
   azure-workload-identity-webhook:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/azure-workload-identity-webhook-0.1.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/azure-workload-identity-webhook-0.1.1.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/azure-workload-identity-webhook-0.1.1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v1.4.1
+    created: "2025-04-23T13:03:05.77319735Z"
+    description: A Helm chart to install the azure-workload-identity webhook
+    digest: 319ccea2cebf902c65671cf172045aecbef8cac09801da667fc8aff69bf2a510
+    home: https://github.com/Azure/azure-workload-identity
+    icon: https://s.giantswarm.io/app-icons/azure-ad-pod-identity/1/light.svg
+    name: azure-workload-identity-webhook
+    sources:
+    - https://github.com/Azure/azure-workload-identity
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/azure-workload-identity-webhook-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/azure-workload-identity-webhook-0.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/azure-workload-identity-webhook-0.1.0.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -86307,4 +86326,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-23T12:52:24.721701767Z"
+generated: "2025-04-23T13:03:05.771939549Z"

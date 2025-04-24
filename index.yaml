@@ -38578,6 +38578,24 @@ entries:
     version: 1.0.0
   event-exporter-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/event-exporter-app-2.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/event-exporter-app-2.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: tenet
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/event-exporter-app-2.1.0.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    apiVersion: v2
+    appVersion: v1.7
+    created: "2025-04-24T14:32:08.697744286Z"
+    description: The Event Exporter runs on management clusters to watch and act upon
+      Kubernetes events.
+    digest: bf1fbeb06befff9c42ad5db376180c173a5539b73ab0c8a126b67e2f78d889d1
+    home: https://github.com/giantswarm/event-exporter-app
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    name: event-exporter-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/event-exporter-app-2.1.0.tgz
+    version: 2.1.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/event-exporter-app-2.0.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/event-exporter-app-2.0.0.tgz-meta/README.md
       application.giantswarm.io/team: tenet
@@ -86434,4 +86452,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-24T13:35:19.527376674Z"
+generated: "2025-04-24T14:32:08.696179027Z"

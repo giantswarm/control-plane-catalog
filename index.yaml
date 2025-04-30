@@ -49848,6 +49848,23 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/k8s-audit-metrics-0.0.5.tgz
     version: 0.0.5
+  konfigure-operator:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/konfigure-operator-0.4.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/konfigure-operator-0.4.0.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/konfigure-operator-0.4.0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.4.0
+    created: "2025-04-30T09:05:42.996928013Z"
+    description: A Helm chart for the konfigure-operator
+    digest: e6e434de0dedbad4d98ce86976e3e3079d6af173056412a64bd22bf6826fee37
+    home: https://github.com/giantswarm/konfigure-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: konfigure-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/konfigure-operator-0.4.0.tgz
+    version: 0.4.0
   kube-downscaler:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.6.2.tgz-meta/main.yaml
@@ -86755,4 +86772,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-30T08:07:23.917182824Z"
+generated: "2025-04-30T09:05:42.995886861Z"

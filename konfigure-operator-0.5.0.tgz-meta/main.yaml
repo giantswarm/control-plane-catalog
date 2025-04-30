@@ -1,0 +1,14 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/konfigure-operator-0.5.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/konfigure-operator-0.5.0.tgz-meta/README.md
+  application.giantswarm.io/team: honeybadger
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/konfigure-operator-0.5.0.tgz-meta/values.schema.json
+chartApiVersion: v1
+chartFile: konfigure-operator-0.5.0.tgz
+dateCreated: '2025-04-30T12:44:01.873551Z'
+digest: 2ea9e5f62c8501faf700e1d71ed7087ab18dec2ed0b1c6c40f7dd3c7d8b653af
+home: https://github.com/giantswarm/konfigure-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+restrictions:
+  clusterSingleton: false
+  namespaceSingleton: true

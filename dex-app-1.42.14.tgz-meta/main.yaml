@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/dex-app-1.42.14.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/dex-app-1.42.14.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/dex-app-1.42.14.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: dex-app-1.42.14.tgz
+dateCreated: '2025-05-06T08:10:40.290538Z'
+digest: f2cfda19fe8890f5313b543f422f4dd794dbad9d0a1e20a769189f8aa57d1bf8
+home: https://github.com/giantswarm/dex-app
+icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg

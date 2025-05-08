@@ -5,7 +5,7 @@ annotations:
   application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/teleport-tbot-0.3.0.tgz-meta/values.schema.json
 chartApiVersion: v1
 chartFile: teleport-tbot-0.3.0.tgz
-dateCreated: '2024-08-22T13:03:05.256562'
-digest: 674684499d0ba4553737e7a2b7edc2f15f5511a3459c38060b89c558960c784b
+dateCreated: '2025-05-08T12:33:35.466911'
+digest: 57c423f968aa69906e648ea72f73c5d842bcbb554a1cf71c96624d1e25747342
 home: https://github.com/giantswarm/teleport-tbot
 icon: https://s.giantswarm.io/app-icons/teleport/1/light.png

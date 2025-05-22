@@ -65600,6 +65600,22 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/policies-shared-0.0.9.tgz
     version: 0.0.9
+  policy-api-crds:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/policy-api-crds-0.0.6.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/policy-api-crds-0.0.6.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/policy-api-crds-0.0.6.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-05-22T11:21:15.46358224Z"
+    description: This app contains the Policy API CRDs.
+    digest: 6404a31b085bd64246ab9466da6f68be369e9c29b7297f85e513f77dde4607be
+    home: https://github.com/giantswarm/policy-api
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: policy-api-crds
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/policy-api-crds-0.0.6.tgz
+    version: 0.0.6
   policy-meta-operator:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/policy-meta-operator-0.0.3.tgz-meta/main.yaml
@@ -87758,4 +87774,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-22T11:09:13.130410538Z"
+generated: "2025-05-22T11:21:15.463084313Z"

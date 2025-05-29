@@ -12894,6 +12894,29 @@ entries:
     version: 1.20.0-gs1
   backstage:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/backstage-0.74.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/backstage-0.74.0.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/backstage-0.74.0.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/backstage/1/logo.svg
+    apiVersion: v2
+    appVersion: 0.74.0
+    created: "2025-05-29T11:49:05.772609407Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.30.0
+    description: Backstage app provided by Giant Swarm
+    digest: d07016edf741fc2a351130ca0e047648d333ca3da9d9779847fb4dea1dd278c5
+    home: https://github.com/giantswarm/backstage
+    icon: https://s.giantswarm.io/app-icons/backstage/1/icon.svg
+    name: backstage
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/backstage-0.74.0.tgz
+    version: 0.74.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/backstage-0.73.3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/backstage-0.73.3.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -88062,4 +88085,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-05-29T07:43:23.933499933Z"
+generated: "2025-05-29T11:49:05.769669211Z"

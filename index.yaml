@@ -88482,9 +88482,9 @@ entries:
       ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
     apiVersion: v2
     appVersion: 1.4.1
-    created: "2025-06-12T07:25:45.97933801Z"
+    created: "2025-06-12T12:58:13.2421705Z"
     description: A Helm chart for the Vertical Pod Autoscaler CRDs.
-    digest: 572b4b3c08198cbea98e7c80fa164204174b786f0207c0ff19e1be65a3d8c27b
+    digest: a9bc1c52c57c104b0fc7b4d025f4173275d1b1f010c3c88e06882e1083267043
     home: https://github.com/giantswarm/vertical-pod-autoscaler-crd
     icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
     name: vertical-pod-autoscaler-crd
@@ -88710,4 +88710,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-12T07:25:45.978668168Z"
+generated: "2025-06-12T12:58:13.241495585Z"

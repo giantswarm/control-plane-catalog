@@ -23590,6 +23590,23 @@ entries:
     version: 1.0.0
   cluster-api-provider-aws:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.31.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.31.0.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.31.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 2.7.1
+    created: "2025-06-23T09:43:19.572786812Z"
+    description: Helm chart for cluster-api-provider-aws.
+    digest: 4751b3fa91caa35048a9d2c11f0d2e2c3ee5adbf0634b5abdbc8c9c7427b6c93
+    home: https://github.com/giantswarm/cluster-api-provider-aws-app
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: cluster-api-provider-aws
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.31.0.tgz
+    version: 2.31.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.30.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.30.2.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -89004,4 +89021,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-20T10:21:39.440904137Z"
+generated: "2025-06-23T09:43:19.567385968Z"

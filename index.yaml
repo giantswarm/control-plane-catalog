@@ -80555,6 +80555,19 @@ entries:
       application.giantswarm.io/team: honeybadger
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 4.2.1
+    created: "2025-06-24T14:10:18.120467211Z"
+    description: Helm chart for release-operator.
+    digest: c8931f2e5b123c35050b42e8a1ea809ce9ccfb28031d14d86bd33122d4f16451
+    home: https://github.com/giantswarm/release-operator
+    name: release-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/release-operator-4.2.1.tgz
+    version: 4.2.1
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 4.2.0
     created: "2024-03-27T08:59:31.396651372Z"
     description: Helm chart for release-operator.
@@ -89067,4 +89080,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-24T13:16:19.597247062Z"
+generated: "2025-06-24T14:10:18.119899616Z"

@@ -44346,6 +44346,23 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/g8s-prometheus-1.0.0.tgz
     version: 1.0.0
+  gateway-api-bundle:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/gateway-api-bundle-0.5.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/gateway-api-bundle-0.5.0.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/gateway-api-bundle-0.5.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.5.0
+    created: "2025-06-25T08:08:28.633792669Z"
+    description: Gateway API bundle
+    digest: 131aca60aed046cb4785a9836bbc96e85cf1465b9769c0e8854c818c36026532
+    home: https://github.com/giantswarm/gateway-api-bundle
+    icon: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
+    name: gateway-api-bundle
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/gateway-api-bundle-0.5.0.tgz
+    version: 0.5.0
   goldilocks:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/goldilocks-6.3.0.tgz-meta/main.yaml
@@ -89103,4 +89120,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-24T15:05:32.015626715Z"
+generated: "2025-06-25T08:08:28.632373444Z"

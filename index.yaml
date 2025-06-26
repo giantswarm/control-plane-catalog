@@ -12352,6 +12352,20 @@ entries:
       application.giantswarm.io/team: phoenix
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
+    appVersion: 0.3.0
+    created: "2025-06-26T12:49:52.084944794Z"
+    description: Operator for reconciling Azure Private Links in CAPZ workload clusters
+      to Azure Private Endpoints in CAPZ management clusters
+    digest: 3ffee47438b3f7e3afc1680c8c0e09f1b36989c099dc0eda74143e47945861ac
+    home: https://github.com/giantswarm/azure-private-endpoint-operator
+    name: azure-private-endpoint-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/azure-private-endpoint-operator-0.3.0.tgz
+    version: 0.3.0
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
     appVersion: 0.2.4
     created: "2025-01-10T19:10:43.605575173Z"
     description: Operator for reconciling Azure Private Links in CAPZ workload clusters
@@ -89271,4 +89285,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-26T12:47:17.537396685Z"
+generated: "2025-06-26T12:49:52.084278793Z"

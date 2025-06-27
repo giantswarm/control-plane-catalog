@@ -51487,6 +51487,22 @@ entries:
     version: 0.0.5
   konfigure-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/konfigure-operator-0.6.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/konfigure-operator-0.6.0.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/konfigure-operator-0.6.0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.6.0
+    created: "2025-06-27T10:07:27.218823354Z"
+    description: A Helm chart for the konfigure-operator
+    digest: 85dd459750a0ba48a9c1c5e4bc7206e03b5903a6a96b7548ebd946191cf96d85
+    home: https://github.com/giantswarm/konfigure-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: konfigure-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/konfigure-operator-0.6.0.tgz
+    version: 0.6.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/konfigure-operator-0.5.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/konfigure-operator-0.5.1.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -89342,4 +89358,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-27T08:11:23.417325903Z"
+generated: "2025-06-27T10:07:27.218127177Z"

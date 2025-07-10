@@ -57840,6 +57840,34 @@ entries:
     version: 0.0.1
   loki:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/loki-0.29.2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/loki-0.29.2.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/loki-0.29.2.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/grafana-loki/2/dark.svg
+    apiVersion: v2
+    appVersion: 3.2.0
+    created: "2025-07-10T15:32:11.539120433Z"
+    dependencies:
+    - condition: loki.enabled
+      name: loki
+      repository: https://grafana.github.io/helm-charts
+      version: 6.29.0
+    description: Helm chart for Grafana Loki in simple, scalable mode
+    digest: 2c3166bc2d25d93e5c3a06382d320317ba67d3754d8788d9d37abb6fb6c8ded3
+    home: https://github.com/giantswarm/loki-app
+    icon: https://s.giantswarm.io/app-icons/loki-stack/1/dark.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: loki
+    sources:
+    - https://github.com/giantswarm/loki-app
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/loki-0.29.2.tgz
+    version: 0.29.2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/loki-0.29.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/loki-0.29.1.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -89831,4 +89859,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-10T12:41:27.608574481Z"
+generated: "2025-07-10T15:32:11.521520354Z"

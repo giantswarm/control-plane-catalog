@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.32.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.32.0.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.32.0.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: cluster-api-provider-aws-2.32.0.tgz
+dateCreated: '2025-07-15T11:21:37.287915Z'
+digest: a2b5e48930fcaf152c09a0ab43edd3adf4463720ecc15f72689d3f7dae448add
+home: https://github.com/giantswarm/cluster-api-provider-aws-app
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg

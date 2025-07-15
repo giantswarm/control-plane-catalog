@@ -82218,6 +82218,23 @@ entries:
     version: 0.0.2
   silence-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/silence-operator-0.18.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/silence-operator-0.18.0.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/silence-operator-0.18.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.18.0
+    created: "2025-07-15T13:25:16.725781944Z"
+    description: The silence-operator manages alertmanager silences.
+    digest: 352ba88edc4bb955792d4bf190283c1337d42ea303c2737e74e08f83ab3be492
+    home: https://github.com/giantswarm/silence-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: silence-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/silence-operator-0.18.0.tgz
+    version: 0.18.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/silence-operator-0.17.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/silence-operator-0.17.0.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -89889,4 +89906,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-15T11:21:46.52593292Z"
+generated: "2025-07-15T13:25:16.724485812Z"

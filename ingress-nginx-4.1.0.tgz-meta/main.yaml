@@ -6,7 +6,7 @@ annotations:
   ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/ingress-nginx/2/logo_dark.svg
 chartApiVersion: v2
 chartFile: ingress-nginx-4.1.0.tgz
-dateCreated: '2025-07-18T16:11:42.869863Z'
-digest: 2578a874399f7ab37bf114684e113da9806ffc1d41fc0076ac80795599445e98
+dateCreated: '2025-07-18T17:37:28.634875Z'
+digest: ba60e8c5db27947a2d75bb2baf7df35be085509d2157cfb2e448daaf8f8dff13
 home: https://github.com/giantswarm/ingress-nginx-app
 icon: https://s.giantswarm.io/app-icons/ingress-nginx/2/icon_dark.svg

@@ -37732,6 +37732,23 @@ entries:
     version: 0.1.0
   dex-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/dex-operator-0.14.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/dex-operator-0.14.0.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/dex-operator-0.14.0.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 0.14.0
+    created: "2025-08-01T10:23:52.925531885Z"
+    description: An operator that automates the management of dex connector configurations
+    digest: dcbdd776d0e9657b98619e65e5a5804fb68df096441b94673167151ddada9dcb
+    home: https://github.com/giantswarm/dex-operator
+    icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
+    name: dex-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/dex-operator-0.14.0.tgz
+    version: 0.14.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/dex-operator-0.13.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/dex-operator-0.13.0.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -90668,4 +90685,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2025-07-31T12:11:53.165192635Z"
+generated: "2025-08-01T10:23:52.924265466Z"

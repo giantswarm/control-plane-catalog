@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/mimir-0.18.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/mimir-0.18.0.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/mimir-0.18.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: mimir-0.18.0.tgz
+dateCreated: '2025-08-07T15:31:55.692621Z'
+digest: 5431199efe14ea50556ace819b6570e20c5b1ac9fd98df27cb57809160a7ae18
+home: https://github.com/giantswarm/mimir-app
+icon: https://s.giantswarm.io/app-icons/grafana-mimir/1/light-icon.svg

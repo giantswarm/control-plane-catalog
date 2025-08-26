@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/azure-workload-identity-webhook-1.0.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/azure-workload-identity-webhook-1.0.2.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/azure-workload-identity-webhook-1.0.2.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: azure-workload-identity-webhook-1.0.2.tgz
+dateCreated: '2025-08-26T17:08:21.616333Z'
+digest: 7dc65a18c3363b1b84c56cbfffa8dd0f3241f8891f07cf521fe41663eb86adb3
+home: https://github.com/Azure/azure-workload-identity
+icon: https://s.giantswarm.io/app-icons/azure-ad-pod-identity/1/light.svg

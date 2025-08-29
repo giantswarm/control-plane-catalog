@@ -6,7 +6,7 @@ annotations:
   config.giantswarm.io/version: 1.x.x
 chartApiVersion: v2
 chartFile: alertmanager-to-github-0.0.1-test.tgz
-dateCreated: '2025-08-29T14:32:34.435110Z'
-digest: f3217675955e8efc52a668fc1346e51a14c2e8480227cdb23ffb5fe1b418e099
+dateCreated: '2025-08-29T14:35:39.149559Z'
+digest: 9671b8e904c8a1b72a6bb1d877836aaec32210854f2b646fae3ada1309a89629
 home: https://github.com/giantswarm/alertmanager-to-github-app
 icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

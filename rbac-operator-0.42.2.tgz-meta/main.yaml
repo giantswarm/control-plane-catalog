@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/rbac-operator-0.42.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/rbac-operator-0.42.2.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/rbac-operator-0.42.2.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: rbac-operator-0.42.2.tgz
+dateCreated: '2025-09-17T09:45:04.013718Z'
+digest: 10129738186a973d1fe186418dcc47c7a2d77eb919365381f8076ecbaa25e329
+home: https://github.com/giantswarm/rbac-operator
+icon: https://s.giantswarm.io/app-icons/rbac-bootstrap/1/light.svg

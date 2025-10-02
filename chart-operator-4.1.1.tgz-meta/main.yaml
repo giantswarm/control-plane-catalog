@@ -1,0 +1,17 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/chart-operator-4.1.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/chart-operator-4.1.1.tgz-meta/README.md
+  application.giantswarm.io/team: honeybadger
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/chart-operator-4.1.1.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: chart-operator-4.1.1.tgz
+dateCreated: '2025-10-02T14:52:10.200555Z'
+digest: a7a25cadca60aa6b80926e20e2af67a082a4ce48a81f67fd37356191bc444533
+home: https://github.com/giantswarm/chart-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+restrictions:
+  clusterSingleton: true
+  fixedNamespace: giantswarm
+  gpuInstances: false
+  namespaceSingleton: true

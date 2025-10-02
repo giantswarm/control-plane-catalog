@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-apps-operator-3.4.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-apps-operator-3.4.0.tgz-meta/README.md
+  application.giantswarm.io/team: honeybadger
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cluster-apps-operator-3.4.0.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: cluster-apps-operator-3.4.0.tgz
+dateCreated: '2025-10-02T10:21:36.227085Z'
+digest: 952837eb03e1b090febe6edcde6e5dd483c88e6c8178005449d384d6828e1bcb
+home: https://github.com/giantswarm/cluster-apps-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

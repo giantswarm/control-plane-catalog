@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/dashboards-4.9.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/dashboards-4.9.1.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/dashboards-4.9.1.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: dashboards-4.9.1.tgz
+dateCreated: '2025-10-07T08:28:04.191009Z'
+digest: 1dadcc5e685ecd702bef43bed345d44c2b4947d90676acdcb22b69cf1706a92c
+home: https://github.com/giantswarm/dashboards
+icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg

@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/plugin-barman-cloud-0.0.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/plugin-barman-cloud-0.0.2.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/plugin-barman-cloud-0.0.2.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: plugin-barman-cloud-0.0.2.tgz
+dateCreated: '2025-10-13T11:00:09.866773Z'
+digest: f718db8ee8e7a567726946e666562db453023b33490b2e1160d4d8c39d8fad52
+home: https://github.com/giantswarm/plugin-barman-cloud
+icon: https://s.giantswarm.io/app-icons/cloudnative-pg/icon-light.svg

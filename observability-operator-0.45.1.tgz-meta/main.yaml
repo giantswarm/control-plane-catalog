@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/observability-operator-0.45.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/observability-operator-0.45.1.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/observability-operator-0.45.1.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: observability-operator-0.45.1.tgz
+dateCreated: '2025-10-15T13:37:33.422618Z'
+digest: 27bfdbe4b256e9e20d30fa78cc66bbdb38967e6134316adaf363347f9e2b0ae4
+home: https://github.com/giantswarm/observability-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

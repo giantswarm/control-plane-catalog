@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cert-exporter-2.9.13.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cert-exporter-2.9.13.tgz-meta/README.md
+  application.giantswarm.io/team: turtles
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cert-exporter-2.9.13.tgz-meta/values.schema.json
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+chartApiVersion: v2
+chartFile: cert-exporter-2.9.13.tgz
+dateCreated: '2025-11-01T07:47:42.284149Z'
+digest: 19d5142396e08391ff1a97c5d06f67468811beb83aba66b32f8e554727fb2a83
+home: https://github.com/giantswarm/cert-exporter
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg

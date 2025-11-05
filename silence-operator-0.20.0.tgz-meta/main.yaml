@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/silence-operator-0.20.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/silence-operator-0.20.0.tgz-meta/README.md
+  application.giantswarm.io/team: atlas
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/silence-operator-0.20.0.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: silence-operator-0.20.0.tgz
+dateCreated: '2025-11-05T10:20:27.812957Z'
+digest: 9632bb96a65031e7621711ebae64614e4d72f607148e740ef2c1d703df96cdb1
+home: https://github.com/giantswarm/silence-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

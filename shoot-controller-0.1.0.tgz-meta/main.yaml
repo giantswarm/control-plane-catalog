@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/shoot-controller-0.1.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/shoot-controller-0.1.0.tgz-meta/README.md
+  application.giantswarm.io/team: team-phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/shoot-controller-0.1.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: shoot-controller-0.1.0.tgz
+dateCreated: '2025-11-11T11:12:01.863154Z'
+digest: 4d37b011059709c7fa2890f9f80e9b9039c4ac6ac4f8aad32e3114c2bca8a901
+home: https://github.com/giantswarm/shoot-controller
+icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png

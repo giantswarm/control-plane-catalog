@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/gateway-api-bundle-1.3.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/gateway-api-bundle-1.3.0.tgz-meta/README.md
+  application.giantswarm.io/team: cabbage
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/gateway-api-bundle-1.3.0.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: gateway-api-bundle-1.3.0.tgz
+dateCreated: '2025-11-18T12:48:17.714407Z'
+digest: 3e488f6e3ea7ddd03f9fa629b11a7e11d571797e0614331afe034fd5f974efca
+home: https://github.com/giantswarm/gateway-api-bundle
+icon: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg

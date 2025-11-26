@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/gel-1.0.0.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/gel-1.0.0.tgz-meta/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/gel-1.0.0.tgz-meta/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: gel-1.0.0.tgz
+dateCreated: '2025-11-26T18:29:13.267348Z'
+digest: a3892e4d3e5339c6c9f7ab714bc06cdd2d2775f45a7c8e09b7ce7ae419380045
+home: https://github.com/giantswarm/gel-app
+icon: https://s.giantswarm.io/app-icons/edgedb/light.svg

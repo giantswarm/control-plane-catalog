@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: logging-operator-0.38.0.tgz
+dateCreated: '2025-12-16T10:06:04.147952Z'
+digest: 1c584a083d4aa26df6ba59a9eb5fef6043a8c765b3fd3bbb48c182ab487dbbd1
+home: https://github.com/giantswarm/logging-operator

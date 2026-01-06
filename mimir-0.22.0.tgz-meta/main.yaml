@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: mimir-0.22.0.tgz
+dateCreated: '2026-01-06T09:19:16.509394Z'
+digest: 811e46a69672344e1fda7398f4da88696d4a3d9fe9118dda5c93593dee3200d8
+home: https://github.com/giantswarm/mimir-app
+icon: https://s.giantswarm.io/app-icons/grafana-mimir/1/light-icon.svg

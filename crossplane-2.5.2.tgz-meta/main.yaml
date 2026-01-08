@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: honeybadger
+chartApiVersion: v2
+chartFile: crossplane-2.5.2.tgz
+dateCreated: '2026-01-08T06:55:42.668243Z'
+digest: cfdc5bdb9056d2ea54199a151b8cbad7f2b42be9b9d62f0507d52a976f071d2c
+home: https://github.com/giantswarm/crossplane
+icon: https://s.giantswarm.io/app-icons/crossplane/1/light.svg
+upstreamChartVersion: 1.15.2

@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: team-phoenix
+chartApiVersion: v2
+chartFile: shoot-controller-0.6.0.tgz
+dateCreated: '2026-01-20T12:35:20.954644Z'
+digest: 0426e6b423e7ff997664d3347d83253f30099852a90350a601de05f61f9ab23e
+home: https://github.com/giantswarm/shoot-controller
+icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png

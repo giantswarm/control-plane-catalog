@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-vsphere-2.1.1.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-vsphere-2.1.1.tgz-meta/README.md
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-vsphere-2.1.1.tgz-meta/values.schema.json
+  io.giantswarm.application.team: rocket
+chartApiVersion: v2
+chartFile: cluster-api-provider-vsphere-2.1.1.tgz
+dateCreated: '2026-01-22T12:33:02.852630Z'
+digest: 1d46ede7112ec50858d794e5ee49231b7a23ad8f72d78a19630b87d4f426f487
+home: https://github.com/giantswarm/cluster-api-provider-vsphere-app
+icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-dark.png

@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: shield
+chartApiVersion: v2
+chartFile: policy-meta-operator-0.0.4.tgz
+dateCreated: '2026-01-27T19:01:00.879872Z'
+digest: e246e3519b4450de3f6ad084738113724976f35a743bddc8ff32694018a789cf
+home: https://github.com/giantswarm/policy-meta-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

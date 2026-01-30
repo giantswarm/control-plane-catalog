@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: rocket
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: deletion-blocker-operator-0.6.1.tgz
+dateCreated: '2026-01-30T17:16:40.649736Z'
+digest: 2b8ff75e787ddcbe5f29a3a624cb3f600500382df3949ac6bf4976926e02050d
+home: https://github.com/giantswarm/deletion-blocker-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

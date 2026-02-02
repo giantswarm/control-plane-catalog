@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: azure-workload-identity-webhook-1.0.3.tgz
+dateCreated: '2026-02-02T09:22:41.169953Z'
+digest: 6b51c8b2bd2593fa228154890f9ac0d467caa27bb7a07aa2567a7a8a96c20ef1
+home: https://github.com/Azure/azure-workload-identity
+icon: https://s.giantswarm.io/app-icons/azure-ad-pod-identity/1/light.svg

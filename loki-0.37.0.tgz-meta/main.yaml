@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: atlas
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/grafana-loki/2/dark.svg
+chartApiVersion: v2
+chartFile: loki-0.37.0.tgz
+dateCreated: '2026-02-02T12:22:21.577218Z'
+digest: a3b15e6a3f75d2424b728efcab16d2feb325e04d93056824de23292ae42ba4af
+home: https://github.com/giantswarm/loki-app
+icon: https://s.giantswarm.io/app-icons/loki-stack/1/dark.svg

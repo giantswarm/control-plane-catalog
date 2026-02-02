@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: atlas
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: kyverno-policies-observability-0.8.1.tgz
+dateCreated: '2026-02-02T08:39:51.323131Z'
+digest: 7e65ad851ce25cabf367a103a674fff8880048770af064da0ccc3a2e362e5fca
+home: https://github.com/giantswarm/kyverno-policies-observability
+icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg

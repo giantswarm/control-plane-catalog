@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: shield
+chartApiVersion: v2
+chartFile: kyverno-crds-1.17.0.tgz
+dateCreated: '2026-02-03T16:53:00.896974Z'
+digest: c46e48d11bd3b89873efb6f048abcde37d530116c2629f8cc1fa6c9ad121f3a5
+home: https://github.com/giantswarm/kyverno-crds
+icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg

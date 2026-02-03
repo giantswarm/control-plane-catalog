@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/team: team-cabbage
+  io.giantswarm.ui.logo: https://s.giantswarm.io/app-icons/ingress-nginx/2/logo_dark.svg
+chartApiVersion: v2
+chartFile: ingress-nginx-4.1.7.tgz
+dateCreated: '2026-02-03T08:26:21.601470Z'
+digest: 7d917675ccb13278cb0a3ce9ab6529c4c8affa1eccbd2cc5bf13bc5d0b1b324d
+home: https://github.com/giantswarm/ingress-nginx-app
+icon: https://s.giantswarm.io/app-icons/ingress-nginx/2/icon_dark.svg

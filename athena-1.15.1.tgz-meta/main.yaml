@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/athena/v[[
+    .Version ]]/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/athena/v[[
+    .Version ]]/helm/athena/values.schema.json
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: athena-1.15.1.tgz
+dateCreated: '2026-02-05T13:16:10.251764Z'
+digest: b3ce0baa2db647f330200f7652377aa0fc296e4314c5c9ee5e41f36d9d9d0df8
+home: https://github.com/giantswarm/athena
+icon: https://s.giantswarm.io/app-icons/athena/1/light.svg

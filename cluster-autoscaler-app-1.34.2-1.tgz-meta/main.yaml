@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: turtles
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+chartApiVersion: v2
+chartFile: cluster-autoscaler-app-1.34.2-1.tgz
+dateCreated: '2026-02-05T13:15:50.931582Z'
+digest: a66d76df31ab25a9ef1555687e2de71a0e41505deb6336a7c85891f787c1d29e
+home: https://github.com/giantswarm/cluster-autoscaler-app
+icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg

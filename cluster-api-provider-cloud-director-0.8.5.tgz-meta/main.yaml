@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: rocket
+chartApiVersion: v2
+chartFile: cluster-api-provider-cloud-director-0.8.5.tgz
+dateCreated: '2026-02-09T11:15:33.158741Z'
+digest: b4ea77ab9b6a4553d3bf195ba17a5de35c4a0dc986b947c5b002b419a9f36825
+home: https://github.com/giantswarm/cluster-api-provider-cloud-director-app
+icon: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/icon_light.png

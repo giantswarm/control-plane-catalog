@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: atlas
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: observability-operator-0.59.0.tgz
+dateCreated: '2026-02-10T14:12:30.382449Z'
+digest: 84d9e65c963125174a147115a6c99c55a4662a41bc3a77c118161738fa7c5aa5
+home: https://github.com/giantswarm/observability-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

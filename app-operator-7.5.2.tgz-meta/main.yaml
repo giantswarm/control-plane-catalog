@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: honeybadger
+chartApiVersion: v2
+chartFile: app-operator-7.5.2.tgz
+dateCreated: '2026-02-10T13:45:04.763034Z'
+digest: 5bac76986863cfc61b2f4559680a6d154e707da29e4484b99b3c9d94757f7304
+home: https://github.com/giantswarm/app-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

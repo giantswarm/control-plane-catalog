@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: silence-operator-0.20.1.tgz
+dateCreated: '2026-02-12T15:37:29.255280Z'
+digest: 0eaeb794ff336814c09a6577592f68d65f743e669e3bc926cfe475fdc47df933
+home: https://github.com/giantswarm/silence-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

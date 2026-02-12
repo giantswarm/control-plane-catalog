@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: sloth-1.9.1.tgz
+dateCreated: '2026-02-12T15:38:29.329986Z'
+digest: 493e2eab9e96f456e20d02a59b66b5d8e7e05a4b8ecd61393cda35277ea5fc1b
+home: https://github.com/giantswarm/sloth-app
+icon: https://s.giantswarm.io/app-icons/sloth/1/light-icon.svg

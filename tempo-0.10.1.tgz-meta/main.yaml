@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: tempo-0.10.1.tgz
+dateCreated: '2026-02-12T15:37:27.376608Z'
+digest: 625269a095454c98c460301e945118341b905cb502e616db02e69f1ce7f8cfb2
+home: https://github.com/giantswarm/tempo-app
+icon: https://s.giantswarm.io/app-icons/grafana-tempo/1/light.svg

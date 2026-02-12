@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: planeteers
+chartApiVersion: v2
+chartFile: kube-downscaler-0.6.3.tgz
+dateCreated: '2026-02-12T11:32:42.285582Z'
+digest: 94d9c590ba1f74e906df2c9b61bf4edd9bf2ede913247998a2ad3392f9d3fe5b
+home: https://github.com/giantswarm/kube-downscaler-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

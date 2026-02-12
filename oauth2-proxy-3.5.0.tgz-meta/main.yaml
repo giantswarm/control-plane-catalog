@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: oauth2-proxy-3.5.0.tgz
+dateCreated: '2026-02-12T15:55:39.146264Z'
+digest: 4eb20d145e8146e7f808af8a257011dfa27244b00af1447004a48fe1dae5d195
+home: https://github.com/giantswarm/oauth2-proxy-app
+icon: https://s.giantswarm.io/app-icons/oauth2-proxy/1/light.svg

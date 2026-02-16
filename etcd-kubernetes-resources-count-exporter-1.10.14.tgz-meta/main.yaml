@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: turtles
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: etcd-kubernetes-resources-count-exporter-1.10.14.tgz
+dateCreated: '2026-02-16T10:27:23.911132Z'
+digest: cd65e05c5a6c7354365ed2504223fb200eb146d58dababadbafb3eff45908959
+home: https://github.com/giantswarm/etcd-kubernetes-resources-count-exporter
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg

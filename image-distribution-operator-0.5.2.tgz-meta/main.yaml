@@ -1,0 +1,7 @@
+annotations:
+  application.giantswarm.io/team: rocket
+chartApiVersion: v2
+chartFile: image-distribution-operator-0.5.2.tgz
+dateCreated: '2026-02-17T10:58:16.671463Z'
+digest: 144d75a2f8476cb044e88a055e1ca4b04dd78770226d9bbefaa5f1cde5bdc4e4
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

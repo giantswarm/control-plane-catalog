@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/team: rocket
+  config.giantswarm.io/version: 1.x.x
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/logo_light.png
+chartApiVersion: v2
+chartFile: cluster-api-cleaner-cloud-director-0.5.3.tgz
+dateCreated: '2026-02-17T10:53:28.647929Z'
+digest: cae4b4bc1d1f97e325c3069ccd8ee64a94ac7edc8e74773f139c3ec74d66b189
+home: https://github.com/giantswarm/cluster-api-cleaner-cloud-director
+icon: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/icon_dark.png
+restrictions:
+  compatibleProviders:
+  - cloud-director

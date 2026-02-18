@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: prometheus-remotewrite-1.4.3.tgz
+dateCreated: '2026-02-18T08:58:55.575396Z'
+digest: 9362f9bfed3be13117ebe5a00fe1dc15a090481407bddc147575028e005a3cb3
+home: https://github.com/giantswarm/prometheus-remotewrite
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg

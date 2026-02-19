@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: tenet
+chartApiVersion: v2
+chartFile: etcd-backup-operator-5.0.0.tgz
+dateCreated: '2026-02-19T10:34:51.991966Z'
+digest: fc80cdb16a09790172484d213ed64d266c6004503e14e1316912c65236e59e95
+home: https://github.com/giantswarm/etcd-backup-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

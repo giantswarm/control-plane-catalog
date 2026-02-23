@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: object-storage-operator-0.14.0.tgz
+dateCreated: '2026-02-23T13:10:38.926915Z'
+digest: 3c72939a3242ce53e6deec551b28e250f578d97f21ff5b2109e6ebbe96bdbcd0
+home: https://github.com/giantswarm/object-storage-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

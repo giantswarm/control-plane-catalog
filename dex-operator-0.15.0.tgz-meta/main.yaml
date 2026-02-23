@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+chartApiVersion: v1
+chartFile: dex-operator-0.15.0.tgz
+dateCreated: '2026-02-23T20:08:23.581816Z'
+digest: 4b8324670d9379463d4ea94b6bfbb915cb41925fff070c6c185cfa23850b032b
+home: https://github.com/giantswarm/dex-operator
+icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg

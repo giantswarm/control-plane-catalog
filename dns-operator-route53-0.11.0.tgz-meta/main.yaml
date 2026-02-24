@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: rocket
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: dns-operator-route53-0.11.0.tgz
+dateCreated: '2026-02-24T11:09:58.257635Z'
+digest: 0b22e7eb6e239c25730a6b589f87c5f07954141e4c4050abf888ef5d35ad1d38
+home: https://github.com/giantswarm/dns-operator-route53
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

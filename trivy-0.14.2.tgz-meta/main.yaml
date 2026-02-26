@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+chartApiVersion: v2
+chartFile: trivy-0.14.2.tgz
+dateCreated: '2026-02-26T09:19:00.954776Z'
+digest: 4ccbddd5bec548b2afb0a4bcb120d54659497b86901c03678b315d91db6f6360
+home: https://github.com/giantswarm/trivy-app
+icon: https://s.giantswarm.io/app-icons/trivy/1/light.svg

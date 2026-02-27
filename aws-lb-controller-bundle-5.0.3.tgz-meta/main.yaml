@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/aws-lb-controller-bundle-5.0.3.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/aws-lb-controller-bundle-5.0.3.tgz-meta/README.md
+  application.giantswarm.io/team: phoenix
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/aws-lb-controller-bundle-5.0.3.tgz-meta/values.schema.json
+chartApiVersion: v2
+chartFile: aws-lb-controller-bundle-5.0.3.tgz
+dateCreated: '2026-02-27T13:32:09.361986Z'
+digest: eafc9cd8918feb53d32ddf2b23cab74cef9d8872918474d17ba2c171a7f1f437
+home: https://github.com/giantswarm/aws-load-balancer-controller-app
+icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png

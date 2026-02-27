@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: aws-vpc-operator-1.0.0.tgz
+dateCreated: '2026-02-27T12:45:26.977060Z'
+digest: ec3bd0f87ceddbb8b814aef9f4da851da91ec8afe4b14e598455476d751ba376
+home: https://github.com/giantswarm/aws-vpc-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

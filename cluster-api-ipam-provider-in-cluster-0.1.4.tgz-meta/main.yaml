@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: rocket
+chartApiVersion: v2
+chartFile: cluster-api-ipam-provider-in-cluster-0.1.4.tgz
+dateCreated: '2026-03-03T15:37:24.007102Z'
+digest: d2ee6d6f285100ac0d0be0d2ff4535b3f0d928ca660d917ca1e7d43e13d46830
+home: https://github.com/giantswarm/cluster-api-ipam-provider-in-cluster-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

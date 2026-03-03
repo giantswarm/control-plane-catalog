@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: plugin-barman-cloud-0.3.0.tgz
+dateCreated: '2026-03-03T08:15:57.973215Z'
+digest: 54da620a2df7c8a722a493017247b36d68603c0961062ac648fadc409c042c29
+home: https://github.com/giantswarm/plugin-barman-cloud
+icon: https://s.giantswarm.io/app-icons/cloudnative-pg/icon-light.svg

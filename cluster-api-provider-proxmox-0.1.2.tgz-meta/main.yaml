@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-proxmox-0.1.2.tgz-meta/main.yaml
+  application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-proxmox-0.1.2.tgz-meta/README.md
+  application.giantswarm.io/team: rocket
+  application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-proxmox-0.1.2.tgz-meta/values.schema.json
+  io.giantswarm.application.team: rocket
+chartApiVersion: v2
+chartFile: cluster-api-provider-proxmox-0.1.2.tgz
+dateCreated: '2026-03-04T07:36:02.968364Z'
+digest: 8bca466d309e352cc990036a2a82b122c08d77f226558d6469ed7e08690e26fc
+home: https://github.com/giantswarm/cluster-api-provider-proxmox-app
+icon: https://s.giantswarm.io/app-icons/proxmox/1/dark.png

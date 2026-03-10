@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: prometheus-rules-4.98.0.tgz
+dateCreated: '2026-03-10T13:09:41.361645Z'
+digest: b1a20969824c7e00012b7fd112d5bad94ab2613ccacf69474d0f52f5f28c602e
+home: https://github.com/giantswarm/prometheus-rules
+icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png

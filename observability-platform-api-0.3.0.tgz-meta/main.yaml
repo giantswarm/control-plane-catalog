@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: observability-platform-api-0.3.0.tgz
+dateCreated: '2026-03-11T09:35:26.588721Z'
+digest: 47f4e64f86119338d45aaab6ee3f9c2b22e4db841cfd3f2b62c4c8d3bfad9946
+home: https://github.com/giantswarm/observability-platform-api
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

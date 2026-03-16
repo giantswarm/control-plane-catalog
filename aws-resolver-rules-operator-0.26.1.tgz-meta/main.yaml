@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: aws-resolver-rules-operator-0.26.1.tgz
+dateCreated: '2026-03-16T11:44:11.752126Z'
+digest: 148a3b63e18e259afcfdd660690733fa6a57db15f4282c1f810075805cae2180
+home: https://github.com/giantswarm/aws-resolver-rules-operator
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg

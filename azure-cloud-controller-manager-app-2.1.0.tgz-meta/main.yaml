@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+chartApiVersion: v2
+chartFile: azure-cloud-controller-manager-app-2.1.0.tgz
+dateCreated: '2026-03-16T16:36:07.094859Z'
+digest: 1cf9b0e3a9e6f5f0c7358662cb103b618a9ef309d5def5e029c4ee435dadbc68
+home: https://github.com/giantswarm/azure-cloud-controller-manager-app
+icon: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+restrictions:
+  clusterSingleton: true
+  compatibleProviders:
+  - azure
+  fixedNamespace: kube-system
+  gpuInstances: false

@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: tenet
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+chartApiVersion: v2
+chartFile: event-exporter-app-3.7.0.tgz
+dateCreated: '2026-03-17T09:47:29.896210Z'
+digest: 4f6e4c69bded3753f16d4946c9e5fa8d6227f4ef6e4afee900e56c8f6f015152
+home: https://github.com/giantswarm/event-exporter-app
+icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg

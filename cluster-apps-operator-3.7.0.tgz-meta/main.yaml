@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: honeybadger
+chartApiVersion: v2
+chartFile: cluster-apps-operator-3.7.0.tgz
+dateCreated: '2026-03-17T15:11:28.207173Z'
+digest: f1f8a3000f6f02514b00003a09b3e60e38d6fe791374e90546131a4108888d13
+home: https://github.com/giantswarm/cluster-apps-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

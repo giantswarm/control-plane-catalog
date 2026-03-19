@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/restrictions/clusterSingleton: 'true'
+  application.giantswarm.io/team: honeybadger
+chartApiVersion: v2
+chartFile: team-stamper-0.1.0.tgz
+dateCreated: '2026-03-19T12:40:00.340421Z'
+digest: e74ee2462b83fc86431228462ef5e9433b587ba09fba4c5816a97c3b72991427
+home: https://github.com/giantswarm/team-stamper
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: tenet
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: cluster-cleaner-0.11.1.tgz
+dateCreated: '2026-03-26T09:45:47.856986Z'
+digest: 9bfb0a67ef9bbdd9b2b1b3a12be91b7492b5b8ce1191f9f8eaa41cfa08df6f25
+home: https://github.com/giantswarm/cluster-cleaner
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

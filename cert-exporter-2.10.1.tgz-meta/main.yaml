@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: turtles
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+chartApiVersion: v2
+chartFile: cert-exporter-2.10.1.tgz
+dateCreated: '2026-04-08T18:12:02.675118Z'
+digest: e5bf2761b88373cc989f6ddaec420bc84a1c680cce718d7d91971093fb3b8d8b
+home: https://github.com/giantswarm/cert-exporter
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg

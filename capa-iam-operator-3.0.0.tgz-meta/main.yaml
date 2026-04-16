@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: capa-iam-operator-3.0.0.tgz
+dateCreated: '2026-04-16T13:46:23.760282Z'
+digest: 7914f6f5314747e77d084eea437b1c0f2216d753adac74599ef18f0b682ed71c
+home: https://github.com/giantswarm/capa-iam-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: cluster-api-provider-aws-2.38.0.tgz
+dateCreated: '2026-04-20T14:16:52.465202Z'
+digest: 810fe60981de6545eae06be4f3e01f39ce4fde4e2570bbb51311e437c08977ad
+home: https://github.com/giantswarm/cluster-api-provider-aws-app
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg

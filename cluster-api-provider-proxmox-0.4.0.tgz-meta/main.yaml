@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: rocket
+chartApiVersion: v2
+chartFile: cluster-api-provider-proxmox-0.4.0.tgz
+dateCreated: '2026-04-20T11:11:27.253294Z'
+digest: ed4143c3c7b414fda2b0738c433b4eb47a325556a57c0b0b0ae28013166ddc96
+home: https://github.com/giantswarm/cluster-api-provider-proxmox-app
+icon: https://s.giantswarm.io/app-icons/proxmox/1/dark.png

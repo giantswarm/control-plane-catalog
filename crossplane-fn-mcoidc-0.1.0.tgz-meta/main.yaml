@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: crossplane-fn-mcoidc-0.1.0.tgz
+dateCreated: '2026-04-24T08:10:14.845417Z'
+digest: 7c676b85a3ee818c7ac123d90b2e1f0a740707baf7f3fb3d04454472fbb5d41f
+home: https://github.com/giantswarm/crossplane-fn-mcoidc
+icon: https://s.giantswarm.io/app-icons/crossplane/1/light.svg

@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/team: rocket
+  config.giantswarm.io/version: 1.x.x
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/vsphere/2/icon-dark.png
+chartApiVersion: v2
+chartFile: cluster-api-cleaner-vsphere-0.5.1.tgz
+dateCreated: '2026-04-24T10:48:46.904842Z'
+digest: ae85debd9a9e0064ac10dca26f26dd13948c01262bedc8c590084010a00693d1
+home: https://github.com/giantswarm/cluster-api-cleaner-vsphere
+icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-dark.png
+restrictions:
+  compatibleProviders:
+  - vsphere

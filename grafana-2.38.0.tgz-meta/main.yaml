@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: grafana-2.38.0.tgz
+dateCreated: '2026-05-05T07:28:36.644822Z'
+digest: 38833dac2ecc487ea185c00844c8abca45082289f192da1e544f5c60db73e305
+home: https://github.com/giantswarm/grafana-app
+icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg

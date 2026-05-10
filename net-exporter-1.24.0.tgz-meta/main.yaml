@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: cabbage
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v1
+chartFile: net-exporter-1.24.0.tgz
+dateCreated: '2026-05-10T17:51:02.266587Z'
+digest: b05939360d0bc054f9452517080f64d567a5a2179226787ef4dc7e034e0db774
+home: https://github.com/giantswarm/net-exporter
+icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg

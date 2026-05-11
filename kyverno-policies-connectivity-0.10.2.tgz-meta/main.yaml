@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: cabbage
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: kyverno-policies-connectivity-0.10.2.tgz
+dateCreated: '2026-05-11T12:06:16.914840Z'
+digest: 15ca91539a67a1e897906dc8da8911613c4904feab2cc85c3c3bdb5d3403ff63
+home: https://github.com/giantswarm/kyverno-policies-connectivity
+icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg

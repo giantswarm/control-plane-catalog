@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'false'
+  application.giantswarm.io/team: cabbage
+chartApiVersion: v2
+chartFile: k6-operator-0.1.4.tgz
+dateCreated: '2026-05-12T07:23:09.248797Z'
+digest: c26a8e4522305526b5aa6947eee2981a89a0eea2110ac70892e160a2a5d09378
+home: https://github.com/giantswarm/k6-operator-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

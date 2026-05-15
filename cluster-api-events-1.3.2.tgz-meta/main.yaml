@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: tenet
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: cluster-api-events-1.3.2.tgz
+dateCreated: '2026-05-15T12:20:02.329279Z'
+digest: ee4e3433b09ad6dbac45fc2c2118adda99d5d28534c7f90ebe943167d3dce3d4
+home: https://github.com/giantswarm/cluster-api-events
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

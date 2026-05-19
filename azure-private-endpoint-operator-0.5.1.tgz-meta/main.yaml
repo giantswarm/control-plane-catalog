@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: azure-private-endpoint-operator-0.5.1.tgz
+dateCreated: '2026-05-19T15:05:13.486174Z'
+digest: e53bc1e3901ea9524d6c347d56ffcb2f0dd1b427043ce960e3ff45e83e81f6f7
+home: https://github.com/giantswarm/azure-private-endpoint-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

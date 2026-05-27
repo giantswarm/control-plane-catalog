@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: tenet
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+chartApiVersion: v2
+chartFile: cluster-autoscaler-app-1.35.0-1.tgz
+dateCreated: '2026-05-27T10:42:41.905843Z'
+digest: f21710d2d6e4e7855edaabfe095fd6793b6c0431384071c7d85010dadf021204
+home: https://github.com/giantswarm/cluster-autoscaler-app
+icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg

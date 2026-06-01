@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+chartApiVersion: v1
+chartFile: teleport-operator-0.13.0.tgz
+dateCreated: '2026-06-01T12:20:52.735524Z'
+digest: 6c9752921ff4d9b680196a242cb621f4d5124b64461b583f0f62d087a74eb1ba
+home: https://github.com/giantswarm/teleport-operator
+icon: https://s.giantswarm.io/app-icons/teleport/1/light.png

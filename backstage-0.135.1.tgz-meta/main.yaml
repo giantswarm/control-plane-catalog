@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/logo: https://s.giantswarm.io/app-icons/backstage/1/logo.svg
+  application.giantswarm.io/team: honeybadger
+chartApiVersion: v2
+chartFile: backstage-0.135.1.tgz
+dateCreated: '2026-06-11T10:28:50.337849Z'
+digest: 890f2ce73fded01de920aefff4724887c935ede414bd9dd31efeea7e07c729da
+home: https://github.com/giantswarm/backstage
+icon: https://s.giantswarm.io/app-icons/backstage/1/icon.svg

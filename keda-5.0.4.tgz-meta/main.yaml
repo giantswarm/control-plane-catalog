@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: keda-5.0.4.tgz
+dateCreated: '2026-06-15T22:28:49.239536Z'
+digest: 18beff8f33249c9d459d55dda18cc3b84084691f55a139125f757785eb76048f
+home: https://github.com/giantswarm/keda-app
+icon: https://s.giantswarm.io/app-icons/keda/2/light.svg

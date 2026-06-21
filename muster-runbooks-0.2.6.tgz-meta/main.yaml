@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: bumblebee
+chartApiVersion: v2
+chartFile: muster-runbooks-0.2.6.tgz
+dateCreated: '2026-06-21T10:56:36.170593Z'
+digest: 71ebf29585863404c299aad81c4260948fe58e6b193c64a9e049e0c6b6ee5aaa
+home: https://github.com/giantswarm/muster-runbooks
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

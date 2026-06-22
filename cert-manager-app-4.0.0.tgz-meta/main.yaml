@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: shield
+chartApiVersion: v2
+chartFile: cert-manager-app-4.0.0.tgz
+dateCreated: '2026-06-22T16:06:31.880812Z'
+digest: 9a98f357e6296452a0b017232dcb42883f1be7eb23c122a07bdbde42772e7b64
+home: https://github.com/giantswarm/cert-manager-app
+icon: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg

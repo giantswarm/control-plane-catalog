@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: team-honeybadger
+chartApiVersion: v2
+chartFile: pagerduty-mcp-server-1.0.5.tgz
+dateCreated: '2026-06-25T15:37:31.734224Z'
+digest: da9e43b46d01ff52e7300027ca60e6f44bb54eadf096ff1cc1c46e199c79c7a0
+home: https://github.com/giantswarm/pagerduty-mcp-server
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

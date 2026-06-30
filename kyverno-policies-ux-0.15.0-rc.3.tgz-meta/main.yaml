@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: honeybadger
+chartApiVersion: v2
+chartFile: kyverno-policies-ux-0.15.0-rc.3.tgz
+dateCreated: '2026-06-30T08:46:47.042561Z'
+digest: 38358976e4671ce6d643240811f362f11441b819dcddd646b581baa3d9dbc45f
+home: https://github.com/giantswarm/kyverno-policies-ux
+icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg

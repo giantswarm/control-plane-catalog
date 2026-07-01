@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: dashboards-4.27.0.tgz
+dateCreated: '2026-07-01T09:01:57.323668Z'
+digest: 4f1f2f188f93a6b8230b2b132a4ba57857d8e9439d39c777d15720091ea0196f
+home: https://github.com/giantswarm/dashboards
+icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg

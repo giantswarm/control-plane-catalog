@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: pagerduty-config-0.11.3.tgz
+dateCreated: '2026-07-02T07:49:26.215096Z'
+digest: 91db7f852f1fa35aeb3eb767d6c61cb28ede3204dff68aa13b39cf0ef5cf707b
+home: https://github.com/giantswarm/pagerduty-config
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

@@ -1,0 +1,10 @@
+annotations:
+  application.giantswarm.io/restrictions/clusterSingleton: 'false'
+  application.giantswarm.io/restrictions/namespaceSingleton: 'true'
+  application.giantswarm.io/team: honeybadger
+chartApiVersion: v2
+chartFile: konfigure-operator-1.2.2-rc.2.tgz
+dateCreated: '2026-07-07T11:03:54.090120Z'
+digest: 070a0ac5304c56347521db8e7ab4f5fa84b42733c85d929ec9e12ae76ea4c418
+home: https://github.com/giantswarm/konfigure-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

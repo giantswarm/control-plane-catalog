@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: planeteers
+chartApiVersion: v2
+chartFile: mcp-runbooks-0.2.6.tgz
+dateCreated: '2026-07-09T16:11:08.214150Z'
+digest: 0a292b2391b4554b58ce28f975cf88423fb1a3ea6b6f61151b888e14493894c0
+home: https://github.com/giantswarm/mcp-runbooks
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

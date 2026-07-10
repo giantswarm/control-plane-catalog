@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+chartApiVersion: v2
+chartFile: dns-operator-azure-2.6.1.tgz
+dateCreated: '2026-07-10T13:48:56.928080Z'
+digest: a85b32affcb9f2e0d0f63fa5cfc94d48ec0c33df1c7072cb9fa5b79d5aab4da5
+home: https://github.com/giantswarm/dns-operator-azure
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

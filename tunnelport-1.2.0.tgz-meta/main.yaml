@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: bumblebee
+chartApiVersion: v2
+chartFile: tunnelport-1.2.0.tgz
+dateCreated: '2026-07-20T17:03:55.758152Z'
+digest: 87c84674aaf39e2af7a9ff72d6fd11e9ebf434dabfdd5180277d32c4526ba4e3
+home: https://github.com/giantswarm/tunnelport
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

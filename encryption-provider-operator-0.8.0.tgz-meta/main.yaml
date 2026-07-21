@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: encryption-provider-operator-0.8.0.tgz
+dateCreated: '2026-07-21T20:34:42.669647Z'
+digest: 16540519b7101d3ebba0d8ab6d2f472fed110f897bad9e6e470f34f62be736a0
+home: https://github.com/giantswarm/encryption-provider-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

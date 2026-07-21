@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+chartApiVersion: v2
+chartFile: cluster-api-provider-azure-4.2.3.tgz
+dateCreated: '2026-07-21T19:52:55.591161Z'
+digest: c86fad1e90e47055682c95e1093c5cf0ba612e8b900cba099d8ac94145db1ca3
+home: https://github.com/giantswarm/cluster-api-provider-azure-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

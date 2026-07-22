@@ -1,0 +1,9 @@
+annotations:
+  application.giantswarm.io/team: tenet
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+chartApiVersion: v2
+chartFile: cluster-api-7.0.1.tgz
+dateCreated: '2026-07-22T04:18:12.272617Z'
+digest: ac01d67ac9c79b91906b385f1c87de5663e6e516838f010eb2c4857fa38616b5
+home: https://github.com/giantswarm/cluster-api-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

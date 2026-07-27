@@ -88375,6 +88375,34 @@ entries:
     version: 0.1.0
   pagerduty-config:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/pagerduty-config/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/pagerduty-config-0.13.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-config/refs/tags/v0.13.0/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pagerduty-config/refs/tags/v0.13.0/helm/pagerduty-config/values.schema.json
+    apiVersion: v2
+    appVersion: 0.13.0
+    created: "2026-07-27T16:06:48.086274602Z"
+    description: Crossplane-managed PagerDuty configuration for Giant Swarm
+    digest: 74f667a616c0ab9f10e939ed0ca639ee8f32c8f73b7fc23ad51880b647715840
+    home: https://github.com/giantswarm/pagerduty-config
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - pagerduty
+    - crossplane
+    - oncall
+    maintainers:
+    - email: atlas@giantswarm.io
+      name: team-atlas
+    name: pagerduty-config
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/pagerduty-config-0.13.0.tgz
+    version: 0.13.0
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/pagerduty-config-0.12.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-config/refs/tags/v0.12.1/README.md
       io.giantswarm.application.team: atlas
@@ -116753,4 +116781,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-07-27T12:42:38.695062909Z"
+generated: "2026-07-27T16:06:48.083750023Z"

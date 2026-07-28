@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/team: atlas
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/mimir-app/issues\n- name:\
+    \ Upstream project\n  url: https://github.com/grafana/mimir/tree/main/operations/helm/charts/mimir-distributed\n"
+chartApiVersion: v2
+chartFile: mimir-0.30.0.tgz
+dateCreated: '2026-07-28T11:12:50.897865Z'
+digest: 0da386d78dd6bfce9df0ce5ffb64ed5f6ed3d565f3342df3cc41d3b1b9a812df
+home: https://github.com/giantswarm/mimir-app
+icon: https://s.giantswarm.io/app-icons/grafana-mimir/1/light-icon.svg

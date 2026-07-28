@@ -96229,6 +96229,26 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/prometheus-rules/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/prometheus-rules-4.113.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/prometheus-rules/refs/tags/v4.113.0/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/prometheus-rules/refs/tags/v4.113.0/helm/prometheus-rules/values.schema.json
+    apiVersion: v2
+    appVersion: 4.113.0
+    created: "2026-07-28T15:35:52.978595796Z"
+    description: A Helm chart for Giant Swarm prometheus alerting and recording rules
+    digest: ffe9851a87c5645f85c0ec86e8d2751638b2ff6bdd008bbc1676052bf889ea80
+    home: https://github.com/giantswarm/prometheus-rules
+    icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
+    name: prometheus-rules
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/prometheus-rules-4.113.0.tgz
+    version: 4.113.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/prometheus-rules/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/prometheus-rules-4.112.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/prometheus-rules/refs/tags/v4.112.0/README.md
       io.giantswarm.application.team: atlas
@@ -117034,4 +117054,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-07-28T13:49:18.975613887Z"
+generated: "2026-07-28T15:35:52.974513695Z"

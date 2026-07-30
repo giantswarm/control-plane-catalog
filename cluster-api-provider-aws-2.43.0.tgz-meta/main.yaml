@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/cluster-api-provider-aws-app/issues\n"
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: cluster-api-provider-aws-2.43.0.tgz
+dateCreated: '2026-07-30T12:07:14.377714Z'
+digest: c3ffea45800b627bd1ee5f1125e3c88f8af12af1d01eb2fcb23e4cfb321a3304
+home: https://github.com/giantswarm/cluster-api-provider-aws-app
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg

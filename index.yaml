@@ -81044,6 +81044,31 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/muster-runbooks/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/muster-runbooks-0.2.16.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster-runbooks/refs/tags/v0.2.16/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/muster-runbooks/refs/tags/v0.2.16/helm/muster-runbooks/values.schema.json
+    apiVersion: v2
+    appVersion: 0.2.16
+    created: "2026-07-30T09:40:56.936785664Z"
+    description: 'Muster Workflow CRs implementing alert triage runbooks for the Giant
+      Swarm agentic platform. Each workflow encodes the read-only investigation steps
+      for one alert, executed via the muster MCP aggregator. '
+    digest: 2bc93ddacdbdac5a46ddcde7bbe6877ad71a55e9c1c0f1305e2a8ab699499396
+    home: https://github.com/giantswarm/muster-runbooks
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: muster-runbooks
+    sources:
+    - https://github.com/giantswarm/muster-runbooks
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/muster-runbooks-0.2.16.tgz
+    version: 0.2.16
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/muster-runbooks/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/muster-runbooks-0.2.15.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster-runbooks/refs/tags/v0.2.15/README.md
       io.giantswarm.application.team: bumblebee
@@ -117216,4 +117241,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-07-30T09:17:21.846535858Z"
+generated: "2026-07-30T09:40:56.922110103Z"

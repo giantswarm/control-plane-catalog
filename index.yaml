@@ -81232,6 +81232,33 @@ entries:
     version: 0.1.0
   mcp-runbooks:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/mcp-runbooks-0.2.10.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-runbooks/refs/tags/v0.2.10/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mcp-runbooks/refs/tags/v0.2.10/helm/mcp-runbooks/values.schema.json
+    apiVersion: v2
+    appVersion: 0.2.10
+    created: "2026-08-17T11:52:53.237112982Z"
+    description: MCP server for Giant Swarm runbooks
+    digest: 708df5d1bfafccbd79ec0905af263ca9281786108d3fcfe36e7cac50a1c230e5
+    home: https://github.com/giantswarm/mcp-runbooks
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - runbooks
+    - ai
+    - claude
+    maintainers:
+    - email: support@giantswarm.io
+      name: Giant Swarm
+    name: mcp-runbooks
+    sources:
+    - https://github.com/giantswarm/mcp-runbooks
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/mcp-runbooks-0.2.10.tgz
+    version: 0.2.10
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/mcp-runbooks-0.2.9.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-runbooks/refs/tags/v0.2.9/README.md
       io.giantswarm.application.team: planeteers
@@ -119483,4 +119510,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-08-17T11:51:00.23228592Z"
+generated: "2026-08-17T11:52:53.236146724Z"

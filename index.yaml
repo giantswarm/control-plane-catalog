@@ -91454,6 +91454,35 @@ entries:
     version: 0.1.0
   pagerduty-mcp-server:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/pagerduty-mcp-server-1.0.24.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-mcp-server/refs/tags/v1.0.24/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pagerduty-mcp-server/refs/tags/v1.0.24/helm/pagerduty-mcp-server/values.schema.json
+    apiVersion: v2
+    appVersion: 1.0.24
+    created: "2026-08-17T12:03:40.795249783Z"
+    description: PagerDuty MCP Server (Giant Swarm packaging) — exposes the upstream
+      MCP server over HTTP for in-cluster muster integration.
+    digest: 8a492a829ea8011b8fc4c10cdbc229d88f0d23d5817e7afca89de6b2027fa5b2
+    home: https://github.com/giantswarm/pagerduty-mcp-server
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - pagerduty
+    - ai
+    - claude
+    maintainers:
+    - email: support@giantswarm.io
+      name: Giant Swarm
+    name: pagerduty-mcp-server
+    sources:
+    - https://github.com/giantswarm/pagerduty-mcp-server
+    - https://github.com/PagerDuty/pagerduty-mcp-server
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/pagerduty-mcp-server-1.0.24.tgz
+    version: 1.0.24
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/pagerduty-mcp-server-1.0.23.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-mcp-server/refs/tags/v1.0.23/README.md
       io.giantswarm.application.team: atlas
@@ -119653,4 +119682,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-08-17T12:02:13.070037666Z"
+generated: "2026-08-17T12:03:40.794267516Z"

@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: atlas
+chartApiVersion: v2
+chartFile: pagerduty-mcp-server-1.0.26.tgz
+dateCreated: '2026-08-17T12:06:38.429437Z'
+digest: 6f4c105e88ccd22d5722cbe2dfd2f6c227659046173220b25736991b106550b5
+home: https://github.com/giantswarm/pagerduty-mcp-server
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

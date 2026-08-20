@@ -1,5 +1,38 @@
 apiVersion: v1
 entries:
+  alerting-config:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/alerting-config/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/alerting-config-0.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/alerting-config/refs/tags/v0.1.1/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/alerting-config/refs/tags/v0.1.1/helm/alerting-config/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.1
+    created: "2026-08-20T15:12:11.34623012Z"
+    description: Giant Swarm Alertmanager configuration and heartbeat definition,
+      consumed by observability-operator
+    digest: 72edf1d9739cb1901504ec1313c7e3de4a1e58561e04a514e2b5ae4bc038db68
+    home: https://github.com/giantswarm/alerting-config
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - alertmanager
+    - alerting
+    - observability
+    maintainers:
+    - email: atlas@giantswarm.io
+      name: team-atlas
+    name: alerting-config
+    sources:
+    - https://github.com/giantswarm/alerting-config
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/alerting-config-0.1.1.tgz
+    version: 0.1.1
   alertmanager-to-github:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/alertmanager-to-github-0.0.1-test3.tgz-meta/main.yaml
@@ -120185,4 +120218,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-08-20T14:04:57.614376689Z"
+generated: "2026-08-20T15:12:11.345602494Z"

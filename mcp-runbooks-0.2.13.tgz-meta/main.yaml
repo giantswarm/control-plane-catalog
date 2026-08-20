@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: planeteers
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/mcp-runbooks/issues\n"
+chartApiVersion: v2
+chartFile: mcp-runbooks-0.2.13.tgz
+dateCreated: '2026-08-20T12:02:26.671350Z'
+digest: c225a29be543057597d9b081524e3b8a0e85e0d69fa851e25f381efc877905ae
+home: https://github.com/giantswarm/mcp-runbooks
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

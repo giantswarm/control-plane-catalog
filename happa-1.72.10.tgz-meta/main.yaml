@@ -1,0 +1,8 @@
+annotations:
+  application.giantswarm.io/team: honeybadger
+chartApiVersion: v2
+chartFile: happa-1.72.10.tgz
+dateCreated: '2026-08-21T11:01:28.141681Z'
+digest: 928df60f7efb03a9c707b2a282d03465cfac296400c59a2f0c402df55bea6685
+home: https://github.com/giantswarm/happa
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/tunnelport/issues\n"
+chartApiVersion: v2
+chartFile: tunnelport-1.2.9.tgz
+dateCreated: '2026-08-21T09:12:28.978517Z'
+digest: c75e04e577f002715c2b5fa8ec98fcbcfa3215cf2b58222306d5abd763b74989
+home: https://github.com/giantswarm/tunnelport
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

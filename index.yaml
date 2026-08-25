@@ -82180,6 +82180,37 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/mcp-runbooks/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/mcp-runbooks-0.2.17.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-runbooks/refs/tags/v0.2.17/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mcp-runbooks/refs/tags/v0.2.17/helm/mcp-runbooks/values.schema.json
+    apiVersion: v2
+    appVersion: 0.2.17
+    created: "2026-08-25T17:00:16.008883305Z"
+    description: MCP server for Giant Swarm runbooks
+    digest: 616eddbaf4fa246eaa40f405b855fb5609d64d603175cbb0e38710bcbd25099b
+    home: https://github.com/giantswarm/mcp-runbooks
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - runbooks
+    - ai
+    - claude
+    maintainers:
+    - email: support@giantswarm.io
+      name: Giant Swarm
+    name: mcp-runbooks
+    sources:
+    - https://github.com/giantswarm/mcp-runbooks
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/mcp-runbooks-0.2.17.tgz
+    version: 0.2.17
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/mcp-runbooks/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/mcp-runbooks-0.2.15.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mcp-runbooks/refs/tags/v0.2.15/README.md
       io.giantswarm.application.team: planeteers
@@ -121443,4 +121474,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-08-25T16:56:05.381102742Z"
+generated: "2026-08-25T17:00:16.007383792Z"

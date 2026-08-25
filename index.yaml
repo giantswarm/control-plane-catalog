@@ -117422,6 +117422,34 @@ entries:
   - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/trivy-operator-0.14.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/trivy-operator-app/refs/tags/v0.14.0/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/trivy-operator-app/refs/tags/v0.14.0/helm/trivy-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.14.0
+    created: "2026-08-25T00:36:43.619818256Z"
+    dependencies:
+    - name: trivy-operator
+      repository: ""
+      version: 0.35.0
+    description: A Giant Swarm App for trivy-operator, the cluster security tool from
+      Aqua Security.
+    digest: c54b52b0e8763ac41538d1c63acac25ec7d02575c0639c926e7a3af14c4e05c8
+    home: https://github.com/giantswarm/trivy-operator-app
+    icon: https://s.giantswarm.io/app-icons/trivy/1/light.svg
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/trivy-operator-app
+    name: trivy-operator
+    sources:
+    - https://github.com/aquasecurity/trivy-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/trivy-operator-0.14.0.tgz
+    version: 0.14.0
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/trivy-operator-0.13.3.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/trivy-operator-app/refs/tags/v0.13.3/README.md
       io.giantswarm.application.team: shield
@@ -121212,4 +121240,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-08-24T16:38:37.245452742Z"
+generated: "2026-08-25T00:36:43.614759476Z"

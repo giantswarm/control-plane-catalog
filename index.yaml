@@ -118776,6 +118776,31 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/tunnelport/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/tunnelport-1.4.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/tunnelport/refs/tags/v1.4.2/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/tunnelport/refs/tags/v1.4.2/helm/tunnelport/values.schema.json
+    apiVersion: v2
+    appVersion: 1.4.2
+    created: "2026-08-26T13:17:36.093057977Z"
+    description: 'tunnelport — Giant Swarm operator that wraps a Teleport tbot application-tunnel
+      + a Kubernetes Service behind a single `RemoteApp` CR, so workloads on a consumer
+      management cluster can reach a Teleport-exposed app as if it were a local Service. '
+    digest: 26e73299a9d26a271b30fbdd6a072ab14974d48a86d6c222f90db34eba398f35
+    home: https://github.com/giantswarm/tunnelport
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: tunnelport
+    sources:
+    - https://github.com/giantswarm/tunnelport
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/tunnelport-1.4.2.tgz
+    version: 1.4.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/tunnelport/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/tunnelport-1.4.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/tunnelport/refs/tags/v1.4.1/README.md
       io.giantswarm.application.team: bumblebee
@@ -121611,4 +121636,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-08-26T12:43:08.839172322Z"
+generated: "2026-08-26T13:17:36.089940081Z"

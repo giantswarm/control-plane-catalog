@@ -93012,6 +93012,26 @@ entries:
     version: 0.0.1
   observability-platform-api:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/observability-platform-api/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/observability-platform-api-0.5.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/observability-platform-api/refs/tags/v0.5.0/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/observability-platform-api/refs/tags/v0.5.0/helm/observability-platform-api/values.schema.json
+    apiVersion: v2
+    appVersion: 0.5.0
+    created: "2026-08-31T13:40:30.587658142Z"
+    description: Giant Swarm Observability Platform API definition
+    digest: 9d1193802ef04975ce5c9e2abd18f1625aa3b04025063fbafc83e28230df0abc
+    home: https://github.com/giantswarm/observability-platform-api
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: observability-platform-api
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/observability-platform-api-0.5.0.tgz
+    version: 0.5.0
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/observability-platform-api-0.4.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/observability-platform-api/refs/tags/v0.4.0/README.md
       io.giantswarm.application.team: atlas
@@ -123239,4 +123259,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-08-31T11:39:10.720764265Z"
+generated: "2026-08-31T13:40:30.586227162Z"

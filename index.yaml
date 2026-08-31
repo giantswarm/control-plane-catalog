@@ -62472,6 +62472,27 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/gateway-api-bundle/issues
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/gateway-api-bundle-1.19.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gateway-api-bundle/refs/tags/v1.19.1/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/gateway-api-bundle/refs/tags/v1.19.1/helm/gateway-api-bundle/values.schema.json
+    apiVersion: v2
+    appVersion: 1.19.1
+    created: "2026-08-31T15:55:26.433071201Z"
+    description: Gateway API bundle
+    digest: fc5ce4d14aca76816a34ef212fa44880cdb296f1e8af31677d9c2e9bc8b058f1
+    home: https://github.com/giantswarm/gateway-api-bundle
+    icon: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
+    name: gateway-api-bundle
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/gateway-api-bundle-1.19.1.tgz
+    version: 1.19.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/gateway-api-bundle/issues
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/gateway-api-bundle-1.19.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gateway-api-bundle/refs/tags/v1.19.0/README.md
       io.giantswarm.application.team: cabbage
@@ -123333,4 +123354,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-08-31T15:27:30.241303703Z"
+generated: "2026-08-31T15:55:26.43229123Z"

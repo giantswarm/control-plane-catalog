@@ -91177,6 +91177,27 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/observability-operator/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/observability-operator-0.75.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/observability-operator/refs/tags/v0.75.0/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/observability-operator/refs/tags/v0.75.0/helm/observability-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.75.0
+    created: "2026-09-01T11:35:22.853271945Z"
+    description: The observability-operator manages the Giant Swarm observability
+      platform.
+    digest: 1c27aa166493f89e97e2d7ef38a32cafb4e96fcb8992837ee529d0b6e8ce16b4
+    home: https://github.com/giantswarm/observability-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: observability-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/observability-operator-0.75.0.tgz
+    version: 0.75.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/observability-operator/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/observability-operator-0.74.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/observability-operator/refs/tags/v0.74.1/README.md
       io.giantswarm.application.team: atlas
@@ -123514,4 +123535,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-01T09:39:16.785030756Z"
+generated: "2026-09-01T11:35:22.851740071Z"

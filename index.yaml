@@ -56867,6 +56867,26 @@ entries:
     version: 0.1.0
   etcd-backup-operator:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/etcd-backup-operator/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/etcd-backup-operator-5.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/etcd-backup-operator/refs/tags/v5.1.1/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/etcd-backup-operator/refs/tags/v5.1.1/helm/etcd-backup-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 5.1.1
+    created: "2026-09-02T08:32:48.631333784Z"
+    description: A Helm chart for the etcd-backup-operator.
+    digest: 78a3fa2de1f7958a6ad8ac983e6f394cfb50226b3914f377655fee4fe04527c9
+    home: https://github.com/giantswarm/etcd-backup-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: etcd-backup-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/etcd-backup-operator-5.1.1.tgz
+    version: 5.1.1
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/etcd-backup-operator-5.1.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/etcd-backup-operator/refs/tags/v5.1.0/README.md
       io.giantswarm.application.team: tenet
@@ -123847,4 +123867,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-02T08:19:29.53025477Z"
+generated: "2026-09-02T08:32:48.629543507Z"

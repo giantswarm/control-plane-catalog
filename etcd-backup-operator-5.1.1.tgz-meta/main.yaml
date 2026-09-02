@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: tenet
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/etcd-backup-operator/issues\n"
+chartApiVersion: v2
+chartFile: etcd-backup-operator-5.1.1.tgz
+dateCreated: '2026-09-02T08:32:37.271008Z'
+digest: 78a3fa2de1f7958a6ad8ac983e6f394cfb50226b3914f377655fee4fe04527c9
+home: https://github.com/giantswarm/etcd-backup-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

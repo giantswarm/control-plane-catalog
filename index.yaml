@@ -87818,6 +87818,31 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/muster-runbooks/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/muster-runbooks-0.2.24.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster-runbooks/refs/tags/v0.2.24/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/muster-runbooks/refs/tags/v0.2.24/helm/muster-runbooks/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-09-04T22:02:06.475211169Z"
+    description: 'Muster Workflow CRs implementing alert triage runbooks for the Giant
+      Swarm Agent Platform. Each workflow encodes the read-only investigation steps
+      for one alert, executed via the muster MCP aggregator. '
+    digest: 2e1aa2950b608eed9e54fc0896147c2c69b371ea1693b6e4c794377f2d21274c
+    home: https://github.com/giantswarm/muster-runbooks
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: muster-runbooks
+    sources:
+    - https://github.com/giantswarm/muster-runbooks
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/muster-runbooks-0.2.24.tgz
+    version: 0.2.24
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/muster-runbooks/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/muster-runbooks-0.2.23.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster-runbooks/refs/tags/v0.2.23/README.md
       io.giantswarm.application.team: bumblebee
@@ -125797,4 +125822,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-04T21:56:40.696815324Z"
+generated: "2026-09-04T22:02:06.463719074Z"

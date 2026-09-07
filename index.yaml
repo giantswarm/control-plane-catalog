@@ -122725,6 +122725,40 @@ entries:
     version: 0.0.1
   trivy-operator:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/trivy-operator-app/issues
+        - name: Upstream project
+          url: https://github.com/aquasecurity/trivy-operator
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/trivy-operator-0.15.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/trivy-operator-app/refs/tags/v0.15.0/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/trivy-operator-app/refs/tags/v0.15.0/helm/trivy-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.15.0
+    created: "2026-09-07T17:19:41.553272506Z"
+    dependencies:
+    - name: trivy-operator
+      repository: ""
+      version: 0.36.0
+    description: A Giant Swarm App for trivy-operator, the cluster security tool from
+      Aqua Security.
+    digest: 2658ba94f5804adb364a356d4c88642d94a4432c2cbf215d41c29fe1adf0b63c
+    home: https://github.com/giantswarm/trivy-operator-app
+    icon: https://s.giantswarm.io/app-icons/trivy/1/light.svg
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/trivy-operator-app
+    name: trivy-operator
+    sources:
+    - https://github.com/aquasecurity/trivy-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/trivy-operator-0.15.0.tgz
+    version: 0.15.0
+  - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/trivy-operator-0.14.0.tgz-meta/main.yaml
@@ -127020,4 +127054,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-07T17:18:37.034808791Z"
+generated: "2026-09-07T17:19:41.547261145Z"

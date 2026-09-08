@@ -8,7 +8,7 @@ annotations:
   - "- name: Support\n  url: https://github.com/giantswarm/kyverno-policies/issues\n"
 chartApiVersion: v2
 chartFile: kyverno-policies-0.28.0.tgz
-dateCreated: '2026-09-08T14:31:08.363283Z'
-digest: d934413b4c19be3a9f07258673b0be1e4bd826ba882020b949fbdc1109175dd3
+dateCreated: '2026-09-08T17:34:37.322555Z'
+digest: 0385299e022b9903207e96927aa041af03975d2f769997bda11c07e040b17ba2
 home: https://github.com/giantswarm/kyverno-policies
 icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg

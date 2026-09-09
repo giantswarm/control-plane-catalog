@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: atlas
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/dashboards/issues\n"
+chartApiVersion: v2
+chartFile: dashboards-4.30.0.tgz
+dateCreated: '2026-09-09T14:25:14.795901Z'
+digest: c9ba7d29044d75e9e88453f77ddf027bd9c8064f5aa337036d2f1341391ee0d1
+home: https://github.com/giantswarm/dashboards
+icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg

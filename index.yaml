@@ -36335,6 +36335,32 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/cluster-api-app/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-8.0.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-app/refs/tags/v8.0.1/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-api-app/refs/tags/v8.0.1/helm/cluster-api/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    apiVersion: v2
+    appVersion: 8.0.1
+    created: "2026-09-09T07:34:39.678626036Z"
+    dependencies:
+    - condition: crds.install
+      name: crd-install
+      repository: ""
+      version: 1.0.2
+    description: A Helm chart for Cluster API components.
+    digest: c70eb9f757d3457eb66d62ec5df13d1afde5778bf12ed1209dd8567390cc5df9
+    home: https://github.com/giantswarm/cluster-api-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: cluster-api
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-8.0.1.tgz
+    version: 8.0.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-api-app/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-8.0.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-app/refs/tags/v8.0.0/README.md
       io.giantswarm.application.team: tenet
@@ -127675,4 +127701,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-09T06:52:39.93219953Z"
+generated: "2026-09-09T07:34:39.666255956Z"

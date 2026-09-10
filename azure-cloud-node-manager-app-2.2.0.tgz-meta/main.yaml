@@ -1,0 +1,18 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/azure-cloud-node-manager-app/issues\n"
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+chartApiVersion: v2
+chartFile: azure-cloud-node-manager-app-2.2.0.tgz
+dateCreated: '2026-09-10T06:25:01.046716Z'
+digest: 25c9e02100c0383766eaea081bfaccdc544ab72f22b734fecd50d0fbc5d52436
+home: https://github.com/giantswarm/azure-cloud-node-manager-app
+icon: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+restrictions:
+  clusterSingleton: true
+  compatibleProviders:
+  - azure
+  fixedNamespace: kube-system
+  gpuInstances: false

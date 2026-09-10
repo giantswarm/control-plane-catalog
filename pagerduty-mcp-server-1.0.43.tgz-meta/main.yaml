@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/team: atlas
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/pagerduty-mcp-server/issues\n\
+    - name: Upstream project\n  url: https://github.com/PagerDuty/pagerduty-mcp-server\n"
+chartApiVersion: v2
+chartFile: pagerduty-mcp-server-1.0.43.tgz
+dateCreated: '2026-09-10T07:42:40.843245Z'
+digest: ac5a84813f30a7dd1d91f3c20abc5d66c5c711c6b0fa05a04e3019f127579845
+home: https://github.com/giantswarm/pagerduty-mcp-server
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

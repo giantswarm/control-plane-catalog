@@ -39394,6 +39394,29 @@ entries:
     version: 0.1.0
   cluster-api-cleaner-vsphere:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-api-cleaner-vsphere/issues
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-cleaner-vsphere-0.7.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-cleaner-vsphere/refs/tags/v0.7.0/README.md
+      io.giantswarm.application.restrictions.compatible-providers: vsphere
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-api-cleaner-vsphere/refs/tags/v0.7.0/helm/cluster-api-cleaner-vsphere/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/vsphere/2/icon-dark.png
+    apiVersion: v2
+    appVersion: 0.7.0
+    created: "2026-09-15T11:14:14.12386325Z"
+    description: Operator for cleaning leftover Vsphere resources of workload clusters
+    digest: d2a777f4f2ac315cd776c2b6910912a9ed4510eae6394d5556ff93d6405323ec
+    home: https://github.com/giantswarm/cluster-api-cleaner-vsphere
+    icon: https://s.giantswarm.io/app-icons/vsphere/2/icon-light.png
+    name: cluster-api-cleaner-vsphere
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-cleaner-vsphere-0.7.0.tgz
+    version: 0.7.0
+  - annotations:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-cleaner-vsphere-0.6.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-cleaner-vsphere/refs/tags/v0.6.0/README.md
@@ -129238,4 +129261,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-15T10:13:22.051415081Z"
+generated: "2026-09-15T11:14:14.123226636Z"

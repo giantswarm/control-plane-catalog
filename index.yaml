@@ -115851,6 +115851,29 @@ entries:
           url: https://github.com/giantswarm/rbac-operator/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/rbac-operator-1.2.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/rbac-operator/refs/tags/v1.2.0/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/rbac-operator/refs/tags/v1.2.0/helm/rbac-operator/values.schema.json
+    apiVersion: v1
+    appVersion: 1.2.0
+    created: "2026-09-15T14:26:14.640468801Z"
+    description: rbac-operator manages authorization for OIDC enabled control-plane
+      Kubernetes APIs.
+    digest: c6ece0659ce82e76fb9b8b532911ee77d97d0274442573bae737ac46fb2d7786
+    home: https://github.com/giantswarm/rbac-operator
+    icon: https://s.giantswarm.io/app-icons/rbac-bootstrap/1/light.svg
+    name: rbac-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/rbac-operator-1.2.0.tgz
+    version: 1.2.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/rbac-operator/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/rbac-operator-1.1.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/rbac-operator/refs/tags/v1.1.0/README.md
       io.giantswarm.application.team: shield
@@ -129288,4 +129311,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-15T11:18:22.304317288Z"
+generated: "2026-09-15T14:26:14.636356691Z"

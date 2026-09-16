@@ -44870,6 +44870,26 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/cluster-apps-operator/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-apps-operator-3.9.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-apps-operator/refs/tags/v3.9.1/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-apps-operator/refs/tags/v3.9.1/helm/cluster-apps-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 3.9.1
+    created: "2026-09-16T11:47:21.104880384Z"
+    description: Chart holding cluster-apps-operator.
+    digest: 848e4acfa502b24b4fe2e894bd6f8e9941959ea5cd8e6f926451fcd8fe3475ae
+    home: https://github.com/giantswarm/cluster-apps-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: cluster-apps-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-apps-operator-3.9.1.tgz
+    version: 3.9.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-apps-operator/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-apps-operator-3.9.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-apps-operator/refs/tags/v3.9.0/README.md
       io.giantswarm.application.team: honeybadger
@@ -129638,4 +129658,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-16T09:54:28.512039148Z"
+generated: "2026-09-16T11:47:21.104098558Z"

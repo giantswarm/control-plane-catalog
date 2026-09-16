@@ -47085,6 +47085,27 @@ entries:
     version: 1.19.0
   cluster-cleaner:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-cleaner/issues
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-cleaner-0.12.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-cleaner/refs/tags/v0.12.0/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-cleaner/refs/tags/v0.12.0/helm/cluster-cleaner/values.schema.json
+    apiVersion: v2
+    appVersion: 0.12.0
+    created: "2026-09-16T09:16:33.88932317Z"
+    description: Operator for deleting test clusters
+    digest: 728edcd29f7221d655b7188971365eec2f155f284225268b9837ba484b6dd952
+    home: https://github.com/giantswarm/cluster-cleaner
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: cluster-cleaner
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-cleaner-0.12.0.tgz
+    version: 0.12.0
+  - annotations:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-cleaner-0.11.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-cleaner/refs/tags/v0.11.1/README.md
@@ -129565,4 +129586,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-16T08:08:00.048365841Z"
+generated: "2026-09-16T09:16:33.88865921Z"

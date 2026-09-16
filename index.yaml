@@ -13565,6 +13565,28 @@ entries:
     version: 0.0.1
   azure-private-endpoint-operator:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/azure-private-endpoint-operator/issues
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/azure-private-endpoint-operator-0.8.0-rc.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/azure-private-endpoint-operator/refs/tags/v0.8.0-rc.1/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/azure-private-endpoint-operator/refs/tags/v0.8.0-rc.1/helm/azure-private-endpoint-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.8.0-rc.1
+    created: "2026-09-16T07:26:14.28043118Z"
+    description: Operator for reconciling Azure Private Links in CAPZ workload clusters
+      to Azure Private Endpoints in CAPZ management clusters
+    digest: 66e4c6517fd1f9736e19a0403ebe3a080c639ca35e9e4c91e345ea590f4e6074
+    home: https://github.com/giantswarm/azure-private-endpoint-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: azure-private-endpoint-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/azure-private-endpoint-operator-0.8.0-rc.1.tgz
+    version: 0.8.0-rc.1
+  - annotations:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/azure-private-endpoint-operator-0.7.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/azure-private-endpoint-operator/refs/tags/v0.7.0/README.md
@@ -129496,4 +129518,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-16T06:56:37.424829388Z"
+generated: "2026-09-16T07:26:14.279372208Z"

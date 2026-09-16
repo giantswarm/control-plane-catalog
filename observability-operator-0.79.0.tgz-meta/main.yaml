@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: atlas
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/observability-operator/issues\n"
+chartApiVersion: v2
+chartFile: observability-operator-0.79.0.tgz
+dateCreated: '2026-09-16T06:22:59.528392Z'
+digest: 2e3e1166905fe6f367c5cadeac261bd09b57981800676b009ad79862b7d7cdf3
+home: https://github.com/giantswarm/observability-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

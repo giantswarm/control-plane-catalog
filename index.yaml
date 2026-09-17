@@ -1049,6 +1049,26 @@ entries:
     version: 1.4.1
   app-admission-controller:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/app-admission-controller/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/app-admission-controller-2.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/app-admission-controller/refs/tags/v2.1.0/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/app-admission-controller/refs/tags/v2.1.0/helm/app-admission-controller/values.schema.json
+    apiVersion: v2
+    appVersion: 2.1.0
+    created: "2026-09-17T10:38:23.613465717Z"
+    description: app-admission-controller validates and defaults app CRs
+    digest: 839094c9ca61cfefd8eba35985b5d09e431572fd57380aff121dea3efdd13f15
+    home: https://github.com/giantswarm/app-admission-controller
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: app-admission-controller
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/app-admission-controller-2.1.0.tgz
+    version: 2.1.0
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/app-admission-controller-2.0.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/app-admission-controller/refs/tags/v2.0.1/README.md
       io.giantswarm.application.team: honeybadger
@@ -129983,4 +130003,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-17T10:23:06.89736639Z"
+generated: "2026-09-17T10:38:23.61271297Z"

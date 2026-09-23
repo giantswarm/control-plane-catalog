@@ -82220,6 +82220,37 @@ entries:
           url: https://github.com/giantswarm/kube-downscaler-app/issues
         - name: Upstream project
           url: https://github.com/caas-team/py-kube-downscaler
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.6.14.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kube-downscaler-app/refs/tags/v0.6.14/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kube-downscaler-app/refs/tags/v0.6.14/helm/kube-downscaler/values.schema.json
+    apiVersion: v2
+    appVersion: 25.3.0
+    created: "2026-09-23T15:22:52.790068169Z"
+    dependencies:
+    - alias: kube-downscaler
+      condition: enabled
+      name: py-kube-downscaler
+      repository: https://caas-team.github.io/helm-charts/
+      version: 0.3.12
+    description: Downscaling tool to save on resources with dev clusters when they
+      are not used
+    digest: 25970293091c1b33825831eabc2e18b10e3dbb8abd41634c2514e3240587f7d2
+    home: https://github.com/giantswarm/kube-downscaler-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: kube-downscaler
+    sources:
+    - https://github.com/caas-team/py-kube-downscaler
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.6.14.tgz
+    version: 0.6.14
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kube-downscaler-app/issues
+        - name: Upstream project
+          url: https://github.com/caas-team/py-kube-downscaler
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/kube-downscaler-0.6.13.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kube-downscaler-app/refs/tags/v0.6.13/README.md
       io.giantswarm.application.team: planeteers
@@ -133908,4 +133939,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-23T14:34:43.762183414Z"
+generated: "2026-09-23T15:22:52.788057069Z"

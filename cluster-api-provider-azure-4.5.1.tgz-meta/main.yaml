@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/cluster-api-provider-azure-app/issues\n"
+  ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+chartApiVersion: v2
+chartFile: cluster-api-provider-azure-4.5.1.tgz
+dateCreated: '2026-09-23T11:35:06.505124Z'
+digest: 2a2a2121d5e932894cf3446eb4a4c48eefca95edf3a0fd705ca296de901abcde
+home: https://github.com/giantswarm/cluster-api-provider-azure-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

@@ -103684,6 +103684,34 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/pagerduty-config/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/pagerduty-config-0.14.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-config/refs/tags/v0.14.0/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pagerduty-config/refs/tags/v0.14.0/helm/pagerduty-config/values.schema.json
+    apiVersion: v2
+    appVersion: 0.14.0
+    created: "2026-09-24T06:57:15.651539912Z"
+    description: Crossplane-managed PagerDuty configuration for Giant Swarm
+    digest: afc4fe063b7c0478335827737516e45888e02460fcf2a880f1e4053c51685b83
+    home: https://github.com/giantswarm/pagerduty-config
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - pagerduty
+    - crossplane
+    - oncall
+    maintainers:
+    - email: atlas@giantswarm.io
+      name: team-atlas
+    name: pagerduty-config
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/pagerduty-config-0.14.0.tgz
+    version: 0.14.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/pagerduty-config/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/pagerduty-config-0.13.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-config/refs/tags/v0.13.1/README.md
       io.giantswarm.application.team: atlas
@@ -134372,4 +134400,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-24T06:53:23.907129252Z"
+generated: "2026-09-24T06:57:15.64704936Z"

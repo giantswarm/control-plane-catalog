@@ -9055,6 +9055,27 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/aws-resolver-rules-operator/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.27.4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-resolver-rules-operator/refs/tags/v0.27.4/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/aws-resolver-rules-operator/refs/tags/v0.27.4/helm/aws-resolver-rules-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.27.4
+    created: "2026-09-29T08:42:05.463158121Z"
+    description: Operator for reconciling the Route53 hosted zone and basic records
+      for a cluster, and resolver rules for private clusters.
+    digest: c44b3e6059908aa9af8177fd4ebd6a8010fbc43d09b104cad44012e9b69ddc81
+    home: https://github.com/giantswarm/aws-resolver-rules-operator
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: aws-resolver-rules-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.27.4.tgz
+    version: 0.27.4
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/aws-resolver-rules-operator/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/aws-resolver-rules-operator-0.27.3.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-resolver-rules-operator/refs/tags/v0.27.3/README.md
       io.giantswarm.application.team: phoenix
@@ -136418,4 +136439,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-29T08:40:49.036493324Z"
+generated: "2026-09-29T08:42:05.462056479Z"

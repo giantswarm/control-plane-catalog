@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/aws-resolver-rules-operator/issues\n"
+chartApiVersion: v2
+chartFile: aws-resolver-rules-operator-0.28.1.tgz
+dateCreated: '2026-09-30T11:45:48.284501Z'
+digest: afad685305a3a34364d92a64005e037068b88e8b0a25625f8757fc3010e0225a
+home: https://github.com/giantswarm/aws-resolver-rules-operator
+icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg

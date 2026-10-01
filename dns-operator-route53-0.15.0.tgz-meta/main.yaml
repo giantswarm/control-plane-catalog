@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/team: rocket
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/dns-operator-route53/issues\n"
+  config.giantswarm.io/version: 1.x.x
+chartApiVersion: v2
+chartFile: dns-operator-route53-0.15.0.tgz
+dateCreated: '2026-10-01T10:10:14.629737Z'
+digest: 4814b0821323de18e93c2edd257040830533922eee867ccfffb501714e6f1ddc
+home: https://github.com/giantswarm/dns-operator-route53
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

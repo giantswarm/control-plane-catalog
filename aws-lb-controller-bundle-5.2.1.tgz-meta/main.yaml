@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: phoenix
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/aws-lb-controller-bundle/issues\n"
+chartApiVersion: v2
+chartFile: aws-lb-controller-bundle-5.2.1.tgz
+dateCreated: '2026-10-01T08:15:00.166574Z'
+digest: 8c198355d4d1c504cf1a0448651a18eb80a595bd29f436a949837ebf3b680cc3
+home: https://github.com/giantswarm/aws-lb-controller-bundle
+icon: https://s.giantswarm.io/app-icons/aws/2/light.svg

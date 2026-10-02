@@ -84800,6 +84800,26 @@ entries:
     version: 0.1.1
   k8s-audit-metrics:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/k8s-audit-metrics/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/k8s-audit-metrics-0.10.14-r2d09a3d6t20261002040831h013d91e.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/refs/tags/v0.10.14-r2d09a3d6t20261002040831h013d91e/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/refs/tags/v0.10.14-r2d09a3d6t20261002040831h013d91e/helm/k8s-audit-metrics-app/values.schema.json
+    apiVersion: v2
+    appVersion: 0.10.14-r2d09a3d6t20261002040831h013d91e
+    created: "2026-10-02T04:11:07.403196121Z"
+    description: Collector that exposes metrics from k8s apiserver audit log.
+    digest: cf2311ce12ec9d3bf91b28f70fcb852473a6e51d9aa5ebe42853d8d19cd71c87
+    home: https://github.com/giantswarm/k8s-audit-metrics
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: k8s-audit-metrics
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/k8s-audit-metrics-0.10.14-r2d09a3d6t20261002040831h013d91e.tgz
+    version: 0.10.14-r2d09a3d6t20261002040831h013d91e
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/k8s-audit-metrics-0.10.13.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/refs/tags/v0.10.13/README.md
       io.giantswarm.application.team: tenet
@@ -138318,4 +138338,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-01T23:10:22.419502255Z"
+generated: "2026-10-02T04:11:07.40228854Z"

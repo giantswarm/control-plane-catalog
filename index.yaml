@@ -50109,6 +50109,32 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/cluster-api-provider-azure-app/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-azure-4.7.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-provider-azure-app/refs/tags/v4.7.2/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-api-provider-azure-app/refs/tags/v4.7.2/helm/cluster-api-provider-azure/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    apiVersion: v2
+    appVersion: v1.27.0-gs-99647669a
+    created: "2026-10-05T14:54:46.084896907Z"
+    dependencies:
+    - condition: crds.install
+      name: crd-install
+      repository: ""
+      version: 1.0.1
+    description: A Helm chart for Cluster API Provider Azure components.
+    digest: e03fee0282e2f13e675d2ee2db4b110fd51b838f6c44deba2ed0bb8a7a0ce208
+    home: https://github.com/giantswarm/cluster-api-provider-azure-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: cluster-api-provider-azure
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-azure-4.7.2.tgz
+    version: 4.7.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-api-provider-azure-app/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-azure-4.7.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-provider-azure-app/refs/tags/v4.7.0/README.md
       io.giantswarm.application.team: phoenix
@@ -139121,4 +139147,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-05T14:34:25.948221356Z"
+generated: "2026-10-05T14:54:46.076668119Z"

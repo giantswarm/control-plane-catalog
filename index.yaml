@@ -14843,6 +14843,33 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/backstage/issues
       io.giantswarm.application.logo: https://s.giantswarm.io/app-icons/backstage/1/logo.svg
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/backstage-2.91.1-rc.4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/backstage/refs/tags/v2.91.1-rc.4/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/backstage/refs/tags/v2.91.1-rc.4/helm/backstage/values.schema.json
+    apiVersion: v2
+    appVersion: 2.91.1-rc.4
+    created: "2026-10-06T06:31:57.87912447Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.41.0
+    description: Backstage app provided by Giant Swarm
+    digest: fa0c1f200947ca915ff1b62c935ea9e8e2c7fd93f7dbd9c3cbf3bddb5b658d62
+    home: https://github.com/giantswarm/backstage
+    icon: https://s.giantswarm.io/app-icons/backstage/1/icon.svg
+    name: backstage
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/backstage-2.91.1-rc.4.tgz
+    version: 2.91.1-rc.4
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/backstage/issues
+      io.giantswarm.application.logo: https://s.giantswarm.io/app-icons/backstage/1/logo.svg
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/backstage-2.91.1-rc.3.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/backstage/refs/tags/v2.91.1-rc.3/README.md
       io.giantswarm.application.team: honeybadger
@@ -139430,4 +139457,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-06T04:13:20.50961863Z"
+generated: "2026-10-06T06:31:57.873761723Z"

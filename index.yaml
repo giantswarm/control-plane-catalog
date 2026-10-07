@@ -6211,6 +6211,29 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/aws-lb-controller-bundle/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/aws-lb-controller-bundle-5.2.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-lb-controller-bundle/refs/tags/v5.2.2/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/aws-lb-controller-bundle/refs/tags/v5.2.2/helm/aws-lb-controller-bundle/values.schema.json
+    apiVersion: v2
+    appVersion: 5.2.2
+    created: "2026-10-07T09:39:06.177345342Z"
+    description: AWS Load Balancer Controller Bundle with Crossplane resources
+    digest: 66218f2050f4345db19e02b55fe8afae6d28d86235f3e14a5d8cf435f0c247e2
+    home: https://github.com/giantswarm/aws-lb-controller-bundle
+    icon: https://s.giantswarm.io/app-icons/aws/2/light.svg
+    kubeVersion: '>=1.17.0-0'
+    name: aws-lb-controller-bundle
+    sources:
+    - https://github.com/giantswarm/aws-load-balancer-controller-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-lb-controller-bundle-5.2.2.tgz
+    version: 5.2.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/aws-lb-controller-bundle/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/aws-lb-controller-bundle-5.2.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-lb-controller-bundle/refs/tags/v5.2.1/README.md
       io.giantswarm.application.team: phoenix
@@ -140179,4 +140202,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-07T09:22:38.644500834Z"
+generated: "2026-10-07T09:39:06.176550874Z"

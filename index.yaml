@@ -60289,6 +60289,45 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/dashboards/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/dashboards-4.32.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/dashboards/refs/tags/v4.32.0/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/dashboards/refs/tags/v4.32.0/helm/dashboards/values.schema.json
+    apiVersion: v2
+    appVersion: 4.32.0
+    created: "2026-10-13T16:42:41.507776673Z"
+    dependencies:
+    - name: observability
+      repository: ""
+      version: 1.0.0
+    - name: kubernetes
+      repository: ""
+      version: 1.0.0
+    - name: cloud
+      repository: ""
+      version: 1.0.0
+    - name: security
+      repository: ""
+      version: 1.0.0
+    - name: networking
+      repository: ""
+      version: 1.0.0
+    - name: app_platform
+      repository: ""
+      version: 1.0.0
+    description: Grafana dashboards accessible by Giant Swarm customers
+    digest: 10bc66cf150d37d5a4b96f9da08bb9ed178d910e19f927250952d55ae5ee6782
+    home: https://github.com/giantswarm/dashboards
+    icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg
+    name: dashboards
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/dashboards-4.32.0.tgz
+    version: 4.32.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/dashboards/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/dashboards-4.31.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/dashboards/refs/tags/v4.31.0/README.md
       io.giantswarm.application.team: atlas
@@ -141441,4 +141480,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-13T16:13:16.620704269Z"
+generated: "2026-10-13T16:42:41.406755572Z"

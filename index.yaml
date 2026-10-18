@@ -8966,13 +8966,6 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.0.0.tgz
     version: 8.0.0
   - apiVersion: v1
-    created: "2019-12-18T09:58:37.87278031Z"
-    digest: 7dddd4696eb1938d29b07f0ea7e9dfd38be9eb0f023dc8522c19ee4dbd32891d
-    name: aws-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-operator-8.0.0-rc1.tgz
-    version: 8.0.0-rc1
-  - apiVersion: v1
     created: "2019-10-31T09:23:55.20855301Z"
     digest: fda2a9e839d9eaea901643acef4a16dce852c592b73d7ff174f052360831bd15
     name: aws-operator
@@ -55783,13 +55776,6 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/cluster-operator-2.0.0.tgz
     version: 2.0.0
-  - apiVersion: v1
-    created: "2019-12-18T13:26:07.839256039Z"
-    digest: d0109ae918905c0af0bf12a28c0ce85fcf2e93562dbc4135031d9c7fb9700a7a
-    name: cluster-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/cluster-operator-2.0.0-rc1.tgz
-    version: 2.0.0-rc1
   - apiVersion: v1
     created: "2020-02-24T16:44:52.423677352Z"
     digest: a2fd759b7be75fb94495cf9420943e16e3a0588fdb0e03562f6ec2b67642097c
@@ -139402,4 +139388,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-18T12:11:52.597316755Z"
+generated: "2026-10-18T12:56:56.653588649Z"

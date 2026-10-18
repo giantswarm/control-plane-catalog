@@ -10,5 +10,5 @@ jobs:
   cleanup:
     uses: giantswarm/app-catalog-cleanup-tool/.github/workflows/cleanup.yaml@main
     with:
-      pre-release: 'rc\.[0-9]+'
+      pre-release: 'rc\.?[0-9]+'
       dry-run: ${{ inputs.dry-run }}

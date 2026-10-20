@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/audience: giantswarm
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/team: planeteers
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/muster-skill-workflows/issues\n"
+chartApiVersion: v2
+chartFile: muster-skill-workflows-0.3.3.tgz
+dateCreated: '2026-10-20T22:14:37.790366Z'
+digest: 5e41f4f917246c084a39f8b5e1e07f3f661da424d09ec64c2bedb25cdc9d3bdb
+home: https://github.com/giantswarm/muster-skill-workflows
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

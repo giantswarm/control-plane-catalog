@@ -100164,11 +100164,11 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/muster-skill-workflows/refs/tags/v0.4.0/helm/muster-skill-workflows/values.schema.json
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2026-10-21T15:21:35.716262032Z"
+    created: "2026-10-21T15:35:42.580329883Z"
     description: 'Muster Workflow CRs backing Claude Code skills (skill-support workflows).
       Each workflow runs a Muster tool sequence a skill used to spell out in prose
       and returns one shaped answer, executed via the muster MCP aggregator. '
-    digest: 0930df1ee0603b71a6557bb9fc94e33348e5bdb23a5bf39a9c41edcc26359d11
+    digest: ea7ea444251ef476e9dc82153a55676ad11a66ba59ab5ab9052f099845aa7b32
     home: https://github.com/giantswarm/muster-skill-workflows
     icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
     name: muster-skill-workflows
@@ -138538,4 +138538,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-21T15:21:35.714049478Z"
+generated: "2026-10-21T15:35:42.579584681Z"

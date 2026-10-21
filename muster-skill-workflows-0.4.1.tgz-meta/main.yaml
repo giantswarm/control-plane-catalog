@@ -6,7 +6,7 @@ annotations:
   artifacthub.io/links: "- name: Support\n  url: https://github.com/giantswarm/muster-skill-workflows/issues\n"
 chartApiVersion: v2
 chartFile: muster-skill-workflows-0.4.1.tgz
-dateCreated: '2026-10-21T16:31:55.544925Z'
-digest: 1b499f60b3945883997d5b75e3b2e4538bca6c6309ebd82611947cc1392fbdbe
+dateCreated: '2026-10-21T16:33:40.115006Z'
+digest: ffb744c542b9617074d8915b772ac40c0384a61df6ec5d09f7c634ae2d3e0913
 home: https://github.com/giantswarm/muster-skill-workflows
 icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

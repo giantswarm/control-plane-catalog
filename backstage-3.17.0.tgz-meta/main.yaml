@@ -6,7 +6,7 @@ annotations:
   - "- name: Support\n  url: https://github.com/giantswarm/backstage/issues\n"
 chartApiVersion: v2
 chartFile: backstage-3.17.0.tgz
-dateCreated: '2026-10-21T15:38:31.179602Z'
-digest: fb6cac7da9e4584b4c04fe08e85a7394dc685e4afdf626180980a6177b93dc6d
+dateCreated: '2026-10-21T15:58:08.442550Z'
+digest: 213afd44a316f10c0b47aae216d5b7dc328c553a3fe51bac1727a8b2e8f23aa2
 home: https://github.com/giantswarm/backstage
 icon: https://s.giantswarm.io/app-icons/backstage/1/icon.svg

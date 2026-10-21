@@ -14859,7 +14859,7 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/backstage/refs/tags/v3.17.0/helm/backstage/values.schema.json
     apiVersion: v2
     appVersion: 3.17.0
-    created: "2026-10-21T15:38:43.814680996Z"
+    created: "2026-10-21T15:58:18.263867211Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -14867,7 +14867,7 @@ entries:
       - bitnami-common
       version: 2.41.0
     description: Backstage app provided by Giant Swarm
-    digest: fb6cac7da9e4584b4c04fe08e85a7394dc685e4afdf626180980a6177b93dc6d
+    digest: 213afd44a316f10c0b47aae216d5b7dc328c553a3fe51bac1727a8b2e8f23aa2
     home: https://github.com/giantswarm/backstage
     icon: https://s.giantswarm.io/app-icons/backstage/1/icon.svg
     name: backstage
@@ -138585,4 +138585,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-21T15:52:31.121181144Z"
+generated: "2026-10-21T15:58:18.259404587Z"

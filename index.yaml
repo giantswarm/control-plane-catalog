@@ -90223,6 +90223,40 @@ entries:
           url: https://github.com/giantswarm/kyverno-policies/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/kyverno-policies-0.28.6.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kyverno-policies/refs/tags/v0.28.6/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kyverno-policies/refs/tags/v0.28.6/helm/kyverno-policies/values.schema.json
+    apiVersion: v2
+    appVersion: 0.28.6
+    created: "2026-10-21T22:16:35.747553548Z"
+    dependencies:
+    - name: kyverno-policies
+      repository: ""
+      version: 3.9.1
+    description: 'Kubernetes Pod Security Standards implemented as Kyverno policies '
+    digest: cbf6a8d3450ce11ab0f7f411ec88378d6c6e39d7e668533b3739fb6af810c2a4
+    home: https://github.com/giantswarm/kyverno-policies
+    icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+    keywords:
+    - kubernetes
+    - policy-agent
+    - validating-webhook
+    - admission-controller
+    name: kyverno-policies
+    sources:
+    - https://github.com/giantswarm/kyverno-policies
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kyverno-policies-0.28.6.tgz
+    version: 0.28.6
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kyverno-policies/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/kyverno-policies-0.28.5.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kyverno-policies/refs/tags/v0.28.5/README.md
       io.giantswarm.application.restrictions.cluster-singleton: "true"
@@ -138830,4 +138864,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-21T22:15:05.750974844Z"
+generated: "2026-10-21T22:16:35.744799385Z"

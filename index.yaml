@@ -108307,6 +108307,41 @@ entries:
           url: https://github.com/giantswarm/pagerduty-mcp-server/issues
         - name: Upstream project
           url: https://github.com/PagerDuty/pagerduty-mcp-server
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/pagerduty-mcp-server-1.0.47.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-mcp-server/refs/tags/v1.0.47/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pagerduty-mcp-server/refs/tags/v1.0.47/helm/pagerduty-mcp-server/values.schema.json
+    apiVersion: v2
+    appVersion: 1.0.47
+    created: "2026-10-21T19:08:12.975367245Z"
+    description: PagerDuty MCP Server (Giant Swarm packaging) — exposes the upstream
+      MCP server over HTTP for in-cluster muster integration.
+    digest: bb5790f0acbebf703a5aa823e24d11920bb9945bcdb6861945fb449eb3509022
+    home: https://github.com/giantswarm/pagerduty-mcp-server
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - pagerduty
+    - ai
+    - claude
+    maintainers:
+    - email: support@giantswarm.io
+      name: Giant Swarm
+    name: pagerduty-mcp-server
+    sources:
+    - https://github.com/giantswarm/pagerduty-mcp-server
+    - https://github.com/PagerDuty/pagerduty-mcp-server
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/pagerduty-mcp-server-1.0.47.tgz
+    version: 1.0.47
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/pagerduty-mcp-server/issues
+        - name: Upstream project
+          url: https://github.com/PagerDuty/pagerduty-mcp-server
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/pagerduty-mcp-server-1.0.46.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-mcp-server/refs/tags/v1.0.46/README.md
       io.giantswarm.application.team: atlas
@@ -138692,4 +138727,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-21T18:10:58.072820957Z"
+generated: "2026-10-21T19:08:12.974458332Z"

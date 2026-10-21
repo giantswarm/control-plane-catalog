@@ -116243,9 +116243,9 @@ entries:
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/prometheus-rules/refs/tags/v4.127.5/helm/prometheus-rules/values.schema.json
     apiVersion: v2
     appVersion: 4.124.0
-    created: "2026-10-21T15:43:06.532297081Z"
+    created: "2026-10-21T15:52:31.126468349Z"
     description: A Helm chart for Giant Swarm prometheus alerting and recording rules
-    digest: d42a7626b28d08102a6fc4670b5bbce7213982046cd45cd68a4346d446a16bd2
+    digest: faf76e8e8cc7c7faedae366ceb5d843bdb78e715e1b3d10744fd86c811102ba2
     home: https://github.com/giantswarm/prometheus-rules
     icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
     name: prometheus-rules
@@ -138585,4 +138585,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-21T15:43:06.52819601Z"
+generated: "2026-10-21T15:52:31.121181144Z"

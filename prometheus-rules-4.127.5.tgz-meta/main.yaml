@@ -5,7 +5,7 @@ annotations:
   - "- name: Support\n  url: https://github.com/giantswarm/prometheus-rules/issues\n"
 chartApiVersion: v2
 chartFile: prometheus-rules-4.127.5.tgz
-dateCreated: '2026-10-21T15:42:54.912658Z'
-digest: d42a7626b28d08102a6fc4670b5bbce7213982046cd45cd68a4346d446a16bd2
+dateCreated: '2026-10-21T15:52:20.667226Z'
+digest: faf76e8e8cc7c7faedae366ceb5d843bdb78e715e1b3d10744fd86c811102ba2
 home: https://github.com/giantswarm/prometheus-rules
 icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png

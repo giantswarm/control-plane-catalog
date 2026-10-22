@@ -1,0 +1,15 @@
+annotations:
+  application.giantswarm.io/restrictions/clusterSingleton: 'true'
+  application.giantswarm.io/restrictions/fixedNamespace: giantswarm
+  application.giantswarm.io/restrictions/gpuInstances: 'false'
+  application.giantswarm.io/restrictions/namespaceSingleton: 'true'
+  application.giantswarm.io/team: honeybadger
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/chart-operator/issues\n"
+chartApiVersion: v2
+chartFile: chart-operator-4.2.2.tgz
+dateCreated: '2026-10-22T00:22:01.565248Z'
+digest: df4f3b37f0770ef30bf4146d9b50024849499b78a1ceedd563da27d043d1b3a5
+home: https://github.com/giantswarm/chart-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: bumblebee
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/muster-runbooks/issues\n"
+chartApiVersion: v2
+chartFile: muster-runbooks-0.3.12.tgz
+dateCreated: '2026-10-22T22:06:33.150494Z'
+digest: 13f698c97727243cef3fc2ced6dcb581d30aa06c1869e9ac3b48e1b1359c3171
+home: https://github.com/giantswarm/muster-runbooks
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

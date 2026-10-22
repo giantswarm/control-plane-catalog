@@ -100925,6 +100925,32 @@ entries:
           url: https://github.com/giantswarm/muster-skill-workflows/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/muster-skill-workflows-0.4.5.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster-skill-workflows/refs/tags/v0.4.5/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/muster-skill-workflows/refs/tags/v0.4.5/helm/muster-skill-workflows/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2026-10-22T15:53:03.370392083Z"
+    description: 'Muster Workflow CRs backing Claude Code skills (skill-support workflows).
+      Each workflow runs a Muster tool sequence a skill used to spell out in prose
+      and returns one shaped answer, executed via the muster MCP aggregator. '
+    digest: 0d1b86c80c64eef19e8be280b822f42b46650d202652acf9f8cdb10458ca2898
+    home: https://github.com/giantswarm/muster-skill-workflows
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: muster-skill-workflows
+    sources:
+    - https://github.com/giantswarm/muster-skill-workflows
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/muster-skill-workflows-0.4.5.tgz
+    version: 0.4.5
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/muster-skill-workflows/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/muster-skill-workflows-0.4.4.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster-skill-workflows/refs/tags/v0.4.4/README.md
       io.giantswarm.application.team: planeteers
@@ -139565,4 +139591,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-22T15:01:43.9504781Z"
+generated: "2026-10-22T15:53:03.369496063Z"

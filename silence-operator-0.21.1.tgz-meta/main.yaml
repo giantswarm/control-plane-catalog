@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: atlas
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/silence-operator/issues\n"
+chartApiVersion: v2
+chartFile: silence-operator-0.21.1.tgz
+dateCreated: '2026-10-23T17:03:38.572053Z'
+digest: b22fd8dcd4f5a23dbd22d53bbd49c9d524a45430740d96b1f2a4a14c9d80b0f9
+home: https://github.com/giantswarm/silence-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg

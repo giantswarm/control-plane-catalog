@@ -12,7 +12,7 @@ annotations:
     \ Upstream project\n  url: https://github.com/dexidp/dex/\n"
 chartApiVersion: v2
 chartFile: dex-app-3.4.13.tgz
-dateCreated: '2026-10-23T21:36:24.814627Z'
-digest: ce998a66d6bbd76da3a0a05c0a384e1c152e3ba9b23b04e3a7245768dee5d694
+dateCreated: '2026-10-23T21:38:36.429632Z'
+digest: 5b5b4144c1f4c8b579b6899d90b785843a9a313339bfa851ade545986c488d68
 home: https://github.com/giantswarm/dex-app
 icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg

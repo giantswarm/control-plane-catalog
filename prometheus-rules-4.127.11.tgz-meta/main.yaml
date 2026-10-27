@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: atlas
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/prometheus-rules/issues\n"
+chartApiVersion: v2
+chartFile: prometheus-rules-4.127.11.tgz
+dateCreated: '2026-10-27T21:52:29.788616Z'
+digest: 9c4172f13f7b8ae766374fb1482ea742a6d25ee7f66ae3600ea5ce9f523aef09
+home: https://github.com/giantswarm/prometheus-rules
+icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png

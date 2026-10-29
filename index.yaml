@@ -1778,6 +1778,26 @@ entries:
     version: 0.1.0
   app-exporter:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/app-exporter/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/app-exporter-1.0.3.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/app-exporter/refs/tags/v1.0.3/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/app-exporter/refs/tags/v1.0.3/helm/app-exporter/values.schema.json
+    apiVersion: v2
+    appVersion: 1.0.3
+    created: "2026-10-29T16:08:40.27480196Z"
+    description: Chart holding app-exporter.
+    digest: 59e6bca64fbc86bc9e5b3b6c752359c206afeaad2dec072414f87d673512c246
+    home: https://github.com/giantswarm/app-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: app-exporter
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/app-exporter-1.0.3.tgz
+    version: 1.0.3
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/app-exporter-1.0.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/app-exporter/refs/tags/v1.0.2/README.md
       io.giantswarm.application.team: honeybadger
@@ -142285,4 +142305,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-29T15:32:04.07762417Z"
+generated: "2026-10-29T16:08:40.274143053Z"

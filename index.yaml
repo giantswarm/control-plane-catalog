@@ -58588,6 +58588,61 @@ entries:
           url: https://github.com/giantswarm/crossplane/issues
         - name: Upstream project
           url: https://github.com/crossplane/crossplane
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/crossplane-2.9.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/crossplane/refs/tags/v2.9.0/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.upstream-chart-version: 2.2.7
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/crossplane/refs/tags/v2.9.0/helm/crossplane/values.schema.json
+    apiVersion: v2
+    appVersion: 2.9.0
+    created: "2026-10-29T14:50:04.43780578Z"
+    description: Crossplane is an open source Kubernetes add-on that enables platform
+      teams to assemble infrastructure from multiple vendors, and expose higher level
+      self-service APIs for application teams to consume.
+    digest: 0a94e3672de5a107a01edeaae286188a3023e1104b1dc675d8a19f6b93f52f26
+    home: https://github.com/giantswarm/crossplane
+    icon: https://s.giantswarm.io/app-icons/crossplane/1/light.svg
+    keywords:
+    - cloud
+    - infrastructure
+    - services
+    - application
+    - database
+    - cache
+    - bucket
+    - infra
+    - app
+    - ops
+    - gcp
+    - azure
+    - aws
+    - alibaba
+    - cloudsql
+    - rds
+    - s3
+    - azuredatabase
+    - asparadb
+    - gke
+    - aks
+    - eks
+    name: crossplane
+    sources:
+    - https://github.com/crossplane/crossplane
+    - https://github.com/crossplane/crossplane-runtime
+    - https://github.com/crossplane/provider-aws
+    - https://github.com/crossplane/provider-azure
+    - https://github.com/crossplane/provider-gcp
+    - https://github.com/crossplane/provider-rook
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/crossplane-2.9.0.tgz
+    version: 2.9.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/crossplane/issues
+        - name: Upstream project
+          url: https://github.com/crossplane/crossplane
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/crossplane-2.8.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/crossplane/refs/tags/v2.8.0/README.md
       io.giantswarm.application.team: honeybadger
@@ -142094,4 +142149,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-29T14:34:37.702472967Z"
+generated: "2026-10-29T14:50:04.428176499Z"

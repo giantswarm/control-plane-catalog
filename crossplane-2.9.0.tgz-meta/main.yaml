@@ -1,0 +1,13 @@
+annotations:
+  application.giantswarm.io/team: honeybadger
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/crossplane/issues\n- name:\
+    \ Upstream project\n  url: https://github.com/crossplane/crossplane\n"
+chartApiVersion: v2
+chartFile: crossplane-2.9.0.tgz
+dateCreated: '2026-10-29T14:49:52.918914Z'
+digest: 0a94e3672de5a107a01edeaae286188a3023e1104b1dc675d8a19f6b93f52f26
+home: https://github.com/giantswarm/crossplane
+icon: https://s.giantswarm.io/app-icons/crossplane/1/light.svg
+upstreamChartVersion: 2.2.7

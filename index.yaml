@@ -103934,6 +103934,33 @@ entries:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/net-exporter-1.24.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/net-exporter/refs/tags/v1.24.2/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/net-exporter/refs/tags/v1.24.2/helm/net-exporter/values.schema.json
+    apiVersion: v2
+    appVersion: 1.24.2
+    created: "2026-10-30T12:35:40.277966566Z"
+    description: Helm chart for net-exporter.
+    digest: acefb11a241ffb062e556ac72759103928ac09e0f308f71ebd2d09f0bb26ba0b
+    home: https://github.com/giantswarm/net-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    keywords:
+    - networking
+    - monitoring
+    - observability
+    name: net-exporter
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/net-exporter-1.24.2.tgz
+    version: 1.24.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/net-exporter/issues
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/net-exporter-1.24.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/net-exporter/refs/tags/v1.24.1/README.md
       io.giantswarm.application.team: cabbage
@@ -142689,4 +142716,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/workload-identity-operator-gcp-0.1.0.tgz
     version: 0.1.0
-generated: "2026-10-30T11:00:12.060161081Z"
+generated: "2026-10-30T12:35:40.276926761Z"

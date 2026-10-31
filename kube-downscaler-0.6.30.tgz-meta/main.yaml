@@ -1,0 +1,12 @@
+annotations:
+  application.giantswarm.io/team: planeteers
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/kube-downscaler-app/issues\n\
+    - name: Upstream project\n  url: https://github.com/caas-team/py-kube-downscaler\n"
+chartApiVersion: v2
+chartFile: kube-downscaler-0.6.30.tgz
+dateCreated: '2026-10-31T22:23:38.946002Z'
+digest: 9d61797f5181525b6c3b1096c2eeb4c12b91eb8b9220369e57d947ef2e172e73
+home: https://github.com/giantswarm/kube-downscaler-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

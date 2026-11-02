@@ -1106,6 +1106,27 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/appcatalog/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/appcatalog-1.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/appcatalog/refs/tags/v1.1.1/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/appcatalog/refs/tags/v1.1.1/helm/appcatalog/values.schema.json
+    apiVersion: v2
+    appVersion: 1.1.1
+    created: "2026-11-02T17:48:25.373759161Z"
+    description: A Helm chart for appcatalog CRs and related configmaps and secrets.
+      Used by opsctl ensure appcatalogs.
+    digest: fcde753aed6d7940673349295b8d704503cc41e866177978c81b17abd8f38ecd
+    home: https://github.com/giantswarm/appcatalog
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: appcatalog
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/appcatalog-1.1.1.tgz
+    version: 1.1.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/appcatalog/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/appcatalog-1.1.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/appcatalog/refs/tags/v1.1.0/README.md
       io.giantswarm.application.team: honeybadger
@@ -85163,4 +85184,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-02T17:03:48.677037764Z"
+generated: "2026-11-02T17:48:25.373187215Z"

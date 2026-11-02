@@ -1086,6 +1086,20 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/app-operator-6.0.1-patch1.tgz
     version: 6.0.1-patch1
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 6.7.0
+    created: "2023-05-11T09:14:07.323779181Z"
+    description: A Helm chart for the app-operator
+    digest: 2516b4707817a8151e0bcca77ed4c217922b2f734013ffb1243790b9320603ec
+    home: https://github.com/giantswarm/app-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: app-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/app-operator-6.7.0.tgz
+    version: 6.7.0
   appcatalog:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -32052,6 +32066,20 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/chart-operator-3.1.1.tgz
     version: 3.1.1
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 2.35.0
+    created: "2023-05-04T09:37:17.856599671Z"
+    description: A Helm chart for the chart-operator
+    digest: 5bfcfe4d880449730d456f3080ea410ea462658bbf509617123818d840ce16d7
+    home: https://github.com/giantswarm/chart-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: chart-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/chart-operator-2.35.0.tgz
+    version: 2.35.0
   cloudnative-pg:
   - annotations:
       io.giantswarm.application.audience: giantswarm

@@ -1049,6 +1049,20 @@ entries:
       application.giantswarm.io/team: honeybadger
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
+    appVersion: 6.7.0
+    created: "2023-05-11T09:14:07.323779181Z"
+    description: A Helm chart for the app-operator
+    digest: 2516b4707817a8151e0bcca77ed4c217922b2f734013ffb1243790b9320603ec
+    home: https://github.com/giantswarm/app-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: app-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/app-operator-6.7.0.tgz
+    version: 6.7.0
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
     appVersion: 6.7.0-patch1
     created: "2024-05-06T12:53:22.262815447Z"
     description: A Helm chart for the app-operator
@@ -1086,20 +1100,6 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/app-operator-6.0.1-patch1.tgz
     version: 6.0.1-patch1
-  - annotations:
-      application.giantswarm.io/team: honeybadger
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v1
-    appVersion: 6.7.0
-    created: "2023-05-11T09:14:07.323779181Z"
-    description: A Helm chart for the app-operator
-    digest: 2516b4707817a8151e0bcca77ed4c217922b2f734013ffb1243790b9320603ec
-    home: https://github.com/giantswarm/app-operator
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
-    name: app-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/app-operator-6.7.0.tgz
-    version: 6.7.0
   appcatalog:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -4171,6 +4171,33 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/azurefile-csi-driver-app-1.26.0-gs3.tgz
     version: 1.26.0-gs3
   backstage:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/backstage/issues
+      io.giantswarm.application.logo: https://s.giantswarm.io/app-icons/backstage/1/logo.svg
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/backstage-3.28.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/backstage/refs/tags/v3.28.0/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/backstage/refs/tags/v3.28.0/helm/backstage/values.schema.json
+    apiVersion: v2
+    appVersion: 3.28.0
+    created: "2026-11-02T17:03:48.681471755Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.41.0
+    description: Backstage app provided by Giant Swarm
+    digest: d9b7104a71b8a79348cf43839bc65e03bf5f9b30fabc4b359fa09699fc635f88
+    home: https://github.com/giantswarm/backstage
+    icon: https://s.giantswarm.io/app-icons/backstage/1/icon.svg
+    name: backstage
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/backstage-3.28.0.tgz
+    version: 3.28.0
   - annotations:
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -85136,4 +85163,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-02T12:00:41.696790442Z"
+generated: "2026-11-02T17:03:48.677037764Z"

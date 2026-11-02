@@ -15,5 +15,8 @@ jobs:
     with:
       # Removes every version (stable and pre-release) created more than 3 years ago.
       delete-before: "3 years"
+      # Skips app-operator and chart-operator: apptestctl bootstrap (and every app-test-suite 0.x
+      # image bundling it) pulls fixed versions of both from this catalog by chart version.
+      app-regexp: "(?!(?:app-operator|chart-operator)$).*"
       # Scheduled runs have no inputs, so they always apply the cleanup.
       dry-run: ${{ github.event_name == 'workflow_dispatch' && inputs.dry-run }}

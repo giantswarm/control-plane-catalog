@@ -66991,6 +66991,27 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/observability-operator/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/observability-operator-0.88.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/observability-operator/refs/tags/v0.88.0/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/observability-operator/refs/tags/v0.88.0/helm/observability-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.88.0
+    created: "2026-11-03T09:48:42.323154785Z"
+    description: The observability-operator manages the Giant Swarm observability
+      platform.
+    digest: cc60becbd1d49cceef21a3a97803464bcea92173962a597256526f842cb96d2d
+    home: https://github.com/giantswarm/observability-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: observability-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/observability-operator-0.88.0.tgz
+    version: 0.88.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/observability-operator/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/observability-operator-0.87.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/observability-operator/refs/tags/v0.87.0/README.md
       io.giantswarm.application.team: atlas
@@ -85480,4 +85501,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-03T07:28:13.128740715Z"
+generated: "2026-11-03T09:48:42.321149344Z"

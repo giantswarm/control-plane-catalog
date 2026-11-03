@@ -64059,6 +64059,31 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/muster-runbooks/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/muster-runbooks-0.3.18.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster-runbooks/refs/tags/v0.3.18/README.md
+      io.giantswarm.application.team: bumblebee
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/muster-runbooks/refs/tags/v0.3.18/helm/muster-runbooks/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-11-03T22:09:55.945282161Z"
+    description: 'Muster Workflow CRs implementing alert triage runbooks for the Giant
+      Swarm Agent Platform. Each workflow encodes the read-only investigation steps
+      for one alert, executed via the muster MCP aggregator. '
+    digest: 6ae8cb1c3d06dedf26fb4c0aa128af4c421f8ebca9409809fcf18fbedcadb98a
+    home: https://github.com/giantswarm/muster-runbooks
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: muster-runbooks
+    sources:
+    - https://github.com/giantswarm/muster-runbooks
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/muster-runbooks-0.3.18.tgz
+    version: 0.3.18
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/muster-runbooks/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/muster-runbooks-0.3.17.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/muster-runbooks/refs/tags/v0.3.17/README.md
       io.giantswarm.application.team: bumblebee
@@ -85870,4 +85895,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-03T19:52:00.169520292Z"
+generated: "2026-11-03T22:09:55.934626098Z"

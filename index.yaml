@@ -70359,6 +70359,41 @@ entries:
           url: https://github.com/giantswarm/pagerduty-mcp-server/issues
         - name: Upstream project
           url: https://github.com/PagerDuty/pagerduty-mcp-server
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/pagerduty-mcp-server-1.0.53.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-mcp-server/refs/tags/v1.0.53/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pagerduty-mcp-server/refs/tags/v1.0.53/helm/pagerduty-mcp-server/values.schema.json
+    apiVersion: v2
+    appVersion: 1.0.53
+    created: "2026-11-03T11:51:49.647166012Z"
+    description: PagerDuty MCP Server (Giant Swarm packaging) — exposes the upstream
+      MCP server over HTTP for in-cluster muster integration.
+    digest: 6d074e59e25f0edfea0fb44c9b30ece4e1134ecc5413c3d2b8c3e13c7a35882f
+    home: https://github.com/giantswarm/pagerduty-mcp-server
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    keywords:
+    - mcp
+    - pagerduty
+    - ai
+    - claude
+    maintainers:
+    - email: support@giantswarm.io
+      name: Giant Swarm
+    name: pagerduty-mcp-server
+    sources:
+    - https://github.com/giantswarm/pagerduty-mcp-server
+    - https://github.com/PagerDuty/pagerduty-mcp-server
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/pagerduty-mcp-server-1.0.53.tgz
+    version: 1.0.53
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/pagerduty-mcp-server/issues
+        - name: Upstream project
+          url: https://github.com/PagerDuty/pagerduty-mcp-server
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/pagerduty-mcp-server-1.0.52.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-mcp-server/refs/tags/v1.0.52/README.md
       io.giantswarm.application.team: atlas
@@ -85528,4 +85563,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-03T11:18:50.073431125Z"
+generated: "2026-11-03T11:51:49.646179959Z"

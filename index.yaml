@@ -32662,6 +32662,32 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/cluster-api-app/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-9.0.4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-app/refs/tags/v9.0.4/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-api-app/refs/tags/v9.0.4/helm/cluster-api/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    apiVersion: v2
+    appVersion: 9.0.4
+    created: "2026-11-04T08:13:05.48463386Z"
+    dependencies:
+    - condition: crds.install
+      name: crd-install
+      repository: ""
+      version: 1.0.2
+    description: A Helm chart for Cluster API components.
+    digest: 8d64b003e9a36d0cd1537483c447e76c6a0ac6690bd71badeec786c8e7083baf
+    home: https://github.com/giantswarm/cluster-api-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: cluster-api
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-9.0.4.tgz
+    version: 9.0.4
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-api-app/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-9.0.3.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-app/refs/tags/v9.0.3/README.md
       io.giantswarm.application.team: tenet
@@ -85895,4 +85921,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-03T22:09:55.934626098Z"
+generated: "2026-11-04T08:13:05.467325911Z"

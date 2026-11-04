@@ -38980,6 +38980,45 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/dashboards/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/dashboards-4.34.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/dashboards/refs/tags/v4.34.0/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/dashboards/refs/tags/v4.34.0/helm/dashboards/values.schema.json
+    apiVersion: v2
+    appVersion: 4.34.0
+    created: "2026-11-04T13:57:46.214701692Z"
+    dependencies:
+    - name: observability
+      repository: ""
+      version: 1.0.0
+    - name: kubernetes
+      repository: ""
+      version: 1.0.0
+    - name: cloud
+      repository: ""
+      version: 1.0.0
+    - name: security
+      repository: ""
+      version: 1.0.0
+    - name: networking
+      repository: ""
+      version: 1.0.0
+    - name: app_platform
+      repository: ""
+      version: 1.0.0
+    description: Grafana dashboards accessible by Giant Swarm customers
+    digest: 2fdf106716e3463004aa95262d10c545d2e477b526fac7df9c076ba31ce85530
+    home: https://github.com/giantswarm/dashboards
+    icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg
+    name: dashboards
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/dashboards-4.34.0.tgz
+    version: 4.34.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/dashboards/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/dashboards-4.33.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/dashboards/refs/tags/v4.33.0/README.md
       io.giantswarm.application.team: atlas
@@ -86002,4 +86041,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-04T12:31:46.739411089Z"
+generated: "2026-11-04T13:57:46.165702603Z"

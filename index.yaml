@@ -34610,6 +34610,27 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/cluster-api-provider-aws-app/issues
       config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.43.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-provider-aws-app/refs/tags/v2.43.1/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-api-provider-aws-app/refs/tags/v2.43.1/helm/cluster-api-provider-aws/values.schema.json
+    apiVersion: v2
+    appVersion: 2.43.1
+    created: "2026-11-05T15:04:42.608829235Z"
+    description: Helm chart for cluster-api-provider-aws.
+    digest: 039b710a0a5d94aa0febc69f54f1910cef27ab3cfe83b2a4eded71658ede6d61
+    home: https://github.com/giantswarm/cluster-api-provider-aws-app
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: cluster-api-provider-aws
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.43.1.tgz
+    version: 2.43.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-api-provider-aws-app/issues
+      config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.43.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-provider-aws-app/refs/tags/v2.43.0/README.md
       io.giantswarm.application.team: phoenix
@@ -86169,4 +86190,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-05T12:02:41.201738925Z"
+generated: "2026-11-05T15:04:42.600530909Z"

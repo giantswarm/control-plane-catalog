@@ -51810,6 +51810,27 @@ entries:
     version: 1.61.0
   image-distribution-operator:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/image-distribution-operator/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/image-distribution-operator-0.13.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/image-distribution-operator/refs/tags/v0.13.1/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/image-distribution-operator/refs/tags/v0.13.1/helm/image-distribution-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.13.1
+    created: "2026-11-05T08:22:27.430623699Z"
+    description: A Helm chart to distribute the project image-distribution-operator
+    digest: afb4f599b1389f8ce552dc797475fc2ab80036113996cd1464b58292f10dd4c4
+    home: https://github.com/giantswarm/image-distribution-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: image-distribution-operator
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/image-distribution-operator-0.13.1.tgz
+    version: 0.13.1
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/image-distribution-operator-0.13.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/image-distribution-operator/refs/tags/v0.13.0/README.md
       io.giantswarm.application.team: rocket
@@ -86094,4 +86115,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-05T08:10:13.744624338Z"
+generated: "2026-11-05T08:22:27.429266939Z"

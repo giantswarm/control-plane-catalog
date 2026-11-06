@@ -58397,6 +58397,26 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/kyverno-policies-ux/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/kyverno-policies-ux-0.16.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kyverno-policies-ux/refs/tags/v0.16.0/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kyverno-policies-ux/refs/tags/v0.16.0/helm/kyverno-policies-ux/values.schema.json
+    apiVersion: v2
+    appVersion: 0.16.0
+    created: "2026-11-06T14:19:46.268342306Z"
+    description: Giant Swarm policies supporting user experience.
+    digest: 44768f00b274dd41be40e882a2581b2e01c89e2a23ee402f3863c490b00da101
+    home: https://github.com/giantswarm/kyverno-policies-ux
+    icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+    name: kyverno-policies-ux
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kyverno-policies-ux-0.16.0.tgz
+    version: 0.16.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kyverno-policies-ux/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/kyverno-policies-ux-0.15.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kyverno-policies-ux/refs/tags/v0.15.2/README.md
       io.giantswarm.application.team: honeybadger
@@ -86420,4 +86440,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-06T12:05:25.394980572Z"
+generated: "2026-11-06T14:19:46.267524457Z"

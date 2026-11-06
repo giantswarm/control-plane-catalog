@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: honeybadger
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/kyverno-policies-ux/issues\n"
+chartApiVersion: v2
+chartFile: kyverno-policies-ux-0.16.0.tgz
+dateCreated: '2026-11-06T14:19:44.601319Z'
+digest: 44768f00b274dd41be40e882a2581b2e01c89e2a23ee402f3863c490b00da101
+home: https://github.com/giantswarm/kyverno-policies-ux
+icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg

@@ -698,6 +698,26 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/app-operator/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/app-operator-7.6.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/app-operator/refs/tags/v7.6.0/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/app-operator/refs/tags/v7.6.0/helm/app-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 7.6.0
+    created: "2026-11-06T11:08:08.175543715Z"
+    description: A Helm chart for the app-operator
+    digest: 5ce3c6576b25fbc747eb4b952f9f59f93c22933e3fca51c1ff2d37e09e329e46
+    home: https://github.com/giantswarm/app-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: app-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/app-operator-7.6.0.tgz
+    version: 7.6.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/app-operator/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/app-operator-7.5.4.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/app-operator/refs/tags/v7.5.4/README.md
       io.giantswarm.application.team: honeybadger
@@ -86373,4 +86393,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-06T10:37:45.941521148Z"
+generated: "2026-11-06T11:08:08.174729504Z"

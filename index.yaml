@@ -1638,22 +1638,6 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/aws-ebs-csi-driver-app-2.28.1.tgz
     version: 2.28.1
-  - annotations:
-      application.giantswarm.io/team: phoenix
-    apiVersion: v1
-    appVersion: 1.21.0
-    created: "2023-11-03T11:53:35.290656382Z"
-    description: A Helm chart for AWS EBS CSI Driver
-    digest: 4c7da70e6d352e0d6a735e1dd5f915f052130884a6bccd14ee2d6850cc9aa4a7
-    home: https://github.com/giantswarm/aws-ebs-csi-driver-app
-    icon: https://s.giantswarm.io/app-icons/aws/1/dark.svg
-    kubeVersion: '>=1.17.0-0'
-    name: aws-ebs-csi-driver-app
-    sources:
-    - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v2.28.0/README.md
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/aws-ebs-csi-driver-app-2.28.0.tgz
-    version: 2.28.0
   aws-lb-controller-bundle:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -29889,23 +29873,6 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/backstage-0.10.1.tgz
     version: 0.10.1
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/backstage-0.10.0.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/backstage-0.10.0.tgz-meta/README.md
-      application.giantswarm.io/team: team-honeybadger
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/backstage-0.10.0.tgz-meta/values.schema.json
-      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/backstage/1/logo.svg
-    apiVersion: v1
-    appVersion: 0.10.0
-    created: "2023-11-09T09:34:56.81775476Z"
-    description: The Giant Swarm developer portal.
-    digest: 4c51bb4df0cb9eb5c86d4c112e5abd1e2506f19818b6ba823134a52ea60fe23d
-    home: https://github.com/giantswarm/backstage
-    icon: https://s.giantswarm.io/app-icons/backstage/1/icon.svg
-    name: backstage
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/backstage-0.10.0.tgz
-    version: 0.10.0
   caicloud-event-exporter-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/caicloud-event-exporter-app-0.2.3.tgz-meta/main.yaml
@@ -30514,19 +30481,6 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/capa-iam-operator-0.13.0.tgz
     version: 0.13.0
-  - annotations:
-      application.giantswarm.io/team: phoenix
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v1
-    appVersion: 0.12.0
-    created: "2023-11-02T16:26:33.348631561Z"
-    description: Operator for managing IAM roles for CAPA clusters
-    digest: 366289b4a608c8fe145ed79babf79f44db778a8cf2f577dea08cdb1b6abc529e
-    home: https://github.com/giantswarm/capa-iam-operator
-    name: capa-iam-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/capa-iam-operator-0.12.0.tgz
-    version: 0.12.0
   cert-exporter:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -32166,34 +32120,6 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/cert-manager-app-3.5.2.tgz
     version: 3.5.2
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cert-manager-app-3.5.1.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cert-manager-app-3.5.1.tgz-meta/README.md
-      application.giantswarm.io/team: bigmac
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/cert-manager-app-3.5.1.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.12.4
-    created: "2023-11-02T17:37:54.463540119Z"
-    dependencies:
-    - alias: giantSwarmClusterIssuer
-      name: cert-manager-giantswarm-clusterissuer
-      repository: ""
-      version: 2.0.0
-    - condition: ciliumNetworkPolicy.enabled
-      name: cert-manager-giantswarm-netpol
-      repository: ""
-      version: 0.1.0
-    description: Simplifies the process of obtaining, renewing and using certificates.
-    digest: dd64b73386d18b786b9016b8a55605f66781639f4c23337715f073306e4aec97
-    home: https://github.com/giantswarm/cert-manager-app
-    icon: https://s.giantswarm.io/app-icons/cert-manager/1/light.svg
-    kubeVersion: '>=1.22.0-0'
-    name: cert-manager-app
-    sources:
-    - https://github.com/cert-manager/cert-manager
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/cert-manager-app-3.5.1.tgz
-    version: 3.5.1
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cert-manager-app-2.25.3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cert-manager-app-2.25.3.tgz-meta/README.md
@@ -35783,19 +35709,6 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.6.1.tgz
     version: 2.6.1
-  - annotations:
-      application.giantswarm.io/team: phoenix
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v1
-    appVersion: 2.6.0
-    created: "2023-11-08T09:21:37.819997384Z"
-    description: Helm chart for cluster-api-provider-aws.
-    digest: 7389f988837088cc1fab04751ec5c1f8b27252ac9e4b2627238aab7672a8665a
-    home: https://github.com/giantswarm/cluster-api-provider-aws-app
-    name: cluster-api-provider-aws
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.6.0.tgz
-    version: 2.6.0
   cluster-api-provider-azure:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -37989,20 +37902,6 @@ entries:
     - https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.27.3-gs3.tgz
     version: 1.27.3-gs3
   - annotations:
-      application.giantswarm.io/team: phoenix
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v1
-    appVersion: v1.27.3
-    created: "2023-11-03T10:49:03.777591376Z"
-    description: A Helm chart for the cluster autoscaler.
-    digest: 3ac9d87135e7aa5a6de60b9a84818f85486543538ddd7da648f554f5eb7b8329
-    home: https://github.com/giantswarm/cluster-autoscaler-app
-    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
-    name: cluster-autoscaler-app
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.27.3-gs2.tgz
-    version: 1.27.3-gs2
-  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.27.3-gs10.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.27.3-gs10.tgz-meta/README.md
       application.giantswarm.io/team: turtles
@@ -38019,20 +37918,6 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.27.3-gs10.tgz
     version: 1.27.3-gs10
-  - annotations:
-      application.giantswarm.io/team: phoenix
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v1
-    appVersion: v1.27.3
-    created: "2023-11-03T10:06:15.491140203Z"
-    description: A Helm chart for the cluster autoscaler.
-    digest: b0cf3deed83b662e599983f18aa19f9f6eab667bef5b96b509c9fcf9c2d3eaff
-    home: https://github.com/giantswarm/cluster-autoscaler-app
-    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
-    name: cluster-autoscaler-app
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.27.3-gs1.tgz
-    version: 1.27.3-gs1
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.25.3-gs2-b6e30c56a410838a9fc6b6b0436e2e137dc5489e.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/cluster-autoscaler-app-1.25.3-gs2-b6e30c56a410838a9fc6b6b0436e2e137dc5489e.tgz-meta/README.md
@@ -39112,58 +38997,6 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/crossplane-2.4.1.tgz
     version: 2.4.1
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/crossplane-2.4.0.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/crossplane-2.4.0.tgz-meta/README.md
-      application.giantswarm.io/team: honeybadger
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/crossplane-2.4.0.tgz-meta/values.schema.json
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v1
-    appVersion: 1.11.3
-    created: "2023-11-02T16:09:29.217416544Z"
-    description: Crossplane is an open source Kubernetes add-on that enables platform
-      teams to assemble infrastructure from multiple vendors, and expose higher level
-      self-service APIs for application teams to consume.
-    digest: 8550032db1905cb4dcb05254516c14b37d27aae063f5535c013c1079a95522ce
-    home: https://crossplane.io
-    icon: https://docs.crossplane.io/android-chrome-192x192.png
-    keywords:
-    - cloud
-    - infrastructure
-    - services
-    - application
-    - database
-    - cache
-    - bucket
-    - infra
-    - app
-    - ops
-    - gcp
-    - azure
-    - aws
-    - alibaba
-    - cloudsql
-    - rds
-    - s3
-    - azuredatabase
-    - asparadb
-    - gke
-    - aks
-    - eks
-    maintainers:
-    - email: info@crossplane.io
-      name: Crossplane Maintainers
-    name: crossplane
-    sources:
-    - https://github.com/crossplane/crossplane
-    - https://github.com/crossplane/crossplane-runtime
-    - https://github.com/crossplane/provider-aws
-    - https://github.com/crossplane/provider-azure
-    - https://github.com/crossplane/provider-gcp
-    - https://github.com/crossplane/provider-rook
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/crossplane-2.4.0.tgz
-    version: 2.4.0
   crossplane-fn-irsa:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -42243,30 +42076,6 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/dashboards-3.3.0.tgz
     version: 3.3.0
-  - annotations:
-      application.giantswarm.io/team: atlas
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v2
-    appVersion: 3.2.4
-    created: "2023-11-06T13:16:53.433198807Z"
-    dependencies:
-    - name: public_dashboards
-      repository: ""
-      version: 1.0.0
-    - name: private_dashboards_al
-      repository: ""
-      version: 1.0.0
-    - name: private_dashboards_mz
-      repository: ""
-      version: 1.0.0
-    description: Grafana dashboards accessible by Giant Swarm customers
-    digest: cd3c65b0f45f868dadfcfb958a95fcdd95ddb80fee2ab08a436ca34dd18cb0f9
-    home: https://github.com/giantswarm/dashboards
-    icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg
-    name: dashboards
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/dashboards-3.2.4.tgz
-    version: 3.2.4
   deletion-blocker-operator:
   - annotations:
       config.giantswarm.io/version: 1.x.x
@@ -46633,19 +46442,6 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/etcd-backup-operator-4.4.3.tgz
     version: 4.4.3
-  - annotations:
-      application.giantswarm.io/team: phoenix
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v1
-    appVersion: 4.4.2
-    created: "2023-11-06T18:25:47.216067629Z"
-    description: Helm chart for etcd-backup-operator.
-    digest: bd8edc5dd6df0096786ea62b089a318a4b97bd100e3709ede672032b5a6519c9
-    home: https://github.com/giantswarm/etcd-backup-operator
-    name: etcd-backup-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/etcd-backup-operator-4.4.2.tgz
-    version: 4.4.2
   etcd-kubernetes-resources-count-exporter:
   - annotations:
       config.giantswarm.io/version: 1.x.x
@@ -47914,39 +47710,6 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/falco-0.7.1.tgz
     version: 0.7.1
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/falco-0.7.0.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/falco-0.7.0.tgz-meta/README.md
-      application.giantswarm.io/team: shield
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/falco-0.7.0.tgz-meta/values.schema.json
-      config.giantswarm.io/version: 1.x.x
-      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/falco/2/logo_dark.svg
-    apiVersion: v2
-    appVersion: 0.35.1
-    created: "2023-11-08T13:47:24.394751953Z"
-    dependencies:
-    - name: falco
-      repository: ""
-      version: 3.8.1
-    - name: falco-exporter
-      repository: ""
-      version: 0.9.7
-    - name: falcosidekick
-      repository: ""
-      version: 0.7.5
-    description: A Helm chart for falco
-    digest: 67b4f7383fc9cdac88b4fc6dbcaf45d83052296b200d7903b0773c21f846f8c6
-    home: https://github.com/giantswarm/falco-app
-    icon: https://s.giantswarm.io/app-icons/falco/2/icon_dark.svg
-    maintainers:
-    - name: Giant Swarm applications team
-      url: https://github.com/giantswarm/falco-app
-    name: falco
-    sources:
-    - https://github.com/giantswarm/falco-app
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/falco-0.7.0.tgz
-    version: 0.7.0
   fluent-logshipping-app:
   - annotations:
       io.giantswarm.application.audience: all
@@ -51381,31 +51144,6 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/grafana-agent-0.3.1.tgz
     version: 0.3.1
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/grafana-agent-0.3.0.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/grafana-agent-0.3.0.tgz-meta/README.md
-      application.giantswarm.io/team: atlas
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/grafana-agent-0.3.0.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v0.37.0
-    created: "2023-11-08T15:15:19.377523402Z"
-    dependencies:
-    - name: grafana-agent
-      repository: https://grafana.github.io/helm-charts
-      version: 0.27.0
-    description: Giant Swarm's Grafana Agent Deployment
-    digest: 32d954ca53ff9981c8747bcf9525d07459dc4e458652ffba33f610183a5be3ff
-    home: https://github.com/giantswarm/grafana-agent-app
-    icon: https://s.giantswarm.io/app-icons/grafana/1/light.svg
-    maintainers:
-    - email: team-atlas@giantswarm.io
-      name: giantswarm/team-atlas
-    name: grafana-agent
-    sources:
-    - https://github.com/grafana/agent/tree/main/operations/helm/charts/grafana-agent
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/grafana-agent-0.3.0.tgz
-    version: 0.3.0
   grafana-multi-tenant-proxy:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/grafana-multi-tenant-proxy-0.8.0.tgz-meta/main.yaml
@@ -67357,26 +67095,6 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/oauth2-proxy-2.13.0.tgz
     version: 2.13.0
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/oauth2-proxy-2.12.0.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/oauth2-proxy-2.12.0.tgz-meta/README.md
-      application.giantswarm.io/team: team-cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/oauth2-proxy-2.12.0.tgz-meta/values.schema.json
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v2
-    appVersion: 7.5.1
-    created: "2023-11-07T11:45:10.533976409Z"
-    description: A reverse proxy that provides authentication with Google, Azure,
-      OpenID Connect and many more identity providers
-    digest: b72b5f5f18f530749515509d890f776c320617f4cbf920ddc11ee181591b9dc5
-    home: https://github.com/giantswarm/oauth2-proxy-app
-    icon: https://s.giantswarm.io/app-icons/oauth2-proxy/1/light.svg
-    name: oauth2-proxy
-    sources:
-    - https://github.com/oauth2-proxy/oauth2-proxy
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/oauth2-proxy-2.12.0.tgz
-    version: 2.12.0
   observability-bundle:
   - annotations:
       application.giantswarm.io/app-type: bundle
@@ -67984,46 +67702,6 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/observability-bundle-0.10.1.tgz
     version: 0.10.1
-  - annotations:
-      application.giantswarm.io/app-type: bundle
-      application.giantswarm.io/in-cluster-app: "true"
-      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/observability-bundle-0.10.0.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/observability-bundle-0.10.0.tgz-meta/README.md
-      application.giantswarm.io/team: atlas
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/observability-bundle-0.10.0.tgz-meta/values.schema.json
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v2
-    created: "2023-11-08T15:31:25.478620935Z"
-    description: A Helm chart for Giant Swarm's collection of observability tools.
-    digest: 1934703b573a3bb712e315f5b905c59f437ed39f075635591b5a6e30a21a43d2
-    home: https://github.com/giantswarm/observability-bundle
-    kubeVersion: '>=1.19.0-0'
-    name: observability-bundle
-    sources:
-    - https://github.com/giantswarm/observability-bundle
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/observability-bundle-0.10.0.tgz
-    version: 0.10.0
-  - annotations:
-      application.giantswarm.io/app-type: bundle
-      application.giantswarm.io/in-cluster-app: "true"
-      application.giantswarm.io/metadata: https://giantswarm.github.io/control-plane-catalog/observability-bundle-0.9.1.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/control-plane-catalog/observability-bundle-0.9.1.tgz-meta/README.md
-      application.giantswarm.io/team: atlas
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/control-plane-catalog/observability-bundle-0.9.1.tgz-meta/values.schema.json
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v2
-    created: "2023-11-02T13:56:41.90106269Z"
-    description: A Helm chart for Giant Swarm's collection of observability tools.
-    digest: 2c5ff1f35ca597d175d1d9b58db3cd73fada684bd78f622834d0d173fb6e9ba0
-    home: https://github.com/giantswarm/observability-bundle
-    kubeVersion: '>=1.19.0-0'
-    name: observability-bundle
-    sources:
-    - https://github.com/giantswarm/observability-bundle
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/observability-bundle-0.9.1.tgz
-    version: 0.9.1
   observability-operator:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -74091,19 +73769,6 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/prometheus-meta-operator-4.61.0.tgz
     version: 4.61.0
-  - annotations:
-      application.giantswarm.io/team: atlas
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v2
-    appVersion: 4.60.0
-    created: "2023-11-02T12:54:29.368121793Z"
-    description: The prometheus-meta-operator manages Kubernetes clusters monitoring.
-    digest: 18029edbd6fd060e7190b905743d6561ddcf7f6219f991bd2242da48000a5dd8
-    home: https://github.com/giantswarm/prometheus-meta-operator
-    name: prometheus-meta-operator
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/prometheus-meta-operator-4.60.0.tgz
-    version: 4.60.0
   prometheus-remotewrite:
   - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/prometheus-remotewrite-1.5.0.tgz-meta/main.yaml
@@ -79076,34 +78741,6 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/prometheus-rules-2.140.0.tgz
     version: 2.140.0
-  - annotations:
-      application.giantswarm.io/team: atlas
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v1
-    appVersion: 2.139.0
-    created: "2023-11-07T22:20:12.127673928Z"
-    description: A Helm chart for Giant Swarm prometheus alerting and recording rules
-    digest: e555c7b77c8b988663548ac49bb618b37ab299ffc3aef608e2c9e6ba2787bc70
-    home: https://github.com/giantswarm/prometheus-rules
-    icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
-    name: prometheus-rules
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/prometheus-rules-2.139.0.tgz
-    version: 2.139.0
-  - annotations:
-      application.giantswarm.io/team: atlas
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v1
-    appVersion: 2.138.3
-    created: "2023-11-02T15:25:43.353953338Z"
-    description: A Helm chart for Giant Swarm prometheus alerting and recording rules
-    digest: 7f297c01557a4a3ae579ba8ee9b7bb4b1bc61b1704cc9e75d283bda2a9849e7d
-    home: https://github.com/giantswarm/prometheus-rules
-    icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
-    name: prometheus-rules
-    urls:
-    - https://giantswarm.github.io/control-plane-catalog/prometheus-rules-2.138.3.tgz
-    version: 2.138.3
   promxy-app:
   - annotations:
       application.giantswarm.io/team: atlas
@@ -86888,4 +86525,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-08T08:45:47.630999934Z"
+generated: "2026-11-09T06:18:34.404301905Z"

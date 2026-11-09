@@ -33864,6 +33864,37 @@ entries:
     version: 0.1.2
   cluster-api-control-plane-provider-kamaji:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-api-control-plane-provider-kamaji-app/issues
+        - name: Upstream project
+          url: https://github.com/clastix/cluster-api-control-plane-provider-kamaji
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-control-plane-provider-kamaji-0.5.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-control-plane-provider-kamaji-app/refs/tags/v0.5.0/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.upstream-chart-url: https://github.com/clastix/cluster-api-control-plane-provider-kamaji
+      io.giantswarm.application.upstream-chart-version: 0.21.0
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-api-control-plane-provider-kamaji-app/refs/tags/v0.5.0/helm/cluster-api-control-plane-provider-kamaji/values.schema.json
+    apiVersion: v2
+    appVersion: 0.5.0
+    created: "2026-11-09T16:31:21.168315461Z"
+    description: The Kamaji Control Plane provider for Cluster API
+    digest: b330207d198186f2d4b3eb1ef284de228b538755f36ab904b11978cf423b51ec
+    home: https://github.com/giantswarm/cluster-api-control-plane-provider-kamaji-app
+    icon: https://s.giantswarm.io/app-icons/kamaji/2/light.svg
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cluster-api-control-plane-provider-kamaji
+    sources:
+    - https://github.com/clastix/cluster-api-control-plane-provider-kamaji
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-control-plane-provider-kamaji-0.5.0.tgz
+    version: 0.5.0
+  - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-control-plane-provider-kamaji-0.4.3.tgz-meta/main.yaml
@@ -86718,4 +86749,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-09T15:56:22.870907265Z"
+generated: "2026-11-09T16:31:21.159052735Z"

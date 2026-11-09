@@ -54250,6 +54250,43 @@ entries:
     version: 0.9.0
   kamaji:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kamaji-app/issues
+        - name: Upstream project
+          url: https://github.com/clastix/kamaji
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/kamaji-0.2.4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kamaji-app/refs/tags/v0.2.4/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.upstream-chart-url: https://github.com/clastix/kamaji
+      io.giantswarm.application.upstream-chart-version: edge-25.12.3
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kamaji-app/refs/tags/v0.2.4/helm/kamaji/values.schema.json
+    apiVersion: v2
+    appVersion: edge-25.12.3
+    created: "2026-11-09T16:36:39.841889607Z"
+    dependencies:
+    - name: kamaji-crds
+      repository: ""
+      version: 25.12.3
+    description: Kamaji is the Hosted Control Plane Manager for Kubernetes.
+    digest: e7609cfeaee011373fb2c9d5d024af8afa3b1aa470476e9aa4bbb5e813d6fd0f
+    home: https://github.com/giantswarm/kamaji-app
+    icon: https://s.giantswarm.io/app-icons/kamaji/2/light.svg
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: kamaji
+    sources:
+    - https://github.com/clastix/kamaji
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kamaji-0.2.4.tgz
+    version: 0.2.4
+  - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/kamaji-0.2.3.tgz-meta/main.yaml
@@ -86749,4 +86786,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-09T16:31:21.159052735Z"
+generated: "2026-11-09T16:36:39.832730877Z"

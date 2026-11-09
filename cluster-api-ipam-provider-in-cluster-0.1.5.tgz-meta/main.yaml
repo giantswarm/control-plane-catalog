@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: rocket
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/cluster-api-ipam-provider-in-cluster-app/issues\n"
+chartApiVersion: v2
+chartFile: cluster-api-ipam-provider-in-cluster-0.1.5.tgz
+dateCreated: '2026-11-09T11:07:36.264114Z'
+digest: 290facc1c0b4787ec727f6be529b0b1ff1075a8f6c5f7662b35ff14afe518540
+home: https://github.com/giantswarm/cluster-api-ipam-provider-in-cluster-app
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

@@ -34551,6 +34551,31 @@ entries:
     version: 0.1.2
   cluster-api-ipam-provider-in-cluster:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-api-ipam-provider-in-cluster-app/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-ipam-provider-in-cluster-0.1.5.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-ipam-provider-in-cluster-app/refs/tags/v0.1.5/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-api-ipam-provider-in-cluster-app/refs/tags/v0.1.5/helm/cluster-api-ipam-provider-in-cluster/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.5
+    created: "2026-11-09T11:07:39.908579025Z"
+    description: A Helm chart for cluster-api-ipam-provider-in-cluster
+    digest: 290facc1c0b4787ec727f6be529b0b1ff1075a8f6c5f7662b35ff14afe518540
+    home: https://github.com/giantswarm/cluster-api-ipam-provider-in-cluster-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cluster-api-ipam-provider-in-cluster
+    sources:
+    - https://github.com/giantswarm/cluster-api-ipam-provider-in-cluster-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-ipam-provider-in-cluster-0.1.5.tgz
+    version: 0.1.5
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-ipam-provider-in-cluster-0.1.4.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-ipam-provider-in-cluster-app/refs/tags/v0.1.4/README.md
       io.giantswarm.application.team: rocket
@@ -86546,4 +86571,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-09T06:26:59.964695086Z"
+generated: "2026-11-09T11:07:39.907360454Z"

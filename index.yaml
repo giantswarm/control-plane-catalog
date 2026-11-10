@@ -39106,6 +39106,30 @@ entries:
           url: https://github.com/giantswarm/crossplane-fn-irsa/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/crossplane-fn-irsa-0.4.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/crossplane-fn-irsa/refs/tags/v0.4.0/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/crossplane-fn-irsa/refs/tags/v0.4.0/helm/crossplane-fn-irsa/values.schema.json
+    apiVersion: v2
+    appVersion: 0.4.0
+    created: "2026-11-10T08:37:48.968463586Z"
+    description: Crossplane Composition Function for IRSA (IAM Roles for Service Accounts)
+    digest: 66c494f2671df78cd5eeb4dd25f5f3880293112276e6a43a06ad73537b45953a
+    home: https://github.com/giantswarm/crossplane-fn-irsa
+    icon: https://s.giantswarm.io/app-icons/crossplane/1/light.svg
+    name: crossplane-fn-irsa
+    sources:
+    - https://github.com/giantswarm/crossplane-fn-irsa
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/crossplane-fn-irsa-0.4.0.tgz
+    version: 0.4.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/crossplane-fn-irsa/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/crossplane-fn-irsa-0.3.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/crossplane-fn-irsa/refs/tags/v0.3.2/README.md
       io.giantswarm.application.team: phoenix
@@ -86869,4 +86893,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-10T05:16:17.706762417Z"
+generated: "2026-11-10T08:37:48.96759541Z"

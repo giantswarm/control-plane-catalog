@@ -29984,6 +29984,27 @@ entries:
     version: 0.2.0
   capa-iam-operator:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/capa-iam-operator/issues
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/capa-iam-operator-3.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/capa-iam-operator/refs/tags/v3.1.0/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/capa-iam-operator/refs/tags/v3.1.0/helm/capa-iam-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 3.1.0
+    created: "2026-11-10T08:39:14.753315609Z"
+    description: Operator for managing IAM roles for CAPA clusters
+    digest: a50353ab481988949969402806b81cc7ca13464d1fcace8608ea2d43abb20a49
+    home: https://github.com/giantswarm/capa-iam-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: capa-iam-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/capa-iam-operator-3.1.0.tgz
+    version: 3.1.0
+  - annotations:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/capa-iam-operator-3.0.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/capa-iam-operator/refs/tags/v3.0.0/README.md
@@ -86893,4 +86914,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-10T08:37:48.96759541Z"
+generated: "2026-11-10T08:39:14.752561457Z"

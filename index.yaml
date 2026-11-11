@@ -81713,6 +81713,33 @@ entries:
     version: 0.0.1
   teleport-operator:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/teleport-operator/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.15.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/teleport-operator/refs/tags/v0.15.0/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/teleport-operator/refs/tags/v0.15.0/helm/teleport-operator/values.schema.json
+    apiVersion: v1
+    appVersion: 0.15.0
+    created: "2026-11-11T18:20:56.366873865Z"
+    description: Teleport operator
+    digest: 8c75a168964f8d1218c2745931daf10a8e6a8e431da54ebcafefe121b34cd1cf
+    home: https://github.com/giantswarm/teleport-operator
+    icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
+    keywords:
+    - teleport
+    maintainers:
+    - email: team-shield@giantswarm.io
+      name: giantswarm/team-shield
+    name: teleport-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.15.0.tgz
+    version: 0.15.0
+  - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/teleport-operator-0.14.0.tgz-meta/main.yaml
@@ -87249,4 +87276,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-11T16:39:09.349715945Z"
+generated: "2026-11-11T18:20:56.365503719Z"

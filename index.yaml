@@ -3344,6 +3344,31 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/azure-cloud-node-manager-app/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/azure-cloud-node-manager-app-2.3.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/azure-cloud-node-manager-app/refs/tags/v2.3.0/README.md
+      io.giantswarm.application.restrictions.cluster-singleton: "true"
+      io.giantswarm.application.restrictions.compatible-providers: azure
+      io.giantswarm.application.restrictions.fixed-namespace: kube-system
+      io.giantswarm.application.restrictions.gpu-instances: "false"
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/azure-cloud-node-manager-app/refs/tags/v2.3.0/helm/azure-cloud-node-manager-app/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+    apiVersion: v2
+    appVersion: 1.37.3
+    created: "2026-11-12T18:55:18.151353769Z"
+    description: A Helm chart for the Azure Cloud Node Manager.
+    digest: ab213ddfb38d30c3468a6d9fb6389576ea7b42e5912f10df8576aa1e3d642d95
+    home: https://github.com/giantswarm/azure-cloud-node-manager-app
+    icon: https://s.giantswarm.io/app-icons/azure/1/dark.svg
+    name: azure-cloud-node-manager-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/azure-cloud-node-manager-app-2.3.0.tgz
+    version: 2.3.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/azure-cloud-node-manager-app/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/azure-cloud-node-manager-app-2.2.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/azure-cloud-node-manager-app/refs/tags/v2.2.0/README.md
       io.giantswarm.application.restrictions.cluster-singleton: "true"
@@ -87749,4 +87774,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-12T18:54:45.687999368Z"
+generated: "2026-11-12T18:55:18.150597853Z"

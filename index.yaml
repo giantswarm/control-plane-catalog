@@ -1214,6 +1214,30 @@ entries:
     version: 1.0.0
   athena:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/athena/issues
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/athena-1.16.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/athena/refs/tags/v1.16.0/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/athena/refs/tags/v1.16.0/helm/athena/values.schema.json
+    apiVersion: v1
+    appVersion: 1.16.0
+    created: "2026-11-13T17:58:03.248369598Z"
+    description: A service providing non-sensitive information about your cluster
+      to clients
+    digest: ec985c53433848c3dd05e84e7dcbd8c96881149e408c62f99dec0db9337931e2
+    home: https://github.com/giantswarm/athena
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: athena
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/athena-1.16.0.tgz
+    version: 1.16.0
+  - annotations:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
@@ -87971,4 +87995,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-13T12:33:42.844193576Z"
+generated: "2026-11-13T17:58:03.247363861Z"

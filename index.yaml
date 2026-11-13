@@ -71611,6 +71611,34 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/pagerduty-config/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/pagerduty-config-0.20.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-config/refs/tags/v0.20.0/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pagerduty-config/refs/tags/v0.20.0/helm/pagerduty-config/values.schema.json
+    apiVersion: v2
+    appVersion: 0.20.0
+    created: "2026-11-13T12:33:42.846563161Z"
+    description: Crossplane-managed PagerDuty configuration for Giant Swarm
+    digest: fcedcd00e8630c9419a94ebdb7babbc286f51b6b2334a6ef0f5f4c45eae98f1b
+    home: https://github.com/giantswarm/pagerduty-config
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - pagerduty
+    - crossplane
+    - oncall
+    maintainers:
+    - email: atlas@giantswarm.io
+      name: team-atlas
+    name: pagerduty-config
+    type: application
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/pagerduty-config-0.20.0.tgz
+    version: 0.20.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/pagerduty-config/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/pagerduty-config-0.19.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pagerduty-config/refs/tags/v0.19.1/README.md
       io.giantswarm.application.team: atlas
@@ -87943,4 +87971,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-13T10:35:05.448855489Z"
+generated: "2026-11-13T12:33:42.844193576Z"

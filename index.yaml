@@ -66903,6 +66903,33 @@ entries:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/net-exporter-1.25.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/net-exporter/refs/tags/v1.25.0/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/net-exporter/refs/tags/v1.25.0/helm/net-exporter/values.schema.json
+    apiVersion: v2
+    appVersion: 1.25.0
+    created: "2026-11-16T13:21:11.691972975Z"
+    description: Helm chart for net-exporter.
+    digest: 440c2909f642a9fc3f7c8af4cbe10445d0c02068c693f3af381553426c7b5804
+    home: https://github.com/giantswarm/net-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    keywords:
+    - networking
+    - monitoring
+    - observability
+    name: net-exporter
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/net-exporter-1.25.0.tgz
+    version: 1.25.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/net-exporter/issues
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/net-exporter-1.24.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/net-exporter/refs/tags/v1.24.2/README.md
       io.giantswarm.application.team: cabbage
@@ -87556,4 +87583,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-16T13:17:10.184337197Z"
+generated: "2026-11-16T13:21:11.691074461Z"

@@ -35419,6 +35419,27 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/cluster-api-provider-aws-app/issues
       config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.43.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-provider-aws-app/refs/tags/v2.43.2/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-api-provider-aws-app/refs/tags/v2.43.2/helm/cluster-api-provider-aws/values.schema.json
+    apiVersion: v2
+    appVersion: 2.43.2
+    created: "2026-11-16T08:16:51.864595422Z"
+    description: Helm chart for cluster-api-provider-aws.
+    digest: c9e0964a35c436243d2643de3f0de712a20e5fa59b2f70428662f742599eb4d7
+    home: https://github.com/giantswarm/cluster-api-provider-aws-app
+    icon: https://s.giantswarm.io/app-icons/aws/2/dark.svg
+    name: cluster-api-provider-aws
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.43.2.tgz
+    version: 2.43.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-api-provider-aws-app/issues
+      config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-aws-2.43.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-provider-aws-app/refs/tags/v2.43.1/README.md
       io.giantswarm.application.team: phoenix
@@ -87453,4 +87474,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-16T07:00:10.118489026Z"
+generated: "2026-11-16T08:16:51.855413947Z"

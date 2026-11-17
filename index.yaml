@@ -3651,6 +3651,28 @@ entries:
     version: 1.24.18-gs4
   azure-private-endpoint-operator:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/azure-private-endpoint-operator/issues
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/azure-private-endpoint-operator-0.8.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/azure-private-endpoint-operator/refs/tags/v0.8.2/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/azure-private-endpoint-operator/refs/tags/v0.8.2/helm/azure-private-endpoint-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.8.2
+    created: "2026-11-17T10:30:06.37816443Z"
+    description: Operator for reconciling Azure Private Links in CAPZ workload clusters
+      to Azure Private Endpoints in CAPZ management clusters
+    digest: bd3be232d5d2ab1d193d3fa893c4190ff2299bddb3d797c2a7a1e98f7e8dd90e
+    home: https://github.com/giantswarm/azure-private-endpoint-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: azure-private-endpoint-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/azure-private-endpoint-operator-0.8.2.tgz
+    version: 0.8.2
+  - annotations:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/azure-private-endpoint-operator-0.7.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/azure-private-endpoint-operator/refs/tags/v0.7.0/README.md
@@ -87764,4 +87786,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-17T10:25:16.579566945Z"
+generated: "2026-11-17T10:30:06.377544278Z"

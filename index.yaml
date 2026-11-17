@@ -46312,6 +46312,26 @@ entries:
     version: 0.0.1
   dns-operator-azure:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/dns-operator-azure/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/dns-operator-azure-2.6.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/dns-operator-azure/refs/tags/v2.6.2/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/dns-operator-azure/refs/tags/v2.6.2/helm/dns-operator-azure/values.schema.json
+    apiVersion: v2
+    appVersion: 2.6.2
+    created: "2026-11-17T11:28:05.122911383Z"
+    description: Operator for managing DNS zones and records for CAPZ clusters.
+    digest: f46eff176bb4a26097ccac176c0b3713f4bfdf43f54206ed99478f4b4ea8d267
+    home: https://github.com/giantswarm/dns-operator-azure
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: dns-operator-azure
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/dns-operator-azure-2.6.2.tgz
+    version: 2.6.2
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/dns-operator-azure-2.6.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/dns-operator-azure/refs/tags/v2.6.1/README.md
       io.giantswarm.application.team: phoenix
@@ -87813,4 +87833,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-17T10:42:14.103501482Z"
+generated: "2026-11-17T11:28:05.121233462Z"

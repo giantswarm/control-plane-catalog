@@ -83239,6 +83239,33 @@ entries:
           url: https://github.com/giantswarm/teleport-tbot/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/teleport-tbot-0.5.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/teleport-tbot/refs/tags/v0.5.1/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/teleport-tbot/refs/tags/v0.5.1/helm/teleport-tbot/values.schema.json
+    apiVersion: v1
+    appVersion: 0.5.1
+    created: "2026-11-18T17:50:14.866029704Z"
+    description: Teleport TBOT
+    digest: 95b2e160c7d84ba3d3fa43314f2be115e64454ca8bac70fde636abbbb0db0c44
+    home: https://github.com/giantswarm/teleport-tbot
+    icon: https://s.giantswarm.io/app-icons/teleport/1/light.png
+    keywords:
+    - teleport
+    maintainers:
+    - email: team-shield@giantswarm.io
+      name: giantswarm/team-shield
+    name: teleport-tbot
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/teleport-tbot-0.5.1.tgz
+    version: 0.5.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/teleport-tbot/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/teleport-tbot-0.5.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/teleport-tbot/refs/tags/v0.5.0/README.md
       io.giantswarm.application.team: shield
@@ -88345,4 +88372,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-18T16:58:53.291169108Z"
+generated: "2026-11-18T17:50:14.865139584Z"

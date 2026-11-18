@@ -2845,6 +2845,28 @@ entries:
     version: 0.3.0
   aws-vpc-operator:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/aws-vpc-operator/issues
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/aws-vpc-operator-1.1.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-vpc-operator/refs/tags/v1.1.0/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/aws-vpc-operator/refs/tags/v1.1.0/helm/aws-vpc-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 1.1.0
+    created: "2026-11-18T15:35:34.249960122Z"
+    description: Operator for managing private AWS VPCs for Cluster API AWS workload
+      clusters
+    digest: c83170119abda86c6ab7b2f7915cef1035c5d79c1fa77ce03120932ea7d22665
+    home: https://github.com/giantswarm/aws-vpc-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: aws-vpc-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/aws-vpc-operator-1.1.0.tgz
+    version: 1.1.0
+  - annotations:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/aws-vpc-operator-1.0.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/aws-vpc-operator/refs/tags/v1.0.0/README.md
@@ -88216,4 +88238,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-18T15:31:36.537870364Z"
+generated: "2026-11-18T15:35:34.249114558Z"

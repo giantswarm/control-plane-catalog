@@ -52514,6 +52514,26 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/happa/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/happa-1.72.14.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/happa/refs/tags/v1.72.14/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/happa/refs/tags/v1.72.14/helm/happa/values.schema.json
+    apiVersion: v2
+    appVersion: 1.72.14
+    created: "2026-11-19T10:31:34.773352189Z"
+    description: Web user interface for Giant Swarm Kubernetes as a Service.
+    digest: eca98809fb0d7607968d368a5f050f889f66901872f0429e87bcc0dbea3619a0
+    home: https://github.com/giantswarm/happa
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: happa
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/happa-1.72.14.tgz
+    version: 1.72.14
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/happa/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/happa-1.72.13.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/happa/refs/tags/v1.72.13/README.md
       io.giantswarm.application.team: honeybadger
@@ -88416,4 +88436,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-19T09:56:36.529656743Z"
+generated: "2026-11-19T10:31:34.772155553Z"

@@ -3699,6 +3699,28 @@ entries:
         - name: Support
           url: https://github.com/giantswarm/azure-private-endpoint-operator/issues
       config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/azure-private-endpoint-operator-0.8.3.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/azure-private-endpoint-operator/refs/tags/v0.8.3/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/azure-private-endpoint-operator/refs/tags/v0.8.3/helm/azure-private-endpoint-operator/values.schema.json
+    apiVersion: v2
+    appVersion: 0.8.3
+    created: "2026-11-19T09:56:36.530387122Z"
+    description: Operator for reconciling Azure Private Links in CAPZ workload clusters
+      to Azure Private Endpoints in CAPZ management clusters
+    digest: 361b7a7217ed13095e159f36744232b4d43bf992019886ca2956cb0a419ff498
+    home: https://github.com/giantswarm/azure-private-endpoint-operator
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: azure-private-endpoint-operator
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/azure-private-endpoint-operator-0.8.3.tgz
+    version: 0.8.3
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/azure-private-endpoint-operator/issues
+      config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/azure-private-endpoint-operator-0.8.2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/azure-private-endpoint-operator/refs/tags/v0.8.2/README.md
       io.giantswarm.application.team: phoenix
@@ -88394,4 +88416,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-19T09:12:39.370577658Z"
+generated: "2026-11-19T09:56:36.529656743Z"

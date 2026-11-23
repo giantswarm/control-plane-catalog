@@ -59306,6 +59306,33 @@ entries:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/kyverno-policies-connectivity-0.11.2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kyverno-policies-connectivity/refs/tags/v0.11.2/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kyverno-policies-connectivity/refs/tags/v0.11.2/helm/kyverno-policies-connectivity/values.schema.json
+    apiVersion: v2
+    appVersion: 0.11.2
+    created: "2026-11-23T13:37:41.10341152Z"
+    description: Giant Swarm policies for connectivity management.
+    digest: d7c6dc27a80e499cff78e9964d7b4c7e864125545be8f23bd62eaa735089cda6
+    home: https://github.com/giantswarm/kyverno-policies-connectivity
+    icon: https://s.giantswarm.io/app-icons/kyverno/1/light.svg
+    keywords:
+    - kyverno
+    - policies
+    - networking
+    name: kyverno-policies-connectivity
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/kyverno-policies-connectivity-0.11.2.tgz
+    version: 0.11.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/kyverno-policies-connectivity/issues
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/kyverno-policies-connectivity-0.11.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kyverno-policies-connectivity/refs/tags/v0.11.1/README.md
       io.giantswarm.application.team: cabbage
@@ -88311,4 +88338,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-23T09:57:55.528026742Z"
+generated: "2026-11-23T13:37:41.102551416Z"

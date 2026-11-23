@@ -49336,6 +49336,32 @@ entries:
           url: https://github.com/giantswarm/gateway-api-bundle/issues
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/gateway-api-bundle-2.1.1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gateway-api-bundle/refs/tags/v2.1.1/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/gateway-api-bundle/refs/tags/v2.1.1/helm/gateway-api-bundle/values.schema.json
+    apiVersion: v2
+    appVersion: 2.1.1
+    created: "2026-11-23T14:21:54.814624293Z"
+    description: Gateway API bundle
+    digest: a2fb5d6ce0890cce775535e29ce5f85b2f757cf22f42390f58bebeddb4422a5c
+    home: https://github.com/giantswarm/gateway-api-bundle
+    icon: https://s.giantswarm.io/app-icons/gateway-api/1/light.svg
+    keywords:
+    - gateway-api
+    - networking
+    - bundle
+    name: gateway-api-bundle
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/gateway-api-bundle-2.1.1.tgz
+    version: 2.1.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/gateway-api-bundle/issues
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/gateway-api-bundle-2.1.0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/gateway-api-bundle/refs/tags/v2.1.0/README.md
       io.giantswarm.application.team: cabbage
@@ -88338,4 +88364,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-23T13:37:41.102551416Z"
+generated: "2026-11-23T14:21:54.813391576Z"

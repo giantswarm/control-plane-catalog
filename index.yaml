@@ -37466,6 +37466,31 @@ entries:
     version: 1.9.0-alpha.8
   cluster-api-provider-cloud-director:
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-api-provider-cloud-director-app/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-cloud-director-0.8.6.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-provider-cloud-director-app/refs/tags/v0.8.6/README.md
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-api-provider-cloud-director-app/refs/tags/v0.8.6/helm/cluster-api-provider-cloud-director/values.schema.json
+    apiVersion: v2
+    appVersion: 0.8.6
+    created: "2026-11-24T05:54:59.958049734Z"
+    description: A Helm chart for Cluster API provider VMware Cloud Director (VCD)
+    digest: 1ce2bf8820e932bf32de6bd2819dbdb2becf2ed0f28173fa7da10a03a37b2e4e
+    home: https://github.com/giantswarm/cluster-api-provider-cloud-director-app
+    icon: https://s.giantswarm.io/app-icons/vmware-cloud-director/1/icon_light.png
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cluster-api-provider-cloud-director
+    sources:
+    - https://github.com/giantswarm/cluster-api-provider-cloud-director-app
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-cloud-director-0.8.6.tgz
+    version: 0.8.6
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/cluster-api-provider-cloud-director-0.8.5.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-api-provider-cloud-director-app/refs/tags/v0.8.5/README.md
       io.giantswarm.application.team: rocket
@@ -88418,4 +88443,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-23T20:32:34.907452635Z"
+generated: "2026-11-24T05:54:59.956808127Z"

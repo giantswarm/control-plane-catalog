@@ -67914,6 +67914,33 @@ entries:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/net-exporter-1.26.0.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/net-exporter/refs/tags/v1.26.0/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/net-exporter/refs/tags/v1.26.0/helm/net-exporter/values.schema.json
+    apiVersion: v2
+    appVersion: 1.26.0
+    created: "2026-11-25T10:56:13.303434306Z"
+    description: Helm chart for net-exporter.
+    digest: 1a66aab6d33813771f1fdf85bc17796582ab7636c3f14faa92678aa9051ab2f1
+    home: https://github.com/giantswarm/net-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    keywords:
+    - networking
+    - monitoring
+    - observability
+    name: net-exporter
+    urls:
+    - https://giantswarm.github.io/control-plane-catalog/net-exporter-1.26.0.tgz
+    version: 1.26.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/net-exporter/issues
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/control-plane-catalog/net-exporter-1.25.1.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/net-exporter/refs/tags/v1.25.1/README.md
       io.giantswarm.application.team: cabbage
@@ -88613,4 +88640,4 @@ entries:
     urls:
     - https://giantswarm.github.io/control-plane-catalog/vertical-pod-autoscaler-crd-3.0.0.tgz
     version: 3.0.0
-generated: "2026-11-25T02:42:59.899397182Z"
+generated: "2026-11-25T10:56:13.30207735Z"

@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: honeybadger
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/cluster-apps-operator/issues\n"
+chartApiVersion: v2
+chartFile: cluster-apps-operator-3.10.1.tgz
+dateCreated: '2026-11-27T13:38:52.276881Z'
+digest: 9868465639a41b34f7f50bffa7a62537729ee05417b08a8bef5a3416f9e490ae
+home: https://github.com/giantswarm/cluster-apps-operator
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg

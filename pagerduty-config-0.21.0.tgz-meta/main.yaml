@@ -1,0 +1,11 @@
+annotations:
+  application.giantswarm.io/team: atlas
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/pagerduty-config/issues\n"
+chartApiVersion: v2
+chartFile: pagerduty-config-0.21.0.tgz
+dateCreated: '2026-11-27T15:42:41.956941Z'
+digest: e2faa42e72ce010233edc25d443b9e166b3a66dd0fd5262af6e991e324bee952
+home: https://github.com/giantswarm/pagerduty-config
+icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
